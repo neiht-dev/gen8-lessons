@@ -22,7 +22,7 @@ body {
 	@apply min-h-screen font-sans m-0;
 }
 /* globals.css or tailwind-extended.css */
-
+/* 
 h1,
 h2,
 h3,
@@ -95,4 +95,4 @@ hr {
 
 small {
   @apply text-sm text-gray-500 dark:text-gray-400;
-}
+} */
