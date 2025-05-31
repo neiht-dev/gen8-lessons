@@ -1095,7 +1095,6 @@
             <!-- Slide 23: Thank you -->
             <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
                 <div class="flex flex-col items-center justify-center h-full text-center">
-                    <div class="bg-white p-8 md:p-12 rounded-xl shadow-lg max-w-2xl">
                         <h1 class="text-4xl md:text-6xl font-bold text-indigo-700 mb-6">Chúc mừng!</h1>
                         <div class="text-2xl md:text-3xl text-gray-700 mb-8">
                             <p class="mb-4">Bạn đã hoàn thành bài học về</p>
@@ -1114,18 +1113,6 @@
                             <p>Hãy tiếp tục học tập và khám phá tiếng Anh nhé!</p>
                         </div>
 
-                        <div class="mt-8 flex justify-center space-x-4">
-                            <div class="bg-pink-100 p-3 rounded-full">
-                                <img src="https://cdn-icons-png.flaticon.com/512/3663/3663378.png" class="h-12">
-                            </div>
-                            <div class="bg-blue-100 p-3 rounded-full">
-                                <img src="https://cdn-icons-png.flaticon.com/512/3663/3663378.png" class="h-12">
-                            </div>
-                            <div class="bg-yellow-100 p-3 rounded-full">
-                                <img src="https://cdn-icons-png.flaticon.com/512/3663/3663378.png" class="h-12">
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -1152,6 +1139,32 @@
 
             // Update slide counter
             slideCounter.textContent = currentSlide + 1;
+        }
+
+        // Touch swipe detection
+        let touchStartX = 0;
+        let touchEndX = 0;
+        
+        document.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, {passive: true});
+
+        document.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }, {passive: true});
+
+        function handleSwipe() {
+            const threshold = 50; // Minimum swipe distance in pixels
+            const diff = touchStartX - touchEndX;
+            
+            if (diff > threshold) {
+                // Left swipe - next slide
+                showSlide(currentSlide + 1);
+            } else if (diff < -threshold) {
+                // Right swipe - previous slide
+                showSlide(currentSlide - 1);
+            }
         }
 
         // Keyboard navigation
