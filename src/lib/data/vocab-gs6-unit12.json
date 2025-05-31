@@ -1,0 +1,252 @@
+{
+  "unit": "Unit 12: Robots and Technology",
+  "mainVocabulary": [
+    {
+      "word": "minor",
+      "pronunciation": "/ˈmɑɪ·nər/",
+      "partOfSpeech": "adjective",
+      "translation": "nhỏ, không quan trọng"
+    },
+    {
+      "word": "type",
+      "pronunciation": "/taɪp/",
+      "partOfSpeech": "noun",
+      "translation": "kiểu, loại"
+    },
+    {
+      "word": "planet",
+      "pronunciation": "/ˈplæn·ɪt/",
+      "partOfSpeech": "noun",
+      "translation": "hành tinh"
+    },
+    {
+      "word": "recognize",
+      "pronunciation": "/ˈrɛkəɡnaɪz/",
+      "partOfSpeech": "verb",
+      "translation": "nhận diện"
+    },
+    {
+      "word": "Guard",
+      "pronunciation": "/ɡɑːd/",
+      "partOfSpeech": "noun",
+      "translation": "bảo vệ"
+    },
+    {
+      "word": "Doctor robot",
+      "pronunciation": "/ˈdɒktə ˈrəʊbɒt/",
+      "partOfSpeech": "noun phrase",
+      "translation": "robot bác sỹ"
+    },
+    {
+      "word": "complicate",
+      "pronunciation": "/ˈkɒmplɪkeɪt/",
+      "partOfSpeech": "verb",
+      "translation": "phức tạp"
+    },
+    {
+      "word": "advanced technology",
+      "pronunciation": "/ədˈvɑːnst tekˈnɒlədʒi/",
+      "partOfSpeech": "noun phrase",
+      "translation": "công nghệ hiện đại"
+    },
+    {
+      "word": "high technology",
+      "pronunciation": "/haɪ tekˈnɒlədʒi/",
+      "partOfSpeech": "noun phrase",
+      "translation": "công nghệ cao"
+    },
+    {
+      "word": "hi-tech",
+      "pronunciation": "/haɪ tek/",
+      "partOfSpeech": "adjective",
+      "translation": "công nghệ cao"
+    },
+    {
+      "word": "Rescue robot",
+      "pronunciation": "/ˈrɛskjuː ˈrəʊbɒt/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Robot giải cứu"
+    },
+    {
+      "word": "robot",
+      "pronunciation": "/ˈrəʊbɒt/",
+      "partOfSpeech": "noun",
+      "translation": "người máy"
+    },
+    {
+      "word": "Space robot",
+      "pronunciation": "/speɪs ˈrəʊbɒt/",
+      "partOfSpeech": "noun phrase",
+      "translation": "robot không gian"
+    },
+    {
+      "word": "Teaching robot",
+      "pronunciation": "/ˈtiːtʃɪŋ ˈrəʊbɒt/",
+      "partOfSpeech": "noun phrase",
+      "translation": "robot giảng dạy"
+    },
+    {
+      "word": "cut the hedge",
+      "pronunciation": "/kʌt ðə hedʒ/",
+      "partOfSpeech": "phrase",
+      "translation": "cắt tỉa hàng rào"
+    },
+    {
+      "word": "to do household chores",
+      "pronunciation": "/tə də ˈhaʊshəʊld tʃɔː(r)/",
+      "partOfSpeech": "phrase",
+      "translation": "làm việc nhà"
+    },
+    {
+      "word": "Worker robot",
+      "pronunciation": "/ˈwəːkə ˈrəʊbɒt/",
+      "partOfSpeech": "noun phrase",
+      "translation": "robot công nhân"
+    },
+    {
+      "word": "play football",
+      "pronunciation": "/pleɪ ˈfʊtˌbɔl/",
+      "partOfSpeech": "phrase",
+      "translation": "chơi bóng đá"
+    },
+    {
+      "word": "sing a song",
+      "pronunciation": "/sɪŋ eɪ sɔŋ/",
+      "partOfSpeech": "phrase",
+      "translation": "hát một bài hát"
+    },
+    {
+      "word": "laundry",
+      "pronunciation": "/ˈlɑːn.dri/",
+      "partOfSpeech": "noun",
+      "translation": "giặt ủi"
+    },
+    {
+      "word": "make the bed",
+      "pronunciation": "/meɪk ðə bed/",
+      "partOfSpeech": "phrase",
+      "translation": "dọn giường"
+    },
+    {
+      "word": "do the dishes",
+      "pronunciation": "/du ðə dɪʃ:ez/",
+      "partOfSpeech": "phrase",
+      "translation": "rửa chén"
+    },
+    {
+      "word": "habits",
+      "pronunciation": "/ˈhæb.ɪt/",
+      "partOfSpeech": "noun",
+      "translation": "thói quen"
+    },
+    {
+      "word": "good habits",
+      "pronunciation": "/ɡʊd ˈhæb.ɪt/",
+      "partOfSpeech": "noun phrase",
+      "translation": "thói quen tốt"
+    },
+    {
+      "word": "bad habits",
+      "pronunciation": "/bæd ˈhæb.ɪt/",
+      "partOfSpeech": "noun phrase",
+      "translation": "thói quen xấu"
+    },
+    {
+      "word": "go to the pictures",
+      "pronunciation": "/ɡoʊ tə ðə ˈpɪktʃərz/",
+      "partOfSpeech": "phrase",
+      "translation": "đi xem tranh"
+    },
+    {
+      "word": "go to the movies",
+      "pronunciation": "/ɡoʊ tə ðə ˈmuːviz/",
+      "partOfSpeech": "phrase",
+      "translation": "đi xem phim"
+    },
+    {
+      "word": "water",
+      "pronunciation": "/ˈwɔ·t̬ər/",
+      "partOfSpeech": "verb",
+      "translation": "tưới, tưới nước"
+    },
+    {
+      "word": "there's a lot to do",
+      "pronunciation": "/ðɛrz ə lɒt tə duː/",
+      "partOfSpeech": "phrase",
+      "translation": "có nhiều việc cần phải làm"
+    },
+    {
+      "word": "go out",
+      "pronunciation": "/ɡoʊ aʊt/",
+      "partOfSpeech": "phrase",
+      "translation": "đi ra ngoài, đi chơi"
+    },
+    {
+      "word": "go to town",
+      "pronunciation": "/ɡoʊ tə taʊn/",
+      "partOfSpeech": "phrase",
+      "translation": "đi ra thành phố"
+    },
+    {
+      "word": "come to town",
+      "pronunciation": "/kʌm tə taʊn/",
+      "partOfSpeech": "phrase",
+      "translation": "đi ra thành phố"
+    },
+    {
+      "word": "gardening",
+      "pronunciation": "/ˈɡɑːr.d ə n.ɪŋ/",
+      "partOfSpeech": "noun",
+      "translation": "công việc làm vườn"
+    },
+    {
+      "word": "opinion",
+      "pronunciation": "/əˈpɪn yən/",
+      "partOfSpeech": "noun",
+      "translation": "ý kiến, quan điểm"
+    },
+    {
+      "word": "robot",
+      "pronunciation": "/ˈroʊ.bɑːt/",
+      "partOfSpeech": "noun",
+      "translation": "người máy"
+    },
+    {
+      "word": "recognize",
+      "pronunciation": "/ˈrek·əɡˌnɑɪz/",
+      "partOfSpeech": "verb",
+      "translation": "nhận ra"
+    },
+    {
+      "word": "role",
+      "pronunciation": "/roʊl/",
+      "partOfSpeech": "noun",
+      "translation": "vai trò"
+    },
+    {
+      "word": "space station",
+      "pronunciation": "/speɪs ˌsteɪ·ʃən/",
+      "partOfSpeech": "noun phrase",
+      "translation": "trạm vũ trụ"
+    },
+    {
+      "word": "modern",
+      "pronunciation": "/ˈmɒdn/",
+      "partOfSpeech": "adjective",
+      "translation": "hiện đại"
+    },
+    {
+      "word": "lift",
+      "pronunciation": "/lɪft/",
+      "partOfSpeech": "verb",
+      "translation": "nâng"
+    },
+    {
+      "word": "Home robot",
+      "pronunciation": "/həʊm ˈrəʊbɒt/",
+      "partOfSpeech": "noun phrase",
+      "translation": "robot làm việc nhà"
+    }
+  ],
+  "extendedVocabulary": []
+}

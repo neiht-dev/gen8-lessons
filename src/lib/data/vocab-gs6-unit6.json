@@ -1,0 +1,823 @@
+{
+  "unit": "Unit 6: Our Tet Holiday",
+  "mainVocabulary": [
+    {
+      "word": "Celebrate",
+      "pronunciation": "/ˈsɛlɪbreɪt/",
+      "partOfSpeech": "verb",
+      "translation": "ăn mừng",
+      "example": "We celebrated my birthday with a big party.",
+      "exampleTranslation": "Chúng tôi đã ăn mừng sinh nhật tôi với một bữa tiệc hoành tráng."
+    },
+    {
+      "word": "Celebration",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự kỷ niệm, lễ kỷ niệm",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Decorate",
+      "pronunciation": "/ˈdɛkəreɪt/",
+      "partOfSpeech": "verb",
+      "translation": "trang trí",
+      "example": "My mother is going to decorate our house with flowers to prepare for Tet.",
+      "exampleTranslation": "Mẹ tôi sẽ trang hoàng nhà cửa với hoa để chuẩn bị cho dịp Tết."
+    },
+    {
+      "word": "Decoration",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự trang trí",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Decorative",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "để trang trí",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Gathering",
+      "pronunciation": "/ˈɡæðərɪŋ/",
+      "partOfSpeech": "noun",
+      "translation": "sự tụ họp",
+      "example": "We should plan a gathering this weekend.",
+      "exampleTranslation": "Chúng ta nên lên kế hoạch để tụ họp vào cuối tuần này."
+    },
+    {
+      "word": "Gather",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "tụ họp, tụ tập",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Lucky money",
+      "pronunciation": "/ˈlʌki ˈmʌni/",
+      "partOfSpeech": "noun",
+      "translation": "lì xì",
+      "example": "The children are excited to receive lucky money from their grandparents.",
+      "exampleTranslation": "Bọn trẻ rất hào hứng khi được ông bà cho lì xì."
+    },
+    {
+      "word": "Money",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "tiền",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Monetary",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "thuộc về tiền tệ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Special",
+      "pronunciation": "/ˈspɛʃᵊl/",
+      "partOfSpeech": "adjective",
+      "translation": "đặc biệt",
+      "example": "My family usually eat out on special occasions.",
+      "exampleTranslation": "Gia đình tôi thường đi ăn ở ngoài vào những dịp đặc biệt."
+    },
+    {
+      "word": "Speciality",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "đặc trưng, đặc tính, đặc sản",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Specialise",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "chuyên môn hóa",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Peach flower",
+      "pronunciation": "/piːʧ flaʊə/",
+      "partOfSpeech": "noun",
+      "translation": "hoa đào",
+      "example": "Ninh has a garden full of peach flowers.",
+      "exampleTranslation": "Ninh có một khu vườn đầy hoa đào."
+    },
+    {
+      "word": "Flowery",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "nhiều hoa, đầy hoa, (văn chương) hoa mỹ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Flowering",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "(cây) có thể nở hoa",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Wish",
+      "pronunciation": "/wɪʃ/",
+      "partOfSpeech": "noun",
+      "translation": "điều ước",
+      "example": "Make a wish, then blow the candles!",
+      "exampleTranslation": "Hãy ước một điều gì đó rồi thổi nến đi!"
+    },
+    {
+      "word": "Wish",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "ước mong",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Wishful",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "ao ước, mơ tưởng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Fireworks",
+      "pronunciation": "/ˈfaɪəwɜːks/",
+      "partOfSpeech": "noun",
+      "translation": "pháo hoa",
+      "example": "My brother tried to stay up until 12 o'clock to watch the fireworks, but he fell asleep.",
+      "exampleTranslation": "Em trai tôi cố thức đến 12 giờ để xem pháo hoa, nhưng nó ngủ mất rồi."
+    },
+    {
+      "word": "Fire",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "lửa",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Fiery",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "bốc cháy, nảy lửa, nóng nảy, sôi nổi",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Furniture",
+      "pronunciation": "/ˈfɜːnɪʧə/",
+      "partOfSpeech": "noun",
+      "translation": "nội thất",
+      "example": "Every Tet, my parents tell me to clean the furniture.",
+      "exampleTranslation": "Mỗi dịp Tết đến, bố mẹ tôi lại bảo tôi đi lau dọn đồ đạc trong nhà."
+    },
+    {
+      "word": "Furnish",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "trang bị nội thất (cho phòng, nhà, ...)",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Furnished",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "đã được trang bị nội thất",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Fun",
+      "pronunciation": "/fʌn/",
+      "partOfSpeech": "noun",
+      "translation": "niềm vui",
+      "example": "Turn left when you reach the park.",
+      "exampleTranslation": "Hãy rẽ sang bên trái khi bạn đến công viên."
+    },
+    {
+      "word": "Fun",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "vui vẻ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Funny",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "hài hước",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Behave",
+      "pronunciation": "/bɪˈheɪv/",
+      "partOfSpeech": "verb",
+      "translation": "cư xử, ứng xử",
+      "example": "We should try to behave nicely.",
+      "exampleTranslation": "Chúng ta nên cố gắng ứng xử cho thật tốt."
+    },
+    {
+      "word": "Well-behaved",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "ngoan ngoãn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Behaviour",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "hành vi",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Plant",
+      "pronunciation": "/plɑːnt/",
+      "partOfSpeech": "verb",
+      "translation": "trồng (cây)",
+      "example": "My school planted 100 trees behind the main building.",
+      "exampleTranslation": "Trường tôi đã trồng 100 cái cây đằng sau tòa nhà chính."
+    },
+    {
+      "word": "Plant",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "cây cối, thực vật",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Plant-based",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "dựa trên các nguyên liệu có nguồn gốc thực vật",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Fight",
+      "pronunciation": "/faɪt/",
+      "partOfSpeech": "verb",
+      "translation": "đánh nhau, cãi nhau",
+      "example": "Don't fight over the cake! I'll cut it for you two.",
+      "exampleTranslation": "Đừng cãi nhau vì miếng bánh! Tôi sẽ cắt nó ra cho hai người."
+    },
+    {
+      "word": "Fight",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "trận đánh nhau, trận cãi nhau",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Fighter",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "võ sĩ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Activity",
+      "pronunciation": "/ækˈtɪvəti/",
+      "partOfSpeech": "noun",
+      "translation": "hoạt động",
+      "example": "I have always wanted to visit Times Square.",
+      "exampleTranslation": "Tôi từ lâu đã luôn mong muốn được đến thăm Quảng trường Thời Đại."
+    },
+    {
+      "word": "Active",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "chủ động, năng động",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Actively",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách chủ động",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Traditional",
+      "pronunciation": "/trəˈdɪʃənəl/",
+      "partOfSpeech": "adjective",
+      "translation": "truyền thống",
+      "example": "The traditional dance we saw was beautiful.",
+      "exampleTranslation": "Điệu nhảy truyền thống mà chúng tôi được chứng kiến thực sự rất đẹp."
+    },
+    {
+      "word": "Traditionally",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách truyền thống",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Tradition",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "truyền thống",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Human chess",
+      "pronunciation": "/ˈhjuːmən ʧɛs/",
+      "partOfSpeech": "noun",
+      "translation": "cờ người",
+      "example": "Human chess is a very interesting game.",
+      "exampleTranslation": "Cờ người là một trò chơi rất thú vị."
+    },
+    {
+      "word": "Humane",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "nhân đạo",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Humanity",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "nhân loại",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Joy",
+      "pronunciation": "/ʤɔɪ/",
+      "partOfSpeech": "noun",
+      "translation": "niềm vui",
+      "example": "She was filled with joy when she saw the surprise.",
+      "exampleTranslation": "Lòng cô ấy tràn đầy niềm vui khi cô nhìn thấy điều bất ngờ."
+    },
+    {
+      "word": "Laughter",
+      "pronunciation": "/ˈlɑːftə/",
+      "partOfSpeech": "noun",
+      "translation": "tiếng cười",
+      "example": "May your new year be full of laughter.",
+      "exampleTranslation": "Chúc cho năm mới của bạn đầy ắp tiếng cười."
+    },
+    {
+      "word": "Laugh",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "cười",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Laughable",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "nực cười",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Cheer",
+      "pronunciation": "/ʧɪə/",
+      "partOfSpeech": "noun",
+      "translation": "sự vui vẻ",
+      "example": "This time of year, the air fills with holiday cheer.",
+      "exampleTranslation": "Vào thời điểm này trong năm, không khí tràn đầy niềm vui lễ hội."
+    },
+    {
+      "word": "Cheerful",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "vui vẻ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Cheerfully",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách vui vẻ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Success",
+      "pronunciation": "/səkˈsɛs/",
+      "partOfSpeech": "noun",
+      "translation": "thành công",
+      "example": "Nam's hard work helped him achieve success.",
+      "exampleTranslation": "Sự chăm chỉ của Nam đã giúp anh đạt được thành công."
+    },
+    {
+      "word": "Successful",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "thành đạt, có kết quả tốt",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Succeed",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "thành công",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Times Square",
+      "pronunciation": "/taɪmz skweə/",
+      "partOfSpeech": "noun",
+      "translation": "Quảng trường Thời Đại",
+      "example": "Times Square is always busy.",
+      "exampleTranslation": "Quảng trường Thời Đại bao giờ cũng đông đúc."
+    },
+    {
+      "word": "Midnight",
+      "pronunciation": "/ˈmɪdnaɪt/",
+      "partOfSpeech": "noun",
+      "translation": "nửa đêm",
+      "example": "This programme is broadcast at midnight.",
+      "exampleTranslation": "Chương trình này được chiếu lúc nửa đêm."
+    },
+    {
+      "word": "Nighttime",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "ban đêm",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Nightly",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "hàng đêm, đêm đêm",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Colourful",
+      "pronunciation": "/ˈkʌləfʊl/",
+      "partOfSpeech": "adjective",
+      "translation": "sặc sỡ, đầy màu sắc",
+      "example": "I love your shirt! It's so colourful.",
+      "exampleTranslation": "Tôi thích cái áo của bạn lắm! Nó thật nhiều màu sắc."
+    },
+    {
+      "word": "Colour",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "màu sắc",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Colour",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "tô màu",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Go out",
+      "pronunciation": "/ɡəʊ aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "translation": "đi chơi",
+      "example": "Bao went out with his friends until 10 p.m. last night.",
+      "exampleTranslation": "Bảo đã đi chơi cùng bạn bè đến 10 giờ tối hôm qua."
+    },
+    {
+      "word": "Custom",
+      "pronunciation": "/ˈkʌstəm/",
+      "partOfSpeech": "noun",
+      "translation": "phong tục",
+      "example": "It's a custom in my culture to respect our elders.",
+      "exampleTranslation": "Một phong tục trong văn hóa của tôi là kính trọng bề trên."
+    },
+    {
+      "word": "Customary",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "thông thường, theo tục lệ, theo phong tục",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Customise",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "tùy chỉnh",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Luck",
+      "pronunciation": "/lʌk/",
+      "partOfSpeech": "noun",
+      "translation": "vận may",
+      "example": "My people buy salt for good luck.",
+      "exampleTranslation": "Người dân đất nước tôi mua gạo để cầu may."
+    },
+    {
+      "word": "Lucky",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "may mắn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Unlucky",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "xui xẻo",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Relative",
+      "pronunciation": "/ˈrɛlətɪv/",
+      "partOfSpeech": "noun",
+      "translation": "họ hàng",
+      "example": "Charlotte dislikes studying Maths because it is too difficult for her.",
+      "exampleTranslation": "Charlotte không thích học toán vì nó quá khó với cô ấy."
+    },
+    {
+      "word": "Relate",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "có quan hệ với, có liên quan đến",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Relationship",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "mối quan hệ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Dress",
+      "pronunciation": "/drɛs/",
+      "partOfSpeech": "verb",
+      "translation": "ăn mặc, mặc",
+      "example": "This is an important event, so please dress smartly.",
+      "exampleTranslation": "Đây là một sự kiện quan trọng, nên hãy ăn mặc thật bảnh bao."
+    },
+    {
+      "word": "Dress",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "váy",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Dresser",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "tủ nhiều ngăn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Envelope",
+      "pronunciation": "/ˈɛnvələʊp/",
+      "partOfSpeech": "noun",
+      "translation": "phong bì, phong bao",
+      "example": "Adults usually put money in red envelopes to give to children at Tet.",
+      "exampleTranslation": "Người lớn thường đựng tiền trong những phong bao màu đỏ để tặng con trẻ vào ngày Tết."
+    },
+    {
+      "word": "Envelope",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "bao bọc",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Sunlight",
+      "pronunciation": "/ˈsʌnlaɪt/",
+      "partOfSpeech": "noun",
+      "translation": "ánh nắng",
+      "example": "My room has a big window, so it gets a lot of sunlight.",
+      "exampleTranslation": "Phòng tôi có một cái cửa sổ lớn, nên nó được hưởng rất nhiều ánh nắng."
+    },
+    {
+      "word": "Sunshine",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "ánh nắng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Lighten",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "chiếu sáng, làm nhạt bớt, làm nhẹ đi",
+      "example": "",
+      "exampleTranslation": ""
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "word": "Dress up",
+      "pronunciation": "/drɛs ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "translation": "ăn diện đẹp",
+      "example": "Children dress up on the first day of the new year and go visit their relatives.",
+      "exampleTranslation": "Trẻ em ăn diện đẹp đẽ vào ngày đầu năm mới và đi thăm họ hàng."
+    },
+    {
+      "word": "Do up",
+      "pronunciation": "/duː ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "translation": "trang trí, tân trang",
+      "example": "We are doing the house up to prepare for the new year.",
+      "exampleTranslation": "Chúng tôi đang tân trang nhà cửa để chuẩn bị đón năm mới."
+    },
+    {
+      "word": "Incense",
+      "pronunciation": "/ˈɪnsɛns/",
+      "partOfSpeech": "noun",
+      "translation": "hương, nhang",
+      "example": "We usually burn incense during Tet.",
+      "exampleTranslation": "Chúng tôi thường thắp hương vào dịp Tết."
+    },
+    {
+      "word": "Incense",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "gây tức giận",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Incendiary",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "có thể gây tức giận, có thể gây bạo động",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Festive",
+      "pronunciation": "/ˈfɛstɪv/",
+      "partOfSpeech": "adjective",
+      "translation": "mang màu sắc hội, vui như trẩy hội",
+      "example": "The party had a festive atmosphere.",
+      "exampleTranslation": "Bữa tiệc có bầu không khí vui như trẩy hội."
+    },
+    {
+      "word": "Festival",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "lễ hội",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Festively",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách vui vẻ, mang màu sắc lễ hội",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Altar",
+      "pronunciation": "/ˈɔːltə/",
+      "partOfSpeech": "noun",
+      "translation": "bàn thờ",
+      "example": "They lit candles at the altar during the ceremony.",
+      "exampleTranslation": "Họ thắp nến trên bàn thờ trong buổi lễ."
+    },
+    {
+      "word": "Altarpiece",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "bức tranh trang trí đặt sau bàn thờ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Ancestor",
+      "pronunciation": "/ˈænsɪstə/",
+      "partOfSpeech": "noun",
+      "translation": "tổ tiên",
+      "example": "Vietnamese people have a tradition of honouring their ancestors.",
+      "exampleTranslation": "Người dân Việt Nam có truyền thống tôn thờ tổ tiên."
+    },
+    {
+      "word": "Ancestry",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "dòng họ, tổ tông",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Ancestral",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "(thuộc) tổ tiên, do tổ tiên truyền lại",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Pray",
+      "pronunciation": "/preɪ/",
+      "partOfSpeech": "verb",
+      "translation": "cầu nguyện",
+      "example": "My family goes to the temple to pray every summer.",
+      "exampleTranslation": "Gia đình tôi đến ngôi đền để cầu nguyện mỗi hè."
+    },
+    {
+      "word": "Prayer",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "lời cầu nguyện",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Prayerful",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "sùng tín, thường xuyên cầu nguyện",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Feast",
+      "pronunciation": "/fiːst/",
+      "partOfSpeech": "noun",
+      "translation": "yến tiệc",
+      "example": "Tet is a time for big family feasts.",
+      "exampleTranslation": "Tết là thời điểm vàng để tổ chức yến tiệc cho gia đình."
+    },
+    {
+      "word": "First-footing",
+      "pronunciation": "/ˈfɜːstfʊtɪŋ/",
+      "partOfSpeech": "noun",
+      "translation": "tục xông đất",
+      "example": "First-footing is a new year's tradition in Viet Nam.",
+      "exampleTranslation": "Tục xông đất là một truyền thống đón năm mới tại Việt Nam."
+    },
+    {
+      "word": "New Year's resolution",
+      "pronunciation": "/njuː jɪəz ˌrɛzəˈluːʃᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "lời hứa đầu năm, mục tiêu cho năm mới",
+      "example": "My New Year's resolution is to exercise more.",
+      "exampleTranslation": "Mục tiêu cho năm mới của tôi là tập thể dục nhiều hơn."
+    },
+    {
+      "word": "Resolution",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "lời cam kết, sự quyến tâm",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Resolve",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "giải quyết",
+      "example": "",
+      "exampleTranslation": ""
+    }
+  ]
+}

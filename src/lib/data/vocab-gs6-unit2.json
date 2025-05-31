@@ -1,0 +1,815 @@
+{
+  "unit": "Unit 2: My house",
+  "mainVocabulary": [
+    {
+      "word": "Furniture",
+      "pronunciation": "/ˈfɜːnɪʧə/",
+      "partOfSpeech": "noun",
+      "translation": "nội thất",
+      "example": "They need to buy furniture for their new house.",
+      "exampleTranslation": "Họ cần mua nội thất cho ngôi nhà mới của mình."
+    },
+    {
+      "word": "Furnish",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "trang bị nội thất (cho phòng, nhà,…)",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Furnished",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "đã được trang bị nội thất",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Town house",
+      "pronunciation": "/taʊn haʊs/",
+      "partOfSpeech": "noun",
+      "translation": "nhà phố",
+      "example": "My family lives in a town house.",
+      "exampleTranslation": "Gia đình tôi sống trong một căn nhà phố."
+    },
+    {
+      "word": "Household",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "gia dụng, (thuộc) gia đình",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Household",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "hộ gia đình",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Country house",
+      "pronunciation": "/ˈkʌntri haʊs/",
+      "partOfSpeech": "noun",
+      "translation": "nhà ở nông thôn",
+      "example": "My grandparents' country house is small but beautiful.",
+      "exampleTranslation": "Ngôi nhà ở nông thôn của ông bà tôi tuy nhỏ nhưng vẫn rất xinh đẹp."
+    },
+    {
+      "word": "Countryside",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "nông thôn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Flat",
+      "pronunciation": "/flæt/",
+      "partOfSpeech": "noun",
+      "translation": "căn hộ",
+      "example": "We will move to a flat next month.",
+      "exampleTranslation": "Tháng sau chúng tôi sẽ chuyển vào một căn hộ."
+    },
+    {
+      "word": "Flat",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "phẳng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Flatten",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "làm phẳng, tán dẹt",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Room",
+      "pronunciation": "/ruːm/",
+      "partOfSpeech": "noun",
+      "translation": "phòng",
+      "example": "Let's go to my room and play video games!",
+      "exampleTranslation": "Hãy vào phòng tôi và chơi trò chơi điện tử nào!"
+    },
+    {
+      "word": "Roomy",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "rộng rãi",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Roommate",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "bạn cùng phòng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Living room",
+      "pronunciation": "/ˈlɪvɪŋ ruːm/",
+      "partOfSpeech": "noun",
+      "translation": "phòng khách",
+      "example": "There is a TV and a sofa in the living room.",
+      "exampleTranslation": "Có một cái TV và một cái sofa trong phòng khách."
+    },
+    {
+      "word": "Live",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "sinh sống",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Life",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "cuộc sống",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Lively",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "sống động, sôi động",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Bedroom",
+      "pronunciation": "/ˈbɛdruːm/",
+      "partOfSpeech": "noun",
+      "translation": "phòng ngủ",
+      "example": "My favourite room in the house is my bedroom.",
+      "exampleTranslation": "Căn phòng yêu thích của tôi là phòng ngủ."
+    },
+    {
+      "word": "Bed",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "giường ngủ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Bedding",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "bộ chăn ga trải giường",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Kitchen",
+      "pronunciation": "/ˈkɪʧᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "phòng bếp",
+      "example": "Mai is cooking in the kitchen.",
+      "exampleTranslation": "Mai đang nấu ăn trong phòng bếp."
+    },
+    {
+      "word": "Kitchenware",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "đồ dùng nhà bếp",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Bathroom",
+      "pronunciation": "/ˈbɑːθruːm/",
+      "partOfSpeech": "noun",
+      "translation": "phòng tắm",
+      "example": "Excuse me; where is the bathroom?",
+      "exampleTranslation": "Xin lỗi, phòng tắm ở đâu vậy?"
+    },
+    {
+      "word": "Bath",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "tắm, bồn tắm",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Bathe",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "tắm",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Hall",
+      "pronunciation": "/hɔːl/",
+      "partOfSpeech": "noun",
+      "translation": "đại sảnh",
+      "example": "There are some pictures on the walls along the hall.",
+      "exampleTranslation": "Có một vài bức tranh treo trên tường của đại sảnh."
+    },
+    {
+      "word": "Hallway",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "hành lang",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Lamp",
+      "pronunciation": "/læmp/",
+      "partOfSpeech": "noun",
+      "translation": "đèn",
+      "example": "Could you turn off the lamp, please?",
+      "exampleTranslation": "Bạn có thể tắt đèn đi được không?"
+    },
+    {
+      "word": "Lamplight",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "ánh đèn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Lampshade",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "chao đèn, tán đèn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Cupboard",
+      "pronunciation": "/ˈkʌbəd/",
+      "partOfSpeech": "noun",
+      "translation": "tủ chén",
+      "example": "Wash the cutlery and put them in the cupboard.",
+      "exampleTranslation": "Hãy rửa dao kéo và xếp chúng vào t�ủ chén."
+    },
+    {
+      "word": "Cup",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "cốc, chén",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Cupcake",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "bánh cupcake, bánh kem nhỏ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Dishwasher",
+      "pronunciation": "/ˈdɪʃˌwɒʃə/",
+      "partOfSpeech": "noun",
+      "translation": "máy rửa bát",
+      "example": "Our dishwasher is very useful.",
+      "exampleTranslation": "Máy rửa bát của chúng tôi rất hữu dụng."
+    },
+    {
+      "word": "Dish",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "đĩa",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Wash",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "rửa, giặt",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Chest of drawers",
+      "pronunciation": "/ʧɛst ɒv drɔːz/",
+      "partOfSpeech": "noun",
+      "translation": "ngăn kéo",
+      "example": "I put my stationery in a chest of drawers next to my desk.",
+      "exampleTranslation": "Tôi đựng văn phòng phẩm của mình trong một tủ ngăn kéo bên cạnh bàn học."
+    },
+    {
+      "word": "Chest",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "rương, hòm",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Toilet",
+      "pronunciation": "/ˈtɔɪlɪt/",
+      "partOfSpeech": "noun",
+      "translation": "bồn cầu",
+      "example": "It is your turn to clean the toilet today.",
+      "exampleTranslation": "Hôm nay đến lượt bạn cọ bồn cầu."
+    },
+    {
+      "word": "Toiletry",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "dụng cụ vệ sinh cá nhân (dầu tắm, dầu gội, bàn chải đánh răng, vv…)",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Sink",
+      "pronunciation": "/sɪŋk/",
+      "partOfSpeech": "noun",
+      "translation": "bồn rửa",
+      "example": "You can wash your hands in the sink.",
+      "exampleTranslation": "Bạn có thể rửa tay trong bồn rửa."
+    },
+    {
+      "word": "Sink",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "chìm",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Fridge",
+      "pronunciation": "/frɪʤ/",
+      "partOfSpeech": "noun",
+      "translation": "tủ lạnh",
+      "example": "Put the cheese in the fridge, please.",
+      "exampleTranslation": "Hãy cho phô mai vào tủ lạnh."
+    },
+    {
+      "word": "Refrigerate",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "làm lạnh, giữ lạnh",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Refrigerator",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "tủ lạnh",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Picture",
+      "pronunciation": "/ˈpɪkʧə/",
+      "partOfSpeech": "noun",
+      "translation": "bức tranh, bức ảnh",
+      "example": "Could you take a picture of us?",
+      "exampleTranslation": "Bạn có thể chụp giúp chúng tôi một bức ảnh được không?"
+    },
+    {
+      "word": "Picture",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "hình dung, mường tượng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Picturesque",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "đẹp như tranh vẽ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Sofa",
+      "pronunciation": "/ˈsəʊfə/",
+      "partOfSpeech": "noun",
+      "translation": "ghế sofa",
+      "example": "My cat is sleeping on the sofa.",
+      "exampleTranslation": "Con mèo của tôi đang ngủ trên ghế sofa."
+    },
+    {
+      "word": "Shower",
+      "pronunciation": "/ˈʃaʊə/",
+      "partOfSpeech": "noun",
+      "translation": "buồng tắm vòi hoa sen",
+      "example": "Phong is in the shower; he is sweaty because he just played football earlier.",
+      "exampleTranslation": "Phong đang ở trong buồng tắm; cậu ấy đổ mồ hôi vì cậu ấy vừa mới chơi bóng đá lúc nãy."
+    },
+    {
+      "word": "Shower",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "tắm bằng vòi hoa sen",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Showerhead",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "vòi hoa sen",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Bowl",
+      "pronunciation": "/bəʊl/",
+      "partOfSpeech": "noun",
+      "translation": "bát, tô",
+      "example": "My sister eats two bowls of rice with other food every meal.",
+      "exampleTranslation": "Em gái tôi ăn hai tô cơm cùng thức ăn vào mỗi bữa ăn."
+    },
+    {
+      "word": "Chopstick",
+      "pronunciation": "/ˈʧɒpstɪk/",
+      "partOfSpeech": "noun",
+      "translation": "đũa",
+      "example": "Vietnamese people use chopsticks to eat.",
+      "exampleTranslation": "Người Việt Nam sử dụng đũa để ăn."
+    },
+    {
+      "word": "Stick",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "gậy, que",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Department store",
+      "pronunciation": "/dɪˈpɑːtmənt stɔː/",
+      "partOfSpeech": "noun",
+      "translation": "cửa hàng bách hóa",
+      "example": "My mother usually shops at the department store near our house.",
+      "exampleTranslation": "Mẹ tôi thường mua sắm ở cửa hàng bách hóa gần nhà chúng tôi."
+    },
+    {
+      "word": "Depart",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "rời đi, khởi hành",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Department",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "ban, khoa, gian hàng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Desk",
+      "pronunciation": "/dɛsk/",
+      "partOfSpeech": "noun",
+      "translation": "bàn học",
+      "example": "My's desk is made from wood.",
+      "exampleTranslation": "Bàn học của My được làm bằng gỗ."
+    },
+    {
+      "word": "Desktop",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "mặt bàn, màn hình chính",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Deskmate",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "bạn cùng bàn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Garden",
+      "pronunciation": "/ˈɡɑːdᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "khu vườn",
+      "example": "Ben's house has a lovely garden with a lot of different vegetables and flowers.",
+      "exampleTranslation": "Nhà Ben có một khu vườn xinh xắn với rất nhiều loại rau củ và hoa khác nhau."
+    },
+    {
+      "word": "Gardener",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "người làm vườn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Gardening",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "nghề làm vườn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Move",
+      "pronunciation": "/muːv/",
+      "partOfSpeech": "verb",
+      "translation": "di chuyển",
+      "example": "Mai's family will move to a flat soon.",
+      "exampleTranslation": "Gia đình Mai sẽ chuyển đến một căn hộ trong thời gian tới."
+    },
+    {
+      "word": "Movement",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "chuyển động, cử động",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Moving",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "cảm động",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Wardrobe",
+      "pronunciation": "/ˈwɔːdrəʊb/",
+      "partOfSpeech": "noun",
+      "translation": "tủ quần áo",
+      "example": "Wow! Your wardrobe is really big!",
+      "exampleTranslation": "Chà! Tủ quần áo của bạn to thật!"
+    },
+    {
+      "word": "Cooker",
+      "pronunciation": "/ˈkʊkə/",
+      "partOfSpeech": "noun",
+      "translation": "lò, nồi nấu",
+      "example": "Every home in my neighbourhood has a rice cooker.",
+      "exampleTranslation": "Mọi nhà ở khu phố của tôi đều có nồi nấu cơm."
+    },
+    {
+      "word": "Cook",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "nấu nướng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Cook",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "đầu bếp",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Shelf",
+      "pronunciation": "/ʃɛlf/",
+      "partOfSpeech": "noun",
+      "translation": "kệ, ngăn, giá",
+      "example": "Put your books back on the shelf after you finish reading them.",
+      "exampleTranslation": "Hãy cho sách lên lại trên giá sau khi bạn đã đọc xong."
+    },
+    {
+      "word": "Shelve",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "xếp vào ngăn, xếp xó, gạt sang một bên",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Bookshelf",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "giá sách",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Strange",
+      "pronunciation": "/streɪnʤ/",
+      "partOfSpeech": "adjective",
+      "translation": "kỳ lạ, lạ lùng",
+      "example": "That girl's clothes are so strange.",
+      "exampleTranslation": "Quần áo của cô gái kia thật kỳ lạ."
+    },
+    {
+      "word": "Stranger",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "người lạ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Strangeness",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự kỳ lạ, sự lạ lùng",
+      "example": "",
+      "exampleTranslation": ""
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "word": "Cottage",
+      "pronunciation": "/ˈkɒtɪʤ/",
+      "partOfSpeech": "noun",
+      "translation": "nhà tranh, nhà nhỏ ở quê",
+      "example": "We are going to visit my family's cottage in the countryside.",
+      "exampleTranslation": "Chúng ta đang đi thăm ngôi nhà nhỏ của gia đình tôi ở vùng nông thôn."
+    },
+    {
+      "word": "Villa",
+      "pronunciation": "/ˈvɪlə/",
+      "partOfSpeech": "noun",
+      "translation": "biệt thự",
+      "example": "I want to have a fancy villa when I grow up.",
+      "exampleTranslation": "Tôi muốn có một ngôi biệt thự sang trọng khi tôi lớn lên."
+    },
+    {
+      "word": "Bungalow",
+      "pronunciation": "/ˈbʌŋɡələʊ/",
+      "partOfSpeech": "noun",
+      "translation": "nhà một tầng nhỏ kiểu Ấn Độ",
+      "example": "Let's rent a bungalow to stay on our vacation.",
+      "exampleTranslation": "Hãy thuê một căn nhà một tầng nhỏ để ở trong kì nghỉ của chúng ta nào."
+    },
+    {
+      "word": "Stilt house",
+      "pronunciation": "/stɪlt haʊs/",
+      "partOfSpeech": "noun",
+      "translation": "nhà sàn",
+      "example": "People in this village live in traditional stilt houses.",
+      "exampleTranslation": "Người dân trong ngôi làng này sống trong những căn nhà sàn truyền thống."
+    },
+    {
+      "word": "Stilted",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "(lời nói) cứng nhắc, không tự nhiên",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "House",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "chứa",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Decorate",
+      "pronunciation": "/ˈdɛkəreɪt/",
+      "partOfSpeech": "verb",
+      "translation": "trang trí",
+      "example": "We always decorate our house for special occasions.",
+      "exampleTranslation": "Chúng tôi luôn trang trí nhà cửa vào những dịp đặc biệt."
+    },
+    {
+      "word": "Decoration",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "vật trang trí",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Decorative",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "mang tính trang trí, làm cảnh",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Neat",
+      "pronunciation": "/niːt/",
+      "partOfSpeech": "adjective",
+      "translation": "ngăn nắp, gọn gàng",
+      "example": "My mother always tells me to clean my room to keep it neat.",
+      "exampleTranslation": "Mẹ tôi luôn bảo tôi dọn dẹp phòng để giữ cho nó được gọn gàng."
+    },
+    {
+      "word": "Neatly",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách ngăn nắp, một cách gọn gàng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Neatness",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự ngăn nắp, sự gọn gàng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Tidy",
+      "pronunciation": "/ˈtaɪdi/",
+      "partOfSpeech": "adjective",
+      "translation": "sạch sẽ, ngăn nắp",
+      "example": "I use a vacuum to keep my floor tidy.",
+      "exampleTranslation": "Tôi sử dụng máy hút bụi để giữ cho sàn nhà được sạch sẽ."
+    },
+    {
+      "word": "Tidiness",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự sạch sẽ, sự ngăn nắp",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Tidily",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách sạch sẽ, ngăn nắp",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Messy",
+      "pronunciation": "/ˈmɛsi/",
+      "partOfSpeech": "adjective",
+      "translation": "bừa bộn",
+      "example": "Mai doesn't like Nam because his desk is always messy.",
+      "exampleTranslation": "Mai không ưa Nam vì bàn cậu ấy lúc nào cũng bừa bộn."
+    },
+    {
+      "word": "Mess",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "mớ bừa bộn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Messily",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách bừa bộn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Tiny",
+      "pronunciation": "/ˈtaɪni/",
+      "partOfSpeech": "adjective",
+      "translation": "nhỏ",
+      "example": "A dollhouse is tiny compared to a real house.",
+      "exampleTranslation": "Một cái nhà búp bê trông rất nhỏ so với một căn nhà thật."
+    },
+    {
+      "word": "Massive",
+      "pronunciation": "/ˈmæsɪv/",
+      "partOfSpeech": "adjective",
+      "translation": "to lớn",
+      "example": "Our school gate is massive.",
+      "exampleTranslation": "Cổng trường chúng ta thật to lớn."
+    },
+    {
+      "word": "Massively",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách to lớn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Massiveness",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự to lớn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Do up",
+      "pronunciation": "/duː ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "translation": "tân trang",
+      "example": "I just bought a new house, so I need your help to do it up.",
+      "exampleTranslation": "Tôi vừa mua một căn nhà mới, nên tôi cần bạn giúp để tân trang nó."
+    }
+  ]
+}

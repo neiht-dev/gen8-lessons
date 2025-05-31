@@ -1,0 +1,535 @@
+{
+  "unit": "Unit 8: Sports and Games",
+  "mainVocabulary": [
+    {
+      "word": "Gym",
+      "pronunciation": "/ʒim/",
+      "partOfSpeech": "noun",
+      "translation": "phòng thể dục",
+      "example": "I usually go to the gym after school.",
+      "exampleTranslation": "Tôi thường đến phòng thể dục sau giờ học."
+    },
+    {
+      "word": "Equipment",
+      "pronunciation": "/ɪ.ˈkwɪp.mənt/",
+      "partOfSpeech": "noun",
+      "translation": "thiết bị",
+      "example": "The teacher demonstrated how to use the equipment.",
+      "exampleTranslation": "Giáo viên hướng dẫn cách sử dụng thiết bị."
+    },
+    {
+      "word": "Karate",
+      "pronunciation": "/kəˈrɑː.t̬i/",
+      "partOfSpeech": "noun",
+      "translation": "môn võ karate",
+      "example": "My friend is a karate fighter.",
+      "exampleTranslation": "Bạn của tôi là 1 võ sĩ karate"
+    },
+    {
+      "word": "Table tennis",
+      "pronunciation": "/teɪ.bəl ˌten.ɪs/",
+      "partOfSpeech": "noun",
+      "translation": "bóng bàn",
+      "example": "The canteens provide indoor games such as darts, table tennis and chess.",
+      "exampleTranslation": "Căng tin có các trò chơi trong nhà như phi tiêu, bóng bàn, và cờ vua."
+    },
+    {
+      "word": "Fit",
+      "pronunciation": "/fɪt/",
+      "partOfSpeech": "adjective",
+      "translation": "giữ dáng, phù hợp",
+      "example": "I jog to keep fit.",
+      "exampleTranslation": "Tôi chạy bộ để giữ dáng."
+    },
+    {
+      "word": "Fit",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "vừa vặn, phù hợp",
+      "example": "That jacket fits you perfectly.",
+      "exampleTranslation": "Chiếc áo khoác đó vừa vặn với bạn một cách hoàn hảo."
+    },
+    {
+      "word": "Fit",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "cơn, vừa/phù hợp",
+      "example": "These shoes are a perfect fit.",
+      "exampleTranslation": "Những đôi giày này rất vừa/ phù hợp."
+    },
+    {
+      "word": "Club",
+      "pronunciation": "/klʌb/",
+      "partOfSpeech": "noun",
+      "translation": "Câu lạc bộ",
+      "example": "The children's club meets every Thursday afternoon.",
+      "exampleTranslation": "Câu lạc bộ trẻ em họp vào thứ năm hàng tuần."
+    },
+    {
+      "word": "Club",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "đánh",
+      "example": "He was clubbed over the head.",
+      "exampleTranslation": "Anh ấy bị đánh vào đầu."
+    },
+    {
+      "word": "Sport",
+      "pronunciation": "/spɔːrt/",
+      "partOfSpeech": "noun",
+      "translation": "thể thao",
+      "example": "I enjoy winter sports like skiing and skating.",
+      "exampleTranslation": "Tôi thích các môn thể thao mùa đông như trượt tuyết và trượt băng."
+    },
+    {
+      "word": "Sport",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "treo/ trang trí",
+      "example": "The front of the car sported a German flag.",
+      "exampleTranslation": "Phía trước xe có treo/ trang trí lá cờ Đức."
+    },
+    {
+      "word": "Sporty",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "rất thể thao",
+      "example": "He's dressed sportily in shorts and trainers.",
+      "exampleTranslation": "Anh ấy ăn mặc rất thể thao với quần đùi và giày thể thao."
+    },
+    {
+      "word": "Sporting",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "tính thể thao",
+      "example": "The Olympics is the biggest sporting event in the world.",
+      "exampleTranslation": "Thế vận hội là sự kiện mang tính thể thao lớn nhất thế giới."
+    },
+    {
+      "word": "Chess",
+      "pronunciation": "/tʃes/",
+      "partOfSpeech": "noun",
+      "translation": "cờ vua",
+      "example": "In chess, the pieces can only move in certain directions.",
+      "exampleTranslation": "Trong cờ vua, các quân cờ chỉ có thể di chuyển theo những hướng nhất định."
+    },
+    {
+      "word": "Aerobics",
+      "pronunciation": "/erˈoʊ.bɪks/",
+      "partOfSpeech": "noun",
+      "translation": "thể dục nhịp điệu",
+      "example": "I do aerobics and weight training at the gym.",
+      "exampleTranslation": "Tôi tập thể dục nhịp điệu và tập tạ tại phòng tập thể dục."
+    },
+    {
+      "word": "Cycle",
+      "pronunciation": "/ˈsaɪ.kəl/",
+      "partOfSpeech": "verb",
+      "translation": "đạp xe",
+      "example": "She was so determined to get fit she often cycled eight miles to the nearest swimming pool.",
+      "exampleTranslation": "Cô quyết tâm có được vóc dáng cân đối đến mức thường đạp xe 8 dặm đến bể bơi gần nhất."
+    },
+    {
+      "word": "Cycle",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "chu kỳ",
+      "example": "Interest rates tend to move in cycles.",
+      "exampleTranslation": "Lãi suất có xu hướng biến động theo chu kỳ."
+    },
+    {
+      "word": "Swim",
+      "pronunciation": "/swɪm/",
+      "partOfSpeech": "verb",
+      "translation": "bơi lội",
+      "example": "Let's go for/have a swim this afternoon.",
+      "exampleTranslation": "Chiều nay chúng ta hãy đi bơi."
+    },
+    {
+      "word": "Swimmer",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "người bơi",
+      "example": "Duong is a good swimmer.",
+      "exampleTranslation": "Dương là 1 người bơi giỏi."
+    },
+    {
+      "word": "Swimming",
+      "pronunciation": "",
+      "partOfSpeech": "noun/verb",
+      "translation": "bơi",
+      "example": "Swimming is excellent exercise.",
+      "exampleTranslation": "Bơi là 1 môn thể thao tốt."
+    },
+    {
+      "word": "Volleyball",
+      "pronunciation": "/ˈvɑː.li.bɑːl/",
+      "partOfSpeech": "noun",
+      "translation": "bóng chuyền/ quả bóng chuyền",
+      "example": "We have a volleyball - we just don't have a net!",
+      "exampleTranslation": "Chúng tôi có một quả bóng chuyền - chúng tôi không có lưới!"
+    },
+    {
+      "word": "Outdoor",
+      "pronunciation": "/ˈaʊtˌdɔːr/",
+      "partOfSpeech": "adjective",
+      "translation": "ngoài trời",
+      "example": "An outdoor festival.",
+      "exampleTranslation": "1 lễ hội ngoài trời."
+    },
+    {
+      "word": "Indoor",
+      "pronunciation": "/ˌɪnˈdɔːr/",
+      "partOfSpeech": "adjective",
+      "translation": "trong nhà",
+      "example": "He's gone to play indoor football with his mates at the leisure center.",
+      "exampleTranslation": "Anh ấy đi chơi bóng đá trong nhà với bạn bè ở trung tâm giải trí."
+    },
+    {
+      "word": "Exercise",
+      "pronunciation": "/ˈek.sɚ.saɪz/",
+      "partOfSpeech": "noun",
+      "translation": "tập thể dục, bài tập, thực hiện",
+      "example": "Swimming is my favorite form of exercise.",
+      "exampleTranslation": "Bơi lội là hình thức tập thể dục yêu thích của tôi."
+    },
+    {
+      "word": "Exercise",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "tập thể dục, tập luyện",
+      "example": "She exercises most evenings usually by running.",
+      "exampleTranslation": "Cô ấy tập thể dục hầu hết các buổi tối, thường bằng cách chạy bộ"
+    },
+    {
+      "word": "Goggles",
+      "pronunciation": "/ˈɡɑː.ɡəlz/",
+      "partOfSpeech": "noun",
+      "translation": "đồ bảo hộ",
+      "example": "(A pair of) safety goggles.",
+      "exampleTranslation": "(một cặp) kính bảo hộ"
+    },
+    {
+      "word": "Champion",
+      "pronunciation": "/ˈtʃæm.pi.ən/",
+      "partOfSpeech": "noun",
+      "translation": "Nhà vô địch",
+      "example": "He looks set to become world champion again this year.",
+      "exampleTranslation": "Anh ấy có vẻ sẽ trở thành nhà vô địch thế giới một lần nữa trong năm nay."
+    },
+    {
+      "word": "Champion",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "ủng hộ",
+      "example": "He has championed constitutional reform for many years.",
+      "exampleTranslation": "Ông đã ủng hộ việc cải cách hiến pháp trong nhiều năm."
+    },
+    {
+      "word": "Competition",
+      "pronunciation": "/ˌkɑːm.pəˈtɪʃ.ən/",
+      "partOfSpeech": "noun",
+      "translation": "cạnh tranh, cuộc thi",
+      "example": "Competition for jobs is intense.",
+      "exampleTranslation": "Cạnh tranh việc làm rất khốc liệt."
+    },
+    {
+      "word": "Competitor",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "đối thủ cạnh tranh",
+      "example": "He's a tough competitor.",
+      "exampleTranslation": "Anh ấy là một đối thủ cạnh tranh khó nhằn."
+    },
+    {
+      "word": "Marathon",
+      "pronunciation": "/ˈmer.ə.θɑːn/",
+      "partOfSpeech": "noun/adj",
+      "translation": "chạy marathon",
+      "example": "She ran her first marathon in just under three hours.",
+      "exampleTranslation": "Cô đã chạy marathon đầu tiên chỉ trong vòng chưa đầy ba giờ."
+    },
+    {
+      "word": "Contest",
+      "pronunciation": "/ˈkɑːn.test/",
+      "partOfSpeech": "noun",
+      "translation": "cuộc thi",
+      "example": "She is one of the front-runners in the contest.",
+      "exampleTranslation": "Cô là một trong những người dẫn đầu cuộc thi."
+    },
+    {
+      "word": "Contest",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "phản đối",
+      "example": "We will certainly contest any claims made against the safety of our products.",
+      "exampleTranslation": "Chúng tôi chắc chắn sẽ phản đối mọi tuyên bố chống lại sự an toàn của sản phẩm của chúng tôi."
+    },
+    {
+      "word": "Contestant",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "thí sinh",
+      "example": "She was once a contestant on a television quiz show.",
+      "exampleTranslation": "Cô từng là thí sinh của một chương trình đố vui trên truyền hình."
+    },
+    {
+      "word": "Active",
+      "pronunciation": "/ˈæk.tɪv/",
+      "partOfSpeech": "adjective",
+      "translation": "tích cực, hoạt động",
+      "example": "You have to try to keep active as you grow older.",
+      "exampleTranslation": "Bạn phải cố gắng duy trì hoạt động khi lớn lên."
+    },
+    {
+      "word": "Match",
+      "pronunciation": "/mætʃ/",
+      "partOfSpeech": "noun",
+      "translation": "trận đấu, diêm, sự kết hợp",
+      "example": "We won/lost the match.",
+      "exampleTranslation": "Chúng tôi đã thắng/thua trận đấu."
+    },
+    {
+      "word": "Player",
+      "pronunciation": "/ˈpleɪ.ɚ/",
+      "partOfSpeech": "noun",
+      "translation": "cầu thủ, máy",
+      "example": "The team has many talented players.",
+      "exampleTranslation": "Đội bóng có nhiều cầu thủ tài năng."
+    },
+    {
+      "word": "Tournament",
+      "pronunciation": "/ˈtɝː.nə.mənt/",
+      "partOfSpeech": "noun",
+      "translation": "giải đấu",
+      "example": "They were defeated in the first round of the tournament.",
+      "exampleTranslation": "Họ đã bị đánh bại ở vòng đầu tiên của giải đấu."
+    },
+    {
+      "word": "Sportsman",
+      "pronunciation": "/ˈspɔːrts.mən/",
+      "partOfSpeech": "noun",
+      "translation": "vận động viên thể thao",
+      "example": "He'll be remembered both as a brilliant player and as a true sportsman.",
+      "exampleTranslation": "Anh ấy sẽ được nhớ đến như một cầu thủ xuất sắc và một vận động viên thể thao thực thụ."
+    },
+    {
+      "word": "Sportsmanship",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "tinh thần thể thao",
+      "example": "We have heard a good deal about sportsmanship.",
+      "exampleTranslation": "Chúng ta đã nghe rất nhiều về tinh thần thể thao."
+    },
+    {
+      "word": "Seeker",
+      "pronunciation": "/ˈsiː.kɚ/",
+      "partOfSpeech": "noun",
+      "translation": "người đi tìm",
+      "example": "A job-seeker.",
+      "exampleTranslation": "Một người tìm việc."
+    },
+    {
+      "word": "Seek",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "tìm",
+      "example": "Are you actively seeking jobs?",
+      "exampleTranslation": "Bạn có đang tích cực tìm việc làm không?"
+    },
+    {
+      "word": "Blindfolded",
+      "pronunciation": "/ˈblaɪnd.foʊl.dɪd/",
+      "partOfSpeech": "adv",
+      "translation": "bị bịt mắt",
+      "example": "The researchers tested on 10 blindfolded volunteers.",
+      "exampleTranslation": "Các nhà nghiên cứu đã thử nghiệm trên 10 tình nguyện viên bị bịt mắt."
+    },
+    {
+      "word": "Event",
+      "pronunciation": "/ɪˈvent/",
+      "partOfSpeech": "noun",
+      "translation": "sự kiện",
+      "example": "This year's Olympic Games will be the biggest ever sporting event.",
+      "exampleTranslation": "Thế vận hội Olympic năm nay sẽ là sự kiện thể thao lớn nhất từ ​​trước đến nay."
+    },
+    {
+      "word": "Stadium",
+      "pronunciation": "/ˈsteɪ.di.əm/",
+      "partOfSpeech": "noun",
+      "translation": "sân vận động",
+      "example": "Thousands of fans are packing into the stadium.",
+      "exampleTranslation": "Hàng ngàn người hâm mộ đang chen chúc vào sân vận động."
+    },
+    {
+      "word": "Congratulation",
+      "pronunciation": "/kənˌɡrætʃ.əˈleɪ.ʃən/",
+      "partOfSpeech": "noun",
+      "translation": "lời chúc mừng",
+      "example": "He sent her a note of congratulation on her tournament victory.",
+      "exampleTranslation": "Anh ấy đã gửi cho cô ấy một lời chúc mừng về chiến thắng trong giải đấu của cô ấy."
+    },
+    {
+      "word": "Congratulate",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "chúc mừng",
+      "example": "I was just congratulating Thu on winning her race.",
+      "exampleTranslation": "Tôi vừa chúc mừng Thu đã thắng cuộc đua."
+    },
+    {
+      "word": "Career",
+      "pronunciation": "/kəˈrɪr/",
+      "partOfSpeech": "noun",
+      "translation": "sự nghiệp",
+      "example": "She is pursuing a tennis career.",
+      "exampleTranslation": "Cô ấy đang theo đuổi sự nghiệp quần vợt."
+    },
+    {
+      "word": "Fantastic",
+      "pronunciation": "/fænˈtæs.tɪk/",
+      "partOfSpeech": "adjective",
+      "translation": "tuyệt vời",
+      "example": "They won the tournament? How fantastic!",
+      "exampleTranslation": "Họ đã thắng giải đấu sao? Thật tuyệt vời!"
+    },
+    {
+      "word": "Last",
+      "pronunciation": "/læst/",
+      "partOfSpeech": "adj/adv/pron/n",
+      "translation": "cuối",
+      "example": "The team will surely finish the season in last place.",
+      "exampleTranslation": "Đội bóng chắc chắn sẽ hoàn thành mùa giải ở vị trí cuối cùng."
+    },
+    {
+      "word": "Last",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "kéo dài",
+      "example": "The match lasted two hours.",
+      "exampleTranslation": "Trận đấu kéo dài 2 giờ đồng hồ."
+    },
+    {
+      "word": "Racket",
+      "pronunciation": "/ˈræk.ɪt/",
+      "partOfSpeech": "noun",
+      "translation": "vợt",
+      "example": "You're welcome to borrow my tennis racket.",
+      "exampleTranslation": "Bạn có thể mượn vợt tennis của tôi."
+    },
+    {
+      "word": "Score",
+      "pronunciation": "/skɔːr/",
+      "partOfSpeech": "verb",
+      "translation": "ghi bàn",
+      "example": "He scored in the last minute of the game.",
+      "exampleTranslation": "Anh ấy ghi bàn ở phút cuối cùng của trận đấu."
+    },
+    {
+      "word": "Score",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "tỷ số",
+      "example": "The final score was 3–0.",
+      "exampleTranslation": "Tỷ số cuối cùng là 3-0."
+    },
+    {
+      "word": "Shoot",
+      "pronunciation": "/ʃuːt/",
+      "partOfSpeech": "verb",
+      "translation": "sút",
+      "example": "Both teams shoot the ball well.",
+      "exampleTranslation": "Cả 2 đội đều sút bóng tốt."
+    },
+    {
+      "word": "Take place",
+      "pronunciation": "/teɪk pleɪs/",
+      "partOfSpeech": "phrase",
+      "translation": "diễn ra",
+      "example": "The match takes place next Thursday.",
+      "exampleTranslation": "Trận đấu diễn ra vào thứ năm tới."
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "word": "Spectator",
+      "pronunciation": "/spekˈteɪ.t̬ɚ/",
+      "partOfSpeech": "noun",
+      "translation": "khán giả",
+      "example": "The stadium was packed with cheering spectators.",
+      "exampleTranslation": "Sân vận động chật cứng khán giả cổ vũ."
+    },
+    {
+      "word": "Adversary",
+      "pronunciation": "/ˈæd.vɚ.ser.i/",
+      "partOfSpeech": "noun",
+      "translation": "đối thủ",
+      "example": "He saw her as his main adversary in the tournament.",
+      "exampleTranslation": "Anh coi cô là đối thủ chính của mình trong giải đấu."
+    },
+    {
+      "word": "Coach",
+      "pronunciation": "/koʊtʃ/",
+      "partOfSpeech": "noun",
+      "translation": "huấn luyện viên",
+      "example": "She's an excellent coach who knows how to get results.",
+      "exampleTranslation": "Cô ấy là một huấn luyện viên xuất sắc, người biết cách đạt được kết quả."
+    },
+    {
+      "word": "Overtime",
+      "pronunciation": "/ˈoʊ.vɚ.taɪm/",
+      "partOfSpeech": "noun/adv",
+      "translation": "thêm giờ/ hiệp phụ",
+      "example": "If the game ends in a tie, overtime will be played.",
+      "exampleTranslation": "Nếu trận đấu kết thúc với tỷ số hòa, hiệp phụ sẽ được thi đấu."
+    },
+    {
+      "word": "Referee",
+      "pronunciation": "/ˌref.əˈriː/",
+      "partOfSpeech": "noun",
+      "translation": "trọng tài",
+      "example": "The footballer appealed to the referee for a free kick.",
+      "exampleTranslation": "Cầu thủ này đã kháng cáo với trọng tài cho một quả đá phạt."
+    },
+    {
+      "word": "Technique",
+      "pronunciation": "/tekˈniːk/",
+      "partOfSpeech": "noun",
+      "translation": "kỹ thuật",
+      "example": "He is keen to perfect his football technique.",
+      "exampleTranslation": "Anh ấy rất muốn hoàn thiện kỹ thuật bóng đá của mình."
+    },
+    {
+      "word": "Recreation",
+      "pronunciation": "/ˌrek.riˈeɪ.ʃən/",
+      "partOfSpeech": "noun",
+      "translation": "trò giải trí",
+      "example": "His favorite recreations are golf and playing Scrabble.",
+      "exampleTranslation": "Trò giải trí yêu thích của anh ấy là chơi gôn và chơi Scrabble."
+    },
+    {
+      "word": "Endurance",
+      "pronunciation": "/ɪnˈdʊr.əns/",
+      "partOfSpeech": "noun/adj",
+      "translation": "sức bền",
+      "example": "Running a marathon is a test of human endurance.",
+      "exampleTranslation": "Chạy marathon là cuộc thử thách sức bền của con người."
+    },
+    {
+      "word": "Strategy",
+      "pronunciation": "/ˈstræt̬.ə.dʒi/",
+      "partOfSpeech": "noun",
+      "translation": "chiến lược",
+      "example": "We have a strategy for deciding who we pick to play.",
+      "exampleTranslation": "Chúng tôi có một chiến lược để quyết định xem chúng tôi chọn ai để chơi."
+    },
+    {
+      "word": "Injury",
+      "pronunciation": "/ˈɪn.dʒər.i/",
+      "partOfSpeech": "noun",
+      "translation": "chấn thương",
+      "example": "He was removed from the game with a knee injury.",
+      "exampleTranslation": "Anh ấy đã bị loại khỏi trận đấu vì chấn thương đầu gối."
+    }
+  ]
+}

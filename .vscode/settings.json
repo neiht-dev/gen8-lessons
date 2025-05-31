@@ -5,7 +5,6 @@
         ".npmrc": true,
         ".prettierignore": true,
         "eslint.config.js": true,
-        "package.json": true,
         "pnpm-lock.yaml": true,
         "README.md": true,
         "svelte.config.js": true,
@@ -13,5 +12,7 @@
         "vite.config.ts": true,
         "node_modules": true,
         ".svelte-kit": true
-    }
+    },
+    "scss.lint.unknownAtRules": "warning",
+    "css.lint.unknownAtRules": "ignore"
 }

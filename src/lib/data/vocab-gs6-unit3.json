@@ -1,0 +1,559 @@
+{
+  "unit": "Unit 3",
+  "mainVocabulary": [
+    {
+      "word": "Picnic",
+      "pronunciation": "/ˈpɪknɪk/",
+      "partOfSpeech": "noun",
+      "translation": "Buổi dã ngoại",
+      "example": "I love going on a picnic at weekends.",
+      "exampleTranslation": "Tôi rất thích đi dã ngoại vào cuối tuần"
+    },
+    {
+      "word": "Pass",
+      "pronunciation": "/pɑːs/",
+      "partOfSpeech": "verb",
+      "translation": "Đưa, chuyền",
+      "example": "Can you pass me the book, please?",
+      "exampleTranslation": "Bạn có thể làm ơn đưa quyển sách giúp mình được không?"
+    },
+    {
+      "word": "Biscuit",
+      "pronunciation": "/ˈbɪskɪt/",
+      "partOfSpeech": "noun",
+      "translation": "Bánh quy",
+      "example": "I love eating biscuits as a snack.",
+      "exampleTranslation": "Tôi rất thích ăn vặt bằng bánh quy"
+    },
+    {
+      "word": "Here you are",
+      "pronunciation": "/hɪə juː ɑː/",
+      "partOfSpeech": "phrase",
+      "translation": "Của bạn đây",
+      "example": "A: Can you pass me the salt? B: Sure. Here you are",
+      "exampleTranslation": "A: Bạn có thể đưa giúp mình lọ muối được không? B: Chắc chắn rồi. Của bạn đây."
+    },
+    {
+      "word": "Favourite",
+      "pronunciation": "/ˈfeɪvərɪt/",
+      "partOfSpeech": "adjective",
+      "translation": "Ưa thích",
+      "example": "What is your favourite subject?",
+      "exampleTranslation": "Môn học ưa thích nhất của bạn là gì?"
+    },
+    {
+      "word": "Magazine",
+      "pronunciation": "/mæɡəˈziːn/",
+      "partOfSpeech": "noun",
+      "translation": "Tạp chí",
+      "example": "I like reading teen magazines.",
+      "exampleTranslation": "Tôi rất thích đọc tạp chí tuổi teen."
+    },
+    {
+      "word": "Glasses",
+      "pronunciation": "/ˈɡlɑːsɪz/",
+      "partOfSpeech": "noun",
+      "translation": "Kính cận",
+      "example": "I have to wear glasses to see better.",
+      "exampleTranslation": "Tôi phải mang kính để nhìn tốt hơn."
+    },
+    {
+      "word": "Food",
+      "pronunciation": "/fuːd/",
+      "partOfSpeech": "noun",
+      "translation": "Thức ăn",
+      "example": "What is your favourite food?",
+      "exampleTranslation": "Món ăn ưa thích của bạn là gì?"
+    },
+    {
+      "word": "Bookshop",
+      "pronunciation": "/ˈbʊkʃɒp/",
+      "partOfSpeech": "noun",
+      "translation": "Hiệu sách",
+      "example": "My mother takes me to the bookshop to buy some books.",
+      "exampleTranslation": "Mẹ tôi dẫn tôi đến nhà sách để mua vài quyển sách."
+    },
+    {
+      "word": "Body part",
+      "pronunciation": "/ˈbɒdi pɑːt/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Bộ phận cơ thể",
+      "example": "How many body parts does a person have?",
+      "exampleTranslation": "Một người bình thường có bao nhiêu bộ phận cơ thể?"
+    },
+    {
+      "word": "Cheek",
+      "pronunciation": "/ʧiːk/",
+      "partOfSpeech": "noun",
+      "translation": "Má",
+      "example": "My sister has rosy cheeks.",
+      "exampleTranslation": "Em tôi có má đỏ hồng"
+    },
+    {
+      "word": "Eye",
+      "pronunciation": "/aɪ/",
+      "partOfSpeech": "noun",
+      "translation": "Mắt",
+      "example": "My niece has big brown eyes.",
+      "exampleTranslation": "Cháu gái tôi có đôi mắt to màu nâu."
+    },
+    {
+      "word": "Hand",
+      "pronunciation": "/hænd/",
+      "partOfSpeech": "noun",
+      "translation": "Tay",
+      "example": "My father has big hands.",
+      "exampleTranslation": "Bố tôi có đôi bàn tay rất to."
+    },
+    {
+      "word": "Arm",
+      "pronunciation": "/ɑːm/",
+      "partOfSpeech": "noun",
+      "translation": "Cánh tay",
+      "example": "My brother has long arms.",
+      "exampleTranslation": "Anh trai tôi có cánh tay rất dài."
+    },
+    {
+      "word": "Mouth",
+      "pronunciation": "/maʊθ/",
+      "partOfSpeech": "noun",
+      "translation": "Miệng",
+      "example": "I have a big mouth.",
+      "exampleTranslation": "Tôi có một chiếc miệng rộng."
+    },
+    {
+      "word": "Leg",
+      "pronunciation": "/lɛɡ/",
+      "partOfSpeech": "noun",
+      "translation": "Chân, cẳng chân",
+      "example": "My legs are not that long.",
+      "exampleTranslation": "Chân tôi không dài đến vậy."
+    },
+    {
+      "word": "Nose",
+      "pronunciation": "/nəʊz/",
+      "partOfSpeech": "noun",
+      "translation": "Mũi",
+      "example": "She has a small nose.",
+      "exampleTranslation": "Cô ấy có một chiếc mũi rất nhỏ."
+    },
+    {
+      "word": "Hair",
+      "pronunciation": "/heə/",
+      "partOfSpeech": "noun",
+      "translation": "Tóc",
+      "example": "My mother has long black hair.",
+      "exampleTranslation": "Mẹ tôi có mái tóc dài màu đen."
+    },
+    {
+      "word": "Shoulder",
+      "pronunciation": "/ˈʃəʊldə/",
+      "partOfSpeech": "noun",
+      "translation": "Vai",
+      "example": "My father has big shoulders.",
+      "exampleTranslation": "Bố tôi có bờ vai rất vững chãi."
+    },
+    {
+      "word": "Foot",
+      "pronunciation": "/fʊt/",
+      "partOfSpeech": "noun",
+      "translation": "Bàn chân",
+      "example": "She stepped on my left foot.",
+      "exampleTranslation": "Cô ấy dẫm lên bàn chân trái của tôi."
+    },
+    {
+      "word": "Describe",
+      "pronunciation": "/dɪˈskraɪb/",
+      "partOfSpeech": "verb",
+      "translation": "Miêu tả",
+      "example": "Let's describe your classmate.",
+      "exampleTranslation": "Hãy miêu tả bạn cùng lớp của bạn."
+    },
+    {
+      "word": "Description",
+      "pronunciation": "/dɪsˈkrɪpʃᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "Sự miêu tả",
+      "example": "The book's description helped me understand the story.",
+      "exampleTranslation": "Mục miêu tả quyển sách đã giúp tôi hiểu rõ hơn nội dung của câu chuyện."
+    },
+    {
+      "word": "Classmate",
+      "pronunciation": "/ˈklɑːsmeɪt/",
+      "partOfSpeech": "noun",
+      "translation": "Bạn cùng lớp",
+      "example": "She is my classmate.",
+      "exampleTranslation": "Cô ấy là bạn cùng lớp của tôi."
+    },
+    {
+      "word": "Member",
+      "pronunciation": "/ˈmɛmbə/",
+      "partOfSpeech": "noun",
+      "translation": "Thành viên",
+      "example": "Our group has five members.",
+      "exampleTranslation": "Nhóm chúng tôi có 5 thành viên."
+    },
+    {
+      "word": "Personality",
+      "pronunciation": "/pɜːsᵊnˈæləti/",
+      "partOfSpeech": "noun",
+      "translation": "Tính cách",
+      "example": "What personality does your best friend have?",
+      "exampleTranslation": "Bạn thân của bạn có tính cách gì?"
+    },
+    {
+      "word": "Person",
+      "pronunciation": "/ˈpɜːsᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "Người, con người",
+      "example": "My mother is the most caring person in my family.",
+      "exampleTranslation": "Mẹ tôi là người ân cần, quan tâm nhất trong nhà."
+    },
+    {
+      "word": "Personal",
+      "pronunciation": "/ˈpɜːsᵊnᵊl/",
+      "partOfSpeech": "adjective",
+      "translation": "Có tính cá nhân, có tính riêng tư",
+      "example": "You need to fill in your personal information.",
+      "exampleTranslation": "Bạn cần điền thông tin cá nhân của mình vào đây."
+    },
+    {
+      "word": "Hard-working",
+      "pronunciation": "/hɑːd-ˈwɜːkɪŋ/",
+      "partOfSpeech": "adjective",
+      "translation": "Chăm chỉ, chịu khó",
+      "example": "Lan is a hard-working student.",
+      "exampleTranslation": "Lan là một học sinh rất chăm chỉ."
+    },
+    {
+      "word": "Confident",
+      "pronunciation": "/ˈkɒnfɪdᵊnt/",
+      "partOfSpeech": "adjective",
+      "translation": "Tự tin",
+      "example": "He is very confident.",
+      "exampleTranslation": "Anh ấy rất dạn dĩ, tự tin."
+    },
+    {
+      "word": "Confidence",
+      "pronunciation": "/ˈkɒnfɪdᵊns/",
+      "partOfSpeech": "noun",
+      "translation": "Sự tự tin",
+      "example": "This kind of activity is very good for improving your confidence.",
+      "exampleTranslation": "Hoạt động này rất tốt cho việc cải thiện sự tự tin của bạn."
+    },
+    {
+      "word": "Funny",
+      "pronunciation": "/ˈfʌni/",
+      "partOfSpeech": "adjective",
+      "translation": "Vui tính, hài hước",
+      "example": "Tom is very funny and confident.",
+      "exampleTranslation": "Tom rất vui tính và tự tin."
+    },
+    {
+      "word": "Fun",
+      "pronunciation": "/fʌn/",
+      "partOfSpeech": "noun",
+      "translation": "Niềm vui",
+      "example": "Going to her birthday party was a lot of fun.",
+      "exampleTranslation": "Đến dự bữa tiệc sinh nhật của cô ấy thì rất vui."
+    },
+    {
+      "word": "Caring",
+      "pronunciation": "/ˈkeərɪŋ/",
+      "partOfSpeech": "adjective",
+      "translation": "Quan tâm, ân cần",
+      "example": "Linh is very caring.",
+      "exampleTranslation": "Linh rất ân cần với mọi người"
+    },
+    {
+      "word": "Care",
+      "pronunciation": "/keə/",
+      "partOfSpeech": "verb",
+      "translation": "Quan tâm",
+      "example": "My mother cares a lot about me.",
+      "exampleTranslation": "Mẹ tôi quan tâm đến tôi rất nhiều."
+    },
+    {
+      "word": "Active",
+      "pronunciation": "/ˈæktɪv/",
+      "partOfSpeech": "adjective",
+      "translation": "Năng động, hoạt bát",
+      "example": "My younger brother is very active. He likes running around the house.",
+      "exampleTranslation": "Em trai tôi rất hiếu động. Em thích chạy xung quanh nhà."
+    },
+    {
+      "word": "Careful",
+      "pronunciation": "/ˈkeəfʊl/",
+      "partOfSpeech": "adjective",
+      "translation": "Cẩn thận",
+      "example": "My mom is very careful. She always checks everything twice.",
+      "exampleTranslation": "Mẹ tôi rất cẩn thận. Bà luôn kiểm tra mọi thứ hai lần."
+    },
+    {
+      "word": "Carefulness",
+      "pronunciation": "/ˈkeəfʊlnəs/",
+      "partOfSpeech": "noun",
+      "translation": "Sự cẩn thận, tính cẩn thận",
+      "example": "Carefulness is very important in our life.",
+      "exampleTranslation": "Tính cẩn thận rất quan trọng trong cuộc đời chúng ta."
+    },
+    {
+      "word": "Carefully",
+      "pronunciation": "/ˈkeəfli/",
+      "partOfSpeech": "adverb",
+      "translation": "Một cách cẩn thận",
+      "example": "She carefully put the books back on the shelf.",
+      "exampleTranslation": "Cô ấy cẩn thận đặt những quyển sách về lại trên giá."
+    },
+    {
+      "word": "Shy",
+      "pronunciation": "/ʃaɪ/",
+      "partOfSpeech": "adjective",
+      "translation": "Ngại ngùng, bẽn lẽn",
+      "example": "I am very shy when I meet new people.",
+      "exampleTranslation": "Tôi rất bẽn lẽn khi gặp người mới."
+    },
+    {
+      "word": "Creative",
+      "pronunciation": "/kriˈeɪtɪv/",
+      "partOfSpeech": "adjective",
+      "translation": "Sáng tạo",
+      "example": "My sister is very creative. She loves to draw.",
+      "exampleTranslation": "Em gái tôi rất sáng tạo. Em rất thích vẽ."
+    },
+    {
+      "word": "Creativity",
+      "pronunciation": "/ˌkriːeɪˈtɪvəti/",
+      "partOfSpeech": "noun",
+      "translation": "Tính sáng tạo, sự sáng tạo",
+      "example": "Drawing helps improve your creativity.",
+      "exampleTranslation": "Vẽ tranh giúp tăng cường tính sáng tạo."
+    },
+    {
+      "word": "Create",
+      "pronunciation": "/kriˈeɪt/",
+      "partOfSpeech": "verb",
+      "translation": "Tạo ra, sáng tạo ra",
+      "example": "She loves to create beautiful drawings in her art class.",
+      "exampleTranslation": "Cô ấy thích tạo ra những bức tranh tuyệt đẹp trong lớp mỹ thuật."
+    },
+    {
+      "word": "Clever",
+      "pronunciation": "/ˈklɛvə/",
+      "partOfSpeech": "adjective",
+      "translation": "Thông minh",
+      "example": "Son is a very clever boy.",
+      "exampleTranslation": "Sơn là một cậu bé rất thông minh."
+    },
+    {
+      "word": "Cleverness",
+      "pronunciation": "/ˈklɛvənəs/",
+      "partOfSpeech": "noun",
+      "translation": "Sự thông minh",
+      "example": "His cleverness is very surprising.",
+      "exampleTranslation": "Trí thông minh của cậu ấy rất đáng kinh ngạc."
+    },
+    {
+      "word": "Kind",
+      "pronunciation": "/kaɪnd/",
+      "partOfSpeech": "adjective",
+      "translation": "Tốt bụng",
+      "example": "Tam is very kind. She likes helping people.",
+      "exampleTranslation": "Tâm rất tốt bụng. Cậu ấy rất thích giúp đỡ mọi người."
+    },
+    {
+      "word": "Kindness",
+      "pronunciation": "/ˈkaɪndnəs/",
+      "partOfSpeech": "noun",
+      "translation": "Sự tốt bụng, tử tế",
+      "example": "Our teacher teaches us a lot about kindness.",
+      "exampleTranslation": "Cô giáo dạy chúng tôi rất nhiều về sự tốt bụng và tử tế."
+    },
+    {
+      "word": "Friendly",
+      "pronunciation": "/ˈfrɛndli/",
+      "partOfSpeech": "adjective",
+      "translation": "Thân thiện",
+      "example": "Nam is very funny and friendly.",
+      "exampleTranslation": "Nam rất vui tính và thân thiện"
+    },
+    {
+      "word": "Friendliness",
+      "pronunciation": "/ˈfrɛndlɪnəs/",
+      "partOfSpeech": "noun",
+      "translation": "Sự thân thiện, tính thân thiện",
+      "example": "Friendliness is important in our school.",
+      "exampleTranslation": "Sự thân thiện rất quan trọng trong khuôn viên trường học."
+    },
+    {
+      "word": "Highlighted",
+      "pronunciation": "/ˈhaɪˌlaɪtɪd/",
+      "partOfSpeech": "adjective",
+      "translation": "Được đánh dấu",
+      "example": "Pay attention to the highlighted parts.",
+      "exampleTranslation": "Hãy chú ý đến những phần được đánh dấu."
+    },
+    {
+      "word": "Draw",
+      "pronunciation": "/drɔː/",
+      "partOfSpeech": "verb",
+      "translation": "Vẽ",
+      "example": "I like drawing very much.",
+      "exampleTranslation": "Tôi rất thích vẽ."
+    },
+    {
+      "word": "Pay attention",
+      "pronunciation": "/peɪ əˈtɛnʃᵊn/",
+      "partOfSpeech": "phrase",
+      "translation": "Tập trung",
+      "example": "Please pay attention to the lesson.",
+      "exampleTranslation": "Làm ơn hãy tập trung vào bài học."
+    },
+    {
+      "word": "Pear",
+      "pronunciation": "/peə/",
+      "partOfSpeech": "noun",
+      "translation": "Quả lê",
+      "example": "Pear is my favourite fruit.",
+      "exampleTranslation": "Lê là trái cây ưa thích của tôi."
+    },
+    {
+      "word": "Appearance",
+      "pronunciation": "/əˈpɪərᵊns/",
+      "partOfSpeech": "noun",
+      "translation": "Vẻ bề ngoài",
+      "example": "She has a clean appearance.",
+      "exampleTranslation": "Cô ấy có vẻ ngoài rất sạch sẽ."
+    },
+    {
+      "word": "Appear",
+      "pronunciation": "/əˈpɪə/",
+      "partOfSpeech": "verb",
+      "translation": "Xuất hiện",
+      "example": "She appeared after the teacher called her.",
+      "exampleTranslation": "Cô ấy xuất hiện sau khi giáo viên gọi."
+    },
+    {
+      "word": "Dialogue",
+      "pronunciation": "/ˈdaɪəlɒɡ/",
+      "partOfSpeech": "noun",
+      "translation": "Đoạn hội thoại",
+      "example": "Let's make a dialogue with your friend.",
+      "exampleTranslation": "Hãy tạo một cuộc hội thoại với bạn của mình."
+    },
+    {
+      "word": "Blonde",
+      "pronunciation": "/blɒnd/",
+      "partOfSpeech": "adjective",
+      "translation": "Tóc vàng",
+      "example": "Linda is a very beautiful blonde girl.",
+      "exampleTranslation": "Linda là một cô gái xinh đẹp với mái tóc vàng."
+    },
+    {
+      "word": "Curly",
+      "pronunciation": "/ˈkɜːli/",
+      "partOfSpeech": "adjective",
+      "translation": "Tóc xoăn",
+      "example": "I have black curly hair.",
+      "exampleTranslation": "Tôi có mái tóc xoăn màu đen."
+    },
+    {
+      "word": "Sporty",
+      "pronunciation": "/ˈspɔːti/",
+      "partOfSpeech": "adjective",
+      "translation": "Khỏe khoắn, có tinh thần thể thao",
+      "example": "Phong loves playing football. He is very sporty.",
+      "exampleTranslation": "Phong thích chơi đá bóng. Cậu ấy rất khỏe khoắn."
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "word": "Draw a picture",
+      "pronunciation": "/drɔː ə ˈpɪkʧə/",
+      "partOfSpeech": "verb",
+      "translation": "Vẽ một bức tranh",
+      "example": "I want to draw a picture about my family.",
+      "exampleTranslation": "Tôi muốn vẽ một bức tranh về gia đình tôi."
+    },
+    {
+      "word": "Write a letter",
+      "pronunciation": "/raɪt ə ˈlɛtə/",
+      "partOfSpeech": "phrase",
+      "translation": "Viết một bức thư",
+      "example": "My teacher tells us to write a letter for our friends.",
+      "exampleTranslation": "Giáo viên bảo chúng tớ viết một bức thư cho bạn bè của mình."
+    },
+    {
+      "word": "Make a sandwich",
+      "pronunciation": "/meɪk ə ˈsænwɪʤ/",
+      "partOfSpeech": "phrase",
+      "translation": "Làm một chiếc bánh mì kẹp",
+      "example": "My mom makes me a sandwich for my school lunch.",
+      "exampleTranslation": "Mẹ tôi làm bánh mì kẹp cho tôi ăn trưa ở trường."
+    },
+    {
+      "word": "Bring some biscuits",
+      "pronunciation": "/brɪŋ sʌm ˈbɪskɪts/",
+      "partOfSpeech": "phrase",
+      "translation": "Mang theo một ít bánh quy",
+      "example": "Lan brings some biscuits with her to the class.",
+      "exampleTranslation": "Lan mang theo một ít bánh quy đến lớp."
+    },
+    {
+      "word": "Do homework",
+      "pronunciation": "/duː ˈhəʊmˌwɜːk/",
+      "partOfSpeech": "phrase",
+      "translation": "Làm bài tập về nhà",
+      "example": "I always do my homework before class.",
+      "exampleTranslation": "Tôi luôn làm bài tập về nhà trước khi đến lớp."
+    },
+    {
+      "word": "Play the piano",
+      "pronunciation": "/pleɪ ðə pɪˈænəʊ/",
+      "partOfSpeech": "verb",
+      "translation": "Chơi đàn pi-a-nô",
+      "example": "I like playing the piano.",
+      "exampleTranslation": "Tôi rất thích chơi đàn pi-a-nô"
+    },
+    {
+      "word": "At present = At the moment",
+      "pronunciation": "/æt ˈprɛzᵊnt = æt ðə ˈməʊmənt/",
+      "partOfSpeech": "phrase",
+      "translation": "ngay lúc này, tại thời điểm này",
+      "example": "I am reading a comic book at present / at the moment.",
+      "exampleTranslation": "Tôi đang đọc một quyển truyện tranh ngay lúc này."
+    },
+    {
+      "word": "Write emails in English",
+      "pronunciation": "/raɪt ˈiːmeɪlz ɪn ˈɪŋɡlɪʃ/",
+      "partOfSpeech": "phrase",
+      "translation": "Viết email bằng tiếng Anh",
+      "example": "My teacher makes us write emails in English.",
+      "exampleTranslation": "Giáo viên yêu cầu chúng tôi viết email bằng tiếng Anh."
+    },
+    {
+      "word": "Comic book",
+      "pronunciation": "/ˈkɒmɪk bʊk/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Truyện tranh",
+      "example": "My sister likes reading comic books.",
+      "exampleTranslation": "Em gái tôi rất thích đọc truyện tranh."
+    },
+    {
+      "word": "Write a story",
+      "pronunciation": "/raɪt ˈstɔːriz/",
+      "partOfSpeech": "phrase",
+      "translation": "Viết truyện",
+      "example": "Let's write a story about our picnic.",
+      "exampleTranslation": "Hãy viết một câu chuyện về chuyến dã ngoại của chúng ta."
+    },
+    {
+      "word": "Care about",
+      "pronunciation": "/keər əˈbaʊt/",
+      "partOfSpeech": "phrasal verb",
+      "translation": "Quan tâm đến",
+      "example": "Lan is very kind. She cares about other people.",
+      "exampleTranslation": "Lan rất tốt bụng. Cậu ấy quan tâm đến mọi người."
+    }
+  ]
+}

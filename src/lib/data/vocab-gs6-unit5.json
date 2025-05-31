@@ -1,0 +1,527 @@
+{
+  "unit": "Unit 5: Natural Wonders of Viet Nam",
+  "mainVocabulary": [
+    {
+      "word": "Geography",
+      "pronunciation": "/ʤiˈɒɡrəfi/",
+      "partOfSpeech": "noun",
+      "translation": "Môn địa lý",
+      "example": "Geography is my favorite subject.",
+      "exampleTranslation": "Môn địa lý là môn học yêu thích nhất của tôi."
+    },
+    {
+      "word": "Geographic",
+      "pronunciation": "/ˌʤiəˈɡræfɪk/",
+      "partOfSpeech": "adjective",
+      "translation": "Thuộc về địa lý",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Remember",
+      "pronunciation": "/rɪˈmɛmbə/",
+      "partOfSpeech": "verb",
+      "translation": "Nhớ (để làm cái gì)",
+      "example": "Remember to go to bed early.",
+      "exampleTranslation": "Nhớ đi ngủ sớm nhé."
+    },
+    {
+      "word": "Natural wonder",
+      "pronunciation": "/ˈnæʧᵊrᵊl ˈwʌndə/",
+      "partOfSpeech": "noun",
+      "translation": "Kỳ quan thiên nhiên",
+      "example": "Viet Nam has many natural wonders.",
+      "exampleTranslation": "Việt Nam có rất nhiều kỳ quan thiên nhiên."
+    },
+    {
+      "word": "Amazing",
+      "pronunciation": "/əˈmeɪzɪŋ/",
+      "partOfSpeech": "adjective",
+      "translation": "Tuyệt vời",
+      "example": "She has an amazing voice.",
+      "exampleTranslation": "Cô ấy có một giọng nói tuyệt vời."
+    },
+    {
+      "word": "Amaze",
+      "pronunciation": "/əˈmeɪz/",
+      "partOfSpeech": "verb",
+      "translation": "Làm kinh ngạc",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Amazement",
+      "pronunciation": "/əˈmeɪzmənt/",
+      "partOfSpeech": "noun",
+      "translation": "Sự kinh ngạc",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Scenery",
+      "pronunciation": "/ˈsiːnəri/",
+      "partOfSpeech": "noun",
+      "translation": "Cảnh vật",
+      "example": "The scenery in my hometown is amazing.",
+      "exampleTranslation": "Phong cảnh, cảnh vật ở quê tôi rất tuyệt vời."
+    },
+    {
+      "word": "Rock",
+      "pronunciation": "/rɒk/",
+      "partOfSpeech": "noun",
+      "translation": "Đá",
+      "example": "Be careful! There is a rock on the road.",
+      "exampleTranslation": "Hãy cẩn thận! Có một hòn đá trên đường."
+    },
+    {
+      "word": "Island",
+      "pronunciation": "/ˈaɪlənd/",
+      "partOfSpeech": "noun",
+      "translation": "Đảo",
+      "example": "There are many islands in Viet Nam.",
+      "exampleTranslation": "Có rất nhiều đảo ở Việt Nam."
+    },
+    {
+      "word": "Charming",
+      "pronunciation": "/ˈʧɑːmɪŋ/",
+      "partOfSpeech": "adjective",
+      "translation": "Đẹp, duyên dáng, yêu kiều",
+      "example": "She is a sweet charming girl.",
+      "exampleTranslation": "Cô ấy là một cô gái ngọt ngào, duyên dáng."
+    },
+    {
+      "word": "Charm",
+      "pronunciation": "/ʧɑːm/",
+      "partOfSpeech": "noun",
+      "translation": "Sức hút",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Rock column",
+      "pronunciation": "/rɒk ˈkɒləm/",
+      "partOfSpeech": "noun",
+      "translation": "Cột đá",
+      "example": "That cave has many unique rock columns.",
+      "exampleTranslation": "Hang động đấy có rất nhiều những cột đá độc đáo."
+    },
+    {
+      "word": "Man-made",
+      "pronunciation": "/ˈmænˈmeɪd/",
+      "partOfSpeech": "adjective",
+      "translation": "Nhân tạo",
+      "example": "Man-made beaches are becoming more and more common.",
+      "exampleTranslation": "Những bãi biển nhân tạo đang trở nên ngày càng phổ biến."
+    },
+    {
+      "word": "Mountain",
+      "pronunciation": "/ˈmaʊntɪn/",
+      "partOfSpeech": "noun",
+      "translation": "Núi",
+      "example": "There is a big mountain in my hometown.",
+      "exampleTranslation": "Thị trấn của tôi có một ngọn núi rất lớn."
+    },
+    {
+      "word": "River",
+      "pronunciation": "/ˈrɪvə/",
+      "partOfSpeech": "noun",
+      "translation": "Dòng sông",
+      "example": "Can Tho is famous for its rivers.",
+      "exampleTranslation": "Cần Thơ thì nổi tiếng về những con sông."
+    },
+    {
+      "word": "Waterfall",
+      "pronunciation": "/ˈwɔːtəfɔːl/",
+      "partOfSpeech": "noun",
+      "translation": "Thác nước",
+      "example": "I visited a waterfall when I was little.",
+      "exampleTranslation": "Tôi đã đến thăm quan một thác nước khi tôi còn nhỏ."
+    },
+    {
+      "word": "Forest",
+      "pronunciation": "/ˈfɒrɪst/",
+      "partOfSpeech": "noun",
+      "translation": "Khu rừng",
+      "example": "I like taking a walk in the forest.",
+      "exampleTranslation": "Tôi thích đi dạo bộ trong rừng."
+    },
+    {
+      "word": "Cave",
+      "pronunciation": "/keɪv/",
+      "partOfSpeech": "noun",
+      "translation": "Hang động",
+      "example": "I have never seen a cave.",
+      "exampleTranslation": "Tôi chưa từng thấy một hang động nào."
+    },
+    {
+      "word": "Desert",
+      "pronunciation": "/ˈdɛzət/",
+      "partOfSpeech": "noun",
+      "translation": "Sa mạc",
+      "example": "There are many deserts in Africa.",
+      "exampleTranslation": "Có rất nhiều sa mạc ở châu Phi."
+    },
+    {
+      "word": "Beach",
+      "pronunciation": "/biːʧ/",
+      "partOfSpeech": "noun",
+      "translation": "Biển, bãi biển",
+      "example": "My family went to a beach during our summer holiday.",
+      "exampleTranslation": "Gia đình tôi đi biển vào kỳ nghỉ hè."
+    },
+    {
+      "word": "National park",
+      "pronunciation": "/ˈnæʃᵊnᵊl pɑːk/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Vườn quốc gia",
+      "example": "Cuc Phuong is the most famous national park in Viet Nam.",
+      "exampleTranslation": "Vườn quốc gia Cúc Phương là vườn quốc gia nổi tiếng nhất ở Việt Nam."
+    },
+    {
+      "word": "Plaster",
+      "pronunciation": "/ˈplɑːstə/",
+      "partOfSpeech": "noun",
+      "translation": "Băng keo cá nhân",
+      "example": "Remember to bring some plaster with you.",
+      "exampleTranslation": "Nhớ mang theo vài miếng băng keo cá nhân nhé."
+    },
+    {
+      "word": "Sleeping bag",
+      "pronunciation": "/ˈsliːpɪŋ bæɡ/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Túi ngủ",
+      "example": "We need sleeping bags when we go camping.",
+      "exampleTranslation": "Chúng ta cần túi ngủ khi chúng ta đi cắm trại."
+    },
+    {
+      "word": "Backpack",
+      "pronunciation": "/ˈbækˌpæk/",
+      "partOfSpeech": "noun",
+      "translation": "Cặp sách, balo đeo vai",
+      "example": "I put everything in my backpack.",
+      "exampleTranslation": "Tôi đã bỏ tất cả mọi thứ vào chiếc balo của mình."
+    },
+    {
+      "word": "Suncream",
+      "pronunciation": "/ˈsʌnˌkriːm/",
+      "partOfSpeech": "noun",
+      "translation": "Kem chống nắng",
+      "example": "I use suncream everyday.",
+      "exampleTranslation": "Tôi dùng kem chống nắng hằng ngày."
+    },
+    {
+      "word": "Scissors",
+      "pronunciation": "/ˈsɪzəz/",
+      "partOfSpeech": "noun",
+      "translation": "Kéo",
+      "example": "Can you pass me that scissors?",
+      "exampleTranslation": "Bạn đưa giúp mình chiếc kéo với?"
+    },
+    {
+      "word": "Lose",
+      "pronunciation": "/luːz/",
+      "partOfSpeech": "verb",
+      "translation": "Đánh mất, lạc phương hướng",
+      "example": "Do not get lost in the forest.",
+      "exampleTranslation": "Đừng để bị lạc trong rừng nhé."
+    },
+    {
+      "word": "Useful",
+      "pronunciation": "/ˈjuːsfʊl/",
+      "partOfSpeech": "adjective",
+      "translation": "Hữu ích, hữu dụng",
+      "example": "A compass will be useful if you get lost in the forest.",
+      "exampleTranslation": "Một chiếc la bàn sẽ rất hữu ích nếu bạn bị lạc trong rừng."
+    },
+    {
+      "word": "Usefulness",
+      "pronunciation": "/ˈjuːsfʊlnəs/",
+      "partOfSpeech": "noun",
+      "translation": "Sự hữu ích, sự hữu dụng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Overnight",
+      "pronunciation": "/ˌəʊvəˈnaɪt/",
+      "partOfSpeech": "adverb",
+      "translation": "Qua đêm",
+      "example": "Put the chicken in the fridge overnight.",
+      "exampleTranslation": "Bỏ phần thịt gà này vào tủ lạnh qua đêm."
+    },
+    {
+      "word": "Finish",
+      "pronunciation": "/ˈfɪnɪʃ/",
+      "partOfSpeech": "verb",
+      "translation": "Kết thúc, hoàn thành",
+      "example": "You should finish your homework before going to school.",
+      "exampleTranslation": "Bạn cần phải hoàn thành bài tập về nhà trước khi đến lớp."
+    },
+    {
+      "word": "Pack",
+      "pronunciation": "/pæk/",
+      "partOfSpeech": "verb",
+      "translation": "Gói ghém, dọn đồ",
+      "example": "I packed all my clothes in my backpack.",
+      "exampleTranslation": "Tôi đã gói ghém hết quần áo của mình vào balo."
+    },
+    {
+      "word": "Hurt",
+      "pronunciation": "/hɜːt/",
+      "partOfSpeech": "verb",
+      "translation": "Làm đau, tổn thương",
+      "example": "My feet hurt after the long walk.",
+      "exampleTranslation": "Chân tôi bị đau sau cuộc đi bộ đường dài."
+    },
+    {
+      "word": "Hurtful",
+      "pronunciation": "/ˈhɜːtfʊl/",
+      "partOfSpeech": "adjective",
+      "translation": "Bị đau, cảm thấy tổn thương",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Item",
+      "pronunciation": "/ˈaɪtəm/",
+      "partOfSpeech": "noun",
+      "translation": "Đồ đạc, vật dụng",
+      "example": "Do you have all your necessary items?",
+      "exampleTranslation": "Bạn đã có tất cả những vật dụng cần thiết chưa?"
+    },
+    {
+      "word": "A few",
+      "pronunciation": "/ə fjuː/",
+      "partOfSpeech": "phrase",
+      "translation": "Một vài",
+      "example": "There are a few students in the class right now.",
+      "exampleTranslation": "Chỉ có một vài học sinh ở trong lớp ngay lúc này."
+    },
+    {
+      "word": "Dry",
+      "pronunciation": "/draɪ/",
+      "partOfSpeech": "adjective",
+      "translation": "Khô, cằn cỗi",
+      "example": "The soil is very dry in the summer.",
+      "exampleTranslation": "Vào mùa hè đất rất khô và cằn cỗi."
+    },
+    {
+      "word": "Noise",
+      "pronunciation": "/nɔɪz/",
+      "partOfSpeech": "noun",
+      "translation": "Tiếng ồn",
+      "example": "Stop making noises in my class!",
+      "exampleTranslation": "Đừng làm ồn, gây mất trật tự trong lớp của cô!"
+    },
+    {
+      "word": "Noisy",
+      "pronunciation": "/ˈnɔɪzi/",
+      "partOfSpeech": "adjective",
+      "translation": "Ồn ào, náo nhiệt",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Go for a picnic",
+      "pronunciation": "/ɡəʊ fɔːr ə ˈpɪknɪk/",
+      "partOfSpeech": "phrase",
+      "translation": "Đi dã ngoại",
+      "example": "We love going for a picnic at weekends.",
+      "exampleTranslation": "Chúng tôi rất thích đi dã ngoại vào cuối tuần."
+    },
+    {
+      "word": "Mountain range",
+      "pronunciation": "/ˈmaʊntɪn reɪnʤ/",
+      "partOfSpeech": "noun",
+      "translation": "Rặng núi",
+      "example": "There is a big mountain range behind my house.",
+      "exampleTranslation": "Có một dãy núi lớn đằng sau nhà tôi."
+    },
+    {
+      "word": "Litter",
+      "pronunciation": "/ˈlɪtə/",
+      "partOfSpeech": "verb",
+      "translation": "Xả rác",
+      "example": "Do not litter!",
+      "exampleTranslation": "Không được xả rác!"
+    },
+    {
+      "word": "Popular",
+      "pronunciation": "/ˈpɒpjələ/",
+      "partOfSpeech": "adjective",
+      "translation": "Nổi tiếng",
+      "example": "She is a very popular singer.",
+      "exampleTranslation": "Cô ấy là một ca sĩ rất nổi tiếng."
+    },
+    {
+      "word": "Popularity",
+      "pronunciation": "/ˌpɒpjəˈlærəti/",
+      "partOfSpeech": "noun",
+      "translation": "Sự nổi tiếng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Tourist attraction",
+      "pronunciation": "/ˈtʊərɪst əˈtrækʃᵊn/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Điểm thu hút khách du lịch",
+      "example": "There are many tourist attractions in Quy Nhon.",
+      "exampleTranslation": "Quy Nhơn có rất nhiều điểm thu hút khách du lịch."
+    },
+    {
+      "word": "Landscape",
+      "pronunciation": "/ˈlænskeɪp/",
+      "partOfSpeech": "noun",
+      "translation": "Cảnh vật",
+      "example": "I like traveling by train because I want to enjoy the landscape.",
+      "exampleTranslation": "Tôi thích di chuyển bằng tàu lửa vì tôi muốn thưởng thức những cảnh vật bên đường."
+    },
+    {
+      "word": "Sand",
+      "pronunciation": "/sænd/",
+      "partOfSpeech": "noun",
+      "translation": "Cát",
+      "example": "Quy Nhon beach has beautiful golden sand.",
+      "exampleTranslation": "Biển Quy Nhơn có bãi cát vàng tuyệt đẹp."
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "word": "Enjoy",
+      "pronunciation": "/ɪnˈʤɔɪ/",
+      "partOfSpeech": "verb",
+      "translation": "Thưởng thức, thích",
+      "example": "I enjoy the seafood here very much.",
+      "exampleTranslation": "Tôi rất thích ăn hải sản ở đây."
+    },
+    {
+      "word": "Seafood",
+      "pronunciation": "/ˈsiːfuːd/",
+      "partOfSpeech": "noun",
+      "translation": "Hải sản",
+      "example": "My family prefers seafood.",
+      "exampleTranslation": "Gia đình tôi thích hải sản hơn."
+    },
+    {
+      "word": "Have a picnic",
+      "pronunciation": "/hæv ə ˈpɪknɪk/",
+      "partOfSpeech": "phrase",
+      "translation": "Đi dã ngoại",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Wear suncream",
+      "pronunciation": "/weə ˌkriːm/",
+      "partOfSpeech": "verb",
+      "translation": "Bôi kem chống nắng",
+      "example": "I wear suncream everyday to protect my skin.",
+      "exampleTranslation": "Tôi bôi kem chống nắng hằng ngày để bảo vệ làn da của mình."
+    },
+    {
+      "word": "Bring water",
+      "pronunciation": "/brɪŋ ˈwɔːtə/",
+      "partOfSpeech": "verb",
+      "translation": "Mang theo nước",
+      "example": "I often bring water when going for a walk.",
+      "exampleTranslation": "Tôi thường mang theo nước khi đi dạo bộ."
+    },
+    {
+      "word": "Go to bed",
+      "pronunciation": "/ɡəʊ tuː bɛd/",
+      "partOfSpeech": "phrase",
+      "translation": "Đi ngủ",
+      "example": "Children should go to bed early.",
+      "exampleTranslation": "Trẻ em nên đi ngủ sớm."
+    },
+    {
+      "word": "A large area of land",
+      "pronunciation": "/ə lɑːʤ ˈeəriə ɒv lænd/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Một vùng đất rộng lớn",
+      "example": "My grandparents’ house is on a large area of land.",
+      "exampleTranslation": "Nhà của ông bà tôi nằm trên một vùng đất rộng lớn."
+    },
+    {
+      "word": "Candle",
+      "pronunciation": "/ˈkændᵊl/",
+      "partOfSpeech": "noun",
+      "translation": "Nến",
+      "example": "I lit up some candles to put on her birthday cake.",
+      "exampleTranslation": "Tôi thắp vài cây nến để đặt lên bánh sinh nhật của cô ấy."
+    },
+    {
+      "word": "Snow",
+      "pronunciation": "/snəʊ/",
+      "partOfSpeech": "noun",
+      "translation": "Tuyết",
+      "example": "I like playing in the snow.",
+      "exampleTranslation": "Tôi rất thích chơi với tuyết."
+    },
+    {
+      "word": "Road",
+      "pronunciation": "/rəʊd/",
+      "partOfSpeech": "noun",
+      "translation": "Con đường",
+      "example": "My house is on a large road.",
+      "exampleTranslation": "Nhà tôi nằm ở trên một con đường lớn."
+    },
+    {
+      "word": "Musical instrument",
+      "pronunciation": "/ˈmjuːzɪkᵊl ˈɪnstrəmənt/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Nhạc cụ",
+      "example": "I can’t play any musical instruments.",
+      "exampleTranslation": "Tôi không biết chơi loại nhạc cụ nào cả."
+    },
+    {
+      "word": "Fridge",
+      "pronunciation": "/frɪʤ/",
+      "partOfSpeech": "noun",
+      "translation": "Tủ lạnh",
+      "example": "I put the ice cream in the fridge.",
+      "exampleTranslation": "Tôi cho kem vào tủ lạnh."
+    },
+    {
+      "word": "Luggage",
+      "pronunciation": "/ˈlʌɡɪʤ/",
+      "partOfSpeech": "noun",
+      "translation": "Hành lý",
+      "example": "My luggage is not too heavy.",
+      "exampleTranslation": "Hành lý của tôi không quá nặng."
+    },
+    {
+      "word": "Dangerous",
+      "pronunciation": "/ˈdeɪnʤᵊrəs/",
+      "partOfSpeech": "adjective",
+      "translation": "Nguy hiểm",
+      "example": "It’s dangerous to go for a walk alone at night.",
+      "exampleTranslation": "Thật nguy hiểm khi đi bộ một mình vào ban đêm."
+    },
+    {
+      "word": "Danger",
+      "pronunciation": "/ˈdeɪnʤə/",
+      "partOfSpeech": "noun",
+      "translation": "Sự nguy hiểm, mối nguy hiểm",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Warm",
+      "pronunciation": "/wɔːm/",
+      "partOfSpeech": "adjective",
+      "translation": "Ấm áp",
+      "example": "My mother makes me a cup of warm chocolate in the winter.",
+      "exampleTranslation": "Mẹ tôi thường làm cho tôi một cốc cacao ấm nóng vào mùa đông."
+    },
+    {
+      "word": "Warmth",
+      "pronunciation": "/wɔːmθ/",
+      "partOfSpeech": "noun",
+      "translation": "Sự ấm áp",
+      "example": "",
+      "exampleTranslation": ""
+    }
+  ]
+}

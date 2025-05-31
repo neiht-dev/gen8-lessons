@@ -1,0 +1,601 @@
+{
+  "unit": "Unit 7: Television",
+  "mainVocabulary": [
+    {
+      "word": "Watch",
+      "pronunciation": "/wɒʧ/",
+      "partOfSpeech": "verb",
+      "translation": "Xem",
+      "example": "I often watch TV in the evening.",
+      "exampleTranslation": "Tôi thường xem TV vào buổi tối."
+    },
+    {
+      "word": "Music talent show",
+      "pronunciation": "/ˈmjuːzɪk ˈtælᵊnt ʃəʊ/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Chương trình tài năng âm nhạc",
+      "example": "I love watching music talent shows like The Voice Kids or Do Re Mi.",
+      "exampleTranslation": "Tôi rất thích xem những chương trình tài năng âm nhạc như The Voice Kids hay Đồ Rê Mí."
+    },
+    {
+      "word": "Interesting",
+      "pronunciation": "/ˈɪntrɛstɪŋ/",
+      "partOfSpeech": "adjective",
+      "translation": "Thú vị",
+      "example": "It is a very interesting movie.",
+      "exampleTranslation": "Đó là một bộ phim rất thú vị."
+    },
+    {
+      "word": "Interested",
+      "pronunciation": "/ˈɪntrɛstɪd/",
+      "partOfSpeech": "adjective",
+      "translation": "Hào hứng, thích thú với thứ gì"
+    },
+    {
+      "word": "Interest",
+      "pronunciation": "/ˈɪntrɛst/",
+      "partOfSpeech": "noun",
+      "translation": "Sở thích, đam mê"
+    },
+    {
+      "word": "Animated film",
+      "pronunciation": "/ˈænɪmeɪtɪd fɪlm/",
+      "partOfSpeech": "noun phrase",
+      "translation": "phim hoạt họa",
+      "example": "Lion King and Tom and Jerry are my favourite animated films.",
+      "exampleTranslation": "Vua Sư Tử và Tom và Jerry là những bộ phim hoạt họa ưa thích nhất của tôi."
+    },
+    {
+      "word": "Wonderful",
+      "pronunciation": "/ˈwʌndəfʊl/",
+      "partOfSpeech": "adjective",
+      "translation": "Tuyệt vời",
+      "example": "Tom and Jerry is a wonderful cartoon for kids.",
+      "exampleTranslation": "Tom và Jerry là một bộ phim hoạt hình tuyệt vời cho trẻ em."
+    },
+    {
+      "word": "Wonder",
+      "pronunciation": "/ˈwʌndə/",
+      "partOfSpeech": "noun",
+      "translation": "Kỳ quan"
+    },
+    {
+      "word": "Prefer",
+      "pronunciation": "/priˈfɜː/",
+      "partOfSpeech": "verb",
+      "translation": "Thích hơn",
+      "example": "I prefer watching cartoons.",
+      "exampleTranslation": "Tôi thích xem phim hoạt hình hơn."
+    },
+    {
+      "word": "Preference",
+      "pronunciation": "/ˈprɛfᵊrᵊns/",
+      "partOfSpeech": "noun",
+      "translation": "Sự ưa thích"
+    },
+    {
+      "word": "Character",
+      "pronunciation": "/ˈkærəktə/",
+      "partOfSpeech": "noun",
+      "translation": "Nhân vật",
+      "example": "Jerry the mouse is my favourite character.",
+      "exampleTranslation": "Chuột Jerry là nhân vật yêu thích nhất của tôi."
+    },
+    {
+      "word": "Characteristic",
+      "pronunciation": "/ˌkærəktəˈrɪstɪk/",
+      "partOfSpeech": "noun",
+      "translation": "Đặc trưng, đặc điểm"
+    },
+    {
+      "word": "Programme",
+      "pronunciation": "/ˈprəʊɡræm/",
+      "partOfSpeech": "noun",
+      "translation": "Chương trình",
+      "example": "Breaking News is a popular programme in my country.",
+      "exampleTranslation": "Breaking News là chương trình phổ biến nhất trong nước tôi."
+    },
+    {
+      "word": "Channel",
+      "pronunciation": "/ˈʧænᵊl/",
+      "partOfSpeech": "noun",
+      "translation": "Kênh truyền hình",
+      "example": "Cartoon Network is a popular channel for kids.",
+      "exampleTranslation": "Cartoon Network là một kênh truyền hình nổi tiếng dành cho trẻ em."
+    },
+    {
+      "word": "Educational",
+      "pronunciation": "/ˌɛʤʊˈkeɪʃᵊnᵊl/",
+      "partOfSpeech": "adjective",
+      "translation": "Có tính giáo dục",
+      "example": "VTV7 is an educational channel.",
+      "exampleTranslation": "VTV7 là một kênh truyền hình có tính giáo dục."
+    },
+    {
+      "word": "Education",
+      "pronunciation": "/ˌɛʤʊˈkeɪʃᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "Sự giáo dục, nền giáo dục"
+    },
+    {
+      "word": "Educate",
+      "pronunciation": "/ˈɛʤʊkeɪt/",
+      "partOfSpeech": "verb",
+      "translation": "Giáo dục, chỉ dạy"
+    },
+    {
+      "word": "View",
+      "pronunciation": "/vjuː/",
+      "partOfSpeech": "verb",
+      "translation": "Xem, nhìn, ngắm",
+      "example": "Sarah views the beautiful sunset from her window every evening.",
+      "exampleTranslation": "Sarah ngắm hoàng hôn tuyệt đẹp từ khung cửa sổ mỗi buổi chiều."
+    },
+    {
+      "word": "Viewer",
+      "pronunciation": "/ˈvjuːə/",
+      "partOfSpeech": "noun",
+      "translation": "Người xem"
+    },
+    {
+      "word": "Different",
+      "pronunciation": "/ˈdɪfᵊrᵊnt/",
+      "partOfSpeech": "adjective",
+      "translation": "Khác, khác biệt",
+      "example": "I like to try different types of ice cream at that shop.",
+      "exampleTranslation": "Tôi thích thử các loại kem khác nhau ở cửa hàng đó."
+    },
+    {
+      "word": "Difference",
+      "pronunciation": "/ˈdɪfᵊrᵊns/",
+      "partOfSpeech": "noun",
+      "translation": "Sự khác biệt"
+    },
+    {
+      "word": "Cartoon",
+      "pronunciation": "/kɑːˈtuːn/",
+      "partOfSpeech": "noun",
+      "translation": "Phim hoạt hình",
+      "example": "Tom and Jerry is the most popular cartoon in the world.",
+      "exampleTranslation": "Tom và Jerry là bộ phim hoạt hình nổi tiếng nhất trên thế giới."
+    },
+    {
+      "word": "Partner",
+      "pronunciation": "/ˈpɑːtnə/",
+      "partOfSpeech": "noun",
+      "translation": "Cộng sự, người làm việc cùng",
+      "example": "Share your story with your partner.",
+      "exampleTranslation": "Hãy chia sẻ câu chuyện của bạn với cộng sự của mình."
+    },
+    {
+      "word": "Laugh",
+      "pronunciation": "/lɑːf/",
+      "partOfSpeech": "verb",
+      "translation": "Cười",
+      "example": "I laugh a lot when I watch 'Gap nhau cuoi nam' with my family.",
+      "exampleTranslation": "Tôi cười rất nhiều khi xem chương trình 'Gặp nhau cuối năm' với gia đình mình."
+    },
+    {
+      "word": "Laughter",
+      "pronunciation": "/ˈlɑːftə/",
+      "partOfSpeech": "noun",
+      "translation": "Tiếng cười"
+    },
+    {
+      "word": "Competition",
+      "pronunciation": "/ˌkɒmpəˈtɪʃᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "Cuộc thi",
+      "example": "I joined a competition about history when I was 6.",
+      "exampleTranslation": "Tôi đã tham gia vào một cuộc thi về lịch sử khi tôi 6 tuổi."
+    },
+    {
+      "word": "Compete",
+      "pronunciation": "/kəmˈpiːt/",
+      "partOfSpeech": "verb",
+      "translation": "Thi đấu"
+    },
+    {
+      "word": "Choose",
+      "pronunciation": "/ʧuːz/",
+      "partOfSpeech": "verb",
+      "translation": "Lựa chọn",
+      "example": "I choose that pink dress for my birthday party.",
+      "exampleTranslation": "Tôi chọn chiếc đầm hồng đó để mặc trong buổi tiệc sinh nhật của mình."
+    },
+    {
+      "word": "Choice",
+      "pronunciation": "/ʧɔɪs/",
+      "partOfSpeech": "noun",
+      "translation": "Sự lựa chọn"
+    },
+    {
+      "word": "Performer",
+      "pronunciation": "/pəˈfɔːmə/",
+      "partOfSpeech": "noun",
+      "translation": "Người biểu diễn",
+      "example": "She dreams of being a performer in the future.",
+      "exampleTranslation": "Cô ấy ước mơ trở thành một người biểu diễn nghệ thuật trong tương lai."
+    },
+    {
+      "word": "Performance",
+      "pronunciation": "/pəˈfɔːməns/",
+      "partOfSpeech": "noun",
+      "translation": "Màn biểu diễn"
+    },
+    {
+      "word": "Perform",
+      "pronunciation": "/pəˈfɔːm/",
+      "partOfSpeech": "verb",
+      "translation": "Biểu diễn"
+    },
+    {
+      "word": "Popular",
+      "pronunciation": "/ˈpɒpjələ/",
+      "partOfSpeech": "adjective",
+      "translation": "Nổi tiếng, được nhiều người biết đến",
+      "example": "Cartoons are popular among children.",
+      "exampleTranslation": "Phim hoạt hình thì rất nổi tiếng đối với trẻ em."
+    },
+    {
+      "word": "Popularity",
+      "pronunciation": "/ˌpɒpjəˈlærəti/",
+      "partOfSpeech": "noun",
+      "translation": "Sự nổi tiếng"
+    },
+    {
+      "word": "Cute",
+      "pronunciation": "/kjuːt/",
+      "partOfSpeech": "adjective",
+      "translation": "Dễ thương",
+      "example": "I like cute characters in cartoons.",
+      "exampleTranslation": "Tôi thích những nhân vật dễ thương trong phim hoạt hình."
+    },
+    {
+      "word": "Boring",
+      "pronunciation": "/ˈbɔːrɪŋ/",
+      "partOfSpeech": "adjective",
+      "translation": "Buồn chán, tẻ nhạt",
+      "example": "The film was so boring that I fell asleep.",
+      "exampleTranslation": "Bộ phim chán đến mức tôi đã ngủ gật giữa chừng."
+    },
+    {
+      "word": "Bore",
+      "pronunciation": "/bɔː/",
+      "partOfSpeech": "verb",
+      "translation": "Gây chán nản, gây chán chường"
+    },
+    {
+      "word": "Boredom",
+      "pronunciation": "/ˈbɔːdəm/",
+      "partOfSpeech": "noun",
+      "translation": "Sự buồn chán, sự chán chường"
+    },
+    {
+      "word": "Happen",
+      "pronunciation": "/ˈhæpᵊn/",
+      "partOfSpeech": "verb",
+      "translation": "Xảy ra, diễn ra",
+      "example": "I can't believe what just happened!",
+      "exampleTranslation": "Tôi không thể tin được những gì vừa mới xảy ra!"
+    },
+    {
+      "word": "Live",
+      "pronunciation": "/laɪv/",
+      "partOfSpeech": "adjective",
+      "translation": "Trực tiếp",
+      "example": "You can watch live football matches on Youtube.",
+      "exampleTranslation": "Các bạn có thể xem những buổi đá bóng trực tiếp trên Youtube."
+    },
+    {
+      "word": "Theatre",
+      "pronunciation": "/ˈθɪətə/",
+      "partOfSpeech": "noun",
+      "translation": "Nhà hát",
+      "example": "There is a big theatre in my hometown.",
+      "exampleTranslation": "Thị trấn của tôi có một nhà hát lớn."
+    },
+    {
+      "word": "Earth",
+      "pronunciation": "/ɜːθ/",
+      "partOfSpeech": "noun",
+      "translation": "Trái đất",
+      "example": "We have to do something to save the earth.",
+      "exampleTranslation": "Chúng ta cần làm gì đấy để cứu lấy trái đất này."
+    },
+    {
+      "word": "How often",
+      "pronunciation": "/haʊ ˈɒfᵊn/",
+      "partOfSpeech": "phrase",
+      "translation": "Bao nhiêu lần",
+      "example": "How often do you play badminton with your friends?",
+      "exampleTranslation": "Bạn chơi cầu lông với bạn bè của mình thường xuyên không?"
+    },
+    {
+      "word": "How many",
+      "pronunciation": "/haʊ ˈmɛni/",
+      "partOfSpeech": "phrase",
+      "translation": "Bao nhiêu",
+      "example": "How many students are there in your class?",
+      "exampleTranslation": "Lớp bạn có bao nhiêu học sinh?"
+    },
+    {
+      "word": "Repetition",
+      "pronunciation": "/ˌrɛpɪˈtɪʃᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "Sự lặp lại",
+      "example": "Repetition is a key element in learning how to play a musical instrument.",
+      "exampleTranslation": "Sự lặp đi lặp lại là nguyên tố chính trong việc học chơi một loại nhạc cụ nào đó."
+    },
+    {
+      "word": "Repeat",
+      "pronunciation": "/rɪˈpiːt/",
+      "partOfSpeech": "verb",
+      "translation": "Lặp đi lặp lại"
+    },
+    {
+      "word": "Repetitive",
+      "pronunciation": "/rɪˈpɛtɪtɪv/",
+      "partOfSpeech": "adjective",
+      "translation": "Có tính lặp lại"
+    },
+    {
+      "word": "Race",
+      "pronunciation": "/reɪs/",
+      "partOfSpeech": "noun",
+      "translation": "Cuộc đua",
+      "example": "I like watching interesting races among animals.",
+      "exampleTranslation": "Tôi thích xem những cuộc đua thú vị giữa các con vật."
+    },
+    {
+      "word": "Colourful",
+      "pronunciation": "/ˈkʌləfʊl/",
+      "partOfSpeech": "adjective",
+      "translation": "Có nhiều màu sắc, sặc sỡ",
+      "example": "They sell many colourful toys for kids.",
+      "exampleTranslation": "Họ bán rất nhiều đồ chơi có nhiều màu sắc sặc sỡ cho trẻ em."
+    },
+    {
+      "word": "Colour",
+      "pronunciation": "/ˈkʌlə/",
+      "partOfSpeech": "noun",
+      "translation": "Màu sắc"
+    },
+    {
+      "word": "Answer",
+      "pronunciation": "/ˈɑːnsə/",
+      "partOfSpeech": "verb",
+      "translation": "Trả lời",
+      "example": "Please answer my questions before leaving.",
+      "exampleTranslation": "Hãy trả lời những câu hỏi sau của tôi trước khi rời đi."
+    },
+    {
+      "word": "Intelligent",
+      "pronunciation": "/ɪnˈtɛlɪʤᵊnt/",
+      "partOfSpeech": "adjective",
+      "translation": "Thông minh",
+      "example": "Jerry is a very intelligent character.",
+      "exampleTranslation": "Jerry là một nhân vật rất thông minh."
+    },
+    {
+      "word": "Intelligence",
+      "pronunciation": "/ɪnˈtɛlɪʤᵊns/",
+      "partOfSpeech": "noun",
+      "translation": "Sự thông minh, trí thông minh."
+    },
+    {
+      "word": "Natural",
+      "pronunciation": "/ˈnæʧᵊrᵊl/",
+      "partOfSpeech": "adjective",
+      "translation": "Thuộc về tự nhiên, có tính tự nhiên",
+      "example": "Viet Nam has many beautiful natural wonders.",
+      "exampleTranslation": "Việt Nam có rất nhiều danh lam thắng cảnh thiên nhiên."
+    },
+    {
+      "word": "Nature",
+      "pronunciation": "/ˈneɪʧə/",
+      "partOfSpeech": "noun",
+      "translation": "Tự nhiên"
+    },
+    {
+      "word": "Wildlife",
+      "pronunciation": "/ˈwaɪldlaɪf/",
+      "partOfSpeech": "noun",
+      "translation": "Cuộc sống hoang dã",
+      "example": "I like watching TV programmes about wildlife.",
+      "exampleTranslation": "Tôi thích xem những chương trình TV về cuộc sống hoang dã."
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "word": "Interview",
+      "pronunciation": "/ˈɪntəvjuː/",
+      "partOfSpeech": "noun",
+      "translation": "Cuộc phỏng vấn",
+      "example": "I have an important interview this afternoon.",
+      "exampleTranslation": "Tôi có một cuộc phỏng vấn quan trọng vào chiều nay."
+    },
+    {
+      "word": "Interviewer",
+      "pronunciation": "/ˈɪntəvjuːə/",
+      "partOfSpeech": "noun",
+      "translation": "Người phỏng vấn"
+    },
+    {
+      "word": "Interviewee",
+      "pronunciation": "/ˌɪntəvjuˈiː/",
+      "partOfSpeech": "noun",
+      "translation": "Người được phỏng vấn"
+    },
+    {
+      "word": "In the yard",
+      "pronunciation": "/ɪn ðə jɑːd/",
+      "partOfSpeech": "phrase",
+      "translation": "Ở trong sân",
+      "example": "There is a big apple tree in the yard.",
+      "exampleTranslation": "Có một cây táo rất to ở trong sân"
+    },
+    {
+      "word": "Animal programme",
+      "pronunciation": "/ˈænɪmᵊl ˈprəʊɡræm/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Chương trình động vật",
+      "example": "My sister loves watching animal programmes.",
+      "exampleTranslation": "Em gái tôi rất thích xem những chương trình động vật."
+    },
+    {
+      "word": "Outdoor activity",
+      "pronunciation": "/ˈaʊtdɔːr ækˈtɪvəti/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Hoạt động ngoài trời",
+      "example": "My students prefer outdoor activities.",
+      "exampleTranslation": "Học sinh của tôi thích những hoạt động ngoài trời."
+    },
+    {
+      "word": "At the stadium",
+      "pronunciation": "/æt ðə ˈsteɪdiəm/",
+      "partOfSpeech": "phrase",
+      "translation": "Ở sân vận động",
+      "example": "She practices playing badminton at the stadium.",
+      "exampleTranslation": "Cô ấy luyện tập chơi cầu lông ở sân vận động."
+    },
+    {
+      "word": "On time",
+      "pronunciation": "/ɒn taɪm/",
+      "partOfSpeech": "phrase",
+      "translation": "Đúng giờ",
+      "example": "I always arrive at school on time.",
+      "exampleTranslation": "Tôi luôn đến lớp đúng giờ."
+    },
+    {
+      "word": "Go to bed",
+      "pronunciation": "/ɡəʊ tuː bɛd/",
+      "partOfSpeech": "verb",
+      "translation": "Đi ngủ",
+      "example": "I always go to bed early.",
+      "exampleTranslation": "Tôi luôn đi ngủ sớm."
+    },
+    {
+      "word": "Instruction",
+      "pronunciation": "/ɪnˈstrʌkʃᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "Sự hướng dẫn",
+      "example": "I will give you some instructions on how to do this.",
+      "exampleTranslation": "Tôi sẽ cho bạn một vài hướng dẫn về việc làm cái này như thế nào."
+    },
+    {
+      "word": "Instruct",
+      "pronunciation": "/ɪnˈstrʌkt/",
+      "partOfSpeech": "verb",
+      "translation": "Hướng dẫn"
+    },
+    {
+      "word": "Ask for",
+      "pronunciation": "/ɑːsk fɔː/",
+      "partOfSpeech": "verb",
+      "translation": "Hỏi xin cái gì",
+      "example": "Ask for your friend's permission to use their things.",
+      "exampleTranslation": "Hỏi xin ý kiến của bạn mình trước khi sử dụng đồ của họ."
+    },
+    {
+      "word": "Around the world",
+      "pronunciation": "/əˈraʊnd ðə wɜːld/",
+      "partOfSpeech": "phrase",
+      "translation": "Vòng quanh thế giới, trên thế giới",
+      "example": "I want to travel around the world when I grow up.",
+      "exampleTranslation": "Tôi muốn đi du lịch vòng quanh thế giới khi tôi lớn."
+    },
+    {
+      "word": "Attract",
+      "pronunciation": "/əˈtrækt/",
+      "partOfSpeech": "verb",
+      "translation": "Thu hút",
+      "example": "My city attracts a lot of tourists every year.",
+      "exampleTranslation": "Thành phố của tôi thu hút được rất nhiều du khách mỗi năm."
+    },
+    {
+      "word": "Attractive",
+      "pronunciation": "/əˈtræktɪv/",
+      "partOfSpeech": "adjective",
+      "translation": "Có sức quyến rũ"
+    },
+    {
+      "word": "Attraction",
+      "pronunciation": "/əˈtrækʃᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "Sự quyến rũ"
+    },
+    {
+      "word": "Episode",
+      "pronunciation": "/ˈɛpɪsəʊd/",
+      "partOfSpeech": "noun",
+      "translation": "Tập phim",
+      "example": "This film has 11 episodes.",
+      "exampleTranslation": "Bộ phim này có 11 tập."
+    },
+    {
+      "word": "Cast",
+      "pronunciation": "/kɑːst/",
+      "partOfSpeech": "noun",
+      "translation": "Dàn diễn viên",
+      "example": "The cast has many people.",
+      "exampleTranslation": "Dàn diễn viên có rất nhiều người."
+    },
+    {
+      "word": "Talk show",
+      "pronunciation": "/tɔːk ʃəʊ/",
+      "partOfSpeech": "noun",
+      "translation": "Chương trình truyền hình trò chuyện",
+      "example": "That is a famous talk show in my country.",
+      "exampleTranslation": "Đó là chương trình truyền hình trò chuyện nổi tiếng ở nước tôi."
+    },
+    {
+      "word": "Documentary",
+      "pronunciation": "/ˌdɒkjəˈmɛntᵊri/",
+      "partOfSpeech": "noun",
+      "translation": "Phim tài liệu",
+      "example": "I don't like watching documentaries because they are boring.",
+      "exampleTranslation": "Tôi không thích xem phim tài liệu bởi vì chúng rất chán."
+    },
+    {
+      "word": "Season",
+      "pronunciation": "/ˈsiːzᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "Mùa phim",
+      "example": "I like the first two seasons of this film.",
+      "exampleTranslation": "Tôi thích hai mùa đầu tiên của bộ phim này."
+    },
+    {
+      "word": "Series",
+      "pronunciation": "/ˈsɪəriːz/",
+      "partOfSpeech": "noun",
+      "translation": "Loạt phim, chuỗi phim",
+      "example": "This is a very interesting series about Vietnamese cultures.",
+      "exampleTranslation": "Đó là một loạt phim rất thú vị về các văn hóa của Việt Nam."
+    },
+    {
+      "word": "Comedy",
+      "pronunciation": "/ˈkɒmɪdi/",
+      "partOfSpeech": "noun",
+      "translation": "Phim hài",
+      "example": "My father likes watching comedy.",
+      "exampleTranslation": "Bố tôi thích xem phim hài."
+    },
+    {
+      "word": "The news",
+      "pronunciation": "/ðə njuːz/",
+      "partOfSpeech": "noun",
+      "translation": "Chương trình thời sự",
+      "example": "My family will gather in the living room and watch the news.",
+      "exampleTranslation": "Gia đình tôi sẽ tụ tập tại phòng khách và xem chương trình thời sự."
+    },
+    {
+      "word": "Main character",
+      "pronunciation": "/meɪn ˈkærəktə/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Nhân vật chính",
+      "example": "She is the main character in this movie.",
+      "exampleTranslation": "Cô ấy là nhân vật chính trong bộ phim này."
+    }
+  ]
+}

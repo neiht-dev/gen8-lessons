@@ -1,0 +1,327 @@
+{
+  "unit": "Unit 9: Cities of the world",
+  "mainVocabulary": [
+    {
+      "word": "Holiday",
+      "pronunciation": "/ˈhɒlədeɪ/",
+      "partOfSpeech": "noun",
+      "translation": "kỳ nghỉ",
+      "example": "We went to the beach on our holiday.",
+      "exampleTranslation": "Chúng tôi đã đi biển vào kì nghỉ."
+    },
+    {
+      "word": "Wonderful",
+      "pronunciation": "/ˈwʌndəfʊl/",
+      "partOfSpeech": "adjective",
+      "translation": "tuyệt vời",
+      "example": "We have wonderful news! Mary just got an A.",
+      "exampleTranslation": "Chúng tôi có tin rất tuyệt vời! Mary vừa nhận được điểm A."
+    },
+    {
+      "word": "Landmark",
+      "pronunciation": "/ˈlændmɑːk/",
+      "partOfSpeech": "noun",
+      "translation": "địa danh",
+      "example": "Binh brought Jenny to his city’s most popular landmark.",
+      "exampleTranslation": "Bình đã đưa Jenny tới thăm địa danh nổi tiếng nhất ở thành phố của anh ấy."
+    },
+    {
+      "word": "Crowded",
+      "pronunciation": "/ˈkraʊdɪd/",
+      "partOfSpeech": "adjective",
+      "translation": "đông đúc",
+      "example": "Cities are too crowded for my taste.",
+      "exampleTranslation": "Các thành phố thì quá đông đúc so với gu của tôi."
+    },
+    {
+      "word": "Interesting",
+      "pronunciation": "/ˈɪntrɛstɪŋ/",
+      "partOfSpeech": "adjective",
+      "translation": "thú vị",
+      "example": "I am reading a very interesting book about different cities in the world.",
+      "exampleTranslation": "Tôi đang đọc một cuốn sách rất thú vị về những thành phố khác nhau trên thế giới."
+    },
+    {
+      "word": "Rainy",
+      "pronunciation": "/ˈreɪni/",
+      "partOfSpeech": "adjective",
+      "translation": "thường xuyên mưa, nhiều mưa",
+      "example": "London is known to be rainy.",
+      "exampleTranslation": "Ai cũng biết rằng ở London mưa rất nhiều."
+    },
+    {
+      "word": "Sunny",
+      "pronunciation": "/ˈsʌni/",
+      "partOfSpeech": "adjective",
+      "translation": "chan hòa ánh nắng, nhiều nắng",
+      "example": "It is usually sunny in tropical countries.",
+      "exampleTranslation": "Những nước nhiệt đới thường chan hòa ánh nắng."
+    },
+    {
+      "word": "Tasty",
+      "pronunciation": "/ˈteɪsti/",
+      "partOfSpeech": "adjective",
+      "translation": "ngon lành, ngon miệng",
+      "example": "My mother’s food is always the tastiest to me.",
+      "exampleTranslation": "Đồ ăn mẹ nấu vẫn luôn là ngon nhất đối với tôi."
+    },
+    {
+      "word": "Stall",
+      "pronunciation": "/stɔːl/",
+      "partOfSpeech": "noun",
+      "translation": "gian hàng",
+      "example": "What are they selling in that stall?",
+      "exampleTranslation": "Họ đang bán gì trong gian hàng đó thế?"
+    },
+    {
+      "word": "Street food",
+      "pronunciation": "/striːt fuːd/",
+      "partOfSpeech": "noun phrase",
+      "translation": "món ăn đường phố",
+      "example": "If you come to my city, I will treat you to our famous street food.",
+      "exampleTranslation": "Nếu bạn đến thăm thành phố của tôi, tôi sẽ đãi bạn món ăn đường phố nổi tiếng ở đây."
+    },
+    {
+      "word": "Palace",
+      "pronunciation": "/ˈpælɪs/",
+      "partOfSpeech": "noun",
+      "translation": "cung điện, lâu đài",
+      "example": "Let’s visit the palace by bikes so we can both enjoy its beauty and improve our health.",
+      "exampleTranslation": "Chúng ta nên đến thăm cung điện bằng xe đạp để có thể vừa thưởng thức vẻ đẹp của nó vừa cải thiện sức khỏe của mình."
+    },
+    {
+      "word": "Floating market",
+      "pronunciation": "/ˈfləʊtɪŋ ˈmɑːkɪt/",
+      "partOfSpeech": "noun phrase",
+      "translation": "chợ nổi",
+      "example": "We bought some fruits at the floating market.",
+      "exampleTranslation": "Chúng tôi đã mua một ít hoa quả tại khu chợ nổi."
+    },
+    {
+      "word": "Tower",
+      "pronunciation": "/ˈtaʊə/",
+      "partOfSpeech": "noun",
+      "translation": "tòa tháp",
+      "example": "This is the tallest tower in my area.",
+      "exampleTranslation": "Đây là tòa tháp cao nhất tại khu vực của tôi."
+    },
+    {
+      "word": "Postcard",
+      "pronunciation": "/ˈpəʊstkɑːd/",
+      "partOfSpeech": "noun",
+      "translation": "bưu thiếp",
+      "example": "Mike is writing postcards to send to his friends about his trip to Italy.",
+      "exampleTranslation": "Mike đang viết những tấm bưu thiếp để gửi cho bạn bè của cậu ấy, miêu tả chuyến du lịch Ý của cậu."
+    },
+    {
+      "word": "Coast",
+      "pronunciation": "/kəʊst/",
+      "partOfSpeech": "noun",
+      "translation": "bờ biển, duyên hải",
+      "example": "Minh grew up by the coast. His father is a fisherman.",
+      "exampleTranslation": "Minh lớn lên bên bờ biển. Bố cậu ấy là dân chài."
+    },
+    {
+      "word": "Strange",
+      "pronunciation": "/streɪnʤ/",
+      "partOfSpeech": "adjective",
+      "translation": "kỳ lạ, kì dị",
+      "example": "Mary heard a strange noise coming from her attic.",
+      "exampleTranslation": "Mary nghe thấy tiếng động lạ phát ra từ gác mái."
+    },
+    {
+      "word": "Narrow",
+      "pronunciation": "/ˈnærəʊ/",
+      "partOfSpeech": "adjective",
+      "translation": "hẹp",
+      "example": "This road is too narrow for a truck to pass by.",
+      "exampleTranslation": "Con đường này quá hẹp để một chiếc xe tải có thể đi qua."
+    },
+    {
+      "word": "Clear",
+      "pronunciation": "/klɪə/",
+      "partOfSpeech": "adjective",
+      "translation": "trong sạch, trong xanh, quang đãng",
+      "example": "After the rain, the sun shines bright and the sky is clear.",
+      "exampleTranslation": "Sau cơn mưa, mặt trời tỏa sáng và bầu trời trong xanh."
+    },
+    {
+      "word": "River bank",
+      "pronunciation": "/ˈrɪvə bæŋk/",
+      "partOfSpeech": "noun phrase",
+      "translation": "bờ sông, bờ đê",
+      "example": "I used to fly kites at the river bank with my friends when I was young.",
+      "exampleTranslation": "Tôi từng thường đi thả diều trên bờ đê với bạn bè khi tôi còn nhỏ."
+    },
+    {
+      "word": "Theatre",
+      "pronunciation": "/ˈθɪətə/",
+      "partOfSpeech": "noun",
+      "translation": "nhà hát",
+      "example": "My school has a big theatre for students to perform plays and musicals.",
+      "exampleTranslation": "Trường tôi có một nhà hát lớn để học sinh có thể biểu diễn kịch nói và nhạc kịch."
+    },
+    {
+      "word": "Shell",
+      "pronunciation": "/ʃɛl/",
+      "partOfSpeech": "noun",
+      "translation": "vỏ, mai",
+      "example": "Mai loves collecting beautiful shells.",
+      "exampleTranslation": "Mai rất thích thu thập những cái vỏ xinh xắn."
+    },
+    {
+      "word": "Ancient",
+      "pronunciation": "/ˈeɪnʃᵊnt/",
+      "partOfSpeech": "adjective",
+      "translation": "cổ kính",
+      "example": "This is an ancient house - maybe 1000 years old.",
+      "exampleTranslation": "Đây là một ngôi nhà rất cổ - nố có thể đã 1000 tuổi rồi."
+    },
+    {
+      "word": "Capital",
+      "pronunciation": "/ˈkæpɪtᵊl/",
+      "partOfSpeech": "noun",
+      "translation": "thủ đô",
+      "example": "Ha Noi is the capital of Viet Nam.",
+      "exampleTranslation": "Hà Nội là thủ đô Việt Nam."
+    },
+    {
+      "word": "National",
+      "pronunciation": "/ˈnæʃᵊnᵊl/",
+      "partOfSpeech": "adjective",
+      "translation": "thuộc về quốc gia, dân tộc",
+      "example": "Sports can be a source of national pride.",
+      "exampleTranslation": "Thể thao có thể trở thành một niềm tự hào quốc gia."
+    },
+    {
+      "word": "Rent",
+      "pronunciation": "/rɛnt/",
+      "partOfSpeech": "verb",
+      "translation": "thuê",
+      "example": "My parents rented a room for me to stay while I’m in college.",
+      "exampleTranslation": "Bố mẹ tôi đã thuê một phòng để tôi ở trong thời gian học đại học."
+    },
+    {
+      "word": "Amazing",
+      "pronunciation": "/əˈmeɪzɪŋ/",
+      "partOfSpeech": "adjective",
+      "translation": "tuyệt vời, đáng kinh ngạc",
+      "example": "Ngoc is amazing at chess.",
+      "exampleTranslation": "Ngọc có khả năng chơi cờ rất đáng kinh ngạc."
+    },
+    {
+      "word": "Delicious",
+      "pronunciation": "/dɪˈlɪʃəs/",
+      "partOfSpeech": "adjective",
+      "translation": "(mùi vị) tuyệt hảo",
+      "example": "Charles’ steak was delicious.",
+      "exampleTranslation": "Món bít tết của Charles thật tuyệt hảo."
+    },
+    {
+      "word": "Night market",
+      "pronunciation": "/naɪt ˈmɑːkɪt/",
+      "partOfSpeech": "noun",
+      "translation": "chợ đêm",
+      "example": "There are many treats being sold at the night market.",
+      "exampleTranslation": "Có rất nhiều món ngon đang được bày bán tại phiên chợ đêm."
+    },
+    {
+      "word": "Sunrise",
+      "pronunciation": "/ˈsʌnraɪz/",
+      "partOfSpeech": "noun",
+      "translation": "bình minh",
+      "example": "We rushed to the beach at sunrise to take photos.",
+      "exampleTranslation": "Chúng tôi hối hả đến bãi biển vào lúc bình minh để chụp ảnh."
+    },
+    {
+      "word": "Local",
+      "pronunciation": "/ˈləʊkᵊl/",
+      "partOfSpeech": "adjective",
+      "translation": "thuộc về địa phương",
+      "example": "The local people helped to guide us to our hotel.",
+      "exampleTranslation": "Người dân địa phương giúp chỉ đường cho chúng tôi đến được khách sạn của mình."
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "word": "Destination",
+      "pronunciation": "/ˌdɛstɪˈneɪʃᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "điểm đến",
+      "example": "It took us over 2 hours to reach our destination.",
+      "exampleTranslation": "Chúng tôi mất hơn 2 tiếng để đến được địa điểm muốn đến."
+    },
+    {
+      "word": "Itinerary",
+      "pronunciation": "/aɪˈtɪnərəri/",
+      "partOfSpeech": "noun",
+      "translation": "hành trình, lịch trình đi lại",
+      "example": "I will provide you with my travel itinerary before the trip.",
+      "exampleTranslation": "Tôi sẽ cung cấp cho bạn lịch trình đi lại trước chuyến du lịch."
+    },
+    {
+      "word": "Metropolis",
+      "pronunciation": "/mɪˈtrɒpəlɪs/",
+      "partOfSpeech": "noun",
+      "translation": "thủ phủ, trung tâm (văn hóa, chính trị,…)",
+      "example": "New York City is a metropolis known for its skyscrapers.",
+      "exampleTranslation": "Thành phố New York là một thủ phủ nổi tiếng nhờ những tòa nhà chọc trời của nó."
+    },
+    {
+      "word": "Set out",
+      "pronunciation": "/sɛt aʊt/",
+      "partOfSpeech": "phrasal verb",
+      "translation": "bắt đầu lên đường, xuất phát",
+      "example": "We plan to set out on our road trip early tomorrow morning.",
+      "exampleTranslation": "Chúng tôi dự định bắt đầu chuyến đi vào sáng sớm ngày mai."
+    },
+    {
+      "word": "Cuisine",
+      "pronunciation": "/kwɪˈziːn/",
+      "partOfSpeech": "noun",
+      "translation": "ẩm thực",
+      "example": "You must try out our cuisine if you come here.",
+      "exampleTranslation": "Bạn phải thử qua ẩm thực của chúng tôi nếu bạn đến đây."
+    },
+    {
+      "word": "Sample",
+      "pronunciation": "/ˈsɑːmpᵊl/",
+      "partOfSpeech": "verb",
+      "translation": "thử, nếm thử",
+      "example": "You can sample the delicious desserts at the bakery before buying.",
+      "exampleTranslation": "Bạn có thể nếm thử các món tráng miệng tại cửa hàng bánh trước khi mua."
+    },
+    {
+      "word": "Experience",
+      "pronunciation": "/ɪkˈspɪəriəns/",
+      "partOfSpeech": "verb",
+      "translation": "trải nghiệm",
+      "example": "I want to experience life in Paris someday.",
+      "exampleTranslation": "Tôi muốn trải nghiệm qua cuộc sống ở Paris vào một ngày nào đó."
+    },
+    {
+      "word": "Bustling",
+      "pronunciation": "/ˈbʌslɪŋ/",
+      "partOfSpeech": "adjective",
+      "translation": "đông đúc",
+      "example": "The market in the town center is always bustling.",
+      "exampleTranslation": "Chợ ở trung tâm thị trấn luôn luôn đông đúc."
+    },
+    {
+      "word": "Populous",
+      "pronunciation": "/ˈpɒpjələs/",
+      "partOfSpeech": "adjective",
+      "translation": "đông dân",
+      "example": "Tokyo is one of the most populous cities in the world.",
+      "exampleTranslation": "Tokyo là một trong những thành phố đông dân nhất trên thế giới."
+    },
+    {
+      "word": "Native",
+      "pronunciation": "/ˈneɪtɪv/",
+      "partOfSpeech": "adjective",
+      "translation": "thuộc địa phương, bản địa",
+      "example": "My native language is Vietnamese, but I also speak English fluently.",
+      "exampleTranslation": "Tiếng mẹ đẻ của tôi là tiếng Việt, nhưng tôi cũng thành thạo tiếng Anh."
+    }
+  ]
+}

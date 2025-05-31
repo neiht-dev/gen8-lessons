@@ -1,0 +1,359 @@
+{
+  "unit": "Unit 10: Our Houses in the Future",
+  "mainVocabulary": [
+    {
+      "word": "Picture",
+      "pronunciation": "/ˈpɪk.tʃər/",
+      "partOfSpeech": "noun",
+      "translation": "Bức tranh, hình ảnh",
+      "example": "She hung a beautiful picture on the wall.",
+      "exampleTranslation": "Cô ấy treo một bức tranh đẹp lên tường."
+    },
+    {
+      "word": "Solar energy",
+      "pronunciation": "/ˈsoʊlər ˈɛnərdʒi/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Năng lượng mặt trời",
+      "example": "Solar energy is a renewable source of power.",
+      "exampleTranslation": "Năng lượng mặt trời là một nguồn năng lượng tái tạo."
+    },
+    {
+      "word": "Bedroom",
+      "pronunciation": "/ˈbed.ruːm/",
+      "partOfSpeech": "noun",
+      "translation": "Phòng ngủ",
+      "example": "I'm going to bed. See you in the morning in the bedroom.",
+      "exampleTranslation": "Tôi đi ngủ. Hẹn gặp lại bạn vào buổi sáng ở phòng ngủ."
+    },
+    {
+      "word": "Appliance",
+      "pronunciation": "/əˈplaɪ.əns/",
+      "partOfSpeech": "noun",
+      "translation": "Thiết bị, dụng cụ",
+      "example": "The kitchen is equipped with modern appliances.",
+      "exampleTranslation": "Nhà bếp được trang bị các thiết bị hiện đại."
+    },
+    {
+      "word": "Type",
+      "pronunciation": "/taɪp/",
+      "partOfSpeech": "noun",
+      "translation": "Loại, kiểu",
+      "example": "What type of music do you prefer? Classical or pop?",
+      "exampleTranslation": "Bạn thích loại nhạc nào? Nhạc cổ điển hay nhạc pop?"
+    },
+    {
+      "word": "Large",
+      "pronunciation": "/lɑːdʒ/",
+      "partOfSpeech": "adjective",
+      "translation": "Lớn",
+      "example": "They live in a large house in the suburbs.",
+      "exampleTranslation": "Họ sống trong một căn nhà lớn ở ngoại ô."
+    },
+    {
+      "word": "Window",
+      "pronunciation": "/ˈwɪn.dəʊ/",
+      "partOfSpeech": "noun",
+      "translation": "Cửa sổ",
+      "example": "She opened the window to let in some fresh air.",
+      "exampleTranslation": "Cô ấy mở cửa sổ để thông hơi."
+    },
+    {
+      "word": "Beach",
+      "pronunciation": "/biːtʃ/",
+      "partOfSpeech": "noun",
+      "translation": "Bãi biển",
+      "example": "We spent the whole day relaxing on the beach.",
+      "exampleTranslation": "Chúng tôi đã dành cả ngày nghỉ ngơi trên bãi biển."
+    },
+    {
+      "word": "Electric cooker",
+      "pronunciation": "/ɪˈlɛktrɪk ˈkʊkər/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Bếp điện",
+      "example": "She cooked a delicious meal on the electric cooker.",
+      "exampleTranslation": "Cô ấy nấu một bữa ăn ngon trên bếp điện."
+    },
+    {
+      "word": "Washing machine",
+      "pronunciation": "/ˈwɑːʃɪŋ məˈʃiːn/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Máy giặt",
+      "example": "I need to do laundry, so I'll put the clothes in the washing machine.",
+      "exampleTranslation": "Tôi cần giặt đồ, nên tôi sẽ cho quần áo vào máy giặt."
+    },
+    {
+      "word": "Fridge",
+      "pronunciation": "/frɪdʒ/",
+      "partOfSpeech": "noun",
+      "translation": "Tủ lạnh",
+      "example": "The milk is in the fridge.",
+      "exampleTranslation": "Sữa đang ở trong tủ lạnh."
+    },
+    {
+      "word": "Computer",
+      "pronunciation": "/kəmˈpjuː.tər/",
+      "partOfSpeech": "noun",
+      "translation": "Máy tính",
+      "example": "He spends a lot of time working on his computer.",
+      "exampleTranslation": "Anh ấy dành rất nhiều thời gian làm việc trên máy tính."
+    },
+    {
+      "word": "Dishwasher",
+      "pronunciation": "/ˈdɪʃˌwɒʃ.ər/",
+      "partOfSpeech": "noun",
+      "translation": "Máy rửa chén",
+      "example": "After dinner, she loaded the dirty dishes into the dishwasher.",
+      "exampleTranslation": "Sau bữa tối, cô ấy cho bát đĩa dơ vào máy rửa chén."
+    },
+    {
+      "word": "Wireless TV",
+      "pronunciation": "/ˈwaɪrləs ˈtiːˌviː/",
+      "partOfSpeech": "noun phrase",
+      "translation": "TV không dây",
+      "example": "They recently bought a new wireless TV for their living room.",
+      "exampleTranslation": "Họ vừa mua một chiếc TV không dây mới cho phòng khách."
+    },
+    {
+      "word": "Electric fan",
+      "pronunciation": "/ɪˈlɛktrɪk fæn/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Quạt điện",
+      "example": "It's hot in here. Let's turn on the electric fan.",
+      "exampleTranslation": "Ở đây nóng quá. Hãy bật quạt điện lên."
+    },
+    {
+      "word": "Smart clock",
+      "pronunciation": "/smɑːrt klɑːk/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Đồng hồ thông minh",
+      "example": "The smart clock displays the time and can also set alarms.",
+      "exampleTranslation": "Đồng hồ thông minh hiển thị giờ và cũng có thể đặt báo thức."
+    },
+    {
+      "word": "Living room",
+      "pronunciation": "/ˈlɪv.ɪŋ ˌruːm/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Phòng khách",
+      "example": "We gathered in the living room to watch a movie together.",
+      "exampleTranslation": "Chúng tôi tập trung ở phòng khách để xem phim cùng nhau."
+    },
+    {
+      "word": "Kitchen",
+      "pronunciation": "/ˈkɪtʃ.ən/",
+      "partOfSpeech": "noun",
+      "translation": "Nhà bếp",
+      "example": "She enjoys cooking in her spacious kitchen.",
+      "exampleTranslation": "Cô ấy thích nấu ăn trong căn bếp rộng rãi của mình."
+    },
+    {
+      "word": "Housework",
+      "pronunciation": "/ˈhaʊs.wɜːk/",
+      "partOfSpeech": "noun",
+      "translation": "Công việc nhà",
+      "example": "They share the housework, with each person taking on different tasks.",
+      "exampleTranslation": "Họ chia sẻ công việc nhà, mỗi người đảm nhận các nhiệm vụ khác nhau."
+    },
+    {
+      "word": "Palace",
+      "pronunciation": "/ˈpæl.ɪs/",
+      "partOfSpeech": "noun",
+      "translation": "Cung điện",
+      "example": "The royal family lives in a grand palace.",
+      "exampleTranslation": "Hoàng gia sống trong một cung điện lộng lẫy."
+    },
+    {
+      "word": "Iron clothes",
+      "pronunciation": "/aɪən kləʊðz/",
+      "partOfSpeech": "verb",
+      "translation": "Ủi quần áo",
+      "example": "She needs to iron her clothes before the party.",
+      "exampleTranslation": "Cô ấy cần ủi quần áo trước khi đi dự tiệc."
+    },
+    {
+      "word": "Floor",
+      "pronunciation": "/flɔːr/",
+      "partOfSpeech": "noun",
+      "translation": "Sàn nhà",
+      "example": "The cat likes to sleep on the floor.",
+      "exampleTranslation": "Con mèo thích ngủ trên sàn nhà."
+    },
+    {
+      "word": "Smart TV",
+      "pronunciation": "/ˌsmɑːt tiːˈviː/",
+      "partOfSpeech": "noun phrase",
+      "translation": "TV thông minh",
+      "example": "They bought a new smart TV with internet connectivity.",
+      "exampleTranslation": "Họ đã mua một chiếc TV thông minh mới với kết nối internet."
+    },
+    {
+      "word": "Garden",
+      "pronunciation": "/ˈɡɑː.dən/",
+      "partOfSpeech": "noun",
+      "translation": "Vườn",
+      "example": "They have a beautiful garden with various flowers and plants.",
+      "exampleTranslation": "Họ có một khu vườn đẹp với nhiều loại hoa và cây."
+    },
+    {
+      "word": "Swimming pool",
+      "pronunciation": "/ˈswɪm.ɪŋ ˌpuːl/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Bể bơi",
+      "example": "The hotel has a large swimming pool for guests to enjoy.",
+      "exampleTranslation": "Khách sạn có một bể bơi lớn để khách hàng tận hưởng."
+    },
+    {
+      "word": "View",
+      "pronunciation": "/vjuː/",
+      "partOfSpeech": "noun",
+      "translation": "Cảnh quan",
+      "example": "Their apartment has a stunning view of the city skyline.",
+      "exampleTranslation": "Căn hộ của họ có tầm nhìn đẹp tới tòa thành phố."
+    },
+    {
+      "word": "Dinner",
+      "pronunciation": "/ˈdɪn.ər/",
+      "partOfSpeech": "noun",
+      "translation": "Bữa tối",
+      "example": "They had a delicious dinner at a fancy restaurant.",
+      "exampleTranslation": "Họ đã có một bữa tối ngon miệng ở một nhà hàng sang trọng."
+    },
+    {
+      "word": "Cottage",
+      "pronunciation": "/ˈkɒt.ɪdʒ/",
+      "partOfSpeech": "noun",
+      "translation": "Nhà tranh",
+      "example": "They spent their vacation in a cozy cottage by the lake.",
+      "exampleTranslation": "Họ đã trải qua k�ì nghỉ của mình trong một căn nhà tranh thoải mái bên hồ."
+    },
+    {
+      "word": "Hi-tech",
+      "pronunciation": "/ˌhaɪˈtek/",
+      "partOfSpeech": "adjective",
+      "translation": "Công nghệ cao",
+      "example": "The company specializes in producing hi-tech gadgets.",
+      "exampleTranslation": "Công ty chuyên sản xuất các thiết bị công nghệ cao."
+    },
+    {
+      "word": "Location",
+      "pronunciation": "/ləʊˈkeɪ.ʃən/",
+      "partOfSpeech": "noun",
+      "translation": "Vị trí",
+      "example": "The hotel is in a prime location, close to the city center.",
+      "exampleTranslation": "Khách sạn nằm ở vị trí đắc địa, gần trung tâm thành phố."
+    },
+    {
+      "word": "Look after",
+      "pronunciation": "/lʊk/",
+      "partOfSpeech": "phrasal verb",
+      "translation": "Chăm sóc",
+      "example": "She looks after her younger siblings while their parents are at work.",
+      "exampleTranslation": "Cô ấy chăm sóc em út trong khi cha mẹ làm việc."
+    },
+    {
+      "word": "Outside",
+      "pronunciation": "/ˌaʊtˈsaɪd/",
+      "partOfSpeech": "preposition",
+      "translation": "Bên ngoài",
+      "example": "They sat outside on the patio and enjoyed the sunshine.",
+      "exampleTranslation": "Họ ngồi bên ngoài trên ban công và thưởng thức ánh nắng mặt trời."
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "word": "Futuristic houses",
+      "pronunciation": "/ˌfjuːʧəˈrɪstɪk ˈhaʊzɪz/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Nhà hiện đại, nhà tương lai",
+      "example": "Futuristic houses are designed with advanced technology and innovative features.",
+      "exampleTranslation": "Các ngôi nhà hiện đại được thiết kế với công nghệ tiên tiến và các tính năng đổi mới."
+    },
+    {
+      "word": "Innovate",
+      "pronunciation": "/ˈɪn.ə.veɪt/",
+      "partOfSpeech": "verb",
+      "translation": "Đổi mới, đổi mới sáng tạo",
+      "example": "Architects are constantly trying to innovate and create unique designs for houses in the future.",
+      "exampleTranslation": "Các kiến trúc sư luôn cố gắng đổi mới và tạo ra những thiết kế độc đáo cho các ngôi nhà trong tương lai."
+    },
+    {
+      "word": "Sustainable",
+      "pronunciation": "/səˈsteɪ.nə.bəl/",
+      "partOfSpeech": "adjective",
+      "translation": "Bền vững, có thể bảo tồn được",
+      "example": "Houses in the future will focus on sustainable materials and energy-efficient systems.",
+      "exampleTranslation": "Các ngôi nhà trong tương lai sẽ tập trung vào vật liệu bền vững và hệ thống tiết kiệm năng lượng."
+    },
+    {
+      "word": "Smart home",
+      "pronunciation": "/smɑːt həʊm/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Nhà thông minh",
+      "example": "Smart homes will become more common in the future, with automated systems for lighting, security, and temperature control.",
+      "exampleTranslation": "Nhà thông minh sẽ trở nên phổ biến hơn trong tương lai, với các hệ thống tự động cho ánh sáng, an ninh và điều khiển nhiệt độ."
+    },
+    {
+      "word": "Vertical farming",
+      "pronunciation": "/ˈvɜːtɪkᵊl ˈfɑːmɪŋ/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Nông nghiệp thủy canh, trồng trọt dọc",
+      "example": "Future houses may incorporate vertical farming systems to provide fresh produce within urban environments.",
+      "exampleTranslation": "Các ngôi nhà trong tương lai có thể tích hợp hệ thống nông nghiệp thủy canh dọc để cung cấp các sản phẩm tươi sống trong môi trường đô thị."
+    },
+    {
+      "word": "Self-sufficient",
+      "pronunciation": "/ˌself.səˈfɪʃ.ənt/",
+      "partOfSpeech": "adjective",
+      "translation": "Tự cung cấp, tự cân bằng",
+      "example": "Houses in the future will strive to be self-sufficient, generating their own energy and managing waste efficiently.",
+      "exampleTranslation": "Các ngôi nhà trong tương lai sẽ cố gắng tự cung cấp, tạo ra năng lượng riêng và quản lý chất thải một cách hiệu quả."
+    },
+    {
+      "word": "Eco-friendly",
+      "pronunciation": "/ˈiː.kəʊˌfrend.li/",
+      "partOfSpeech": "adjective",
+      "translation": "Thân thiện với môi trường",
+      "example": "Eco-friendly materials and practices will be integral to the design of houses in the future.",
+      "exampleTranslation": "Vật liệu và phương pháp thân thiện với môi trường sẽ là yếu tố quan trọng trong thiết kế các ngôi nhà trong tương lai."
+    },
+    {
+      "word": "Adaptability",
+      "pronunciation": "/əˌdæp.təˈbɪl.ə.ti/",
+      "partOfSpeech": "noun",
+      "translation": "Khả năng thích ứng, linh hoạt",
+      "example": "Future houses will prioritize adaptability to accommodate changing needs and lifestyles.",
+      "exampleTranslation": "Các ngôi nhà trong tương lai sẽ ưu tiên khả năng thích ứng để phù hợp với nhu cầu và lối sống thay đổi."
+    },
+    {
+      "word": "Transform",
+      "pronunciation": "/trænsˈfɔːm/",
+      "partOfSpeech": "verb",
+      "translation": "Biến đổi, chuyển đổi",
+      "example": "Houses in the future may have transformative features that allow for flexible use of space.",
+      "exampleTranslation": "Các ngôi nhà trong tương lai có thể có các tính năng biến đổi cho phép sử dụng không gian linh hoạt."
+    },
+    {
+      "word": "Energy storage",
+      "pronunciation": "/ˈɛnəʤi ˈstɔːrɪʤ/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Lưu trữ năng lượng",
+      "example": "Future houses will incorporate advanced energy storage systems to optimize energy usage.",
+      "exampleTranslation": "Các ngôi nhà trong tương lai sẽ tích hợp hệ thống lưu trữ năng lượng tiên tiến để tối ưu hóa việc sử dụng năng lượng."
+    },
+    {
+      "word": "Solar panels",
+      "pronunciation": "/ˈsəʊlə ˈpænᵊlz/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Tấm pin mặt trời",
+      "example": "Solar panels will be a common feature of houses in the future, harnessing renewable energy.",
+      "exampleTranslation": "Tấm pin mặt trời sẽ là một đặc trưng phổ biến của các ngôi nhà trong tương lai, tận dụng năng lượng tái tạo."
+    },
+    {
+      "word": "Sustainable community",
+      "pronunciation": "/səsˈteɪnəbᵊl kəˈmjuːnəti/",
+      "partOfSpeech": "noun phrase",
+      "translation": "Cộng đồng bền vững",
+      "example": "In the future, houses will be part of sustainable communities that prioritize shared resources and environmental conservation.",
+      "exampleTranslation": "Trong tương lai, các ngôi nhà sẽ là một phần của cộng đồng bền vững, ưu tiên tài nguyên chung và bảo vệ môi trường."
+    }
+  ]
+}

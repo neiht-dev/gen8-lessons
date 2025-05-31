@@ -1,0 +1,327 @@
+{
+  "unit": "Unit 11: Our Green Future",
+  "mainVocabulary": [
+    {
+      "word": "Reusable",
+      "pronunciation": "/riːˈjuːzəbᵊl/",
+      "partOfSpeech": "adjective",
+      "translation": "có thể tái sử dụng",
+      "example": "I like to use reusable bags to help the environment.",
+      "exampleTranslation": "Tôi thích dùng túi có thể tái sử dụng để giúp bảo vệ môi trường."
+    },
+    {
+      "word": "Plastic",
+      "pronunciation": "/ˈplæstɪk/",
+      "partOfSpeech": "adjective",
+      "translation": "bằng nhựa",
+      "example": "We shouldn't use too much plastic bottles.",
+      "exampleTranslation": "Chúng ta không nên sử dụng quá nhiều chai nhựa."
+    },
+    {
+      "word": "Environment",
+      "pronunciation": "/ɪnˈvaɪərənmənt/",
+      "partOfSpeech": "noun",
+      "translation": "môi trường",
+      "example": "It is our job to protect the environment.",
+      "exampleTranslation": "Bảo vệ môi trường là nghĩa vụ của mỗi chúng ta."
+    },
+    {
+      "word": "Check-out",
+      "pronunciation": "/ʧɛk-aʊt/",
+      "partOfSpeech": "noun",
+      "translation": "quầy thanh toán",
+      "example": "You go to the check-out to pay for your groceries.",
+      "exampleTranslation": "Bạn đến quầy thanh toán để trả tiền cho đồ mình mua."
+    },
+    {
+      "word": "Green",
+      "pronunciation": "/ɡriːn/",
+      "partOfSpeech": "adjective",
+      "translation": "thân thiện với môi trường",
+      "example": "My family usually eat out on special occasions.",
+      "exampleTranslation": "Gia đình tôi thường đi ăn ở ngoài vào những dịp đặc biệt."
+    },
+    {
+      "word": "Kind",
+      "pronunciation": "/kaɪnd/",
+      "partOfSpeech": "noun",
+      "translation": "loại, thể loại",
+      "example": "What kind of book do you like?",
+      "exampleTranslation": "Bạn thích thể loại sách nào?"
+    },
+    {
+      "word": "Plant",
+      "pronunciation": "/plɑːnt/",
+      "partOfSpeech": "verb",
+      "translation": "trồng (cây)",
+      "example": "We are going to plant some trees behind the school.",
+      "exampleTranslation": "Chúng tôi sắp trồng một vài cái cây phía sau trường."
+    },
+    {
+      "word": "Rubbish",
+      "pronunciation": "/ˈrʌbɪʃ/",
+      "partOfSpeech": "noun",
+      "translation": "rác thải",
+      "example": "The rubbish is collected at 5 p.m. every afternoon.",
+      "exampleTranslation": "Rác thải sẽ được thu gom vào lúc 5 giờ mỗi buổi chiều."
+    },
+    {
+      "word": "Reduce",
+      "pronunciation": "/rɪˈdjuːs/",
+      "partOfSpeech": "verb",
+      "translation": "cắt giảm",
+      "example": "Everyone should try to reduce electricity usage.",
+      "exampleTranslation": "Mỗi người nên cố gắng cắt giảm lượng điện mình sử dụng."
+    },
+    {
+      "word": "Reuse",
+      "pronunciation": "/riːˈjuːz/",
+      "partOfSpeech": "verb",
+      "translation": "tái sử dụng",
+      "example": "You can reuse this bottle, instead of throwing it away like plastic ones.",
+      "exampleTranslation": "Bạn có thể tái sử dụng cái chai nước này, thay vì vứt nó đi như chai nhựa."
+    },
+    {
+      "word": "Recycle",
+      "pronunciation": "/ˌriːˈsaɪkᵊl/",
+      "partOfSpeech": "verb",
+      "translation": "tái chế",
+      "example": "Old gift wraps can be recycled easily.",
+      "exampleTranslation": "Những giấy gói quà cũ có thể được tái chế một cách dễ dàng."
+    },
+    {
+      "word": "Product",
+      "pronunciation": "/ˈprɒdʌkt/",
+      "partOfSpeech": "noun",
+      "translation": "sản phẩm",
+      "example": "You can create new products from used things.",
+      "exampleTranslation": "Bạn có thể tạo ra những sản phẩm mới từ những thứ đã qua sử dụng."
+    },
+    {
+      "word": "Material",
+      "pronunciation": "/məˈtɪəriəl/",
+      "partOfSpeech": "noun",
+      "translation": "nguyên liệu, vật liệu",
+      "example": "I can make a baking soda volcano using the materials we have.",
+      "exampleTranslation": "Tôi có thể làm một cái núi lửa từ muối nở sử dụng những nguyên liệu mà chúng ta đã có."
+    },
+    {
+      "word": "Glass",
+      "pronunciation": "/ɡlɑːs/",
+      "partOfSpeech": "noun",
+      "translation": "thủy tinh",
+      "example": "Kim's family has a beautiful teapot made from glass.",
+      "exampleTranslation": "Gia đình Kim có một ấm trà rất đẹp bằng thủy tinh."
+    },
+    {
+      "word": "Article",
+      "pronunciation": "/ˈɑːtɪkᵊl/",
+      "partOfSpeech": "noun",
+      "translation": "bài báo",
+      "example": "I read an article earlier about what we can do to help the environment.",
+      "exampleTranslation": "Nãy tôi có đọc một bài báo về những việc chúng ta có thể làm để giúp bảo vệ môi trường."
+    },
+    {
+      "word": "Cough",
+      "pronunciation": "/kɒf/",
+      "partOfSpeech": "verb",
+      "translation": "ho",
+      "example": "Lan's coughing; is she sick?",
+      "exampleTranslation": "Lan đang ho kìa; cô ấy bị ốm à?"
+    },
+    {
+      "word": "Fresh",
+      "pronunciation": "/frɛʃ/",
+      "partOfSpeech": "adjective",
+      "translation": "tươi",
+      "example": "We only sell fresh fish here, so don't worry.",
+      "exampleTranslation": "Ở đây chúng tôi chỉ bán cá tươi, nên đừng lo lắng."
+    },
+    {
+      "word": "Flood",
+      "pronunciation": "/flʌd/",
+      "partOfSpeech": "noun",
+      "translation": "lũ lụt",
+      "example": "Some common natural disasters include floods and droughts.",
+      "exampleTranslation": "Một số thiên tai thường thấy gồm có lũ lụt và hạn hán."
+    },
+    {
+      "word": "Forest",
+      "pronunciation": "/ˈfɒrɪst/",
+      "partOfSpeech": "noun",
+      "translation": "khu rừng",
+      "example": "Minh and his friends had a picnic in the forest last week.",
+      "exampleTranslation": "Minh và bạn bè đã đi dã ngoại trong rừng vào tuần trước"
+    },
+    {
+      "word": "Air conditioner",
+      "pronunciation": "/eə kənˈdɪʃᵊnə/",
+      "partOfSpeech": "noun phrase",
+      "translation": "máy điều hòa",
+      "example": "Turn the air conditioner off when you're done using it, please.",
+      "exampleTranslation": "Xin hãy tắt điều hòa khi sử dụng xong."
+    },
+    {
+      "word": "Exchange",
+      "pronunciation": "/ɪksˈʧeɪnʤ/",
+      "partOfSpeech": "verb",
+      "translation": "trao đổi",
+      "example": "Would you like to exchange uniforms? Mine is too big.",
+      "exampleTranslation": "Bạn có muốn đổi đồng phục với tôi không? Bộ của tôi bị rộng quá."
+    },
+    {
+      "word": "Charity",
+      "pronunciation": "/ˈʧærəti/",
+      "partOfSpeech": "noun",
+      "translation": "từ thiện",
+      "example": "All money earned during our event will be donated to charity.",
+      "exampleTranslation": "Tất cả số tiền thu được từ sự kiện của chúng tôi sẽ được quyên góp cho từ thiện."
+    },
+    {
+      "word": "Borrow",
+      "pronunciation": "/ˈbɒrəʊ/",
+      "partOfSpeech": "verb",
+      "translation": "mượn",
+      "example": "Jenny borrowed my car to pick up her mother from the airport.",
+      "exampleTranslation": "Jenny đã mượn xe của tôi để đi đón mẹ từ sân bay."
+    },
+    {
+      "word": "Creative",
+      "pronunciation": "/kriˈeɪtɪv/",
+      "partOfSpeech": "adjective",
+      "translation": "sáng tạo",
+      "example": "Mina is very creative; she should become an artist one day.",
+      "exampleTranslation": "Mina rất sáng tạo; cô ấy nên trở thành họa sĩ một ngày nào đó trong tương lai."
+    },
+    {
+      "word": "Container",
+      "pronunciation": "/kənˈteɪnə/",
+      "partOfSpeech": "noun",
+      "translation": "hộp chứa, thùng chứa, vật chứa",
+      "example": "All students must put recyclable materials in this green container.",
+      "exampleTranslation": "Tất cả các học sinh phải bỏ những nguyên vật liệu có thể tái chế vào thùng màu xanh này."
+    },
+    {
+      "word": "Item",
+      "pronunciation": "/ˈaɪtəm/",
+      "partOfSpeech": "noun",
+      "translation": "vật phẩm",
+      "example": "You may pick any of these items as your prize for winning the game.",
+      "exampleTranslation": "Bạn có thể chọn 1 trong số bất kỳ những vật phẩm này để trở thành giải thưởng chiến thắng trò chơi của mình."
+    },
+    {
+      "word": "Fair",
+      "pronunciation": "/feə/",
+      "partOfSpeech": "noun",
+      "translation": "hội chợ",
+      "example": "Every year, our school hosts a job fair to let us explore different career paths.",
+      "exampleTranslation": "Mỗi năm, nhà trường đều tổ chức ngày hội việc làm để chúng tôi tìm hiểu những con đường sự nghiệp khác nhau."
+    },
+    {
+      "word": "Organise",
+      "pronunciation": "/ˈɔːɡᵊnaɪz/",
+      "partOfSpeech": "verb",
+      "translation": "tổ chức",
+      "example": "When you organise an event, make sure to think of the time.",
+      "exampleTranslation": "Khi bạn đang tổ chức 1 sự kiện, hãy là phải để ý đến thời gian."
+    },
+    {
+      "word": "Event",
+      "pronunciation": "/ɪˈvɛnt/",
+      "partOfSpeech": "noun",
+      "translation": "sự kiện",
+      "example": "It is going to be a small event, with close friends and family only.",
+      "exampleTranslation": "Sẽ chỉ là một sự kiện nhỏ thôi, chỉ có bạn bè và người thân đến dự."
+    },
+    {
+      "word": "Recycling bin",
+      "pronunciation": "/ˌriːˈsaɪklɪŋ bɪn/",
+      "partOfSpeech": "noun phrase",
+      "translation": "thùng rác tái chế",
+      "example": "If we put recycling bins in every classroom, we can help raise awareness amongst students about protecting the environment.",
+      "exampleTranslation": "Nếu chúng ta đặt các thùng rác tái chế, chúng ta có thể nâng cao ý thức trong toàn thể học sinh về bảo vệ môi trường."
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "word": "Litter",
+      "pronunciation": "/ˈlɪtə/",
+      "partOfSpeech": "verb",
+      "translation": "vứt rác bừa bãi",
+      "example": "If you litter here, you may get a fine.",
+      "exampleTranslation": "Nếu bạn vứt rác bừa bãi ở đây, bạn có thể sẽ bị phạt tài chính."
+    },
+    {
+      "word": "Cut down on",
+      "pronunciation": "/kʌt daʊn ɒn/",
+      "partOfSpeech": "phrasal verb",
+      "translation": "cắt giảm, giảm thiểu",
+      "example": "My New Year's Resolution is to cut down on household waste in the upcoming months.",
+      "exampleTranslation": "Mục tiêu cho năm mới của tôi là cắt giảm rác thải sinh hoạt trong những tháng sắp tới."
+    },
+    {
+      "word": "Do away with",
+      "pronunciation": "/duː əˈweɪ wɪð/",
+      "partOfSpeech": "phrasal verb",
+      "translation": "vứt bỏ, chấm dứt",
+      "example": "I think it's time we do away with our habit of wasting water.",
+      "exampleTranslation": "Tôi nghĩ là đã đến lúc chúng ta chấm dứt thói quen lãng phí nước."
+    },
+    {
+      "word": "Landfill",
+      "pronunciation": "/ˈlændfɪl/",
+      "partOfSpeech": "noun",
+      "translation": "bãi rác",
+      "example": "A lot of perfectly good clothes end up in landfills.",
+      "exampleTranslation": "Có rất nhiều quần áo vẫn còn dùng tốt cuối cùng lại bị vứt ra bãi rác."
+    },
+    {
+      "word": "Repurpose",
+      "pronunciation": "/ˌriːˈpɜːpəs/",
+      "partOfSpeech": "verb",
+      "translation": "tái sử dụng với mục đích khác",
+      "example": "I think we can repurpose these tyres to make swings for our children.",
+      "exampleTranslation": "Tôi nghĩ chúng ta có thể tái sử dụng những cái lốp xe này với mục đích khác là làm xích đu cho bọn trẻ."
+    },
+    {
+      "word": "Dispose",
+      "pronunciation": "/dɪsˈpəʊz/",
+      "partOfSpeech": "verb",
+      "translation": "vứt bỏ",
+      "example": "We can probably recycle those bottles instead of disposing of them.",
+      "exampleTranslation": "Chúng ta chắc cũng có thể tái chế những cái chai đó thay vì vứt chúng đi."
+    },
+    {
+      "word": "Compostable",
+      "pronunciation": "/ˈkɒmpɒstəbᵊl/",
+      "partOfSpeech": "adjective",
+      "translation": "có thể phân hủy thành phân hữu cơ",
+      "example": "Almost all of our food are compostable.",
+      "exampleTranslation": "Hầu như tất cả đồ ăn của chúng tôi đều có thể phân hủy thành phân hữu cơ."
+    },
+    {
+      "word": "Renewable energy",
+      "pronunciation": "/rɪˈnjuːəbᵊl ˈɛnəʤi/",
+      "partOfSpeech": "noun phrase",
+      "translation": "năng lượng có thể tái tạo",
+      "example": "In the future, I think we will only use different types of renewable energy.",
+      "exampleTranslation": "Trong tương lai, tôi nghĩ rằng chúng ta sẽ chỉ sử dụng những loại năng lượng có thể tái tạo khác nhau."
+    },
+    {
+      "word": "Climate change",
+      "pronunciation": "/ˈklaɪmət ʧeɪnʤ/",
+      "partOfSpeech": "noun",
+      "translation": "biến đổi khí hậu",
+      "example": "What can we do to combat climate change?",
+      "exampleTranslation": "Chúng ta có thể làm gì để chống lại biến đổi khí hậu?"
+    },
+    {
+      "word": "Conserve",
+      "pronunciation": "/kənˈsɜːv/",
+      "partOfSpeech": "verb",
+      "translation": "giữ gìn, bảo tồn",
+      "example": "This area is specifically made to conserve local wildlife.",
+      "exampleTranslation": "Khu vực này được tạo ra với mục đích cụ thể là bảo tồn các loài động vật hoang dã của địa phương."
+    }
+  ]
+}

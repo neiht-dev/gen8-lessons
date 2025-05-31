@@ -1,0 +1,463 @@
+{
+  "unit": "Unit 1: My new school",
+  "mainVocabulary": [
+    {
+      "word": "Ready",
+      "pronunciation": "/ˈrɛdi/",
+      "partOfSpeech": "adjective",
+      "translation": "Sẵn sàng",
+      "example": "I am ready for the new school year.",
+      "exampleTranslation": "Mình đã sẵn sàng cho năm học mới rồi."
+    },
+    {
+      "word": "Friend",
+      "pronunciation": "/frɛnd/",
+      "partOfSpeech": "noun",
+      "translation": "Bạn bè",
+      "example": "I have many new friends.",
+      "exampleTranslation": "Mình có rất nhiều bạn mới."
+    },
+    {
+      "word": "Friendly",
+      "pronunciation": "/ˈfrɛndli/",
+      "partOfSpeech": "adjective",
+      "translation": "Thân thiện",
+      "example": "She is very friendly.",
+      "exampleTranslation": "Cô ấy rất thân thiện."
+    },
+    {
+      "word": "Friendliness",
+      "pronunciation": "/ˈfrɛndlɪnəs/",
+      "partOfSpeech": "noun",
+      "translation": "Sự thân thiện",
+      "example": "Friendliness is very important.",
+      "exampleTranslation": "Sự thân thiện là rất quan trọng."
+    },
+    {
+      "word": "Same",
+      "pronunciation": "/seɪm/",
+      "partOfSpeech": "adjective",
+      "translation": "Cùng, giống",
+      "example": "We go to the same school.",
+      "exampleTranslation": "Chúng tớ học cùng trường."
+    },
+    {
+      "word": "Heavy",
+      "pronunciation": "/ˈhɛvi/",
+      "partOfSpeech": "adjective",
+      "translation": "Nặng",
+      "example": "This book looks heavy.",
+      "exampleTranslation": "Quyển sách này trông nặng thật."
+    },
+    {
+      "word": "Heaviness",
+      "pronunciation": "/ˈhɛvɪnəs/",
+      "partOfSpeech": "noun",
+      "translation": "Sự nặng nề",
+      "example": "The heaviness of the backpack made it difficult for him to walk to school.",
+      "exampleTranslation": "Sức nặng của chiếc cặp khiến cậu ấy gặp khó khăn trong việc đi bộ đến trường."
+    },
+    {
+      "word": "Subject",
+      "pronunciation": "/ˈsʌbʤɪkt/",
+      "partOfSpeech": "noun",
+      "translation": "Môn học",
+      "example": "My favourite subject is English.",
+      "exampleTranslation": "Môn học ưa thích nhất của tớ là tiếng Anh."
+    },
+    {
+      "word": "Uniform",
+      "pronunciation": "/ˈjuːnɪfɔːm/",
+      "partOfSpeech": "noun",
+      "translation": "Đồng phục",
+      "example": "My mother buys me a new uniform.",
+      "exampleTranslation": "Mẹ mua đồng phục mới cho mình."
+    },
+    {
+      "word": "Smart",
+      "pronunciation": "/smɑːt/",
+      "partOfSpeech": "adjective",
+      "translation": "Bảnh bao, thông minh",
+      "example": "You look smart in your school uniform.",
+      "exampleTranslation": "Cậu trông thật bảnh bao trong bộ đồng phục mới."
+    },
+    {
+      "word": "Put on",
+      "pronunciation": "/pʊt ɒn/",
+      "partOfSpeech": "phrasal verb",
+      "translation": "Mặc vào",
+      "example": "Let me put on my uniform.",
+      "exampleTranslation": "Để mình mặc đồng phục vào đã."
+    },
+    {
+      "word": "School bag",
+      "pronunciation": "/skuːl bæɡ/",
+      "partOfSpeech": "noun",
+      "translation": "Cặp sách",
+      "example": "This is my new school bag. It's so beautiful.",
+      "exampleTranslation": "Đây là cặp sách mới của tớ. Nó thật đẹp nhỉ."
+    },
+    {
+      "word": "Pencil sharpener",
+      "pronunciation": "/ˈpɛnsᵊl ˈʃɑːpᵊnə/",
+      "partOfSpeech": "noun",
+      "translation": "chuốt bút chì, gọt bút chì",
+      "example": "Can I borrow your pencil sharpener?",
+      "exampleTranslation": "Cậu có thể cho tớ mượn chiếc gọt bút chì không?"
+    },
+    {
+      "word": "Compass",
+      "pronunciation": "/ˈkʌmpəs/",
+      "partOfSpeech": "noun",
+      "translation": "chiếc com-pa",
+      "example": "You need a compass to draw a circle.",
+      "exampleTranslation": "Bạn cần một chiếc com-pa để vẽ một hình tròn."
+    },
+    {
+      "word": "Calculator",
+      "pronunciation": "/ˈkælkjəleɪtə/",
+      "partOfSpeech": "noun",
+      "translation": "Máy tính cầm tay",
+      "example": "You must not use a calculator in the test.",
+      "exampleTranslation": "Các em không được sử dụng máy tính cầm tay trong bài thi này."
+    },
+    {
+      "word": "Rubber",
+      "pronunciation": "/ˈrʌbə/",
+      "partOfSpeech": "noun",
+      "translation": "Cục tẩy, cục gôm",
+      "example": "Do you see my rubber anywhere?",
+      "exampleTranslation": "Bạn có thấy cục gôm của tôi ở đâu không?"
+    },
+    {
+      "word": "Pencil case",
+      "pronunciation": "/ˈpɛnsᵊl keɪs/",
+      "partOfSpeech": "noun",
+      "translation": "Hộp bút",
+      "example": "I have a beautiful pencil case.",
+      "exampleTranslation": "Tôi có một chiếc hộp bút rất đẹp."
+    },
+    {
+      "word": "School lunch",
+      "pronunciation": "/skuːl lʌnʧ/",
+      "partOfSpeech": "noun",
+      "translation": "Bữa ăn trưa ở trường",
+      "example": "I often have banh mi for my school lunch.",
+      "exampleTranslation": "Tôi thường mang bánh mì để ăn trưa ở trường."
+    },
+    {
+      "word": "English",
+      "pronunciation": "/ˈɪŋɡlɪʃ/",
+      "partOfSpeech": "noun",
+      "translation": "Môn tiếng Anh",
+      "example": "English is my favourite subject.",
+      "exampleTranslation": "Tiếng Anh là môn học ưa thích nhất của tôi."
+    },
+    {
+      "word": "History",
+      "pronunciation": "/ˈhɪstᵊri/",
+      "partOfSpeech": "noun",
+      "translation": "Môn Lịch sử",
+      "example": "I like learning History.",
+      "exampleTranslation": "Tôi thích học môn Lịch sử."
+    },
+    {
+      "word": "Exercise",
+      "pronunciation": "/ˈɛksəsaɪz/",
+      "partOfSpeech": "noun",
+      "translation": "Bài tập",
+      "example": "I do English exercises everyday.",
+      "exampleTranslation": "Tôi làm bài tập tiếng Anh hằng ngày."
+    },
+    {
+      "word": "Science",
+      "pronunciation": "/ˈsaɪəns/",
+      "partOfSpeech": "noun",
+      "translation": "Môn Khoa học",
+      "example": "Science is my favourite subject.",
+      "exampleTranslation": "Môn Khoa học là môn học yêu thích nhất của tôi."
+    },
+    {
+      "word": "Teach",
+      "pronunciation": "/tiːʧ/",
+      "partOfSpeech": "verb",
+      "translation": "Dạy học",
+      "example": "Mrs. Kim teaches us English.",
+      "exampleTranslation": "Cô Kim dạy tiếng Anh cho chúng tôi."
+    },
+    {
+      "word": "Teacher",
+      "pronunciation": "/ˈtiːʧə/",
+      "partOfSpeech": "noun",
+      "translation": "Giáo viên",
+      "example": "I want to become a teacher in the future.",
+      "exampleTranslation": "Tôi muốn trở thành một giáo viên trong tương lai."
+    },
+    {
+      "word": "Healthy",
+      "pronunciation": "/ˈhɛlθi/",
+      "partOfSpeech": "adjective",
+      "translation": "Khỏe mạnh",
+      "example": "I exercise a lot to be healthy.",
+      "exampleTranslation": "Tôi tập thể dục rất nhiều để trở nên khỏe mạnh."
+    },
+    {
+      "word": "Health",
+      "pronunciation": "/hɛlθ/",
+      "partOfSpeech": "noun",
+      "translation": "Sức khỏe",
+      "example": "Health is very important in our life.",
+      "exampleTranslation": "Sức khỏe rất quan trọng đối với cuộc sống của chúng ta."
+    },
+    {
+      "word": "Study",
+      "pronunciation": "/ˈstʌdi/",
+      "partOfSpeech": "verb",
+      "translation": "Học",
+      "example": "I study very hard to get good grades.",
+      "exampleTranslation": "Tôi học hành rất chăm chỉ để được điểm tốt."
+    },
+    {
+      "word": "Art",
+      "pronunciation": "/ɑːt/",
+      "partOfSpeech": "noun",
+      "translation": "Môn Mỹ thuật",
+      "example": "Art is my favourite subject.",
+      "exampleTranslation": "Mỹ thuật là môn học yêu thích của tôi."
+    },
+    {
+      "word": "Artistic",
+      "pronunciation": "/ɑːˈtɪstɪk/",
+      "partOfSpeech": "adjective",
+      "translation": "Mang tính nghệ thuật, thuộc về nghệ thuật",
+      "example": "My friend Sarah is very artistic; she loves to draw and paint beautiful pictures in her free time.",
+      "exampleTranslation": "Bạn của tôi, Sarah, rất có tính nghệ thuật. Cậu ấy thích vẽ và tô màu những bức tranh thật đẹp vào thời gian rảnh."
+    },
+    {
+      "word": "Artist",
+      "pronunciation": "/ˈɑːtɪst/",
+      "partOfSpeech": "noun",
+      "translation": "Nghệ sĩ",
+      "example": "Son Tung M-TP is my favourite artist.",
+      "exampleTranslation": "Sơn Tùng M-TP là nghệ sĩ mà tôi yêu thích nhất."
+    },
+    {
+      "word": "Cycle",
+      "pronunciation": "/ˈsaɪkᵊl/",
+      "partOfSpeech": "verb",
+      "translation": "Đạp xe đạp",
+      "example": "I usually cycle to school.",
+      "exampleTranslation": "Tôi thỉnh thoảng đạp xe đến trường."
+    },
+    {
+      "word": "Centre",
+      "pronunciation": "/ˈsɛntə/",
+      "partOfSpeech": "noun",
+      "translation": "Trung tâm",
+      "example": "I like living in the city centre.",
+      "exampleTranslation": "Tôi rất thích sống ở trung tâm thành phố."
+    },
+    {
+      "word": "Village",
+      "pronunciation": "/ˈvɪlɪʤ/",
+      "partOfSpeech": "noun",
+      "translation": "Ngôi làng",
+      "example": "My grandparents live in a small village.",
+      "exampleTranslation": "Ông bà của tôi sống ở một ngôi làng nhỏ."
+    },
+    {
+      "word": "Playground",
+      "pronunciation": "/ˈpleɪɡraʊnd/",
+      "partOfSpeech": "noun",
+      "translation": "Sân chơi",
+      "example": "My sister likes playing in the playground.",
+      "exampleTranslation": "Em gái của tôi rất thích chơi ở sân chơi."
+    },
+    {
+      "word": "Rarely",
+      "pronunciation": "/ˈreəli/",
+      "partOfSpeech": "adverb",
+      "translation": "Hiếm khi",
+      "example": "I rarely stay up late.",
+      "exampleTranslation": "Tôi hiếm khi ngủ muộn."
+    },
+    {
+      "word": "Usually",
+      "pronunciation": "/ˈjuːʒʊəli/",
+      "partOfSpeech": "adverb",
+      "translation": "Thỉnh thoảng",
+      "example": "I usually go to the cinema.",
+      "exampleTranslation": "Thỉnh thoảng tôi đi xem phim."
+    },
+    {
+      "word": "Often",
+      "pronunciation": "/ˈɒfᵊn/",
+      "partOfSpeech": "adverb",
+      "translation": "Thường xuyên",
+      "example": "I often go to school by bike.",
+      "exampleTranslation": "Tôi thường đi học bằng xe đạp."
+    },
+    {
+      "word": "Always",
+      "pronunciation": "/ˈɔːlweɪz/",
+      "partOfSpeech": "adverb",
+      "translation": "Luôn luôn",
+      "example": "I always go to school on time.",
+      "exampleTranslation": "Tôi luôn luôn đi học đúng giờ."
+    },
+    {
+      "word": "International",
+      "pronunciation": "/ˌɪntəˈnæʃᵊnᵊl/",
+      "partOfSpeech": "adjective",
+      "translation": "Quốc tế",
+      "example": "I want to go to an international school.",
+      "exampleTranslation": "Tôi muốn học ở trường quốc tế."
+    },
+    {
+      "word": "Boarding school",
+      "pronunciation": "/ˈbɔːdɪŋ skuːl/",
+      "partOfSpeech": "noun",
+      "translation": "Trường nội trú",
+      "example": "My sister goes to a boarding school.",
+      "exampleTranslation": "Em gái tôi học ở trường nội trú."
+    },
+    {
+      "word": "Mountain",
+      "pronunciation": "/ˈmaʊntɪn/",
+      "partOfSpeech": "noun",
+      "translation": "núi",
+      "example": "There is a big mountain behind my house.",
+      "exampleTranslation": "Có một ngọn núi rất to ở phía sau nhà của tôi."
+    },
+    {
+      "word": "Field",
+      "pronunciation": "/fiːld/",
+      "partOfSpeech": "noun",
+      "translation": "Cánh đồng",
+      "example": "There are many green fields in my hometown.",
+      "exampleTranslation": "Có rất nhiều cánh đồng xanh ở thị trấn của tôi."
+    },
+    {
+      "word": "Computer room",
+      "pronunciation": "/kəmˈpjuːtə ruːm/",
+      "partOfSpeech": "noun",
+      "translation": "Phòng vi tính",
+      "example": "The computer room at my school is very big and modern.",
+      "exampleTranslation": "Phòng vi tính ở trường tôi thì rất to và đẹp."
+    },
+    {
+      "word": "English-speaking teacher",
+      "pronunciation": "/ˈɪŋɡlɪʃ-ˈspiːkɪŋ ˈtiːʧə/",
+      "partOfSpeech": "noun",
+      "translation": "Giáo viên nói tiếng Anh",
+      "example": "You will learn with English-speaking teachers.",
+      "exampleTranslation": "Con sẽ học với các giáo viên nói tiếng Anh."
+    },
+    {
+      "word": "Join",
+      "pronunciation": "/ʤɔɪn/",
+      "partOfSpeech": "verb",
+      "translation": "Tham gia",
+      "example": "I will join a singing contest.",
+      "exampleTranslation": "Tôi sẽ tham gia vào một cuộc thi hát."
+    },
+    {
+      "word": "At weekends",
+      "pronunciation": "/æt ˈwiːkˈɛndz/",
+      "partOfSpeech": "phrase",
+      "translation": "Vào những ngày cuối tuần",
+      "example": "I go shopping at weekends.",
+      "exampleTranslation": "Tôi đi mua sắm vào những ngày cuối tuần."
+    },
+    {
+      "word": "Biology",
+      "pronunciation": "/baɪˈɒləʤi/",
+      "partOfSpeech": "noun",
+      "translation": "Môn Sinh học",
+      "example": "Biology is my favorite subject.",
+      "exampleTranslation": "Sinh học là môn học yêu thích nhất của tôi."
+    },
+    {
+      "word": "Breakfast",
+      "pronunciation": "/ˈbrɛkfəst/",
+      "partOfSpeech": "noun",
+      "translation": "Bữa sáng",
+      "example": "Breakfast is the most important meal of the day.",
+      "exampleTranslation": "Bữa sáng là bữa ăn quan trọng nhất trong ngày."
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "word": "Do paintings",
+      "pronunciation": "/duː ˈpeɪntɪŋz/",
+      "partOfSpeech": "phrase",
+      "translation": "Vẽ tranh",
+      "example": "I want to join the art club because I want to do paintings.",
+      "exampleTranslation": "Tôi muốn tham gia câu lạc bộ mỹ thuật vì tôi muốn vẽ tranh."
+    },
+    {
+      "word": "Do exercise",
+      "pronunciation": "/duː ˈɛksəsaɪz/",
+      "partOfSpeech": "verb",
+      "translation": "Tập thể dục",
+      "example": "I do exercise everyday.",
+      "exampleTranslation": "Tôi tập thể dục hằng ngày."
+    },
+    {
+      "word": "Do homework",
+      "pronunciation": "/duː ˈhəʊmˌwɜːk/",
+      "partOfSpeech": "verb",
+      "translation": "Làm bài tập về nhà",
+      "example": "I do homework before going to school.",
+      "exampleTranslation": "Tôi làm bài tập về nhà trước khi đi học."
+    },
+    {
+      "word": "Play music",
+      "pronunciation": "/pleɪ ˈmjuːzɪk/",
+      "partOfSpeech": "verb",
+      "translation": "Chơi nhạc cụ",
+      "example": "I like playing music.",
+      "exampleTranslation": "Tôi thích chơi nhạc cụ."
+    },
+    {
+      "word": "Play football",
+      "pronunciation": "/pleɪ ˈfʊtbɔːl/",
+      "partOfSpeech": "verb",
+      "translation": "Chơi đá bóng",
+      "example": "My brother likes playing football with his friends.",
+      "exampleTranslation": "Em trai tôi thích chơi đá bóng với bạn của mình."
+    },
+    {
+      "word": "Have breakfast",
+      "pronunciation": "/hæv ˈbrɛkfəst/",
+      "partOfSpeech": "collocation",
+      "translation": "Ăn sáng",
+      "example": "I have breakfast everyday.",
+      "exampleTranslation": "Tôi ăn sáng hằng ngày."
+    },
+    {
+      "word": "Have lunch",
+      "pronunciation": "/hæv lʌnʧ/",
+      "partOfSpeech": "collocation",
+      "translation": "Ăn trưa",
+      "example": "I often have lunch at school.",
+      "exampleTranslation": "Tôi thường ăn trưa tại trường."
+    },
+    {
+      "word": "On the first day at school",
+      "pronunciation": "/ɒn ðə fɜːst deɪ æt skuːl/",
+      "partOfSpeech": "phrase",
+      "translation": "Vào ngày đầu tiên đi học",
+      "example": "I wear my new uniform on the first day at school.",
+      "exampleTranslation": "Tôi mặc đồng phục mới vào ngày đầu tiên đi học."
+    },
+    {
+      "word": "In the center of the village",
+      "pronunciation": "/ɪn ðə ˈsɛntər ɒv ðə ˈvɪlɪʤ/",
+      "partOfSpeech": "phrase",
+      "translation": "Ở giữa làng, ở trung tâm của ngôi làng",
+      "example": "There is a big park in the center of the village.",
+      "exampleTranslation": "Có một cái công viên lớn ở giữa ngôi làng."
+    }
+  ]
+}

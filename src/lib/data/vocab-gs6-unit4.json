@@ -1,0 +1,815 @@
+{
+  "unit": "Unit 4: My Neighbourhood",
+  "mainVocabulary": [
+    {
+      "word": "Neighbourhood",
+      "pronunciation": "/ˈneɪbəhʊd/",
+      "partOfSpeech": "noun",
+      "translation": "khu phố",
+      "example": "A new family moved to our neighbourhood recently.",
+      "exampleTranslation": "Một gia đình mới vừa chuyển đến khu phố của chúng tôi gần đây."
+    },
+    {
+      "word": "Neighbour",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "hàng xóm",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Neighbourly",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "hòa thuận với xóm giềng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Describe",
+      "pronunciation": "/dɪˈskraɪb/",
+      "partOfSpeech": "verb",
+      "translation": "miêu tả",
+      "example": "Can you describe your mother to me?",
+      "exampleTranslation": "Bạn có thể miêu tả mẹ bạn cho tôi nghe được không?"
+    },
+    {
+      "word": "Description",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "đoạn miêu tả, lời miêu tả",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Descriptive",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "có tính miêu tả",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Direction",
+      "pronunciation": "/daɪˈrek.ʃən/",
+      "partOfSpeech": "noun",
+      "translation": "phương hướng",
+      "example": "A friendly stranger gave us the directions to your house.",
+      "exampleTranslation": "Một người lạ mặt thân thiện đã chỉ cho chúng tôi hướng đi đến nhà bạn."
+    },
+    {
+      "word": "Direct",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "ngay thẳng, rõ ràng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Directly",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách ngay thẳng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Excited",
+      "pronunciation": "/ɪkˈsaɪtɪd/",
+      "partOfSpeech": "adjective",
+      "translation": "hào hứng",
+      "example": "The children are excited to go to the zoo.",
+      "exampleTranslation": "Bọn trẻ rất hào hứng khi được đi sở thú."
+    },
+    {
+      "word": "Exciting",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "lý thú, kích thích",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Excitement",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự hào hứng",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Cross",
+      "pronunciation": "/krɒs/",
+      "partOfSpeech": "verb",
+      "translation": "đi qua, băng qua, vượt qua",
+      "example": "Look both ways before you cross the street.",
+      "exampleTranslation": "Hãy nhìn cả hai phía trước khi bạn băng qua đường."
+    },
+    {
+      "word": "Cross",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "dấu nhân, dấu chéo, chữ thập",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Crossroad",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "ngã tư",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Road",
+      "pronunciation": "/rəʊd/",
+      "partOfSpeech": "noun",
+      "translation": "đường",
+      "example": "Be careful; this road is very narrow.",
+      "exampleTranslation": "Cẩn thận đấy; đường này hẹp lắm."
+    },
+    {
+      "word": "Roadblock",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "hàng rào chắn đường, vật chắn đường",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Roadside",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "lề đường",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Lost",
+      "pronunciation": "/lɒst/",
+      "partOfSpeech": "adjective",
+      "translation": "lạc đường",
+      "example": "We were lost, but luckily we met some local people and they offered to help us.",
+      "exampleTranslation": "Chúng tôi bị lạc, nhưng may mắn là đã gặp được người dân địa phương và họ đã giúp đỡ chúng tôi."
+    },
+    {
+      "word": "Lose",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "mất",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Loss",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự mất mát",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Straight",
+      "pronunciation": "/streɪt/",
+      "partOfSpeech": "adjective/adverb",
+      "translation": "thẳng",
+      "example": "Just go straight along this road and you will see the post office.",
+      "exampleTranslation": "Hãy cứ đi thẳng đường này và bạn sẽ thấy bưu điện."
+    },
+    {
+      "word": "Straightforward",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "ngay thẳng, thẳng thắn, dễ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Turn",
+      "pronunciation": "/tɜːn/",
+      "partOfSpeech": "verb",
+      "translation": "rẽ sang (hướng ...)",
+      "example": "When I turned around, I was surprised to see an old friend behind me.",
+      "exampleTranslation": "Khi tôi quay lại, tôi đã rất bất ngờ khi thấy một người bạn cũ đứng sau tôi."
+    },
+    {
+      "word": "Turning",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự đổi hướng, chỗ rẽ, chỗ ngoặt",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Turnabout",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự xoay chuyển tình thế, sự đổi ý",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Left",
+      "pronunciation": "/lɛft/",
+      "partOfSpeech": "adjective/adverb/noun",
+      "translation": "trái, sang trái, phía bên trái",
+      "example": "Turn left when you reach the park.",
+      "exampleTranslation": "Hãy rẽ sang bên trái khi bạn đến công viên."
+    },
+    {
+      "word": "Leftover",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "đồ ăn thừa, hàng tồn kho",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Left-handed",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "thuận tay trái",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Right",
+      "pronunciation": "/raɪt/",
+      "partOfSpeech": "adjective/adverb/noun",
+      "translation": "phải, sang phải, phía bên phải",
+      "example": "Go straight until you reach Brown Street. The museum is to your right.",
+      "exampleTranslation": "Đi thẳng cho đến khi bạn tới"
+    },
+    {
+      "word": "Rightful",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "chính đáng, hợp pháp",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Right-handed",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "thuận tay phải",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Suggestion",
+      "pronunciation": "/səˈʤɛsʧᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "lời gợi ý",
+      "example": "Does anyone have any suggestions about where we should go next?",
+      "exampleTranslation": "Ai có gợi ý gì về địa điểm chúng ta nên đến tiếp theo không?"
+    },
+    {
+      "word": "Suggest",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "gợi ý",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Suggestive",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "có tính gợi ý",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Seafood",
+      "pronunciation": "/ˈsiː.fuːd/",
+      "partOfSpeech": "noun",
+      "translation": "hải sản",
+      "example": "Mai loves eating seafood like fish and shrimp.",
+      "exampleTranslation": "Mai rất thích ăn hải sản như cá và tôm."
+    },
+    {
+      "word": "Seawater",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "nước biển",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Seaweed",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "rong, tảo biển",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Square",
+      "pronunciation": "/skweə/",
+      "partOfSpeech": "noun",
+      "translation": "quảng trường, hình vuông",
+      "example": "I have always wanted to visit Times Square.",
+      "exampleTranslation": "Tôi từ lâu đã luôn mong muốn được đến thăm Quảng trường Thời Đại."
+    },
+    {
+      "word": "Square",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "vuông vức",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Squarely",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách thẳng thắn, thật thà",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Art gallery",
+      "pronunciation": "/ɑːt ˈɡæləri/",
+      "partOfSpeech": "noun",
+      "translation": "triển lãm nghệ thuật",
+      "example": "There is an art gallery open downtown.",
+      "exampleTranslation": "Có một triển lãm nghệ thuật đang mở trong trung tâm thành phố."
+    },
+    {
+      "word": "Artistic",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "có tính nghệ thuật",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Artist",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "nghệ sĩ, họa sĩ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Cathedral",
+      "pronunciation": "/kəˈθiːdrəl/",
+      "partOfSpeech": "noun",
+      "translation": "nhà thờ lớn",
+      "example": "John's family goes to the cathedral every Sunday.",
+      "exampleTranslation": "Gia đình John đến nhà thờ lớn mỗi Chủ nhật."
+    },
+    {
+      "word": "Temple",
+      "pronunciation": "/ˈtɛmpᵊl/",
+      "partOfSpeech": "noun",
+      "translation": "ngôi đền",
+      "example": "My parents usually visit temples and pray before important events.",
+      "exampleTranslation": "Bố mẹ tôi thường tới thăm những ngôi đền và cầu nguyện trước những sự kiện quan trọng."
+    },
+    {
+      "word": "Railway station",
+      "pronunciation": "/ˈreɪlweɪ ˈsteɪʃᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "nhà ga tàu hỏa",
+      "example": "I am going to the railway station to catch the next train.",
+      "exampleTranslation": "Tôi đang đến nhà ga để bắt chuyến tàu tiếp theo."
+    },
+    {
+      "word": "Railing",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "rào chắn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Railroad",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "đường sắt",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Peaceful",
+      "pronunciation": "/ˈpiːsfʊl/",
+      "partOfSpeech": "adjective",
+      "translation": "yên bình",
+      "example": "The countryside is more peaceful than the city.",
+      "exampleTranslation": "Nông thôn thường yên bình hơn thành thị."
+    },
+    {
+      "word": "Peace",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự yên bình, hòa bình",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Peacefully",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách yên bình",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Modern",
+      "pronunciation": "/ˈmɒdᵊn/",
+      "partOfSpeech": "adjective",
+      "translation": "hiện đại",
+      "example": "My house has a modern design.",
+      "exampleTranslation": "Nhà của tôi có thiết kế rất hiện đại."
+    },
+    {
+      "word": "Modernity",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự hiện đại",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Modernise",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "hiện đại hóa",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Boring",
+      "pronunciation": "/ˈbɔːrɪŋ/",
+      "partOfSpeech": "adjective",
+      "translation": "buồn chán",
+      "example": "The movie was so boring that Nam slept through it.",
+      "exampleTranslation": "Bộ phim chán tới mức Nam đã ngủ qua nó."
+    },
+    {
+      "word": "Boredom",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự buồn chán, chán nản",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Bore",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "làm cho chán nản",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Convenient",
+      "pronunciation": "/kənˈviːniənt/",
+      "partOfSpeech": "adjective",
+      "translation": "tiện lợi",
+      "example": "There is a department store right next to my flat, so it's very convenient.",
+      "exampleTranslation": "Có một cửa hàng bách hóa ngay cạnh căn hộ của tôi, nên rất tiện."
+    },
+    {
+      "word": "Convenience",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự tiện lợi",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Conveniently",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "một cách tiện lợi",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Pagoda",
+      "pronunciation": "/pəˈɡəʊdə/",
+      "partOfSpeech": "noun",
+      "translation": "ngôi chùa",
+      "example": "Let's visit the nearby pagoda.",
+      "exampleTranslation": "Hãy cùng đến thăm ngôi chùa gần đây nào."
+    },
+    {
+      "word": "Tour",
+      "pronunciation": "/tʊə/",
+      "partOfSpeech": "noun",
+      "translation": "chuyến tham quan, chuyến du lịch",
+      "example": "Bao went on a tour of Paris last month.",
+      "exampleTranslation": "Bảo đã đi tham quan xung quanh Paris vào tháng trước."
+    },
+    {
+      "word": "Tourist",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "du khách",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Tourism",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "ngành du lịch",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Culture",
+      "pronunciation": "/ˈkʌlʧə/",
+      "partOfSpeech": "noun",
+      "translation": "văn hóa",
+      "example": "Different countries have different cultures.",
+      "exampleTranslation": "Các quốc gia khác nhau thì có văn hóa khác nhau."
+    },
+    {
+      "word": "Cultural",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "thuộc về văn hóa",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Culturally",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "about phương diện văn hóa",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Suburbs",
+      "pronunciation": "/ˈsʌbɜːbz/",
+      "partOfSpeech": "noun",
+      "translation": "vùng ngoại ô",
+      "example": "Phuong lives in the suburbs.",
+      "exampleTranslation": "Phương sống ở vùng ngoại ô."
+    },
+    {
+      "word": "Suburban",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "thuộc vùng ngoại ô, trong vùng ngoại ô",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Suburbanite",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "người sống ở vùng ngoại ô",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Dislike",
+      "pronunciation": "/dɪsˈlaɪk/",
+      "partOfSpeech": "verb",
+      "translation": "không thích",
+      "example": "Charlotte dislikes studying Maths because it is too difficult for her.",
+      "exampleTranslation": "Charlotte không thích học toán vì nó quá khó với cô ấy."
+    },
+    {
+      "word": "Dislike",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự không ưa",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Dislikeable",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "đáng ghét",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Outdoor",
+      "pronunciation": "/ˈaʊtdɔː/",
+      "partOfSpeech": "adjective",
+      "translation": "ngoài trời",
+      "example": "Dat is sporty and enjoys outdoor activities.",
+      "exampleTranslation": "Đạt rất năng động và thích các hoạt động ngoài trời."
+    },
+    {
+      "word": "Guide",
+      "pronunciation": "/ɡaɪd/",
+      "partOfSpeech": "noun",
+      "translation": "lời hướng dẫn, đoạn hướng dẫn, người hướng dẫn",
+      "example": "Look at this guide to see where to go next.",
+      "exampleTranslation": "Hãy nhìn vào đoạn chỉ dẫn này để xem đi đâu tiếp theo."
+    },
+    {
+      "word": "Guide",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "hướng dẫn, chỉ dẫn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Guidance",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự hướng dẫn, chỉ dẫn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Factory",
+      "pronunciation": "/ˈfæktəri/",
+      "partOfSpeech": "noun",
+      "translation": "nhà máy",
+      "example": "Those factories are polluting the air in our neighbourhood.",
+      "exampleTranslation": "Những nhà máy kia đang làm ô nhiễm không khí trong khu phố của chúng ta."
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "word": "Intersection",
+      "pronunciation": "/ˌɪntəˈsɛkʃᵊn/",
+      "partOfSpeech": "noun",
+      "translation": "chỗ đường giao nhau",
+      "example": "Remember to slow down at intersections.",
+      "exampleTranslation": "Hãy nhớ giảm tốc độ tại các điểm đường giao nhau."
+    },
+    {
+      "word": "Intersect",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "giao, cắt",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Intersectional",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "giao nhau, cắt nhau",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Go sightseeing",
+      "pronunciation": "/ɡəʊ ˈsaɪtˌsiːɪŋ/",
+      "partOfSpeech": "collocation",
+      "translation": "đi tham quan",
+      "example": "We still have some time to go sightseeing.",
+      "exampleTranslation": "Chúng ta vẫn có chút thời gian để đi tham quan."
+    },
+    {
+      "word": "Sightsee",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "tham quan, du lãm",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Sightseer",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "khách tham quan",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Tourist attraction",
+      "pronunciation": "/ˈtʊərɪst əˈtrækʃᵊn/",
+      "partOfSpeech": "collocation",
+      "translation": "địa điểm thu hút khách du lịch",
+      "example": "There are plenty of tourist attractions in my hometown.",
+      "exampleTranslation": "Có rất nhiều địa điểm thu hút khách du lịch ở quê tôi."
+    },
+    {
+      "word": "Attract",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "Thu hút",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Attractive",
+      "pronunciation": "",
+      "partOfSpeech": "adjective",
+      "translation": "hấp dẫn",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Vibrant",
+      "pronunciation": "/ˈvaɪbrᵊnt/",
+      "partOfSpeech": "adjective",
+      "translation": "sôi động, đầy sức sống",
+      "example": "Tom lives in a vibrant city.",
+      "exampleTranslation": "Tom sống trong một thành phố sôi động."
+    },
+    {
+      "word": "Vibrancy",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự sôi động",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Dynamic",
+      "pronunciation": "/daɪˈnæmɪk/",
+      "partOfSpeech": "adjective",
+      "translation": "năng động, sôi nổi",
+      "example": "People in the city often have dynamic lifestyles.",
+      "exampleTranslation": "Người dân thành thị thường có lối sống năng động."
+    },
+    {
+      "word": "Dynamite",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "thuốc nổ",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Remote",
+      "pronunciation": "/rɪˈməʊt/",
+      "partOfSpeech": "adjective",
+      "translation": "xa xôi, hẻo lánh",
+      "example": "It is hard to find your way in remote areas.",
+      "exampleTranslation": "Tìm đường rất khó ở những nơi xa xôi, hẻo lánh."
+    },
+    {
+      "word": "Remotely",
+      "pronunciation": "",
+      "partOfSpeech": "adverb",
+      "translation": "từ xa",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Remoteness",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "sự xa xôi",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Look around",
+      "pronunciation": "/lʊk əˈraʊnd/",
+      "partOfSpeech": "phrasal verb",
+      "translation": "tham quan",
+      "example": "I spent the entire day looking around the town.",
+      "exampleTranslation": "Tôi dành cả ngày để tham quan thị trấn."
+    },
+    {
+      "word": "Harbour",
+      "pronunciation": "/ˈhɑːbə/",
+      "partOfSpeech": "noun",
+      "translation": "cảng biển",
+      "example": "Binh is very familiar with the harbour because his father is a sailor.",
+      "exampleTranslation": "Bình rất quen với cảng biển vì bố cậu ấy là một thủy thủ."
+    },
+    {
+      "word": "Rural",
+      "pronunciation": "/ˈrʊərəl/",
+      "partOfSpeech": "adjective",
+      "translation": "thuộc về đồng quê",
+      "example": "Rural areas are usually quiet and peaceful.",
+      "exampleTranslation": "Vùng đồng quê thường im lặng và bình yên."
+    },
+    {
+      "word": "Urban",
+      "pronunciation": "/ˈɜːbᵊn/",
+      "partOfSpeech": "adjective",
+      "translation": "thuộc về thành thị",
+      "example": "My sister loves listening to urban legends even though they scare her.",
+      "exampleTranslation": "Em gái tôi rất thích nghe kể về các truyền thuyết đô thị cho dù chúng làm em ấy sợ hãi."
+    },
+    {
+      "word": "Urbanite",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "translation": "người dân thành thị",
+      "example": "",
+      "exampleTranslation": ""
+    },
+    {
+      "word": "Urbanise",
+      "pronunciation": "",
+      "partOfSpeech": "verb",
+      "translation": "đô thị hóa",
+      "example": "",
+      "exampleTranslation": ""
+    }
+  ]
+}
