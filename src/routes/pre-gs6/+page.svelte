@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>LỘ TRÌNH HỌC NGỮ PHÁP TIẾNG ANH VÀO LỚP 6 - 24 BUỔI</title>
+</svelte:head>
+
 <div class="container mx-auto px-4 py-8">
 	<header class="mb-8 text-center">
 		<h1 class="text-primary mb-2 text-3xl font-bold">
