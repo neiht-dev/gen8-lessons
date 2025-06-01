@@ -38,12 +38,12 @@
 							<div class="flex flex-col justify-center gap-0">
 								<a
 									target="_blank"
-									href="/static/lessons/pre-gs6/lesson-1-presentation.html"
+									href="/lessons/pre-gs6/lesson-1-presentation.html"
 									class="link link-primary">Bài giảng</a
 								><br />
 								<a
 									target="_blank"
-									href="/static/lessons/pre-gs6/lesson-1-workshees.html"
+									href="/lessons/pre-gs6/lesson-1-workshees.html"
 									class="link link-primary">Bài tập</a
 								>
 							</div>
