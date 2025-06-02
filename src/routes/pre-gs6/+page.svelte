@@ -3,8 +3,8 @@
 </svelte:head>
 
 <div class="container mx-auto px-4 py-8">
-	<header>
-	<div class="mb-3 text-center relative gap-3 flex flex-col md:flex-row justify-between items-center">
+	<header class="mb-6">
+	<div class="mb-3 text-center relative gap-3 flex flex-col sm:flex-row justify-between items-center">
 		<!-- Thêm đoạn mã này vào phần header của mỗi trang HTML -->
 		<a href="/" class="home-button btn btn-primary py-1 px-3">Về trang chủ</a>
 

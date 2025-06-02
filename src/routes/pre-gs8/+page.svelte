@@ -3,11 +3,18 @@
 </svelte:head>
 
 <div class="container mx-auto px-4 py-8">
-	<header class="mb-8 text-center">
+	<header class="mb-6">
+	<div class="mb-3 text-center relative gap-3 flex flex-col sm:flex-row justify-between items-center">
+		<!-- Thêm đoạn mã này vào phần header của mỗi trang HTML -->
+		<a href="/" class="home-button btn btn-primary py-1 px-3">Về trang chủ</a>
+
 		<h1 class="text-primary mb-2 text-2xl font-bold">
-			📘 LỘ TRÌNH HỌC NGỮ PHÁP TIẾNG ANH VÀO LỚP 8 - 24 BUỔI
-		</h1>
-		<hr />
+			📘 LỘ TRÌNH HỌC NGỮ PHÁP TIẾNG ANH VÀO LỚP 6 - 24 BUỔI
+		</h1>	
+		<div>	</div>
+		
+	</div>
+	<hr />
 	</header>
 
 	<main>
