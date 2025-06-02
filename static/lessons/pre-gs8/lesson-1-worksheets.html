@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreGS8 - Lesson 1 - Worksheets</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            font-size: 20px; /* 1rem = 18px */
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9fafb;
+        }
+
+        @page {
+            size: A4;
+            margin: 20px 5px;
+        }
+
+        .print-only {
+            display: none;
+        }
+
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+
+            .print-only {
+                display: block !important;
+            }
+
+            body {
+                font-size: 14px;
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+
+            .worksheet-container {
+                padding: 0;
+                margin: 0;
+                box-shadow: none;
+            }
+
+            .bg-blue-100,
+            .bg-yellow-50,
+            .bg-green-50,
+            .bg-blue-50,
+            .bg-purple-50,
+            .bg-pink-50 .text-blue-600 {
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+
+            .highlight {
+                background-color: #fef08a !important;
+            }
+
+            .correct {
+                color: #16a34a !important;
+            }
+
+            .incorrect {
+                color: #dc2626 !important;
+            }
+        }
+
+        .answer-input {
+            border-bottom: 1px dashed #4b5563;
+            min-width: 80px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .highlight {
+            background-color: #fef08a;
+        }
+
+        .correct {
+            color: #16a34a;
+        }
+
+        .incorrect {
+            color: #dc2626;
+        }
+    </style>
+</head>
+
+<body class="bg-blue-50">
+    <div class="px-4 py-6 print:py-0 pb-6 w-full">
+        <div class="worksheet-container bg-white rounded-xl shadow-lg print:shadow-none p-4 mb-3">
+            <!-- Header -->
+            <div class="flex justify-between items-center my-4 no-print">
+                <h1 class="text-2xl font-bold text-blue-600">Danh từ và Mạo từ (Nouns & Articles)</h1>
+                <button onclick="printWorksheet()"
+                    class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5 4v3H4a2 2 0 00-2 2v3a2 2 0 002 2h1v2a2 2 0 002 2h6a2 2 0 002-2v-2h1a2 2 0 002-2V9a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H7a2 2 0 00-2 2zm8 0H7v3h6V4zm0 8H7v4h6v-4z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    Print Worksheet
+                </button>
+            </div>
+
+            <div class="print-only mb-4">
+                <div class="flex justify-between items-center">
+                    <h1 class="text-2xl font-bold text-blue-600">Danh từ và Mạo từ (Nouns & Articles)</h1>
+                    <p class="text-center text-gray-600">Student: _______________________ Date: _______________</p>
+                </div>
+            </div>
+
+            <!-- Key Notes -->
+            <div class="mb-3">
+                <div class="flex items-center mb-3">
+                    <div class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center mr-3">
+                        <span class="font-bold text-white">1</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800">Phần 1: Tóm tắt kiến thức (Key Notes)</h3>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-2 rounded-lg">
+                        <h4 class="font-bold text-gray-700 mb-2">1. Danh từ đếm được và không đếm được</h4>
+                        <ul class="list-disc pl-5 text-gray-700">
+                            <li class="mb-1">Đếm được (Countable): book, cat, chair</li>
+                            <li>Không đếm được (Uncountable): water, milk, rice</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-green-50 border-l-4 border-green-400 p-2 rounded-lg">
+                        <h4 class="font-bold text-gray-700 mb-2">2. Mạo từ a/an</h4>
+                        <ul class="list-disc pl-5 text-gray-700">
+                            <li class="mb-1">a + phụ âm: a book, a cat</li>
+                            <li>an + nguyên âm: an apple, an hour</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-blue-50 border-l-4 border-blue-400 p-2 rounded-lg">
+                        <h4 class="font-bold text-gray-700 mb-2">3. Mạo từ the</h4>
+                        <ul class="list-disc pl-5 text-gray-700">
+                            <li class="mb-1">Vật đã xác định: the book I bought</li>
+                            <li>Vật duy nhất: the sun, the moon</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-purple-50 border-l-4 border-purple-400 p-2 rounded-lg">
+                        <h4 class="font-bold text-gray-700 mb-2">4. Không dùng mạo từ khi</h4>
+                        <ul class="list-disc pl-5 text-gray-700">
+                            <li class="mb-1">Danh từ không đếm được: I like coffee</li>
+                            <li>Tên riêng, môn học: English, Math</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-pink-50 border-l-4 border-pink-400 p-2 rounded-lg">
+                        <h4 class="font-bold text-gray-700 mb-2">5. Số nhiều của danh từ</h4>
+                        <ul class="list-disc pl-5 text-gray-700">
+                            <li class="mb-1">Thêm -s: book → books</li>
+                            <li class="mb-1">Thêm -es: box → boxes</li>
+                            <li>-y → -ies: baby → babies</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-pink-50 border-l-4 border-pink-400 p-2 rounded-lg">
+                        <h4 class="font-bold text-gray-700 mb-2">6. Danh từ bất quy tắc</h4>
+                        <ul class="list-disc pl-5 text-gray-700">
+                            <li class="mb-1">man → men</li>
+                            <li class="mb-1">child → children</li>
+                            <li>mouse → mice</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vocabulary -->
+            <div class="mb-4">
+                <div class="flex items-center mb-4">
+                    <div class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center mr-3">
+                        <span class="font-bold text-white">2</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800">Phần 2: Từ vựng cần sử dụng trong bài tập</h3>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">balance <span class="text-gray-500">n</span> /ˈbæləns/</p>
+                        <p class="text-gray-700">sự thăng bằng, sự cân bằng</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">bracelet <span class="text-gray-500">n</span> /ˈbreɪslət/</p>
+                        <p class="text-gray-700">vòng đeo tay</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">crazy <span class="text-gray-500">adj</span> /ˈkreɪzi/</p>
+                        <p class="text-gray-700">rất thích, quá say mê</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">cruel <span class="text-gray-500">adj</span> /ˈkruːəl/</p>
+                        <p class="text-gray-700">độc ác</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">detest <span class="text-gray-500">v</span> /dɪˈtest/</p>
+                        <p class="text-gray-700">căm ghét</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">DIY <span class="text-gray-500">n</span> /ˌdiː aɪ ˈwaɪ/</p>
+                        <p class="text-gray-700">hoạt động tự làm đồ</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">fancy <span class="text-gray-500">v</span> /ˈfænsi/</p>
+                        <p class="text-gray-700">mến, thích</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">fold <span class="text-gray-500">v</span> /fəʊld/</p>
+                        <p class="text-gray-700">gấp, gập</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">fond <span class="text-gray-500">adj</span> /fɒnd/</p>
+                        <p class="text-gray-700">mến, thích</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">keen <span class="text-gray-500">adj</span> /kiːn/</p>
+                        <p class="text-gray-700">say mê, ham thích</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">kit <span class="text-gray-500">n</span> /kɪt/</p>
+                        <p class="text-gray-700">bộ đồ nghề</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">leisure <span class="text-gray-500">n</span> /ˈleʒə/</p>
+                        <p class="text-gray-700">thời gian rảnh rỗi</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">message <span class="text-gray-500">v</span> /ˈmesɪdʒ/</p>
+                        <p class="text-gray-700">gửi tin nhắn</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">muscle <span class="text-gray-500">n</span> /ˈmʌsl/</p>
+                        <p class="text-gray-700">cơ bắp</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">origami <span class="text-gray-500">n</span> /ˌɒrɪˈɡɑːmi/</p>
+                        <p class="text-gray-700">nghệ thuật gấp giấy Nhật Bản</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">outdoors <span class="text-gray-500">adv</span> /ˌaʊtˈdɔːz/</p>
+                        <p class="text-gray-700">ngoài trời</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">prefer <span class="text-gray-500">v</span> /prɪˈfɜː/</p>
+                        <p class="text-gray-700">thích hơn</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">puzzle <span class="text-gray-500">n</span> /ˈpʌzl/</p>
+                        <p class="text-gray-700">trò chơi câu đố / giải đố</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">resort <span class="text-gray-500">n</span> /rɪˈzɔːt/</p>
+                        <p class="text-gray-700">khu nghỉ dưỡng</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
+                        <p class="font-medium text-gray-800 mb-1">snowboarding <span class="text-gray-500">n</span> /ˈsnəʊbɔːdɪŋ/</p>
+                        <p class="text-gray-700">trượt tuyết bằng ván</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Basic Exercises -->
+            <div class="mb-4">
+                <div class="flex items-center mb-4">
+                    <div class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center mr-3">
+                        <span class="font-bold text-white">3</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800">Phần 3: Bài tập cơ bản (Basic Exercises)</h3>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
+                    <div class="flex items-start mb-2">
+                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">1</div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-1">Bài 1: Phân loại từ</h4>
+                            <p class="text-gray-700 text-sm mb-2">👉 Viết loại từ tương ứng (n/v/adj/adv):</p>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex items-center gap-2">
+                                    <p>1. balance</p>
+                                    <input type="text" class="answer-input w-8" data-answer="n" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>2. crazy</p>
+                                    <input type="text" class="answer-input w-8" data-answer="adj" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>3. detest</p>
+                                    <input type="text" class="answer-input w-8" data-answer="v" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>4. outdoors</p>
+                                    <input type="text" class="answer-input w-8" data-answer="adv" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>5. resort</p>
+                                    <input type="text" class="answer-input w-8" data-answer="n" onblur="checkAnswer(this)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
+                    <div class="flex items-start mb-2">
+                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">2</div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-1">Bài 2: Điền a hoặc an</h4>
+                            <p class="text-gray-700 text-sm mb-2">👉 Điền a hoặc an vào chỗ trống:</p>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex items-center gap-2">
+                                    <p>1. She bought _______ origami kit.</p>
+                                    <input type="text" class="answer-input w-8" data-answer="an" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>2. My brother is _______ keen snowboarder.</p>
+                                    <input type="text" class="answer-input w-8" data-answer="a" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>3. We stayed at _______ expensive resort.</p>
+                                    <input type="text" class="answer-input w-8" data-answer="an" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>4. He has _______ DIY project to finish.</p>
+                                    <input type="text" class="answer-input w-8" data-answer="a" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>5. It's _______ interesting puzzle.</p>
+                                    <input type="text" class="answer-input w-8" data-answer="an" onblur="checkAnswer(this)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
+                    <div class="flex items-start mb-2">
+                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">3</div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-1">Bài 3: Điền the hoặc để trống</h4>
+                            <p class="text-gray-700 text-sm mb-2">👉 Điền the hoặc để trống (∅) vào chỗ trống:</p>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex items-center gap-2">
+                                    <p>1. She loves doing _______ origami in her free time.</p>
+                                    <input type="text" class="answer-input w-8" data-answer="∅" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>2. _______ bracelet on her wrist is beautiful.</p>
+                                    <input type="text" class="answer-input w-8" data-answer="the" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>3. We enjoy spending time _______ outdoors.</p>
+                                    <input type="text" class="answer-input w-8" data-answer="∅" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>4. _______ leisure activities help reduce stress.</p>
+                                    <input type="text" class="answer-input w-8" data-answer="∅" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>5. This is _______ puzzle I bought yesterday.</p>
+                                    <input type="text" class="answer-input w-8" data-answer="the" onblur="checkAnswer(this)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
+                    <div class="flex items-start mb-2">
+                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">4</div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-1">Bài 4: Hoàn thành câu</h4>
+                            <p class="text-gray-700 text-sm mb-2">👉 Sử dụng từ trong ngoặc để hoàn thành câu:</p>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex items-center gap-2">
+                                    <p>1. My sister is _______ about origami. (crazy)</p>
+                                    <input type="text" class="answer-input w-24" data-answer="crazy" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>2. I _______ doing puzzles in my leisure time. (prefer)</p>
+                                    <input type="text" class="answer-input w-24" data-answer="prefer" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>3. She needs to _______ her muscles after exercise. (balance)</p>
+                                    <input type="text" class="answer-input w-24" data-answer="balance" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>4. We should _______ with our friends regularly. (message)</p>
+                                    <input type="text" class="answer-input w-24" data-answer="message" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>5. They are _______ of snowboarding. (fond)</p>
+                                    <input type="text" class="answer-input w-24" data-answer="fond" onblur="checkAnswer(this)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
+                    <div class="flex items-start mb-2">
+                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">5</div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-1">Bài 5: Sắp xếp từ</h4>
+                            <p class="text-gray-700 text-sm mb-2">👉 Sắp xếp các từ để tạo thành câu hoàn chỉnh:</p>
+                            <div class="space-y-2 text-sm">
+                                <p>1. (origami / fold / to / paper / need / I) → </p>
+                                <p>2. (at / stay / resort / the / we / luxury) → </p>
+                                <p>3. (outdoors / activities / enjoy / they / doing) → </p>
+                                <p>4. (DIY / kit / bought / new / she / a) → </p>
+                                <p>5. (keep / touch / friends / in / with / let's) → </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
+                    <div class="flex items-start mb-2">
+                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">6</div>
+                            <div>
+                            <h4 class="font-semibold text-gray-800 mb-1">Bài 6: Ghép từ</h4>
+                            <p class="text-gray-700 text-sm mb-2">👉 Ghép từ ở cột A với nghĩa phù hợp ở cột B:</p>
+                            <div class="space-y-2 text-sm">
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div>
+                                        <p class="font-semibold mb-2">Cột A</p>
+                                        <p>1. detest</p>
+                                        <p>2. fancy</p>
+                                        <p>3. keen</p>
+                                        <p>4. outdoors</p>
+                                        <p>5. resort</p>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold mb-2">Cột B</p>
+                                        <p>a. ngoài trời</p>
+                                        <p>b. thích thú</p>
+                                        <p>c. ghét cay ghét đắng</p>
+                                        <p>d. khu nghỉ dưỡng</p>
+                                        <p>e. sang trọng</p>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <p>Đáp án của bạn:</p>
+                                    <div class="flex items-center gap-2 mt-2">
+                                        <p>1 - </p>
+                                        <input type="text" class="answer-input w-8" data-answer="c" onblur="checkAnswer(this)">
+                                    </div>
+                                    <div class="flex items-center gap-2">
+                                        <p>2 - </p>
+                                        <input type="text" class="answer-input w-8" data-answer="e" onblur="checkAnswer(this)">
+                                    </div>
+                                    <div class="flex items-center gap-2">
+                                        <p>3 - </p>
+                                        <input type="text" class="answer-input w-8" data-answer="b" onblur="checkAnswer(this)">
+                                    </div>
+                                    <div class="flex items-center gap-2">
+                                        <p>4 - </p>
+                                        <input type="text" class="answer-input w-8" data-answer="a" onblur="checkAnswer(this)">
+                                    </div>
+                                    <div class="flex items-center gap-2">
+                                        <p>5 - </p>
+                                        <input type="text" class="answer-input w-8" data-answer="d" onblur="checkAnswer(this)">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
+                    <div class="flex items-start mb-2">
+                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">7</div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-1">Bài 7: Điền từ thích hợp</h4>
+                            <p class="text-gray-700 text-sm mb-2">👉 Điền từ thích hợp vào chỗ trống (balance, DIY, origami, puzzle, snowboarding):</p>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex items-center gap-2">
+                                    <p>1. She loves doing _______ projects at home.</p>
+                                    <input type="text" class="answer-input w-24" data-answer="DIY" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>2. The art of _______ originated in Japan.</p>
+                                    <input type="text" class="answer-input w-24" data-answer="origami" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>3. You need good _______ to do yoga poses.</p>
+                                    <input type="text" class="answer-input w-24" data-answer="balance" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>4. This 1000-piece _______ is very challenging.</p>
+                                    <input type="text" class="answer-input w-24" data-answer="puzzle" onblur="checkAnswer(this)">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <p>5. We went _______ in the mountains last winter.</p>
+                                    <input type="text" class="answer-input w-24" data-answer="snowboarding" onblur="checkAnswer(this)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
+                    <div class="flex items-start mb-2">
+                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">8</div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-1">Bài 8: Viết câu</h4>
+                            <p class="text-gray-700 text-sm mb-2">👉 Viết câu sử dụng các từ cho sẵn:</p>
+                            <div class="space-y-2 text-sm">
+                                <p>1. Viết câu với "keen" và "snowboarding":</p>
+                                <div class="border border-gray-200 rounded p-2 mt-1">
+                                    <input type="text" class="w-full border-none focus:outline-none" placeholder="Write your answer here...">
+                                </div>
+                                <p>2. Viết câu với "fancy" và "bracelet":</p>
+                                <div class="border border-gray-200 rounded p-2 mt-1">
+                                    <input type="text" class="w-full border-none focus:outline-none" placeholder="Write your answer here...">
+                                </div>
+                                <p>3. Viết câu với "detest" và "cruel":</p>
+                                <div class="border border-gray-200 rounded p-2 mt-1">
+                                    <input type="text" class="w-full border-none focus:outline-none" placeholder="Write your answer here...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function printWorksheet() {
+            window.print();
+        }
+
+        function checkAnswer(input) {
+            const correctAnswer = input.getAttribute('data-answer');
+            const userAnswer = input.value.trim().toLowerCase();
+            const correctAnswerLower = correctAnswer.toLowerCase();
+
+            if (userAnswer === correctAnswerLower) {
+                input.classList.add('correct');
+                input.classList.remove('incorrect');
+            } else if (userAnswer !== '') {
+                input.classList.add('incorrect');
+                input.classList.remove('correct');
+            }
+        }
+
+        function highlightNouns(element) {
+            const text = element.innerText;
+            const nouns = element.getAttribute('data-nouns').split(',');
+            let highlightedText = text;
+
+            nouns.forEach(noun => {
+                const regex = new RegExp(`\\b${noun}\\b`, 'gi');
+                highlightedText = highlightedText.replace(regex, `<span class="highlight">$&</span>`);
+            });
+
+            element.innerHTML = highlightedText;
+        }
+    </script>
+</body>
+
+</html>

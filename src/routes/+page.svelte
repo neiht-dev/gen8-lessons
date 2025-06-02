@@ -70,7 +70,7 @@
 						trình Tiếng Anh lớp 8.
 					</p>
 					<div class="card-actions mt-4">
-						<a href="/pre-gs7" class="btn btn-primary">Xem chi tiết lộ trình</a>
+						<a href="/pre-gs8" class="btn btn-primary">Xem chi tiết lộ trình</a>
 					</div>
 				</div>
 			</div>
@@ -90,7 +90,7 @@
 						trình Tiếng Anh lớp 9.
 					</p>
 					<div class="card-actions mt-4">
-						<a href="/pre-gs7" class="btn btn-primary">Xem chi tiết lộ trình</a>
+						<a href="/pre-gs9" class="btn btn-primary">Xem chi tiết lộ trình</a>
 					</div>
 				</div>
 			</div>

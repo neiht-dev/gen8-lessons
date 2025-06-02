@@ -9,7 +9,7 @@
 		<a href="/" class="home-button btn btn-primary py-1 px-3">Về trang chủ</a>
 
 		<h1 class="text-primary mb-2 text-2xl font-bold">
-			📘 LỘ TRÌNH HỌC NGỮ PHÁP TIẾNG ANH VÀO LỚP 6 - 24 BUỔI
+			📘 LỘ TRÌNH HỌC NGỮ PHÁP TIẾNG ANH VÀO LỚP 9 - 24 BUỔI
 		</h1>	
 		<div>	</div>
 		
