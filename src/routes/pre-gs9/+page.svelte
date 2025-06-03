@@ -8,11 +8,12 @@
 		<!-- Thêm đoạn mã này vào phần header của mỗi trang HTML -->
 		<a href="/" class="home-button btn btn-primary py-1 px-3">Về trang chủ</a>
 
-		<h1 class="text-primary mb-2 text-2xl font-bold">
-			NGỮ PHÁP TIẾNG ANH VÀO LỚP 9 - GLOBAL SUCCESS
-		</h1>	
-		<div>	</div>
-		
+		<div class="flex flex-col items-center">
+			<h1 class="text-primary mb-2 text-2xl font-bold">
+				NGỮ PHÁP TIẾNG ANH VÀO LỚP 9 - GLOBAL SUCCESS
+			</h1>
+		</div>
+		<div></div>
 	</div>
 	<hr />
 	</header>
@@ -35,10 +36,10 @@
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 1</td>
 						<td>
-							<strong class="text-accent">Danh từ và Mạo từ (Ôn tập)</strong><br />
-							- Danh từ đếm được và không đếm được<br />
-							- Mạo từ a/an/the và mạo từ rỗng<br />
-							- Số ít, số nhiều, danh từ bất quy tắc
+							<strong class="text-accent">Ôn tập thì hiện tại đơn và hiện tại tiếp diễn</strong><br />
+							- Cách sử dụng và dấu hiệu nhận biết<br />
+							- Cấu trúc câu khẳng định, phủ định, nghi vấn<br />
+							- Phân biệt hai thì
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
@@ -54,49 +55,34 @@
 								>
 							</div>
 						</td>
-						<td>Ôn tập từ lớp 6–8, nhấn mạnh mạo từ rỗng</td>
+						<td>Ôn tập từ lớp 8, chuẩn bị cho thì hiện tại hoàn thành</td>
 					</tr>
 
 					<!-- Buổi 2 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 2</td>
 						<td>
-							<strong class="text-accent">Mạo từ (Articles): a/an/the</strong><br />
-							- Khái niệm mạo từ<br />
-							- Cách sử dụng a/an và the<br />
-							- Phân biệt danh từ cụ thể và không cụ thể<br />
+							<strong class="text-accent">Thì hiện tại hoàn thành</strong><br />
+							- Cách sử dụng và dấu hiệu nhận biết<br />
+							- Cấu trúc câu khẳng định, phủ định, nghi vấn<br />
+							- Phân biệt với thì quá khứ đơn
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Liên hệ với danh từ từ Buổi 1</td>
+						<td>Liên hệ với thì hiện tại đơn</td>
 					</tr>
 
 					<!-- Buổi 3 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 3</td>
 						<td>
-							<strong class="text-accent">Lượng từ (Quantifiers): some, a lot of, lots of</strong><br />
-							- Cách sử dụng với danh từ đếm được và không đếm được<br />
-							- Vị trí trong câu
-						</td>
-						<td>
-							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
-							</div>
-						</td>
-						<td>Liên hệ với danh từ và mạo từ</td>
-					</tr>
-
-					<!-- Buổi 4 -->
-					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold text-nowrap">Buổi 4</td>
-						<td>
-							<strong class="text-accent">Đại từ nhân xưng</strong><br />
-							- Đại từ nhân xưng (chủ ngữ, tân ngữ)<br />
-							- Vị trí trong câu
+							<strong class="text-accent">Ôn tập thì quá khứ đơn và quá khứ tiếp diễn</strong><br />
+							- Cách sử dụng và dấu hiệu nhận biết<br />
+							- Cấu trúc câu khẳng định, phủ định, nghi vấn<br />
+							- Phân biệt hai thì
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
@@ -106,20 +92,38 @@
 						<td>Ôn tập từ lớp 8</td>
 					</tr>
 
-					<!-- Buổi 5 -->
+					<!-- Buổi 4 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold text-nowrap">Buổi 5</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 4</td>
 						<td>
-							<strong class="text-accent">Tính từ sở hữu và Sở hữu cách</strong><br />
-							- my, your, his, her...<br />
-							- Danh từ sở hữu ('s)
+							<strong class="text-accent">Wish + Past Simple</strong><br />
+							- Cách sử dụng để diễn tả ước muốn ở hiện tại<br />
+							- Cấu trúc câu và ví dụ thực tế<br />
+							- Phân biệt với các cấu trúc tương tự
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Liên hệ với đại từ nhân xưng</td>
+						<td>Liên hệ với thì quá khứ đơn</td>
+					</tr>
+
+					<!-- Buổi 5 -->
+					<tr class="hover:bg-base-300">
+						<td class="text-primary font-bold text-nowrap">Buổi 5</td>
+						<td>
+							<strong class="text-accent">Verbs + To-Infinitive</strong><br />
+							- Các động từ theo sau bởi to-infinitive<br />
+							- Cách sử dụng trong câu<br />
+							- Phân biệt với các cấu trúc khác
+						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Chuẩn bị cho Question Words Before To-Infinitives</td>
 					</tr>
 
 					<!-- Buổi 6 -->
@@ -140,107 +144,90 @@
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 7</td>
 						<td>
-							<strong class="text-accent">Động từ to be</strong><br />
-							- Cách sử dụng<br />
-							- Các dạng của to be<br />
-							- Vị trí trong câu
+							<strong class="text-accent">Question Words Before To-Infinitives</strong><br />
+							- Cấu trúc wh-word + to V<br />
+							- Cách sử dụng trong câu<br />
+							- Phân biệt với câu hỏi trực tiếp
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Ôn tập từ lớp 8</td>
+						<td>Liên hệ với Verbs + To-Infinitive</td>
 					</tr>
 
 					<!-- Buổi 8 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 8</td>
 						<td>
-							<strong class="text-accent">Động từ thường</strong><br />
-							- Cách sử dụng<br />
-							- Vị trí trong câu<br />
-							- Sự biến đổi động từ
+							<strong class="text-accent">Verbs + V-ing</strong><br />
+							- Các động từ theo sau bởi V-ing<br />
+							- Cách sử dụng trong câu<br />
+							- Phân biệt với to-infinitive
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Chuẩn bị cho các thì</td>
+						<td>Liên hệ với Verbs + To-Infinitive</td>
 					</tr>
 
 					<!-- Buổi 9 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 9</td>
 						<td>
-							<strong class="text-accent">Thì hiện tại đơn</strong><br />
-							- Cách sử dụng<br />
-							- Cấu trúc câu<br />
-							- Dấu hiệu nhận biết
+							<strong class="text-accent">Relative Pronouns: Which, Who, and Whose</strong><br />
+							- Cách sử dụng các đại từ quan hệ<br />
+							- Cấu trúc câu với which, who, whose<br />
+							- Phân biệt các đại từ quan hệ
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Liên hệ với động từ</td>
+						<td>Chuẩn bị cho mệnh đề quan hệ</td>
 					</tr>
 
 					<!-- Buổi 10 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 10</td>
 						<td>
-							<strong class="text-accent">Thì hiện tại tiếp diễn</strong><br />
-							- Cách sử dụng<br />
-							- Cấu trúc câu<br />
-							- Dấu hiệu nhận biết
+							<strong class="text-accent">Defining Relative Clauses</strong><br />
+							- Cách sử dụng mệnh đề quan hệ xác định<br />
+							- Cấu trúc câu và ví dụ thực tế<br />
+							- Phân biệt với mệnh đề không xác định
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Phân biệt với hiện tại đơn</td>
+						<td>Liên hệ với Relative Pronouns</td>
 					</tr>
 
 					<!-- Buổi 11 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 11</td>
 						<td>
-							<strong class="text-accent">Giới từ (Prepositions)</strong><br />
-							- Giới từ chỉ thời gian (in, on, at)<br />
-							- Giới từ chỉ nơi chốn (in, at, on, etc.)<br />
-							- Cách sử dụng trong câu
+							<strong class="text-accent">Non-Defining Relative Clauses</strong><br />
+							- Cách sử dụng mệnh đề quan hệ không xác định<br />
+							- Cấu trúc câu và ví dụ thực tế<br />
+							- Dấu câu trong mệnh đề không xác định
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Liên hệ với thì hiện tại đơn</td>
+						<td>Liên hệ với Defining Relative Clauses</td>
 					</tr>
 
 					<!-- Buổi 12 -->
-					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold text-nowrap">Buổi 12</td>
-						<td>
-							<strong class="text-accent">Tính từ và So sánh (Comparisons)</strong><br />
-							- Tính từ mô tả danh từ<br />
-							- Cấu trúc so sánh: like, different from, (not) as...as<br />
-							- Vị trí tính từ trong câu
-						</td>
-						<td>
-							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
-							</div>
-						</td>
-						<td>Ôn tập tính từ từ lớp 8, giới thiệu so sánh</td>
-					</tr>
-
-					<!-- Buổi 13 -->
 					<tr class="hover:bg-base-300 bg-warning/10">
-						<td class="text-primary font-bold text-nowrap">Buổi 13</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 12</td>
 						<td>
 							<strong class="text-accent">Kiểm tra</strong>
 						</td>
@@ -249,114 +236,80 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Đánh giá nội dung từ buổi 7-12</td>
+						<td>Đánh giá nội dung từ buổi 7-11</td>
+					</tr>
+
+					<!-- Buổi 13 -->
+					<tr class="hover:bg-base-300">
+						<td class="text-primary font-bold text-nowrap">Buổi 13</td>
+						<td>
+							<strong class="text-accent">Double Comparatives</strong><br />
+							- Cấu trúc so sánh kép<br />
+							- Cách sử dụng trong câu<br />
+							- Ví dụ thực tế
+						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Liên hệ với cấu trúc so sánh</td>
 					</tr>
 
 					<!-- Buổi 14 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 14</td>
 						<td>
-							<strong class="text-accent">Thì quá khứ đơn</strong><br />
-							- Cách sử dụng<br />
-							- Cấu trúc câu<br />
-							- Dấu hiệu nhận biết
+							<strong class="text-accent">Modal Verbs in First Conditional</strong><br />
+							- Cách sử dụng động từ khuyết thiếu trong câu điều kiện loại 1<br />
+							- Các động từ khuyết thiếu thường gặp<br />
+							- Phân biệt các mức độ chắc chắn
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Liên hệ với hiện tại đơn</td>
+						<td>Liên hệ với câu điều kiện loại 1</td>
 					</tr>
 
 					<!-- Buổi 15 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 15</td>
 						<td>
-							<strong class="text-accent">Thì quá khứ tiếp diễn</strong><br />
-							- Cách sử dụng<br />
-							- Cấu trúc câu<br />
-							- Dấu hiệu nhận biết
+							<strong class="text-accent">Reported Speech (Yes/No Questions)</strong><br />
+							- Cách chuyển câu hỏi Yes/No sang câu tường thuật<br />
+							- Cấu trúc với if/whether<br />
+							- Các thay đổi cần thiết
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Phân biệt với quá khứ đơn</td>
+						<td>Liên hệ với câu tường thuật</td>
 					</tr>
 
 					<!-- Buổi 16 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 16</td>
 						<td>
-							<strong class="text-accent">Thì tương lai đơn</strong><br />
-							- Cách sử dụng<br />
-							- Cấu trúc câu<br />
-							- Dấu hiệu nhận biết
+							<strong class="text-accent">Suggest/Advise/Recommend</strong><br />
+							- Cấu trúc với V-ing<br />
+							- Cấu trúc với that + should<br />
+							- Phân biệt cách sử dụng
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Liên hệ với hiện tại đơn</td>
+						<td>Liên hệ với Verbs + V-ing</td>
 					</tr>
 
 					<!-- Buổi 17 -->
-					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold text-nowrap">Buổi 17</td>
-						<td>
-							<strong class="text-accent">Thì tương lai gần</strong><br />
-							- Cách sử dụng<br />
-							- Cấu trúc câu<br />
-							- Dấu hiệu nhận biết
-						</td>
-						<td>
-							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
-							</div>
-						</td>
-						<td>Phân biệt với tương lai đơn</td>
-					</tr>
-
-					<!-- Buổi 18 -->
-					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold text-nowrap">Buổi 18</td>
-						<td>
-							<strong class="text-accent">Câu đơn</strong><br />
-							- Cấu trúc S-V-O<br />
-							- Câu khẳng định, phủ định<br />
-							- Câu hỏi Yes/No
-						</td>
-						<td>
-							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
-							</div>
-						</td>
-						<td>Ôn tập từ lớp 8</td>
-					</tr>
-
-					<!-- Buổi 19 -->
-					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold text-nowrap">Buổi 19</td>
-						<td>
-							<strong class="text-accent">Câu hỏi Wh-</strong><br />
-							- What, Where, When, Why, How<br />
-							- Cấu trúc câu hỏi Wh-<br />
-							- Cách trả lời
-						</td>
-						<td>
-							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
-							</div>
-						</td>
-						<td>Liên hệ với các thì</td>
-					</tr>
-
-					<!-- Buổi 20 -->
 					<tr class="hover:bg-base-300 bg-warning/10">
-						<td class="text-primary font-bold text-nowrap">Buổi 20</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 17</td>
 						<td>
 							<strong class="text-accent">Kiểm tra</strong>
 						</td>
@@ -365,41 +318,89 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Đánh giá nội dung từ buổi 14-19</td>
+						<td>Đánh giá nội dung từ buổi 13-16</td>
+					</tr>
+
+					<!-- Buổi 18 -->
+					<tr class="hover:bg-base-300">
+						<td class="text-primary font-bold text-nowrap">Buổi 18</td>
+						<td>
+							<strong class="text-accent">Adverbial Clauses of Concession</strong><br />
+							- Cấu trúc với although, though, even though<br />
+							- Cách sử dụng trong câu<br />
+							- Phân biệt với các mệnh đề khác
+						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Liên hệ với các mệnh đề trạng ngữ</td>
+					</tr>
+
+					<!-- Buổi 19 -->
+					<tr class="hover:bg-base-300">
+						<td class="text-primary font-bold text-nowrap">Buổi 19</td>
+						<td>
+							<strong class="text-accent">Adverbial Clauses of Result and Reason</strong><br />
+							- Cấu trúc với because, since, as<br />
+							- Cấu trúc với so, therefore, thus<br />
+							- Phân biệt cách sử dụng
+						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Liên hệ với Adverbial Clauses of Concession</td>
+					</tr>
+
+					<!-- Buổi 20 -->
+					<tr class="hover:bg-base-300">
+						<td class="text-primary font-bold text-nowrap">Buổi 20</td>
+						<td>
+							<strong class="text-accent">Ôn tập tổng hợp</strong><br />
+							- Ôn tập tất cả các chủ điểm đã học<br />
+							- Luyện tập các dạng bài tập tổng hợp
+						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Chuẩn bị cho kiểm tra cuối khóa</td>
 					</tr>
 
 					<!-- Buổi 21 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 21</td>
 						<td>
-							<strong class="text-accent">Câu ghép</strong><br />
-							- Liên từ and, but, or, so<br />
-							- Cách nối câu<br />
-							- Dấu câu trong câu ghép
+							<strong class="text-accent">Ôn tập tổng hợp</strong><br />
+							- Ôn tập tất cả các chủ điểm đã học<br />
+							- Luyện tập các dạng bài tập tổng hợp
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Ôn tập từ lớp 8</td>
+						<td>Chuẩn bị cho kiểm tra cuối khóa</td>
 					</tr>
 
 					<!-- Buổi 22 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 22</td>
 						<td>
-							<strong class="text-accent">Câu ghép - Phần 2</strong><br />
-							- Liên từ because, although<br />
-							- Cách nối câu<br />
-							- Dấu câu trong câu ghép
+							<strong class="text-accent">Ôn tập tổng hợp</strong><br />
+							- Ôn tập tất cả các chủ điểm đã học<br />
+							- Luyện tập các dạng bài tập tổng hợp
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Liên hệ với các thì</td>
+						<td>Chuẩn bị cho kiểm tra cuối khóa</td>
 					</tr>
 
 					<!-- Buổi 23 -->
@@ -407,7 +408,8 @@
 						<td class="text-primary font-bold text-nowrap">Buổi 23</td>
 						<td>
 							<strong class="text-accent">Ôn tập tổng hợp</strong><br />
-							- Ôn tập câu đơn, câu hỏi, so sánh, Although/Though, However
+							- Ôn tập tất cả các chủ điểm đã học<br />
+							- Luyện tập các dạng bài tập tổng hợp
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
@@ -420,7 +422,9 @@
 					<!-- Buổi 24 -->
 					<tr class="hover:bg-base-300 bg-error/10">
 						<td class="text-primary font-bold text-nowrap">Buổi 24</td>
-						<td><strong class="text-accent">Kiểm tra tổng hợp cuối khóa</strong></td>
+						<td>
+							<strong class="text-accent">Kiểm tra tổng hợp cuối khóa</strong>
+						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
@@ -439,24 +443,24 @@
 			<div class="alert alert-info">
 				<div>
 					<span
-						><strong>Kiểm tra:</strong> Buổi 6 – Đánh giá danh từ, mạo từ, đại từ, câu
-						đơn, câu ghép, câu phức</span
+						><strong>Kiểm tra:</strong> Buổi 6 – Đánh giá thì hiện tại hoàn thành, wish + past simple, 
+						verbs + to-infinitive</span
 					>
 				</div>
 			</div>
 			<div class="alert alert-info">
 				<div>
 					<span
-						><strong>Kiểm tra:</strong> Buổi 12 – Đánh giá Present Perfect, Past
-						Continuous, động từ + to-infinitive/V-ing</span
+						><strong>Kiểm tra:</strong> Buổi 12 – Đánh giá question words before to-infinitives, 
+						verbs + V-ing, relative clauses</span
 					>
 				</div>
 			</div>
 			<div class="alert alert-info">
 				<div>
 					<span
-						><strong>Kiểm tra:</strong> Buổi 20 – Đánh giá relative clauses, first
-						conditional, wish, double comparatives, reported speech</span
+						><strong>Kiểm tra:</strong> Buổi 17 – Đánh giá double comparatives, modal verbs in first conditional, 
+						reported speech, suggest/advise/recommend</span
 					>
 				</div>
 			</div>

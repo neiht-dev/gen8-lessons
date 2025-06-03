@@ -8,11 +8,12 @@
 		<!-- Thêm đoạn mã này vào phần header của mỗi trang HTML -->
 		<a href="/" class="home-button btn btn-primary py-1 px-3">Về trang chủ</a>
 
-		<h1 class="text-primary mb-2 text-2xl font-bold">
-			NGỮ PHÁP TIẾNG ANH VÀO LỚP 6 - GLOBAL SUCCESS
-		</h1>	
-		<div>	</div>
-		
+		<div class="flex flex-col items-center">
+			<h1 class="text-primary mb-2 text-2xl font-bold">
+				NGỮ PHÁP TIẾNG ANH VÀO LỚP 6 - GLOBAL SUCCESS
+			</h1>
+		</div>
+		<div></div>
 	</div>
 	<hr />
 	</header>
@@ -55,7 +56,7 @@
 								>
 							</div>
 						</td>
-						<td></td>
+						<td>Nền tảng cho các loại từ khác</td>
 					</tr>
 
 					<!-- Buổi 2 -->
@@ -73,6 +74,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Chuẩn bị cho mạo từ và some/any</td>
 					</tr>
 
 					<!-- Buổi 3 -->
@@ -86,6 +88,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Liên hệ với danh từ đếm được/không đếm được</td>
 					</tr>
 
 					<!-- Buổi 4 -->
@@ -99,6 +102,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Bổ sung cho mạo từ, chuẩn bị cho câu phủ định</td>
 					</tr>
 
 					<!-- Buổi 5 -->
@@ -114,6 +118,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Nền tảng cho cấu trúc câu</td>
 					</tr>
 
 					<!-- Buổi 6 -->
@@ -127,6 +132,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Đánh giá kiến thức nền tảng</td>
 					</tr>
 
 					<!-- Buổi 7 -->
@@ -142,6 +148,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Nền tảng cho các thì</td>
 					</tr>
 
 					<!-- Buổi 8 -->
@@ -158,6 +165,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Chuẩn bị cho cấu trúc câu</td>
 					</tr>
 
 					<!-- Buổi 9 -->
@@ -174,23 +182,25 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Chuẩn bị cho trạng từ</td>
 					</tr>
 
 					<!-- Buổi 10 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 10</td>
 						<td>
-							<strong class="text-accent">Trạng từ - Phần 1</strong><br />
+							<strong class="text-accent">Trạng từ</strong><br />
 							- Trạng từ chỉ cách thức<br />
 							- Sự biến đổi từ tính từ<br />
 							- Cách nhận biết trạng từ<br />
-							- Vị trí của trạng từ chỉ cách thức trong câu
+							- Vị trí của tính từ chỉ cách thức trong câu
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Liên hệ với tính từ</td>
 					</tr>
 
 					<!-- Buổi 11 -->
@@ -198,15 +208,16 @@
 						<td class="text-primary font-bold text-nowrap">Buổi 11</td>
 						<td>
 							<strong class="text-accent">Trạng từ - Phần 2</strong><br />
-							- Trạng từ chỉ thời gian<br />
-							- Trạng từ chỉ nơi chốn<br />
-							- Vị trí của trạng từ trong câu
+							- Trạng từ tần suất<br />
+							- Cách nhận biết trạng từ<br />
+							- Vị trí của tính từ tần suất trong câu
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Phát triển kỹ năng mô tả</td>
 					</tr>
 
 					<!-- Buổi 12 -->
@@ -220,118 +231,116 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Đánh giá các loại từ cơ bản</td>
 					</tr>
 
 					<!-- Buổi 13 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 13</td>
 						<td>
-							<strong class="text-accent">Câu đơn</strong><br />
-							- Cấu trúc S-V-O<br />
-							- Câu khẳng định, phủ định<br />
-							- Câu hỏi Yes/No
+							<strong class="text-accent">Các loại từ khác</strong><br />
+							- Giới từ (Preposition)<br />
+							- Liên từ (Conjunction)<br />
+							- Thán từ (Interjection)
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Bổ sung cho cấu trúc câu</td>
 					</tr>
 
 					<!-- Buổi 14 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 14</td>
 						<td>
-							<strong class="text-accent">Câu hỏi Wh-</strong><br />
-							- What, Where, When, Why, How<br />
-							- Cấu trúc câu hỏi Wh-<br />
-							- Cách trả lời
+							<strong class="text-accent">Cụm danh từ (Noun Phrase)</strong>
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Phát triển kỹ năng viết câu</td>
 					</tr>
 
 					<!-- Buổi 15 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 15</td>
 						<td>
-							<strong class="text-accent">Câu mệnh lệnh</strong><br />
-							- Câu mệnh lệnh khẳng định<br />
-							- Câu mệnh lệnh phủ định<br />
-							- Cách sử dụng
+							<strong class="text-accent">Cấu trúc câu</strong><br />
+							- Phân biệt S – V – O<br />
+							- Chủ ngữ giả (Dummy Subjects: It/There)<br />
+							- Câu khẳng định<br />
+							- Câu phủ định<br />
+							- Câu hỏi Yes/No<br />
+							- Câu hỏi Wh
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Tổng hợp các loại từ đã học</td>
 					</tr>
 
 					<!-- Buổi 16 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 16</td>
 						<td>
-							<strong class="text-accent">Câu cảm thán</strong><br />
-							- Cấu trúc câu cảm thán<br />
-							- Cách sử dụng What và How<br />
-							- Vị trí trong câu
+							<strong class="text-accent">Cấu trúc câu mệnh lệnh</strong>
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Phát triển kỹ năng giao tiếp</td>
 					</tr>
 
 					<!-- Buổi 17 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 17</td>
 						<td>
-							<strong class="text-accent">Câu ghép</strong><br />
-							- Liên từ and, but, or, so<br />
-							- Cách nối câu<br />
-							- Dấu câu trong câu ghép
+							<strong class="text-accent">Tính từ sở hữu và Sở hữu cách</strong>
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Mở rộng cách diễn đạt sở hữu</td>
 					</tr>
 
 					<!-- Buổi 18 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 18</td>
 						<td>
-							<strong class="text-accent">Câu ghép - Phần 2</strong><br />
-							- Liên từ because, although<br />
-							- Cách nối câu<br />
-							- Dấu câu trong câu ghép
+							<strong class="text-accent">Đại từ sở hữu</strong>
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Liên hệ với tính từ sở hữu</td>
 					</tr>
 
 					<!-- Buổi 19 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 19</td>
 						<td>
-							<strong class="text-accent">Câu ghép - Phần 3</strong><br />
-							- Liên từ when, while, before, after<br />
-							- Cách nối câu<br />
-							- Dấu câu trong câu ghép
+							<strong class="text-accent">Extra</strong><br />
+							- Động từ nguyên thể/V-ing làm chủ ngữ<br />
+							- Động từ khiếm khuyết (Modal Verbs)
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Mở rộng kiến thức nâng cao</td>
 					</tr>
 
 					<!-- Buổi 20 -->
@@ -345,38 +354,35 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Đánh giá cấu trúc câu và sở hữu</td>
 					</tr>
 
 					<!-- Buổi 21 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 21</td>
 						<td>
-							<strong class="text-accent">Câu phức</strong><br />
-							- Mệnh đề chính và mệnh đề phụ<br />
-							- Cách nối câu<br />
-							- Dấu câu trong câu phức
+							<strong class="text-accent">Ôn tập tổng hợp</strong>
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Ôn tập các loại từ và cấu trúc cơ bản</td>
 					</tr>
 
 					<!-- Buổi 22 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 22</td>
 						<td>
-							<strong class="text-accent">Câu phức - Phần 2</strong><br />
-							- Mệnh đề quan hệ<br />
-							- Cách nối câu<br />
-							- Dấu câu trong câu phức
+							<strong class="text-accent">Ôn tập tổng hợp</strong>
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Ôn tập cấu trúc câu và sở hữu</td>
 					</tr>
 
 					<!-- Buổi 23 -->
@@ -390,6 +396,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Luyện tập các dạng bài tập tổng hợp</td>
 					</tr>
 
 					<!-- Buổi 24 -->
@@ -403,6 +410,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
+						<td>Đánh giá toàn bộ nội dung khóa học</td>
 					</tr>
 				</tbody>
 			</table>

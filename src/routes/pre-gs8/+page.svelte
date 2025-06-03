@@ -8,11 +8,12 @@
 		<!-- Thêm đoạn mã này vào phần header của mỗi trang HTML -->
 		<a href="/" class="home-button btn btn-primary py-1 px-3">Về trang chủ</a>
 
-		<h1 class="text-primary mb-2 text-2xl font-bold">
-			NGỮ PHÁP TIẾNG ANH VÀO LỚP 8 - GLOBAL SUCCESS
-		</h1>	
-		<div>	</div>
-		
+		<div class="flex flex-col items-center">
+			<h1 class="text-primary mb-2 text-2xl font-bold">
+				NGỮ PHÁP TIẾNG ANH VÀO LỚP 8 - GLOBAL SUCCESS
+			</h1>
+		</div>
+		<div></div>
 	</div>
 	<hr />
 	</header>
@@ -35,24 +36,33 @@
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 1</td>
 						<td>
-							<strong class="text-accent">Danh từ và Mạo từ (Ôn tập)</strong><br />
+							<strong class="text-accent">Danh từ và Mạo từ</strong><br />
 							- Danh từ đếm được và không đếm được<br />
 							- Mạo từ a/an/the và mạo từ rỗng<br />
 							- Số ít, số nhiều, danh từ bất quy tắc
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
+								<a
+									target="_blank"
+									href="/lessons/pre-gs8/lesson-1-presentation.html"
+									class="link link-primary">Bài giảng</a
+								><br />
+								<a
+									target="_blank"
+									href="/lessons/pre-gs8/lesson-1-worksheets.html"
+									class="link link-primary">Bài tập</a
+								>
 							</div>
 						</td>
-						<td>Ôn tập từ lớp 6 và 7, nhấn mạnh mạo từ rỗng</td>
+						<td>Nền tảng cho các cấu trúc câu</td>
 					</tr>
 
 					<!-- Buổi 2 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 2</td>
 						<td>
-							<strong class="text-accent">Đại từ và Tính từ sở hữu (Ôn tập)</strong><br />
+							<strong class="text-accent">Đại từ và Tính từ sở hữu</strong><br />
 							- Đại từ nhân xưng, đại từ sở hữu (mine, yours, etc.)<br />
 							- Tính từ sở hữu (my, your, etc.)<br />
 							- Sở hữu cách ('s)
@@ -62,14 +72,14 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Ôn tập từ lớp 6 và 7, củng cố nền tảng</td>
+						<td>Củng cố nền tảng ngữ pháp</td>
 					</tr>
 
 					<!-- Buổi 3 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 3</td>
 						<td>
-							<strong class="text-accent">Động từ (Ôn tập)</strong><br />
+							<strong class="text-accent">Động từ cơ bản</strong><br />
 							- Động từ to be, động từ thường<br />
 							- Vị trí động từ trong câu<br />
 							- Sự biến đổi động từ (quy tắc và bất quy tắc)
@@ -79,7 +89,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Chuẩn bị cho các thì và cấu trúc câu</td>
+						<td>Chuẩn bị cho các thì</td>
 					</tr>
 
 					<!-- Buổi 4 -->
@@ -96,7 +106,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Ôn tập từ lớp 7, nền tảng cho câu ghép</td>
+						<td>Nền tảng cho câu ghép</td>
 					</tr>
 
 					<!-- Buổi 5 -->
@@ -113,7 +123,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Giới thiệu liên từ, chuẩn bị cho câu phức</td>
+						<td>Phát triển kỹ năng viết câu</td>
 					</tr>
 
 					<!-- Buổi 6 -->
@@ -121,7 +131,7 @@
 						<td class="text-primary font-bold text-nowrap">Buổi 6</td>
 						<td><strong class="text-accent">Kiểm tra</strong></td>
 						<td>Bài kiểm tra</td>
-						<td>Đánh giá danh từ, mạo từ, đại từ, câu đơn, câu ghép</td>
+						<td>Đánh giá kiến thức nền tảng</td>
 					</tr>
 
 					<!-- Buổi 7 -->
@@ -129,7 +139,7 @@
 						<td class="text-primary font-bold text-nowrap">Buổi 7</td>
 						<td>
 							<strong class="text-accent">Thì hiện tại đơn (Present Simple)</strong><br />
-							- Ôn tập cấu trúc và cách dùng<br />
+							- Cấu trúc và cách dùng<br />
 							- Dùng để chỉ thói quen và sự thật<br />
 							- Thì hiện tại đơn mang ý nghĩa tương lai (lịch trình)
 						</td>
@@ -138,34 +148,33 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Ôn tập từ lớp 7, nhấn mạnh ý nghĩa tương lai</td>
+						<td>Nền tảng cho các thì khác</td>
 					</tr>
 
 					<!-- Buổi 8 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 8</td>
 						<td>
-							<strong class="text-accent">Câu hỏi Yes/No và Wh-Questions (Ôn tập)</strong><br />
-							- Cấu trúc câu hỏi Yes/No<br />
-							- Câu hỏi Wh (What, Where, When, etc.)<br />
-							- Ứng dụng trong các thì
+							<strong class="text-accent">Thì hiện tại tiếp diễn (Present Continuous)</strong><br />
+							- Cấu trúc và cách dùng<br />
+							- Phân biệt với Present Simple<br />
+							- Câu khẳng định, phủ định, câu hỏi
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Ôn tập từ lớp 7, củng cố giao tiếp</td>
+						<td>Liên hệ với Present Simple</td>
 					</tr>
 
 					<!-- Buổi 9 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 9</td>
 						<td>
-							<strong class="text-accent">Thì hiện tại tiếp diễn (Present Continuous)</strong
-							><br />
-							- Ôn tập cấu trúc và cách dùng<br />
-							- Phân biệt với Present Simple<br />
+							<strong class="text-accent">Thì quá khứ đơn (Past Simple)</strong><br />
+							- Cấu trúc và cách dùng<br />
+							- Động từ quy tắc và bất quy tắc<br />
 							- Câu khẳng định, phủ định, câu hỏi
 						</td>
 						<td>
@@ -180,65 +189,6 @@
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 10</td>
 						<td>
-							<strong class="text-accent">Thì quá khứ đơn (Past Simple)</strong><br />
-							- Ôn tập cấu trúc và cách dùng<br />
-							- Động từ quy tắc và bất quy tắc<br />
-							- Câu khẳng định, phủ định, câu hỏi
-						</td>
-						<td>
-							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
-							</div>
-						</td>
-						<td>Ôn tập từ lớp 7, chuẩn bị cho Past Continuous</td>
-					</tr>
-
-					<!-- Buổi 11 -->
-					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold text-nowrap">Buổi 11</td>
-						<td>
-							<strong class="text-accent">Trạng từ (Adverbs)</strong><br />
-							- Trạng từ chỉ cách thức và tần suất<br />
-							- Sự biến đổi từ tính từ sang trạng từ<br />
-							- Vị trí trong câu
-						</td>
-						<td>
-							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
-							</div>
-						</td>
-						<td>Ôn tập từ lớp 6 và 7, chuẩn bị cho so sánh</td>
-					</tr>
-
-					<!-- Buổi 12 -->
-					<tr class="hover:bg-base-300 bg-warning/10">
-						<td class="text-primary font-bold text-nowrap">Buổi 12</td>
-						<td><strong class="text-accent">Kiểm tra</strong></td>
-						<td>Bài kiểm tra</td>
-						<td>Đánh giá Present Simple, Present Continuous, Past Simple, trạng từ</td>
-					</tr>
-
-					<!-- Buổi 13 -->
-					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold text-nowrap">Buổi 13</td>
-						<td>
-							<strong class="text-accent">Trạng từ so sánh (Comparative Adverbs)</strong><br />
-							- So sánh hơn, so sánh nhất, so sánh bằng<br />
-							- Quy tắc thêm -er, more/less, bất quy tắc<br />
-							- Ví dụ: faster, more carefully, as beautifully as
-						</td>
-						<td>
-							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
-							</div>
-						</td>
-						<td>Liên hệ với tính từ so sánh từ lớp 7</td>
-					</tr>
-
-					<!-- Buổi 14 -->
-					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold text-nowrap">Buổi 14</td>
-						<td>
 							<strong class="text-accent">Thì quá khứ tiếp diễn (Past Continuous)</strong><br />
 							- Cấu trúc và cách dùng<br />
 							- Hành động đang diễn ra trong quá khứ<br />
@@ -249,7 +199,66 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Nhấn mạnh kết hợp với Past Simple</td>
+						<td>Liên hệ với Past Simple</td>
+					</tr>
+
+					<!-- Buổi 11 -->
+					<tr class="hover:bg-base-300">
+						<td class="text-primary font-bold text-nowrap">Buổi 11</td>
+						<td>
+							<strong class="text-accent">Thì tương lai đơn (Future Simple)</strong><br />
+							- Cấu trúc và cách dùng (will)<br />
+							- Câu khẳng định, phủ định, câu hỏi<br />
+							- Phân biệt với Present Simple mang ý nghĩa tương lai
+						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Tổng kết các thì cơ bản</td>
+					</tr>
+
+					<!-- Buổi 12 -->
+					<tr class="hover:bg-base-300 bg-warning/10">
+						<td class="text-primary font-bold text-nowrap">Buổi 12</td>
+						<td><strong class="text-accent">Kiểm tra</strong></td>
+						<td>Bài kiểm tra</td>
+						<td>Đánh giá các thì đã học</td>
+					</tr>
+
+					<!-- Buổi 13 -->
+					<tr class="hover:bg-base-300">
+						<td class="text-primary font-bold text-nowrap">Buổi 13</td>
+						<td>
+							<strong class="text-accent">Câu hỏi Yes/No và Wh-Questions</strong><br />
+							- Cấu trúc câu hỏi Yes/No<br />
+							- Câu hỏi Wh (What, Where, When, etc.)<br />
+							- Ứng dụng trong các thì
+						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Phát triển kỹ năng giao tiếp</td>
+					</tr>
+
+					<!-- Buổi 14 -->
+					<tr class="hover:bg-base-300">
+						<td class="text-primary font-bold text-nowrap">Buổi 14</td>
+						<td>
+							<strong class="text-accent">Động từ thể hiện sở thích và không thích</strong><br />
+							- Like, love, enjoy, hate, dislike, prefer, can't stand<br />
+							- Cấu trúc với V-ing và to-V<br />
+							- Sự khác biệt về nghĩa
+						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Thực hành qua tình huống thực tế</td>
 					</tr>
 
 					<!-- Buổi 15 -->
@@ -272,43 +281,32 @@
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 16</td>
 						<td>
-							<strong class="text-accent">Động từ thể hiện sở thích và không thích</strong
-							><br />
-							- Like, love, enjoy, hate, dislike, prefer, can't stand<br />
-							- Cấu trúc với V-ing và to-V<br />
-							- Sự khác biệt về nghĩa
+							<strong class="text-accent">Trạng từ so sánh (Comparative Adverbs)</strong><br />
+							- So sánh hơn, so sánh nhất, so sánh bằng<br />
+							- Quy tắc thêm -er, more/less, bất quy tắc<br />
+							- Ví dụ: faster, more carefully, as beautifully as
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Thực hành qua tình huống thực tế</td>
+						<td>Phát triển kỹ năng mô tả</td>
 					</tr>
 
 					<!-- Buổi 17 -->
-					<tr class="hover:bg-base-300">
+					<tr class="hover:bg-base-300 bg-warning/10">
 						<td class="text-primary font-bold text-nowrap">Buổi 17</td>
-						<td>
-							<strong class="text-accent">Thì tương lai đơn (Future Simple)</strong><br />
-							- Ôn tập cấu trúc và cách dùng (will)<br />
-							- Câu khẳng định, phủ định, câu hỏi<br />
-							- Phân biệt với Present Simple mang ý nghĩa tương lai
-						</td>
-						<td>
-							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
-							</div>
-						</td>
-						<td>Ôn tập từ lớp 7, củng cố ý nghĩa</td>
+						<td><strong class="text-accent">Kiểm tra</strong></td>
+						<td>Bài kiểm tra</td>
+						<td>Đánh giá cấu trúc câu nâng cao</td>
 					</tr>
 
 					<!-- Buổi 18 -->
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 18</td>
 						<td>
-							<strong class="text-accent">Câu phức với mệnh đề trạng từ chỉ thời gian</strong
-							><br />
+							<strong class="text-accent">Câu phức với mệnh đề trạng từ chỉ thời gian</strong><br />
 							- Liên từ thời gian: when, while, before, after, since, until, as soon as, once<br />
 							- Cấu trúc câu phức<br />
 							- Ứng dụng với các thì
@@ -318,7 +316,7 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Nhấn mạnh mệnh đề phụ thời gian</td>
+						<td>Phát triển kỹ năng viết câu phức</td>
 					</tr>
 
 					<!-- Buổi 19 -->
@@ -339,19 +337,8 @@
 					</tr>
 
 					<!-- Buổi 20 -->
-					<tr class="hover:bg-base-300 bg-warning/10">
-						<td class="text-primary font-bold text-nowrap">Buổi 20</td>
-						<td><strong class="text-accent">Kiểm tra</strong></td>
-						<td>Bài kiểm tra</td>
-						<td>
-							Đánh giá Past Continuous, trạng từ so sánh, giới từ, động từ sở thích, câu gián
-							tiếp
-						</td>
-					</tr>
-
-					<!-- Buổi 21 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold text-nowrap">Buổi 21</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 20</td>
 						<td>
 							<strong class="text-accent">Câu hỏi trong lời nói gián tiếp</strong><br />
 							- Câu hỏi Yes/No gián tiếp (if/whether)<br />
@@ -363,7 +350,23 @@
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Liên hệ với câu gián tiếp từ Buổi 19</td>
+						<td>Liên hệ với câu gián tiếp</td>
+					</tr>
+
+					<!-- Buổi 21 -->
+					<tr class="hover:bg-base-300">
+						<td class="text-primary font-bold text-nowrap">Buổi 21</td>
+						<td>
+							<strong class="text-accent">Ôn tập tổng hợp</strong><br />
+							- Ôn tập các thì (Present Simple, Continuous, Past Simple, Past Continuous, Future Simple)<br />
+							- Câu đơn, ghép, phức
+						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Chuẩn bị cho kiểm tra cuối khóa</td>
 					</tr>
 
 					<!-- Buổi 22 -->
@@ -371,9 +374,8 @@
 						<td class="text-primary font-bold text-nowrap">Buổi 22</td>
 						<td>
 							<strong class="text-accent">Ôn tập tổng hợp</strong><br />
-							- Ôn tập các thì (Present Simple, Continuous, Past Simple, Past Continuous, Future
-							Simple)<br />
-							- Câu đơn, ghép, phức
+							- Ôn tập câu hỏi, động từ sở thích, giới từ thời gian<br />
+							- Trạng từ so sánh
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
@@ -388,7 +390,8 @@
 						<td class="text-primary font-bold text-nowrap">Buổi 23</td>
 						<td>
 							<strong class="text-accent">Ôn tập tổng hợp</strong><br />
-							- Ôn tập trạng từ, câu gián tiếp, câu hỏi gián tiếp, giới từ thời gian
+							- Ôn tập câu gián tiếp và câu hỏi gián tiếp<br />
+							- Luyện tập các dạng bài tập tổng hợp
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
@@ -416,24 +419,21 @@
 			<div class="alert alert-info">
 				<div>
 					<span
-						><strong>Kiểm tra:</strong> Buổi 6 – Đánh giá danh từ, mạo từ, đại từ, câu
-						đơn, câu ghép</span
+						><strong>Kiểm tra:</strong> Buổi 6 – Đánh giá kiến thức nền tảng (danh từ, mạo từ, đại từ, câu đơn, câu ghép)</span
 					>
 				</div>
 			</div>
 			<div class="alert alert-info">
 				<div>
 					<span
-						><strong>Kiểm tra:</strong> Buổi 12 – Đánh giá Present Simple, Present
-						Continuous, Past Simple, trạng từ</span
+						><strong>Kiểm tra:</strong> Buổi 12 – Đánh giá các thì (Present Simple, Present Continuous, Past Simple, Past Continuous, Future Simple)</span
 					>
 				</div>
 			</div>
 			<div class="alert alert-info">
 				<div>
 					<span
-						><strong>Kiểm tra:</strong> Buổi 20 – Đánh giá Past Continuous, trạng từ so
-						sánh, giới từ, động từ sở thích, câu gián tiếp</span
+						><strong>Kiểm tra:</strong> Buổi 17 – Đánh giá cấu trúc câu nâng cao (câu hỏi, động từ sở thích, giới từ, trạng từ so sánh)</span
 					>
 				</div>
 			</div>
