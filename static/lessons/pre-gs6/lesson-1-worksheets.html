@@ -201,41 +201,41 @@
 
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
                     <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">activity <span class="text-gray-500">n</span>
+                        <p class="font-medium text-gray-800 mb-1">activity <span class="text-gray-500">(n)</span>
                             /ækˈtɪvəti/</p>
                         <p class="text-gray-700">hoạt động</p>
                     </div>
                     <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">art <span class="text-gray-500">n</span> /ɑːt/</p>
+                        <p class="font-medium text-gray-800 mb-1">art <span class="text-gray-500">(n)</span> /ɑːt/</p>
                         <p class="text-gray-700">nghệ thuật</p>
                     </div>
                     <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">boarding school <span class="text-gray-500">n</span>
+                        <p class="font-medium text-gray-800 mb-1">boarding school <span class="text-gray-500">(n)</span>
                             /ˈbɔːdɪŋ skuːl/</p>
                         <p class="text-gray-700">trường nội trú</p>
                     </div>
                     <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">calculator <span class="text-gray-500">n</span>
+                        <p class="font-medium text-gray-800 mb-1">calculator <span class="text-gray-500">(n)</span>
                             /ˈkælkjuleɪtə/</p>
                         <p class="text-gray-700">máy tính</p>
                     </div>
                     <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">classmate <span class="text-gray-500">n</span>
+                        <p class="font-medium text-gray-800 mb-1">classmate <span class="text-gray-500">(n)</span>
                             /ˈklɑːsmeɪt/</p>
                         <p class="text-gray-700">bạn cùng lớp</p>
                     </div>
                     <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">compass <span class="text-gray-500">n</span> /ˈkʌmpəs/
+                        <p class="font-medium text-gray-800 mb-1">compass <span class="text-gray-500">(n)</span> /ˈkʌmpəs/
                         </p>
                         <p class="text-gray-700">com-pa</p>
                     </div>
                     <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">favourite <span class="text-gray-500">adj</span>
+                        <p class="font-medium text-gray-800 mb-1">favourite <span class="text-gray-500">(adj)</span>
                             /ˈfeɪvərɪt/</p>
                         <p class="text-gray-700">được yêu thích</p>
                     </div>
                     <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">help <span class="text-gray-500">n/v</span> /help/</p>
+                        <p class="font-medium text-gray-800 mb-1">help <span class="text-gray-500">(n/v)</span> /help/</p>
                         <p class="text-gray-700">sự giúp đỡ / giúp đỡ</p>
                     </div>
                 </div>
@@ -365,11 +365,11 @@
                                         study at a(n) ________.</span>
                                     <div class="flex space-x-4">
                                         <label class="inline-flex items-center">
-                                            <input type="radio" name="q1" class="form-radio" value="boarding school">
+                                            <input type="radio" name="q1" class="form-radio" value="boarding school" data-answer="boarding school" onblur="checkAnswer(this)">
                                             <span class="ml-2">boarding school</span>
                                         </label>
                                         <label class="inline-flex items-center">
-                                            <input type="radio" name="q1" class="form-radio" value="Hanoi">
+                                            <input type="radio" name="q1" class="form-radio" value="Hanoi" data-answer="boarding school" onblur="checkAnswer(this)">
                                             <span class="ml-2">Hanoi</span>
                                         </label>
                                     </div>
@@ -379,11 +379,11 @@
                                         passed an ________ with a big company.</span>
                                     <div class="flex space-x-4">
                                         <label class="inline-flex items-center">
-                                            <input type="radio" name="q2" class="form-radio" value="interview">
+                                            <input type="radio" name="q2" class="form-radio" value="interview" data-answer="interview" onblur="checkAnswer(this)">
                                             <span class="ml-2">interview</span>
                                         </label>
                                         <label class="inline-flex items-center">
-                                            <input type="radio" name="q2" class="form-radio" value="job">
+                                            <input type="radio" name="q2" class="form-radio" value="job" data-answer="interview" onblur="checkAnswer(this)">
                                             <span class="ml-2">job</span>
                                         </label>
                                     </div>
@@ -393,11 +393,11 @@
                                         school has an international ________.</span>
                                     <div class="flex space-x-4">
                                         <label class="inline-flex items-center">
-                                            <input type="radio" name="q3" class="form-radio" value="student">
+                                            <input type="radio" name="q3" class="form-radio" value="student" data-answer="club" onblur="checkAnswer(this)">
                                             <span class="ml-2">student</span>
                                         </label>
                                         <label class="inline-flex items-center">
-                                            <input type="radio" name="q3" class="form-radio" value="club">
+                                            <input type="radio" name="q3" class="form-radio" value="club" data-answer="club" onblur="checkAnswer(this)">
                                             <span class="ml-2">club</span>
                                         </label>
                                     </div>
@@ -407,11 +407,11 @@
                                         my ________ book.</span>
                                     <div class="flex space-x-4">
                                         <label class="inline-flex items-center">
-                                            <input type="radio" name="q4" class="form-radio" value="favourite">
+                                            <input type="radio" name="q4" class="form-radio" value="favourite" data-answer="favourite" onblur="checkAnswer(this)">
                                             <span class="ml-2">favourite</span>
                                         </label>
                                         <label class="inline-flex items-center">
-                                            <input type="radio" name="q4" class="form-radio" value="new">
+                                            <input type="radio" name="q4" class="form-radio" value="new" data-answer="favourite" onblur="checkAnswer(this)">
                                             <span class="ml-2">new</span>
                                         </label>
                                     </div>
@@ -421,11 +421,11 @@
                                         knocked on the door but no one answered. → "knock" ở đây là ________</span>
                                     <div class="flex space-x-4">
                                         <label class="inline-flex items-center">
-                                            <input type="radio" name="q5" class="form-radio" value="noun">
+                                            <input type="radio" name="q5" class="form-radio" value="noun" data-answer="verb" onblur="checkAnswer(this)">
                                             <span class="ml-2">danh từ</span>
                                         </label>
                                         <label class="inline-flex items-center">
-                                            <input type="radio" name="q5" class="form-radio" value="verb">
+                                            <input type="radio" name="q5" class="form-radio" value="verb" data-answer="verb" onblur="checkAnswer(this)">
                                             <span class="ml-2">động từ</span>
                                         </label>
                                     </div>
@@ -614,14 +614,29 @@
 
         function checkAnswer(input) {
             const correctAnswer = input.getAttribute('data-answer');
-            const userAnswer = input.value.trim();
+            const userAnswer = input.value ? input.value.trim().toLowerCase() : input.checked ? input.value : '';
+            const correctAnswerLower = correctAnswer.toLowerCase();
 
-            if (userAnswer === "") return;
+            // Handle radio buttons
+            if (input.type === 'radio') {
+                const radioGroup = document.getElementsByName(input.name);
+                radioGroup.forEach(radio => {
+                    if (radio.value === correctAnswer) {
+                        radio.parentElement.classList.add('correct');
+                        radio.parentElement.classList.remove('incorrect');
+                    } else {
+                        radio.parentElement.classList.add('incorrect');
+                        radio.parentElement.classList.remove('correct');
+                    }
+                });
+                return;
+            }
 
-            if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+            // Handle text inputs
+            if (userAnswer === correctAnswerLower) {
                 input.classList.add('correct');
                 input.classList.remove('incorrect');
-            } else {
+            } else if (userAnswer !== '') {
                 input.classList.add('incorrect');
                 input.classList.remove('correct');
             }

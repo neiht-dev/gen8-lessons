@@ -50,7 +50,7 @@
 								><br />
 								<a
 									target="_blank"
-									href="/lessons/pre-gs6/lesson-1-workshees.html"
+									href="/lessons/pre-gs6/lesson-1-worksheets.html"
 									class="link link-primary">Bài tập</a
 								>
 							</div>
