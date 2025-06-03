@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreGS9 - Lesson 1 - Present Simple & Continuous Worksheet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/pre-gs-worksheets.css">
+    
+</head>
+
+<body class="bg-blue-50">
+    <div class="px-4 py-6 print:py-0 pb-6 w-full">
+        <div class="worksheet-container">
+            <!-- Header -->
+            <div class="flex justify-between items-center my-4">
+                <h1 class="worksheet-title">📝 Thì Hiện Tại Đơn và Hiện Tại Tiếp Diễn</h1>
+                <button onclick="printWorksheet()"
+                    class="block print:hidden bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5 4v3H4a2 2 0 00-2 2v3a2 2 0 002 2h1v2a2 2 0 002 2h6a2 2 0 002-2v-2h1a2 2 0 002-2V9a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H7a2 2 0 00-2 2zm8 0H7v3h6V4zm0 8H7v4h6v-4z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    Print Worksheet
+                </button>
+                <p class="hidden print:block text-center text-gray-600">Student: _______________________ Date: _______________</p>
+            </div>
+
+            <!-- Key Notes -->
+            <div class="mb-3">
+                <div class="flex items-center mb-3">
+                    <div class="w-5 h-5 bg-yellow-400 rounded-full flex items-center justify-center mr-3">
+                        <span class="font-bold text-white">1</span>
+                    </div>
+                    <h3 class="section-title">Phần 1: Tóm tắt kiến thức (Key Notes)</h3>
+                </div>
+
+                <div class="grid-2-cols">
+                    <div class="info-card bg-blue-50">
+                        <h4 class="subsection-title">1. Thì Hiện Tại Đơn</h4>
+                        <p class="text-gray-700 mb-2">Dùng cho hành động thường xuyên, sự thật hiển nhiên</p>
+                        <table class="w-full text-left text-gray-700">
+                            <tbody>
+                                <tr>
+                                    <td class="py-1">Cấu trúc:</td>
+                                    <td class="py-1 italic">I/You/We/They + V1</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1"></td>
+                                    <td class="py-1 italic">He/She/It + V1(s/es)</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1">Dấu hiệu:</td>
+                                    <td class="py-1 italic">always, usually, often, every day</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="info-card bg-green-50">
+                        <h4 class="subsection-title">2. Thì Hiện Tại Tiếp Diễn</h4>
+                        <p class="text-gray-700 mb-2">Dùng cho hành động đang xảy ra, kế hoạch tương lai</p>
+                        <table class="w-full text-left text-gray-700">
+                            <tbody>
+                                <tr>
+                                    <td class="py-1">Cấu trúc:</td>
+                                    <td class="py-1 italic">am/is/are + V-ing</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1">Dấu hiệu:</td>
+                                    <td class="py-1 italic">now, at the moment, at present</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1">Quy tắc thêm -ing:</td>
+                                    <td class="py-1 italic">make → making, run → running</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="info-card bg-yellow-50">
+                        <h4 class="subsection-title">3. Cấu trúc phủ định</h4>
+                        <table class="w-full text-left text-gray-700">
+                            <tbody>
+                                <tr>
+                                    <td class="py-1">Hiện tại đơn:</td>
+                                    <td class="py-1 italic">don't/doesn't + V1</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1">Hiện tại tiếp diễn:</td>
+                                    <td class="py-1 italic">am/is/are not + V-ing</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="info-card bg-purple-50">
+                        <h4 class="subsection-title">4. Cấu trúc nghi vấn</h4>
+                        <table class="w-full text-left text-gray-700">
+                            <tbody>
+                                <tr>
+                                    <td class="py-1">Hiện tại đơn:</td>
+                                    <td class="py-1 italic">Do/Does + S + V1?</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1">Hiện tại tiếp diễn:</td>
+                                    <td class="py-1 italic">Am/Is/Are + S + V-ing?</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vocabulary -->
+            <div class="mb-4">
+                <div class="flex items-center mb-2">
+                    <div class="w-5 h-5 bg-yellow-400 rounded-full flex items-center justify-center mr-3">
+                        <span class="font-bold text-white">2</span>
+                    </div>
+                    <h3 class="section-title">Phần 2: Từ vựng cần sử dụng trong bài tập</h3>
+                </div>
+
+                <div class="grid-3-cols">
+                    <div class="vocab-card">
+                        <p class="vocab-word">artisan <span class="vocab-type">(n)</span> /ˌɑːtɪˈzæn/</p>
+                        <p class="vocab-meaning">thợ làm nghề thủ công</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">community <span class="vocab-type">(n)</span> /kəˈmjuːnəti/</p>
+                        <p class="vocab-meaning">cộng đồng</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">community helper <span class="vocab-type">(n)</span> /kəˈmjuːnəti ˈhelpə/</p>
+                        <p class="vocab-meaning">người phục vụ cộng đồng</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">craft village <span class="vocab-type">(n)</span> /ˌkrɑːft ˈvɪlɪdʒ/</p>
+                        <p class="vocab-meaning">làng nghề thủ công</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">delivery person <span class="vocab-type">(n)</span> /dɪˈlɪvəri ˈpɜːsn/</p>
+                        <p class="vocab-meaning">nhân viên giao hàng</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">electrician <span class="vocab-type">(n)</span> /ɪˌlekˈtrɪʃn/</p>
+                        <p class="vocab-meaning">thợ điện</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">facilities <span class="vocab-type">(n)</span> /fəˈsɪlətiz/</p>
+                        <p class="vocab-meaning">cơ sở vật chất</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">firefighter <span class="vocab-type">(n)</span> /ˈfaɪəfaɪtə/</p>
+                        <p class="vocab-meaning">lính cứu hoả</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">fragrance <span class="vocab-type">(n)</span> /ˈfreɪɡrəns/</p>
+                        <p class="vocab-meaning">hương thơm</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">function <span class="vocab-type">(n)</span> /ˈfʌŋkʃn/</p>
+                        <p class="vocab-meaning">chức năng</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">garbage collector <span class="vocab-type">(n)</span> /ˈɡɑːbɪdʒ kəlektə/</p>
+                        <p class="vocab-meaning">nhân viên dọn vệ sinh</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">handicraft <span class="vocab-type">(n)</span> /ˈhændikrɑːft/</p>
+                        <p class="vocab-meaning">sản phẩm thủ công</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">original <span class="vocab-type">(adj)</span> /əˈrɪdʒənl/</p>
+                        <p class="vocab-meaning">nguyên bản</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">police officer <span class="vocab-type">(n)</span> /pəˈliːs ɒfɪsə/</p>
+                        <p class="vocab-meaning">công an</p>
+                    </div>
+                    <div class="vocab-card">
+                        <p class="vocab-word">pottery <span class="vocab-type">(n)</span> /ˈpɒtəri/</p>
+                        <p class="vocab-meaning">đồ gốm</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Basic Exercises -->
+            <div class="mb-4">
+                <div class="flex items-center mb-2">
+                    <div class="w-5 h-5 bg-yellow-400 rounded-full flex items-center justify-center mr-3">
+                        <span class="font-bold text-white">3</span>
+                    </div>
+                    <h3 class="section-title">Phần 3: Bài tập cơ bản (Basic Exercises)</h3>
+                </div>
+
+                <div class="exercise-container">
+                    <div class="flex items-start mb-3">
+                        <div>
+                            <h4 class="exercise-title">Bài 1: Chọn dạng động từ đúng</h4>
+                            <p class="exercise-instruction">👉 Điền dạng đúng của động từ vào chỗ trống:</p>
+                            <div class="space-y-3">
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The artisans in the craft village <input type="text" class="answer-input w-24" data-answer="make" onblur="checkAnswer(this)"> beautiful handicrafts every day.</p>
+                                    <p class="text-sm text-gray-500">(make/makes/is making)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Look for time expressions like 'every day'</div>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">Look! The delivery person <input type="text" class="answer-input w-24" data-answer="is delivering" onblur="checkAnswer(this)"> packages to our community now.</p>
+                                    <p class="text-sm text-gray-500">(delivers/is delivering/deliver)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Look for words like 'Look!' and 'now'</div>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The electrician <input type="text" class="answer-input w-24" data-answer="fixes" onblur="checkAnswer(this)"> electrical problems in our facilities every week.</p>
+                                    <p class="text-sm text-gray-500">(fixes/is fixing/fix)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Look for time expressions like 'every week'</div>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The police officers <input type="text" class="answer-input w-24" data-answer="are patrolling" onblur="checkAnswer(this)"> the streets at the moment.</p>
+                                    <p class="text-sm text-gray-500">(patrol/are patrolling/patrols)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Look for time expressions like 'at the moment'</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exercise-container">
+                    <div class="flex items-start mb-3">
+                        <div>
+                            <h4 class="exercise-title">Bài 2: Viết dạng số nhiều của danh từ</h4>
+                            <p class="exercise-instruction">👉 Điền dạng số nhiều của danh từ vào chỗ trống:</p>
+                            <div class="space-y-3">
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The <input type="text" class="answer-input w-24" data-answer="firefighters" onblur="checkAnswer(this)"> always help people in emergencies.</p>
+                                    <p class="text-sm text-gray-500">(firefighter/firefighters)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Think about plural form for a group of people</div>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">Our <input type="text" class="answer-input w-24" data-answer="community" onblur="checkAnswer(this)"> has many modern facilities.</p>
+                                    <p class="text-sm text-gray-500">(community/communities)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Look at the verb 'has' to determine singular/plural</div>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The <input type="text" class="answer-input w-24" data-answer="garbage collectors" onblur="checkAnswer(this)"> collect waste every morning.</p>
+                                    <p class="text-sm text-gray-500">(garbage collector/garbage collectors)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Look at the verb 'collect' to determine singular/plural</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exercise-container">
+                    <div class="flex items-start mb-3">
+                        <div>
+                            <h4 class="exercise-title">Bài 3: Viết câu hoàn chỉnh</h4>
+                            <p class="exercise-instruction">👉 Dựa vào gợi ý, viết câu hoàn chỉnh sử dụng thì thích hợp:</p>
+                            <div class="space-y-3">
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">artisan/make/pottery</p>
+                                    <input type="text" class="answer-input min-w-[200px]" data-answer="The artisans make beautiful pottery in the craft village." onblur="checkAnswer(this)">
+                                    <p class="text-sm text-gray-500">Gợi ý: Use Present Simple for regular activities</p>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">electrician/fix/now</p>
+                                    <input type="text" class="answer-input min-w-[200px]" data-answer="The electrician is fixing the lights now." onblur="checkAnswer(this)">
+                                    <p class="text-sm text-gray-500">Gợi ý: Use Present Continuous for actions happening now</p>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">community helpers/work/every day</p>
+                                    <input type="text" class="answer-input min-w-[200px]" data-answer="Community helpers work hard every day." onblur="checkAnswer(this)">
+                                    <p class="text-sm text-gray-500">Gợi ý: Use Present Simple for daily routines</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Advanced Exercises -->
+            <div class="mb-4">
+                <div class="flex items-center mb-2">
+                    <div class="w-5 h-5 bg-yellow-400 rounded-full flex items-center justify-center mr-3">
+                        <span class="font-bold text-white">4</span>
+                    </div>
+                    <h3 class="section-title">Phần 4: Bài tập nâng cao (Advanced Exercises)</h3>
+                </div>
+
+                <div class="exercise-container">
+                    <div class="flex items-start mb-4">
+                        <div>
+                            <h4 class="exercise-title">Bài 4: Chọn cụm từ thời gian đúng</h4>
+                            <p class="exercise-instruction">👉 Điền cụm từ thời gian phù hợp vào chỗ trống:</p>
+                            <div class="space-y-3">
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The police officers protect our community <input type="text" class="answer-input w-24" data-answer="every day" onblur="checkAnswer(this)">.</p>
+                                    <p class="text-sm text-gray-500">(now/every day/at the moment)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Look for time expressions that show frequency</div>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The garbage collectors <input type="text" class="answer-input w-24" data-answer="usually" onblur="checkAnswer(this)"> start their work early in the morning.</p>
+                                    <p class="text-sm text-gray-500">(usually/now/at present)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Look for adverbs of frequency</div>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">Look! The artisans <input type="text" class="answer-input w-24" data-answer="are making" onblur="checkAnswer(this)"> handicrafts at the moment.</p>
+                                    <p class="text-sm text-gray-500">(make/are making/makes)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Look for words that indicate current actions</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exercise-container">
+                    <div class="flex items-start mb-4">
+                        <div>
+                            <h4 class="exercise-title">Bài 5: Điền động từ đúng dạng</h4>
+                            <p class="exercise-instruction">👉 Điền dạng đúng của động từ vào chỗ trống:</p>
+                            <div class="space-y-3">
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The delivery person <input type="text" class="answer-input w-24" data-answer="delivers" onblur="checkAnswer(this)"> packages to our community every morning.</p>
+                                    <p class="text-sm text-gray-500">(deliver/delivers/is delivering)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Check the subject (singular/plural) and time expression</div>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The firefighters <input type="text" class="answer-input w-24" data-answer="are training" onblur="checkAnswer(this)"> in the yard now.</p>
+                                    <p class="text-sm text-gray-500">(train/trains/are training)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Look for words indicating current actions</div>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">Our community <input type="text" class="answer-input w-24" data-answer="has" onblur="checkAnswer(this)"> many modern facilities.</p>
+                                    <p class="text-sm text-gray-500">(have/has/is having)</p>
+                                    <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                    <div class="hint">Check the subject (singular/plural)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exercise-container">
+                    <div class="flex items-start mb-4">
+                        <div>
+                            <h4 class="exercise-title">Bài 6: Viết câu phủ định</h4>
+                            <p class="exercise-instruction">👉 Viết dạng phủ định của các câu sau:</p>
+                            <div class="space-y-3">
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The electrician fixes electrical problems every day.</p>
+                                    <input type="text" class="answer-input min-w-[200px]" data-answer="The electrician doesn't fix electrical problems every day." onblur="checkAnswer(this)">
+                                    <p class="text-sm text-gray-500">Gợi ý: Use don't/doesn't + V1 for Present Simple negative</p>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The police officers are patrolling the streets now.</p>
+                                    <input type="text" class="answer-input min-w-[200px]" data-answer="The police officers aren't patrolling the streets now." onblur="checkAnswer(this)">
+                                    <p class="text-sm text-gray-500">Gợi ý: Use am/is/are not + V-ing for Present Continuous negative</p>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The artisans make pottery in the craft village.</p>
+                                    <input type="text" class="answer-input min-w-[200px]" data-answer="The artisans don't make pottery in the craft village." onblur="checkAnswer(this)">
+                                    <p class="text-sm text-gray-500">Gợi ý: Use don't/doesn't + V1 for Present Simple negative</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exercise-container">
+                    <div class="flex items-start mb-4">
+                        <div>
+                            <h4 class="exercise-title">Bài 7: Viết câu nghi vấn</h4>
+                            <p class="exercise-instruction">👉 Viết dạng nghi vấn của các câu sau:</p>
+                            <div class="space-y-3">
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The garbage collectors work in the morning.</p>
+                                    <input type="text" class="answer-input min-w-[200px]" data-answer="Do the garbage collectors work in the morning?" onblur="checkAnswer(this)">
+                                    <p class="text-sm text-gray-500">Gợi ý: Use Do/Does + S + V1? for Present Simple questions</p>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The delivery person is delivering packages now.</p>
+                                    <input type="text" class="answer-input min-w-[200px]" data-answer="Is the delivery person delivering packages now?" onblur="checkAnswer(this)">
+                                    <p class="text-sm text-gray-500">Gợi ý: Use Am/Is/Are + S + V-ing? for Present Continuous questions</p>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg">
+                                    <p class="text-gray-700">The community helpers help people every day.</p>
+                                    <input type="text" class="answer-input min-w-[200px]" data-answer="Do the community helpers help people every day?" onblur="checkAnswer(this)">
+                                    <p class="text-sm text-gray-500">Gợi ý: Use Do/Does + S + V1? for Present Simple questions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exercise-container">
+                    <div class="flex items-start mb-4">
+                        <div>
+                            <h4 class="exercise-title">Bài 8: Hoàn thành đoạn văn</h4>
+                            <p class="exercise-instruction">👉 Điền dạng đúng của động từ vào chỗ trống:</p>
+                            <div class="bg-white p-3 rounded-lg">
+                                <p class="text-gray-700">
+                                    Our community <input type="text" class="answer-input w-16" data-answer="has" onblur="checkAnswer(this)"> many important workers. 
+                                    The firefighters <input type="text" class="answer-input w-16" data-answer="protect" onblur="checkAnswer(this)"> us from fires every day. 
+                                    Right now, the electrician <input type="text" class="answer-input w-16" data-answer="is fixing" onblur="checkAnswer(this)"> the street lights. 
+                                    The garbage collectors <input type="text" class="answer-input w-16" data-answer="collect" onblur="checkAnswer(this)"> waste every morning. 
+                                    The police officers <input type="text" class="answer-input w-16" data-answer="are patrolling" onblur="checkAnswer(this)"> the streets at the moment. 
+                                    The delivery person <input type="text" class="answer-input w-16" data-answer="delivers" onblur="checkAnswer(this)"> packages to our community every day. 
+                                    The artisans in the craft village <input type="text" class="answer-input w-16" data-answer="make" onblur="checkAnswer(this)"> beautiful handicrafts. 
+                                    Our community helpers <input type="text" class="answer-input w-16" data-answer="work" onblur="checkAnswer(this)"> hard to make our community better.
+                                </p>
+                                <p class="text-sm text-gray-500">(has/have, protect/protects, is fixing/fixes, collect/collects, are patrolling/patrol, delivers/deliver, make/makes, work/works)</p>
+                                <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                                <div class="hint">Look for time expressions and check subject-verb agreement</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Creative Exercise -->
+                <div class="exercise-container">
+                    <div class="flex items-start mb-4">
+                        <div>
+                            <h4 class="exercise-title">Bài 9: Bài tập sáng tạo - Viết đoạn văn</h4>
+                            <p class="exercise-instruction">👉 Viết một đoạn văn ngắn (3-5 câu) mô tả hoạt động của một cộng đồng, sử dụng ít nhất 3 từ vựng từ danh sách (artisan, community, community helper, craft village, delivery person, electrician, facilities, firefighter, fragrance, function, garbage collector, handicraft, original, police officer, pottery) và sử dụng cả thì Hiện Tại Đơn và Hiện Tại Tiếp Diễn. Gạch chân các từ vựng được sử dụng.</p>
+                            <textarea class="border border-gray-300 rounded px-3 py-2 w-full h-24"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function printWorksheet() {
+            window.print();
+        }
+
+        function checkAnswer(input) {
+            const correctAnswer = input.getAttribute('data-answer');
+            const userAnswer = input.value ? input.value.trim().toLowerCase() : '';
+            const correctAnswerLower = correctAnswer.toLowerCase();
+
+            if (userAnswer === correctAnswerLower) {
+                input.classList.add('correct');
+                input.classList.remove('incorrect');
+            } else if (userAnswer !== '') {
+                input.classList.add('incorrect');
+                input.classList.remove('correct');
+            }
+        }
+    </script>
+</body>
+
+</html>

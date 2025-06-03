@@ -37,17 +37,17 @@
 							<div class="flex flex-col justify-center gap-0">
 								<a
 									target="_blank"
-									href="/lessons/pre-gs7/lesson-1-presentation.html"
+									href="/lessons/pre-gs7/pre-gs7-lesson-1.html"
 									class="link link-primary">Bài giảng</a
 								><br />
 								<a
 									target="_blank"
-									href="/lessons/pre-gs7/lesson-1-worksheets.html"
+									href="/lessons/pre-gs7/pre-gs7-worksheets-1.html"
 									class="link link-primary">Bài tập</a
 								>
 							</div>
 						</td>
-						<td>Ôn tập từ lớp 6, nhấn mạnh danh từ bất quy tắc</td>
+						<td>Ôn tập từ lớp 6</td>
 					</tr>
 
 					<!-- Buổi 2 -->
