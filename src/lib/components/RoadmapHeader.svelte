@@ -36,13 +36,13 @@
 </script>
 
 <header class="mb-6">
-    <div class="mb-3 text-center relative gap-3 flex flex-col sm:flex-row justify-between items-center">
+    <div class="mb-3 text-center relative gap-3 flex flex-col md:flex-row justify-between items-center">
         <div class="flex gap-2">
             <a href="/" class="home-button btn btn-primary py-1 px-3">Về trang chủ</a>
             <div class="dropdown dropdown-start">
                 <button 
                     bind:this={buttonRef}
-                    class="btn btn-primary py-1 px-3" 
+                    class="btn btn-primary py-1 px-3 text-nowrap" 
                     onclick={toggleDropdown}
                 >
                     Chọn lộ trình

@@ -7,38 +7,56 @@ function printWorksheet() {
 
 // Function to check answers in input fields
 function checkAnswer(input) {
-    const userAnswer = input.value.toLowerCase().trim();
-    const correctAnswer = input.dataset.answer.toLowerCase().trim();
+    const userAnswer = input.value ? input.value.toLowerCase().trim().replace(/[.,!?]/g, '') : input.checked ? input.value : '';
+    const correctAnswer = input.dataset.answer.toLowerCase().trim().replace(/[.,!?]/g, '');
+    console.log(userAnswer, correctAnswer);
+    // Handle radio buttons
+    if (input.type === 'radio') {
+        const radioGroup = document.getElementsByName(input.name);
+        radioGroup.forEach(radio => {
+            const container = radio.closest('.radio-group');
+            // Reset all containers first
+            container.classList.remove('bg-green-100', 'border-green-500', 'bg-red-100', 'border-red-500');
+            
+            // Always show correct answer in green
+            if (userAnswer === correctAnswer) {
+                container.classList.add('bg-green-100', 'border-green-500');
+            }
+            
+            // If this is the selected answer and it's wrong, show it in red
+            if (userAnswer !== correctAnswer) {
+                container.classList.add('bg-red-100', 'border-red-500');
+            }
+        });
+        return;
+    }
     
+    // Handle text inputs
     if (userAnswer === correctAnswer) {
-        input.classList.remove('border-red-500');
-        input.classList.add('border-green-500');
-    } else {
-        input.classList.remove('border-green-500');
-        input.classList.add('border-red-500');
+        input.classList.remove('border-red-500', 'bg-red-100', 'rounded-md');
+        input.classList.add('border-green-500', 'bg-green-100', 'rounded-md');
+    } else if (userAnswer !== '') {
+        input.classList.remove('border-green-500', 'bg-green-100', 'rounded-md');
+        input.classList.add('border-red-500', 'bg-red-100', 'rounded-md');
     }
 }
 
-// Function to highlight nouns in sentences
-function highlightNouns(element) {
+// Function to highlight phrases in sentences
+function highlightPhrase(element) {
     const text = element.querySelector('p').textContent;
-    const words = text.split(' ');
+    const phrasesToHighlight = element.dataset.phrases ? element.dataset.phrases.split(',') : [];
     
-    // Common nouns to highlight
-    const commonNouns = [
-        'subject', 'art', 'activity', 'lunch', 'calculator', 'math', 'problem',
-        'classmate', 'compass', 'swimming', 'pool', 'school', 'book', 'cat',
-        'chair', 'water', 'milk', 'rice', 'apple', 'hour', 'sun', 'moon',
-        'coffee', 'english', 'math', 'teacher', 'city', 'music', 'dog'
-    ];
+    let highlightedText = text;
     
-    const highlightedText = words.map(word => {
-        const cleanWord = word.toLowerCase().replace(/[.,!?]/g, '');
-        if (commonNouns.includes(cleanWord)) {
-            return `<span class="bg-yellow-200">${word}</span>`;
+    // Highlight each phrase
+    phrasesToHighlight.forEach(phrase => {
+        const cleanPhrase = phrase.trim();
+        if (cleanPhrase) {
+            // Create a case-insensitive regex for the phrase
+            const regex = new RegExp(`\\b${cleanPhrase}\\b`, 'gi');
+            highlightedText = highlightedText.replace(regex, match => `<span class="bg-yellow-200">${match}</span>`);
         }
-        return word;
-    }).join(' ');
+    });
     
     element.querySelector('p').innerHTML = highlightedText;
 } 
