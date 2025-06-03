@@ -2,14 +2,14 @@
 	<title>Anh Ngữ GEN8 - Lộ trình các lớp học</title>
 </svelte:head>
 
-<div class="container mx-auto px-4 py-8">
+<div class="container mx-auto px-4 py-8 min-h-screen">
 	<header class="mb-12 text-center">
 		<h1 class="text-primary mb-4 text-4xl font-bold">Anh Ngữ GEN8 - Lộ trình các lớp học</h1>
 		<hr class="mt-6" />
 	</header>
 
-	<main>
-		<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+	<main class="">
+		<div class="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-4">
 
 			<!-- Lộ trình Pre-GS6 -->
 			<div class="card bg-base-100 shadow-xl transition-shadow duration-300 hover:shadow-2xl">
