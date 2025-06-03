@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PreGS8 - Lesson 1 - Worksheets</title>
+    <title>PreGS9 - Lesson 1 - Worksheets</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         html {
-            font-size: 20px; /* 1rem = 18px */
+            font-size: 20px;
         }
 
         body {
@@ -88,6 +88,17 @@
         .incorrect {
             color: #dc2626;
         }
+
+        .hint {
+            display: none;
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin-top: 0.5rem;
+        }
+
+        .show-hint:hover + .hint {
+            display: block;
+        }
     </style>
 </head>
 
@@ -95,8 +106,8 @@
     <div class="px-4 py-6 print:py-0 pb-6 w-full">
         <div class="worksheet-container bg-white rounded-xl shadow-lg print:shadow-none p-4 mb-3">
             <!-- Header -->
-            <div class="flex justify-between items-center my-4 no-print">
-                <h1 class="text-2xl font-bold text-blue-600">Danh từ và Mạo từ (Nouns & Articles)</h1>
+            <div class="flex justify-between items-center my-2 no-print">
+                <h1 class="text-2xl font-bold text-blue-600">📝 Thì Hiện Tại Đơn và Hiện Tại Tiếp Diễn</h1>
                 <button onclick="printWorksheet()"
                     class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
@@ -109,9 +120,9 @@
                 </button>
             </div>
 
-            <div class="print-only mb-4">
+            <div class="print-only mb-3">
                 <div class="flex justify-between items-center">
-                    <h1 class="text-2xl font-bold text-blue-600">Danh từ và Mạo từ (Nouns & Articles)</h1>
+                    <h1 class="text-xl font-bold text-blue-600">📝 Thì Hiện Tại Đơn và Hiện Tại Tiếp Diễn</h1>
                     <p class="text-center text-gray-600">Student: _______________________ Date: _______________</p>
                 </div>
             </div>
@@ -119,61 +130,85 @@
             <!-- Key Notes -->
             <div class="mb-3">
                 <div class="flex items-center mb-3">
-                    <div class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center mr-3">
+                    <div class="w-7 h-7 bg-yellow-400 rounded-full flex items-center justify-center mr-2">
                         <span class="font-bold text-white">1</span>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800">Phần 1: Tóm tắt kiến thức (Key Notes)</h3>
+                    <h3 class="text-lg font-bold text-gray-800">Phần 1: Tóm tắt kiến thức (Key Notes)</h3>
                 </div>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-2 rounded-lg">
-                        <h4 class="font-bold text-gray-700 mb-2">1. Danh từ đếm được và không đếm được</h4>
-                        <ul class="list-disc pl-5 text-gray-700">
-                            <li class="mb-1">Đếm được (Countable): book, cat, chair</li>
-                            <li>Không đếm được (Uncountable): water, milk, rice</li>
-                        </ul>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div class="bg-blue-50 border-l-4 border-blue-400 p-2 rounded-lg">
+                        <h4 class="font-semibold text-gray-700 mb-1">1. Thì Hiện Tại Đơn</h4>
+                        <p class="text-gray-700 text-sm mb-1">Dùng cho hành động thường xuyên, sự thật hiển nhiên</p>
+                        <table class="w-full text-xs text-left text-gray-700">
+                            <tbody>
+                                <tr>
+                                    <td class="py-1">Cấu trúc:</td>
+                                    <td class="py-1 italic">I/You/We/They + V1</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1"></td>
+                                    <td class="py-1 italic">He/She/It + V1(s/es)</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1">Dấu hiệu:</td>
+                                    <td class="py-1 italic">always, usually, often, every day</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
 
                     <div class="bg-green-50 border-l-4 border-green-400 p-2 rounded-lg">
-                        <h4 class="font-bold text-gray-700 mb-2">2. Mạo từ a/an</h4>
-                        <ul class="list-disc pl-5 text-gray-700">
-                            <li class="mb-1">a + phụ âm: a book, a cat</li>
-                            <li>an + nguyên âm: an apple, an hour</li>
-                        </ul>
+                        <h4 class="font-semibold text-gray-700 mb-1">2. Thì Hiện Tại Tiếp Diễn</h4>
+                        <p class="text-gray-700 text-sm mb-1">Dùng cho hành động đang xảy ra, kế hoạch tương lai</p>
+                        <table class="w-full text-xs text-left text-gray-700">
+                            <tbody>
+                                <tr>
+                                    <td class="py-1">Cấu trúc:</td>
+                                    <td class="py-1 italic">am/is/are + V-ing</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1">Dấu hiệu:</td>
+                                    <td class="py-1 italic">now, at the moment, at present</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1">Quy tắc thêm -ing:</td>
+                                    <td class="py-1 italic">make → making, run → running</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
 
-                    <div class="bg-blue-50 border-l-4 border-blue-400 p-2 rounded-lg">
-                        <h4 class="font-bold text-gray-700 mb-2">3. Mạo từ the</h4>
-                        <ul class="list-disc pl-5 text-gray-700">
-                            <li class="mb-1">Vật đã xác định: the book I bought</li>
-                            <li>Vật duy nhất: the sun, the moon</li>
-                        </ul>
+                    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-2 rounded-lg">
+                        <h4 class="font-semibold text-gray-700 mb-1">3. Cấu trúc phủ định</h4>
+                        <table class="w-full text-xs text-left text-gray-700">
+                            <tbody>
+                                <tr>
+                                    <td class="py-1">Hiện tại đơn:</td>
+                                    <td class="py-1 italic">don't/doesn't + V1</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1">Hiện tại tiếp diễn:</td>
+                                    <td class="py-1 italic">am/is/are not + V-ing</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
 
                     <div class="bg-purple-50 border-l-4 border-purple-400 p-2 rounded-lg">
-                        <h4 class="font-bold text-gray-700 mb-2">4. Không dùng mạo từ khi</h4>
-                        <ul class="list-disc pl-5 text-gray-700">
-                            <li class="mb-1">Danh từ không đếm được: I like coffee</li>
-                            <li>Tên riêng, môn học: English, Math</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-pink-50 border-l-4 border-pink-400 p-2 rounded-lg">
-                        <h4 class="font-bold text-gray-700 mb-2">5. Số nhiều của danh từ</h4>
-                        <ul class="list-disc pl-5 text-gray-700">
-                            <li class="mb-1">Thêm -s: book → books</li>
-                            <li class="mb-1">Thêm -es: box → boxes</li>
-                            <li>-y → -ies: baby → babies</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-pink-50 border-l-4 border-pink-400 p-2 rounded-lg">
-                        <h4 class="font-bold text-gray-700 mb-2">6. Danh từ bất quy tắc</h4>
-                        <ul class="list-disc pl-5 text-gray-700">
-                            <li class="mb-1">man → men</li>
-                            <li class="mb-1">child → children</li>
-                            <li>mouse → mice</li>
-                        </ul>
+                        <h4 class="font-semibold text-gray-700 mb-1">4. Cấu trúc nghi vấn</h4>
+                        <table class="w-full text-xs text-left text-gray-700">
+                            <tbody>
+                                <tr>
+                                    <td class="py-1">Hiện tại đơn:</td>
+                                    <td class="py-1 italic">Do/Does + S + V1?</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-1">Hiện tại tiếp diễn:</td>
+                                    <td class="py-1 italic">Am/Is/Are + S + V-ing?</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -181,538 +216,314 @@
             <!-- Vocabulary -->
             <div class="mb-4">
                 <div class="flex items-center mb-4">
-                    <div class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center mr-3">
+                    <div class="w-7 h-7 bg-yellow-400 rounded-full flex items-center justify-center mr-2">
                         <span class="font-bold text-white">2</span>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800">Phần 2: Từ vựng cần sử dụng trong bài tập</h3>
+                    <h3 class="text-lg font-bold text-gray-800">Phần 2: Từ vựng cần sử dụng trong bài tập</h3>
                 </div>
 
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">artisan <span class="text-gray-500">(n)</span> /ˌɑːtɪˈzæn/</p>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-sm">
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">artisan <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">thợ làm nghề thủ công</p>
+                        <p class="text-gray-500 text-xs">/ˌɑːtɪˈzæn/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">community <span class="text-gray-500">(n)</span> /kəˈmjuːnəti/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">community <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">cộng đồng</p>
+                        <p class="text-gray-500 text-xs">/kəˈmjuːnəti/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">community helper <span class="text-gray-500">(n)</span> /kəˈmjuːnəti ˈhelpə/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">community helper <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">người phục vụ cộng đồng</p>
+                        <p class="text-gray-500 text-xs">/kəˈmjuːnəti ˈhelpə/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">craft village <span class="text-gray-500">(n)</span> /ˌkrɑːft ˈvɪlɪdʒ/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">craft village <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">làng nghề thủ công</p>
+                        <p class="text-gray-500 text-xs">/ˌkrɑːft ˈvɪlɪdʒ/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">delivery person <span class="text-gray-500">(n)</span> /dɪˈlɪvəri ˈpɜːsn/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">delivery person <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">nhân viên giao hàng</p>
+                        <p class="text-gray-500 text-xs">/dɪˈlɪvəri ˈpɜːsn/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">electrician <span class="text-gray-500">(n)</span> /ɪˌlekˈtrɪʃn/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">electrician <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">thợ điện</p>
+                        <p class="text-gray-500 text-xs">/ɪˌlekˈtrɪʃn/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">facilities <span class="text-gray-500">(n)</span> /fəˈsɪlətiz/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">facilities <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">cơ sở vật chất</p>
+                        <p class="text-gray-500 text-xs">/fəˈsɪlətiz/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">firefighter <span class="text-gray-500">(n)</span> /ˈfaɪəfaɪtə/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">firefighter <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">lính cứu hoả</p>
+                        <p class="text-gray-500 text-xs">/ˈfaɪəfaɪtə/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">fragrance <span class="text-gray-500">(n)</span> /ˈfreɪɡrəns/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">fragrance <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">hương thơm</p>
+                        <p class="text-gray-500 text-xs">/ˈfreɪɡrəns/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">function <span class="text-gray-500">(n)</span> /ˈfʌŋkʃn/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">function <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">chức năng</p>
+                        <p class="text-gray-500 text-xs">/ˈfʌŋkʃn/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">garbage collector <span class="text-gray-500">(n)</span> /ˈɡɑːbɪdʒ kəlektə/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">garbage collector <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">nhân viên dọn vệ sinh</p>
+                        <p class="text-gray-500 text-xs">/ˈɡɑːbɪdʒ kəlektə/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">handicraft <span class="text-gray-500">(n)</span> /ˈhændikrɑːft/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">handicraft <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">sản phẩm thủ công</p>
+                        <p class="text-gray-500 text-xs">/ˈhændikrɑːft/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">original <span class="text-gray-500">(adj)</span> /əˈrɪdʒənl/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">original <span class="text-gray-500">(adj)</span></p>
                         <p class="text-gray-700">nguyên bản</p>
+                        <p class="text-gray-500 text-xs">/əˈrɪdʒənl/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">police officer <span class="text-gray-500">(n)</span> /pəˈliːs ɒfɪsə/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">police officer <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">công an</p>
+                        <p class="text-gray-500 text-xs">/pəˈliːs ɒfɪsə/</p>
                     </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">pottery <span class="text-gray-500">(n)</span> /ˈpɒtəri/</p>
+                    <div class="bg-white border border-gray-200 rounded-lg p-1.5 shadow-sm">
+                        <p class="font-medium text-gray-800">pottery <span class="text-gray-500">(n)</span></p>
                         <p class="text-gray-700">đồ gốm</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">speciality <span class="text-gray-500">(n)</span> /ˌspeʃiˈæləti/</p>
-                        <p class="text-gray-700">đặc sản</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">suburb <span class="text-gray-500">(n)</span> /ˈsʌbɜːb/</p>
-                        <p class="text-gray-700">vùng ngoại ô</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">tourist attraction <span class="text-gray-500">(n)</span> /ˈtʊərɪst əˈtrækʃn/</p>
-                        <p class="text-gray-700">điểm du lịch</p>
-                    </div>
-                    
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">detest <span class="text-gray-500">(v)</span> /dɪˈtest/</p>
-                        <p class="text-gray-700">căm ghét</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">DIY <span class="text-gray-500">(n)</span> /ˌdiː aɪ ˈwaɪ/</p>
-                        <p class="text-gray-700">hoạt động tự làm đồ</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">fancy <span class="text-gray-500">(v)</span> /ˈfænsi/</p>
-                        <p class="text-gray-700">mến, thích</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">fold <span class="text-gray-500">(v)</span> /fəʊld/</p>
-                        <p class="text-gray-700">gấp, gập</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">fond <span class="text-gray-500">(adj)</span> /fɒnd/</p>
-                        <p class="text-gray-700">mến, thích</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">keen <span class="text-gray-500">(adj)</span> /kiːn/</p>
-                        <p class="text-gray-700">say mê, ham thích</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">kit <span class="text-gray-500">(n)</span> /kɪt/</p>
-                        <p class="text-gray-700">bộ đồ nghề</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">leisure <span class="text-gray-500">(n)</span> /ˈleʒə/</p>
-                        <p class="text-gray-700">thời gian rảnh rỗi</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">message <span class="text-gray-500">(v)</span> /ˈmesɪdʒ/</p>
-                        <p class="text-gray-700">gửi tin nhắn</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">muscle <span class="text-gray-500">(n)</span> /ˈmʌsl/</p>
-                        <p class="text-gray-700">cơ bắp</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">origami <span class="text-gray-500">(n)</span> /ˌɒrɪˈɡɑːmi/</p>
-                        <p class="text-gray-700">nghệ thuật gấp giấy Nhật Bản</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">outdoors <span class="text-gray-500">(adv)</span> /ˌaʊtˈdɔːz/</p>
-                        <p class="text-gray-700">ngoài trời</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">prefer <span class="text-gray-500">(v)</span> /prɪˈfɜː/</p>
-                        <p class="text-gray-700">thích hơn</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">puzzle <span class="text-gray-500">(n)</span> /ˈpʌzl/</p>
-                        <p class="text-gray-700">trò chơi câu đố / giải đố</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">resort <span class="text-gray-500">(n)</span> /rɪˈzɔːt/</p>
-                        <p class="text-gray-700">khu nghỉ dưỡng</p>
-                    </div>
-                    <div class="bg-white border border-gray-200 rounded-lg p-2 shadow-sm">
-                        <p class="font-medium text-gray-800 mb-1">snowboarding <span class="text-gray-500">(n)</span> /ˈsnəʊbɔːdɪŋ/</p>
-                        <p class="text-gray-700">trượt tuyết bằng ván</p>
+                        <p class="text-gray-500 text-xs">/ˈpɒtəri/</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Basic Exercises -->
+            <!-- Exercises -->
             <div class="mb-4">
                 <div class="flex items-center mb-4">
-                    <div class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center mr-3">
+                    <div class="w-7 h-7 bg-yellow-400 rounded-full flex items-center justify-center mr-2">
                         <span class="font-bold text-white">3</span>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800">Phần 3: Bài tập cơ bản (Basic Exercises)</h3>
+                    <h3 class="text-lg font-bold text-gray-800">Phần 3: Bài tập</h3>
                 </div>
-                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
-                    <div class="flex items-start mb-2">
-                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">1</div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 mb-1">Bài 1: Phân loại danh từ</h4>
-                            <p class="text-gray-700 text-sm mb-2">👉 Phân loại các danh từ sau là đếm được (C) hay không đếm được (U):</p>
-                            <div class="space-y-2 text-sm">
-                                <div class="flex items-center gap-2">
-                                    <p>1. pottery</p>
-                                    <input type="text" class="answer-input w-8" data-answer="U" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>2. artisan</p>
-                                    <input type="text" class="answer-input w-8" data-answer="C" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>3. fragrance</p>
-                                    <input type="text" class="answer-input w-8" data-answer="U" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>4. community helper</p>
-                                    <input type="text" class="answer-input w-8" data-answer="C" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>5. facilities</p>
-                                    <input type="text" class="answer-input w-8" data-answer="C" onblur="checkAnswer(this)">
-                                </div>
-                            </div>
+
+                <!-- Exercise 1 -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-lg mb-3">Bài 1: Chọn thì phù hợp (Present Simple hoặc Present Continuous)</h4>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">1. The artisans in the craft village <span class="answer-input" data-answer="make">________</span> beautiful handicrafts every day.</p>
+                            <p class="text-sm text-gray-500">(make/makes/is making)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Look for time expressions like 'every day'</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">2. Look! The delivery person <span class="answer-input" data-answer="is delivering">________</span> packages to our community now.</p>
+                            <p class="text-sm text-gray-500">(delivers/is delivering/deliver)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Look for words like 'Look!' and 'now'</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">3. The electrician <span class="answer-input" data-answer="fixes">________</span> electrical problems in our facilities every week.</p>
+                            <p class="text-sm text-gray-500">(fixes/is fixing/fix)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Look for time expressions like 'every week'</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">4. The police officers <span class="answer-input" data-answer="are patrolling">________</span> the streets at the moment.</p>
+                            <p class="text-sm text-gray-500">(patrol/are patrolling/patrols)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Look for time expressions like 'at the moment'</div>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
-                    <div class="flex items-start mb-2">
-                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">2</div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 mb-1">Bài 2: Điền a hoặc an</h4>
-                            <p class="text-gray-700 text-sm mb-2">👉 Điền a hoặc an vào chỗ trống:</p>
-                            <div class="space-y-2 text-sm">
-                                <div class="flex items-center gap-2">
-                                    <p>1. He is _______ electrician in our neighborhood.</p>
-                                    <input type="text" class="answer-input w-8" data-answer="an" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>2. We visited _______ craft village last week.</p>
-                                    <input type="text" class="answer-input w-8" data-answer="a" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>3. She works as _______ artisan in the pottery workshop.</p>
-                                    <input type="text" class="answer-input w-8" data-answer="an" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>4. The town has _______ police officer on duty.</p>
-                                    <input type="text" class="answer-input w-8" data-answer="a" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>5. This is _______ original handicraft from the village.</p>
-                                    <input type="text" class="answer-input w-8" data-answer="an" onblur="checkAnswer(this)">
-                                </div>
-                            </div>
+                <!-- Exercise 2 -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-lg mb-3">Bài 2: Hoàn thành câu với từ vựng đã cho</h4>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">1. The <span class="answer-input" data-answer="firefighters">________</span> always help people in emergencies.</p>
+                            <p class="text-sm text-gray-500">(firefighter/firefighters)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Think about plural form for a group of people</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">2. Our <span class="answer-input" data-answer="community">________</span> has many modern facilities.</p>
+                            <p class="text-sm text-gray-500">(community/communities)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Look at the verb 'has' to determine singular/plural</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">3. The <span class="answer-input" data-answer="garbage collectors">________</span> collect waste every morning.</p>
+                            <p class="text-sm text-gray-500">(garbage collector/garbage collectors)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Look at the verb 'collect' to determine singular/plural</div>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
-                    <div class="flex items-start mb-2">
-                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">3</div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 mb-1">Bài 3: Điền the hoặc để trống</h4>
-                            <p class="text-gray-700 text-sm mb-2">👉 Điền the hoặc để trống (∅) vào chỗ trống:</p>
-                            <div class="space-y-2 text-sm">
-                                <div class="flex items-center gap-2">
-                                    <p>1. _______ community helpers in our town are very dedicated.</p>
-                                    <input type="text" class="answer-input w-8" data-answer="the" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>2. I love _______ pottery from this village.</p>
-                                    <input type="text" class="answer-input w-8" data-answer="the" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>3. _______ fragrance of these flowers is amazing.</p>
-                                    <input type="text" class="answer-input w-8" data-answer="the" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>4. We need more _______ facilities in our suburb.</p>
-                                    <input type="text" class="answer-input w-8" data-answer="∅" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>5. This craft village is _______ tourist attraction.</p>
-                                    <input type="text" class="answer-input w-8" data-answer="a" onblur="checkAnswer(this)">
-                                </div>
-                            </div>
+                <!-- Exercise 3 -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-lg mb-3">Bài 3: Viết câu hoàn chỉnh sử dụng từ gợi ý</h4>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">1. (artisan/make/pottery)</p>
+                            <p class="text-sm text-gray-500">The artisans make beautiful pottery in the craft village.</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Use Present Simple for regular activities</div>
                         </div>
-                    </div>
-                </div>
-                                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
-                    <div class="flex items-start mb-2">
-                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">4</div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 mb-1">Bài 4: Số nhiều của danh từ</h4>
-                            <p class="text-gray-700 text-sm mb-2">👉 Viết dạng số nhiều của các danh từ sau:</p>
-                            <div class="space-y-2 text-sm">
-                                <div class="flex items-center gap-2">
-                                    <p>1. delivery person → </p>
-                                    <input type="text" class="answer-input w-32" data-answer="delivery people" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>2. community helper → </p>
-                                    <input type="text" class="answer-input w-32" data-answer="community helpers" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>3. police officer → </p>
-                                    <input type="text" class="answer-input w-32" data-answer="police officers" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>4. craft village → </p>
-                                    <input type="text" class="answer-input w-32" data-answer="craft villages" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>5. tourist attraction → </p>
-                                    <input type="text" class="answer-input w-32" data-answer="tourist attractions" onblur="checkAnswer(this)">
-                                </div>
-                            </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">2. (electrician/fix/now)</p>
+                            <p class="text-sm text-gray-500">The electrician is fixing the lights now.</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Use Present Continuous for actions happening now</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">3. (community helpers/work/every day)</p>
+                            <p class="text-sm text-gray-500">Community helpers work hard every day.</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Use Present Simple for daily routines</div>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
-                    <div class="flex items-start mb-2">
-                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">5</div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 mb-1">Bài 5: Hoàn thành câu</h4>
-                            <p class="text-gray-700 text-sm mb-2">👉 Hoàn thành các câu sau sử dụng danh từ và mạo từ phù hợp:</p>
-                            <div class="space-y-2 text-sm">
-                                <div class="flex items-center gap-2">
-                                    <p>1. Our town has many _______ (community helper) who work hard every day.</p>
-                                    <input type="text" class="answer-input w-32" data-answer="community helpers" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>2. _______ (artisan) in this village are famous for their pottery.</p>
-                                    <input type="text" class="answer-input w-32" data-answer="The artisans" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>3. We need _______ (electrician) to fix the power lines.</p>
-                                    <input type="text" class="answer-input w-32" data-answer="an electrician" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>4. This suburb has _______ (facility) for sports and recreation.</p>
-                                    <input type="text" class="answer-input w-32" data-answer="facilities" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>5. _______ (fragrance) of traditional handicrafts fills the air.</p>
-                                    <input type="text" class="answer-input w-32" data-answer="The fragrance" onblur="checkAnswer(this)">
-                                </div>
-                            </div>
+                <!-- Exercise 4 -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-lg mb-3">Bài 4: Chọn dấu hiệu nhận biết phù hợp</h4>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">1. The police officers protect our community <span class="answer-input" data-answer="every day">________</span>.</p>
+                            <p class="text-sm text-gray-500">(now/every day/at the moment)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Look for time expressions that show frequency</div>
                         </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">2. The garbage collectors <span class="answer-input" data-answer="usually">________</span> start their work early in the morning.</p>
+                            <p class="text-sm text-gray-500">(usually/now/at present)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Look for adverbs of frequency</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">3. Look! The artisans <span class="answer-input" data-answer="are making">________</span> handicrafts at the moment.</p>
+                            <p class="text-sm text-gray-500">(make/are making/makes)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Look for words that indicate current actions</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exercise 5 -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-lg mb-3">Bài 5: Điền động từ vào chỗ trống</h4>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">1. The delivery person <span class="answer-input" data-answer="delivers">________</span> packages to our community every morning.</p>
+                            <p class="text-sm text-gray-500">(deliver/delivers/is delivering)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Check the subject (singular/plural) and time expression</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">2. The firefighters <span class="answer-input" data-answer="are training">________</span> in the yard now.</p>
+                            <p class="text-sm text-gray-500">(train/trains/are training)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Look for words indicating current actions</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">3. Our community <span class="answer-input" data-answer="has">________</span> many modern facilities.</p>
+                            <p class="text-sm text-gray-500">(have/has/is having)</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Check the subject (singular/plural)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exercise 6 -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-lg mb-3">Bài 6: Viết câu phủ định</h4>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">1. The electrician fixes electrical problems every day.</p>
+                            <p class="text-sm text-gray-500">The electrician doesn't fix electrical problems every day.</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Use don't/doesn't + V1 for Present Simple negative</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">2. The police officers are patrolling the streets now.</p>
+                            <p class="text-sm text-gray-500">The police officers aren't patrolling the streets now.</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Use am/is/are not + V-ing for Present Continuous negative</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">3. The artisans make pottery in the craft village.</p>
+                            <p class="text-sm text-gray-500">The artisans don't make pottery in the craft village.</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Use don't/doesn't + V1 for Present Simple negative</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exercise 7 -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-lg mb-3">Bài 7: Viết câu nghi vấn</h4>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">1. The garbage collectors work in the morning.</p>
+                            <p class="text-sm text-gray-500">Do the garbage collectors work in the morning?</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Use Do/Does + S + V1? for Present Simple questions</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">2. The delivery person is delivering packages now.</p>
+                            <p class="text-sm text-gray-500">Is the delivery person delivering packages now?</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Use Am/Is/Are + S + V-ing? for Present Continuous questions</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow">
+                            <p class="mb-2">3. The community helpers help people every day.</p>
+                            <p class="text-sm text-gray-500">Do the community helpers help people every day?</p>
+                            <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                            <div class="hint">Use Do/Does + S + V1? for Present Simple questions</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exercise 8 -->
+                <div class="mb-6">
+                    <h4 class="font-bold text-lg mb-3">Bài 8: Hoàn thành đoạn văn</h4>
+                    <div class="bg-white p-4 rounded-lg shadow">
+                        <p class="mb-4">Our community <span class="answer-input" data-answer="has">________</span> many important workers. The firefighters <span class="answer-input" data-answer="protect">________</span> us from fires every day. Right now, the electrician <span class="answer-input" data-answer="is fixing">________</span> the street lights. The garbage collectors <span class="answer-input" data-answer="collect">________</span> waste every morning. The police officers <span class="answer-input" data-answer="are patrolling">________</span> the streets at the moment. The delivery person <span class="answer-input" data-answer="delivers">________</span> packages to our community every day. The artisans in the craft village <span class="answer-input" data-answer="make">________</span> beautiful handicrafts. Our community helpers <span class="answer-input" data-answer="work">________</span> hard to make our community better.</p>
+                        <p class="text-sm text-gray-500">(has/have, protect/protects, is fixing/fixes, collect/collects, are patrolling/patrol, delivers/deliver, make/makes, work/works)</p>
+                        <div class="show-hint cursor-help text-blue-500 text-sm">Hover for hint</div>
+                        <div class="hint">Look for time expressions and check subject-verb agreement</div>
                     </div>
                 </div>
             </div>
-
-            <!-- Advanced Exercises -->
-            <div class="mb-4">
-                <div class="flex items-center mb-4">
-                    <div class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center mr-3">
-                        <span class="font-bold text-white">4</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800">Phần 4: Bài tập nâng cao (Advanced Exercises)</h3>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
-                    <div class="flex items-start mb-2">
-                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">1</div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 mb-1">Bài 1: Hoàn thành câu</h4>
-                            <p class="text-gray-700 text-sm mb-2">👉 Sử dụng từ trong ngoặc để hoàn thành câu:</p>
-                            <div class="space-y-2 text-sm">
-                                <div class="flex items-center gap-2">
-                                    <p>1. My sister is _______ about origami. (crazy)</p>
-                                    <input type="text" class="answer-input w-24" data-answer="crazy" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>2. I _______ doing puzzles in my leisure time. (prefer)</p>
-                                    <input type="text" class="answer-input w-24" data-answer="prefer" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>3. She needs to _______ her muscles after exercise. (balance)</p>
-                                    <input type="text" class="answer-input w-24" data-answer="balance" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>4. We should _______ with our friends regularly. (message)</p>
-                                    <input type="text" class="answer-input w-24" data-answer="message" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>5. They are _______ of snowboarding. (fond)</p>
-                                    <input type="text" class="answer-input w-24" data-answer="fond" onblur="checkAnswer(this)">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
-                    <div class="flex items-start mb-2">
-                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">2</div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 mb-1">Bài 2: Sắp xếp từ</h4>
-                            <p class="text-gray-700 text-sm mb-2">👉 Sắp xếp các từ để tạo thành câu hoàn chỉnh:</p>
-                            <div class="space-y-2 text-sm">
-                                <div class="flex items-center gap-2">
-                                    <p>1. (origami / fold / to / paper / need / I)</p>
-                                    <input type="text" class="answer-input w-64" data-answer="I need to fold origami paper" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>2. (at / stay / resort / the / we / luxury)</p>
-                                    <input type="text" class="answer-input w-64" data-answer="we stay at the luxury resort" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>3. (outdoors / activities / enjoy / they / doing)</p>
-                                    <input type="text" class="answer-input w-64" data-answer="they enjoy doing outdoors activities" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>4. (DIY / kit / bought / new / she / a)</p>
-                                    <input type="text" class="answer-input w-64" data-answer="she bought a new DIY kit" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>5. (keep / touch / friends / in / with / let's)</p>
-                                    <input type="text" class="answer-input w-64" data-answer="let's keep in touch with friends" onblur="checkAnswer(this)">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
-                    <div class="flex items-start mb-2">
-                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">3</div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 mb-1">Bài 3: Ghép từ</h4>
-                            <p class="text-gray-700 text-sm mb-2">👉 Ghép từ ở cột A với nghĩa phù hợp ở cột B:</p>
-                            <div class="space-y-2 text-sm">
-                                <div class="grid grid-cols-2 gap-4">
-                                    <div>
-                                        <p class="font-semibold mb-2">Cột A</p>
-                                        <p>1. detest</p>
-                                        <p>2. fancy</p>
-                                        <p>3. keen</p>
-                                        <p>4. outdoors</p>
-                                        <p>5. resort</p>
-                                    </div>
-                                    <div>
-                                        <p class="font-semibold mb-2">Cột B</p>
-                                        <p>a. ngoài trời</p>
-                                        <p>b. thích thú</p>
-                                        <p>c. ghét cay ghét đắng</p>
-                                        <p>d. khu nghỉ dưỡng</p>
-                                        <p>e. sang trọng</p>
-                                    </div>
-                                </div>
-                                <div class="mt-4">
-                                    <p>Đáp án của bạn:</p>
-                                    <div class="flex items-center gap-2 mt-2">
-                                        <p>1 - </p>
-                                        <input type="text" class="answer-input w-8" data-answer="c" onblur="checkAnswer(this)">
-                                    </div>
-                                    <div class="flex items-center gap-2">
-                                        <p>2 - </p>
-                                        <input type="text" class="answer-input w-8" data-answer="e" onblur="checkAnswer(this)">
-                                    </div>
-                                    <div class="flex items-center gap-2">
-                                        <p>3 - </p>
-                                        <input type="text" class="answer-input w-8" data-answer="b" onblur="checkAnswer(this)">
-                                    </div>
-                                    <div class="flex items-center gap-2">
-                                        <p>4 - </p>
-                                        <input type="text" class="answer-input w-8" data-answer="a" onblur="checkAnswer(this)">
-                                    </div>
-                                    <div class="flex items-center gap-2">
-                                        <p>5 - </p>
-                                        <input type="text" class="answer-input w-8" data-answer="d" onblur="checkAnswer(this)">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
-                    <div class="flex items-start mb-2">
-                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">4</div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 mb-1">Bài 4: Điền từ thích hợp</h4>
-                            <p class="text-gray-700 text-sm mb-2">👉 Điền từ thích hợp vào chỗ trống (balance, DIY, origami, puzzle, snowboarding):</p>
-                            <div class="space-y-2 text-sm">
-                                <div class="flex items-center gap-2">
-                                    <p>1. She loves doing _______ projects at home.</p>
-                                    <input type="text" class="answer-input w-24" data-answer="DIY" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>2. The art of _______ originated in Japan.</p>
-                                    <input type="text" class="answer-input w-24" data-answer="origami" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>3. You need good _______ to do yoga poses.</p>
-                                    <input type="text" class="answer-input w-24" data-answer="balance" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>4. This 1000-piece _______ is very challenging.</p>
-                                    <input type="text" class="answer-input w-24" data-answer="puzzle" onblur="checkAnswer(this)">
-                                </div>
-                                <div class="flex items-center gap-2">
-                                    <p>5. We went _______ in the mountains last winter.</p>
-                                    <input type="text" class="answer-input w-24" data-answer="snowboarding" onblur="checkAnswer(this)">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-lg p-3 mb-3 shadow-sm">
-                    <div class="flex items-start mb-2">
-                        <div class="bg-blue-100 text-blue-800 font-bold rounded-full w-5 h-5 flex items-center justify-center mr-2 mt-1 text-xs">5</div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 mb-1">Bài 5: Viết câu</h4>
-                            <p class="text-gray-700 text-sm mb-2">👉 Viết câu sử dụng các từ cho sẵn:</p>
-                            <div class="space-y-2 text-sm">
-                                <p>1. Viết câu với "keen" và "snowboarding":</p>
-                                <div class="border border-gray-200 rounded p-2 mt-1">
-                                    <input type="text" class="w-full border-none focus:outline-none" placeholder="Write your answer here...">
-                                </div>
-                                <p>2. Viết câu với "fancy" và "bracelet":</p>
-                                <div class="border border-gray-200 rounded p-2 mt-1">
-                                    <input type="text" class="w-full border-none focus:outline-none" placeholder="Write your answer here...">
-                                </div>
-                                <p>3. Viết câu với "detest" và "cruel":</p>
-                                <div class="border border-gray-200 rounded p-2 mt-1">
-                                    <input type="text" class="w-full border-none focus:outline-none" placeholder="Write your answer here...">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-        
-            <script>
-                function printWorksheet() {
-                    window.print();
-                }
-
-                function checkAnswer(input) {
-                    const correctAnswer = input.getAttribute('data-answer');
-                    const userAnswer = input.value.trim().toLowerCase();
-                    const correctAnswerLower = correctAnswer.toLowerCase();
-
-                    if (userAnswer === correctAnswerLower) {
-                        input.classList.add('correct');
-                        input.classList.remove('incorrect');
-                    } else if (userAnswer !== '') {
-                        input.classList.add('incorrect');
-                        input.classList.remove('correct');
-                    }
-                }
-
-                function highlightNouns(element) {
-                    const text = element.innerText;
-                    const nouns = element.getAttribute('data-nouns').split(',');
-                    let highlightedText = text;
-
-                    nouns.forEach(noun => {
-                        const regex = new RegExp(`\\b${noun}\\b`, 'gi');
-                        highlightedText = highlightedText.replace(regex, `<span class="highlight">$&</span>`);
-                    });
-
-                    element.innerHTML = highlightedText;
-                }
-            </script>
         </div>
     </div>
+
+    <script>
+        function printWorksheet() {
+            window.print();
+        }
+
+        // Add event listeners for answer inputs
+        document.querySelectorAll('.answer-input').forEach(input => {
+            input.addEventListener('input', function() {
+                const answer = this.getAttribute('data-answer');
+                if (this.value.toLowerCase() === answer.toLowerCase()) {
+                    this.classList.add('correct');
+                    this.classList.remove('incorrect');
+                } else {
+                    this.classList.add('incorrect');
+                    this.classList.remove('correct');
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>

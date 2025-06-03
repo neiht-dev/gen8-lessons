@@ -1,279 +1,284 @@
-# 📘 Bài Học Ngữ Pháp: Danh Từ và Mạo Từ (Nouns & Articles) – Ôn Tập
+# 📘 Bài Học Ngữ Pháp: Thì Hiện Tại Đơn và Hiện Tại Tiếp Diễn
 
-🎯 **Mục tiêu bài học:**
-- Ôn tập kiến thức cơ bản về danh từ đếm được và không đếm được.
-- Hiểu rõ cách dùng mạo từ `a/an/the` và khi nào không dùng mạo từ (zero article).
-- Ôn lại cách tạo số nhiều của danh từ, đặc biệt là danh từ bất quy tắc.
-- Áp dụng kiến thức vào các bài tập thực hành cụ thể.
+🎯 **Mục tiêu:** Giúp học sinh nắm vững cách sử dụng và phân biệt hai thì cơ bản trong tiếng Anh, với các bài tập áp dụng ngay sau mỗi phần.
 
 ---
 
 ## 🔹 Slide 1: Tiêu đề & Giới thiệu
 
 ### Chủ đề:
-**Danh từ và Mạo từ – Ôn tập**
+**Thì Hiện Tại Đơn và Hiện Tại Tiếp Diễn**
 
 ### Mục tiêu bài học:
-- Ôn lại các loại danh từ: đếm được / không đếm được
-- Cách dùng mạo từ `a/an/the` và mạo từ rỗng
-- Ôn lại dạng số nhiều và danh từ bất quy tắc
+- Hiểu rõ cách sử dụng của hai thì
+- Nắm được cấu trúc câu khẳng định, phủ định, nghi vấn
+- Phân biệt được khi nào dùng thì nào
 
 ### Cấu trúc bài học:
-- Mỗi phần lý thuyết đều có bài tập áp dụng ngay sau đó
+- Gồm nhiều phần nhỏ, mỗi phần đi kèm bài tập áp dụng
 
 ---
 
-## ✅ PHẦN 1: DANH TỪ ĐẾM ĐƯỢC VÀ KHÔNG ĐẾM ĐƯỢC
+## ✅ PHẦN 1: THÌ HIỆN TẠI ĐƠN
 
 ---
 
-### 🔹 Slide 2: Danh từ đếm được (Countable nouns)
+### 🔹 Slide 2: Khái niệm và cách dùng
 
-#### Khái niệm:
-- Là những danh từ có thể đếm được từng đơn vị riêng biệt.
-- Có dạng số ít và số nhiều.
+#### **Thì hiện tại đơn là gì?**
+- Diễn tả hành động thường xuyên, lặp đi lặp lại
+- Diễn tả sự thật hiển nhiên
+- Diễn tả lịch trình, thời khóa biểu
 
-#### Ví dụ:
-- one book, two books  
-- a cat, three cats  
+#### **Dấu hiệu nhận biết:**
+- always, usually, often, sometimes, never
+- every day/week/month/year
+- once/twice/three times a day/week
 
----
-
-### 🔹 Slide 3: Bài tập vận dụng – Danh từ đếm được
-
-👉 **Chọn đáp án đúng:**
-1. There are many ___ in the room.  
-   a) informations  
-   b) peoples  
-   c) chairs ✅
-
-2. I have two ___ and five ___.  
-   a) child / pen  
-   b) children / pens ✅  
-   c) child / pennis
+#### **Mẹo ghi nhớ:**
+"Đơn giản = Thường xuyên"
 
 ---
 
-### 🔹 Slide 4: Danh từ không đếm được (Uncountable nouns)
+### 🔹 Slide 3: Bài tập vận dụng – Dấu hiệu nhận biết
 
-#### Khái niệm:
-- Không thể đếm từng đơn vị riêng biệt.
-- Không có dạng số nhiều.
-- Dùng với động từ chia ở số ít.
-
-#### Ví dụ:
-- water, milk, rice, information, advice, money
+👉 **Chọn dấu hiệu nhận biết phù hợp:**
+1. I go to school (every day / now)
+2. She (always / at the moment) helps her mother
+3. They (usually / right now) play football after school
 
 ---
 
-### 🔹 Slide 5: Bài tập vận dụng – Danh từ không đếm được
+### 🔹 Slide 4: Cấu trúc câu khẳng định
 
-👉 **Bài tập 1: Chọn danh từ không đếm được phù hợp điền vào chỗ trống**
-1. I need some ___ to make tea. (sugar / apples)  
-2. She gave me some useful ___. (idea / advice)
+#### **Cấu trúc:**
+- I/You/We/They + V1
+- He/She/It + V1(s/es)
 
-👉 **Bài tập 2: Viết S nếu là danh từ không đếm được, P nếu là danh từ đếm được**
-1. bread – ___  
-2. flower – ___  
-3. time – ___  
-4. cheese – ___
+#### **Quy tắc thêm s/es:**
+- Thêm s: hầu hết các động từ
+- Thêm es: động từ tận cùng là o, ch, sh, x, s
+- Đổi y thành ies: động từ tận cùng là y sau phụ âm
 
----
-
-## ✅ PHẦN 2: MẠO TỪ A/AN/THE VÀ MẠO TỪ RỖNG
+#### **Mẹo ghi nhớ:**
+"Chủ ngữ số ít = thêm s/es"
 
 ---
 
-### 🔹 Slide 6: Mạo từ "a" và "an"
+### 🔹 Slide 5: Bài tập vận dụng – Câu khẳng định
 
-#### Khi nào dùng?
-- Với danh từ đếm được, số ít
-- Lần đầu tiên nhắc đến người/vật chưa xác định
-
-#### Phân biệt:
-- `a`: trước phụ âm  
-- `an`: trước nguyên âm (a, e, i, o, u hoặc âm tương tự)
-
-#### Ví dụ:
-- a car  
-- an apple  
-- an hour (phát âm bắt đầu bằng âm “our”)
+👉 **Chia động từ trong ngoặc:**
+1. She (go) to school every day
+2. They (play) football on Sundays
+3. My mother (wash) the dishes after dinner
 
 ---
 
-### 🔹 Slide 7: Bài tập vận dụng – Mạo từ a/an
+### 🔹 Slide 6: Cấu trúc câu phủ định
 
-👉 **Điền a hoặc an vào chỗ trống:**
-1. She is ___ teacher.  
-2. He bought ___ umbrella yesterday.  
-3. It's ___ honor to meet you.  
-4. Please give me ___ orange juice.
+#### **Cấu trúc:**
+- I/You/We/They + don't + V1
+- He/She/It + doesn't + V1
 
----
-
-### 🔹 Slide 8: Mạo từ "the"
-
-#### Khi nào dùng?
-- Khi người/vật đã được xác định rõ ràng
-- Dùng với danh từ đã được nhắc đến trước đó
-- Dùng với danh từ chỉ duy nhất một đối tượng
-
-#### Ví dụ:
-- The sun rises in the east.  
-- Where is the book I gave you?
+#### **Mẹo ghi nhớ:**
+"Phủ định = thêm don't/doesn't"
 
 ---
 
-### 🔹 Slide 9: Bài tập vận dụng – Mạo từ the
+### 🔹 Slide 7: Bài tập vận dụng – Câu phủ định
 
-👉 **Chèn "the" vào chỗ cần thiết:**
-1. ___ moon is bright tonight.  
-2. Do you know where I put ___ keys?  
-3. We visited ___ Eiffel Tower when we were in Paris.  
-4. ___ water in this bottle is cold.
-
----
-
-### 🔹 Slide 10: Mạo từ rỗng (Zero article)
-
-#### Khi nào không dùng mạo từ?
-- Với danh từ không đếm được (khi nói chung)
-- Với danh từ số nhiều (khi nói chung)
-- Với tên riêng
-- Với các môn học, quốc gia, ngôn ngữ
-
-#### Ví dụ:
-- I like coffee.  
-- Children love cartoons.  
-- She speaks English.
+👉 **Viết câu phủ định:**
+1. I like coffee → I don't like coffee
+2. She plays tennis → She doesn't play tennis
+3. They watch TV every day → They don't watch TV every day
 
 ---
 
-### 🔹 Slide 11: Bài tập vận dụng – Mạo từ rỗng
+### 🔹 Slide 8: Cấu trúc câu nghi vấn
 
-👉 **Điền a/an/the hoặc để trống nếu không dùng mạo từ:**
-1. I want ___ coffee, please.  
-2. They are studying ___ French.  
-3. ___ Canada is a beautiful country. ❌ → sửa thành: Canada is a beautiful country.  
-4. I eat ___ breakfast every morning.
+#### **Cấu trúc:**
+- Do + I/you/we/they + V1?
+- Does + he/she/it + V1?
 
----
-
-## ✅ PHẦN 3: SỐ ÍT, SỐ NHIỀU VÀ DANH TỪ BẤT QUY TẮC
+#### **Mẹo ghi nhớ:**
+"Hỏi = Do/Does + chủ ngữ + V1?"
 
 ---
 
-### 🔹 Slide 12: Số ít và số nhiều
+### 🔹 Slide 9: Bài tập vận dụng – Câu nghi vấn
 
-#### Sự khác biệt:
-- **Số ít**: chỉ một người/vật  
-- **Số nhiều**: chỉ từ hai trở lên
-
-#### Lưu ý:
-- Một số danh từ không có dạng số nhiều (uncountable): water, advice
+👉 **Đặt câu hỏi:**
+1. You like music → Do you like music?
+2. She speaks English → Does she speak English?
+3. They play football → Do they play football?
 
 ---
 
-### 🔹 Slide 13: Bài tập vận dụng – Số ít và số nhiều
-
-👉 **Viết dạng số ít hoặc số nhiều của các từ sau:**
-
-| Từ gốc | Dạng số ít | Dạng số nhiều |
-|--------|-------------|----------------|
-| box    | box         | boxes          |
-| woman  | woman       | women ✅        |
-| tooth  | tooth       | teeth ✅        |
+## ✅ PHẦN 2: THÌ HIỆN TẠI TIẾP DIỄN
 
 ---
 
-### 🔹 Slide 14: Quy tắc thêm -s/-es
+### 🔹 Slide 10: Khái niệm và cách dùng
 
-#### Các trường hợp phổ biến:
-- Thêm `-s`: book → books  
-- Thêm `-es`: bus → buses, tomato → tomatoes  
-- `-y` sau phụ âm → đổi thành `i + es`: baby → babies
+#### **Thì hiện tại tiếp diễn là gì?**
+- Diễn tả hành động đang xảy ra ngay lúc nói
+- Diễn tả hành động tạm thời
+- Diễn tả kế hoạch trong tương lai gần
 
----
+#### **Dấu hiệu nhận biết:**
+- now, at the moment, at present
+- right now, today, this week
+- Look!, Listen!
 
-### 🔹 Slide 15: Bài tập vận dụng – Quy tắc thêm -s/-es
-
-👉 **Viết dạng số nhiều của các danh từ sau:**
-1. brush → ________  
-2. knife → ________  
-3. family → ________
-
----
-
-### 🔹 Slide 16: Danh từ bất quy tắc
-
-#### Khái niệm:
-- Không tuân theo quy tắc thông thường
-
-#### Ví dụ:
-- man → men  
-- foot → feet  
-- child → children  
-- mouse → mice  
-- person → people
+#### **Mẹo ghi nhớ:**
+"Tiếp diễn = Đang xảy ra"
 
 ---
 
-### 🔹 Slide 17: Bài tập vận dụng – Danh từ bất quy tắc
+### 🔹 Slide 11: Bài tập vận dụng – Dấu hiệu nhận biết
 
-👉 **Điền dạng số nhiều đúng của các từ sau:**
-1. woman → ________  
-2. tooth → ________  
-3. mouse → ________  
-4. sheep → ________
-
----
-
-## ✅ PHẦN 4: TỔNG KẾT VÀ ÔN TẬP
+👉 **Chọn dấu hiệu nhận biết phù hợp:**
+1. I am studying (now / every day)
+2. They are playing (at the moment / usually)
+3. She is cooking (right now / often)
 
 ---
 
-### 🔹 Slide 18: Tổng kết toàn bộ bài học
+### 🔹 Slide 12: Cấu trúc câu khẳng định
 
-#### **Tổng ôn lại kiến thức đã học:**
-- Danh từ đếm được và không đếm được
-- Cách dùng mạo từ `a/an/the`
-- Mạo từ rỗng
-- Số ít và số nhiều
-- Danh từ bất quy tắc
+#### **Cấu trúc:**
+- I + am + V-ing
+- He/She/It + is + V-ing
+- You/We/They + are + V-ing
 
----
+#### **Quy tắc thêm ing:**
+- Thêm ing: hầu hết các động từ
+- Bỏ e + ing: động từ tận cùng là e
+- Gấp đôi phụ âm + ing: động từ một âm tiết tận cùng là phụ âm + nguyên âm + phụ âm
 
-### 🔹 Slide 19: Bài tập tổng hợp
-
-👉 **Bài tập cuối bài:**
-1. Điền `a`, `an`, `the` hoặc để trống nếu không cần mạo từ:
-   - ___ apple is on ___ table.
-   - I saw ___ elephant at ___ zoo.
-   - She is ___ university student.
-
-2. Viết dạng số nhiều của các từ sau:
-   - city → ________  
-   - leaf → ________  
-   - child → ________  
-
-3. Chọn danh từ đếm được hoặc không đếm được:
-   - We need more ___ for the soup. (salt / eggs)  
-   - There are many ___ in the garden. (flower / trees)
+#### **Mẹo ghi nhớ:**
+"Tiếp diễn = be + V-ing"
 
 ---
 
-### 🔹 Slide 20: Câu hỏi & Thảo luận
+### 🔹 Slide 13: Bài tập vận dụng – Câu khẳng định
 
-💬 **Tương tác với học sinh:**
-- Bạn còn thắc mắc gì về mạo từ không?  
-- Hãy kể tên 3 danh từ bất quy tắc mà bạn vừa ôn hôm nay.  
-- Ai có thể đặt một câu sử dụng cả `a`, `an`, và `the` trong cùng một câu?
+👉 **Chia động từ trong ngoặc:**
+1. I (read) a book now
+2. They (play) football at the moment
+3. She (cook) dinner right now
 
 ---
 
-### 🔹 Slide 21: Cảm ơn và hẹn gặp lại
+### 🔹 Slide 14: Cấu trúc câu phủ định
 
-🎉 **Kết thúc bài học:**
-- Cảm ơn đã tham gia!
-- Chúc mừng bạn đã hoàn thành bài ôn tập về **Danh từ và Mạo từ**!
-- Hẹn gặp lại trong bài học tiếp theo!
+#### **Cấu trúc:**
+- I + am not + V-ing
+- He/She/It + is not + V-ing
+- You/We/They + are not + V-ing
+
+#### **Mẹo ghi nhớ:**
+"Phủ định = be + not + V-ing"
+
+---
+
+### 🔹 Slide 15: Bài tập vận dụng – Câu phủ định
+
+👉 **Viết câu phủ định:**
+1. I am reading → I am not reading
+2. She is cooking → She is not cooking
+3. They are playing → They are not playing
+
+---
+
+### 🔹 Slide 16: Cấu trúc câu nghi vấn
+
+#### **Cấu trúc:**
+- Am + I + V-ing?
+- Is + he/she/it + V-ing?
+- Are + you/we/they + V-ing?
+
+#### **Mẹo ghi nhớ:**
+"Hỏi = be + chủ ngữ + V-ing?"
+
+---
+
+### 🔹 Slide 17: Bài tập vận dụng – Câu nghi vấn
+
+👉 **Đặt câu hỏi:**
+1. You are reading → Are you reading?
+2. She is cooking → Is she cooking?
+3. They are playing → Are they playing?
+
+---
+
+## ✅ PHẦN 3: PHÂN BIỆT HAI THÌ
+
+---
+
+### 🔹 Slide 18: So sánh hai thì
+
+#### **Thì hiện tại đơn:**
+- Hành động thường xuyên
+- Sự thật hiển nhiên
+- Lịch trình
+
+#### **Thì hiện tại tiếp diễn:**
+- Hành động đang xảy ra
+- Hành động tạm thời
+- Kế hoạch tương lai gần
+
+#### **Mẹo ghi nhớ:**
+"Đơn = Thường xuyên, Tiếp diễn = Đang xảy ra"
+
+---
+
+### 🔹 Slide 19: Bài tập vận dụng – Phân biệt hai thì
+
+👉 **Chọn thì phù hợp:**
+1. I (go) to school every day
+2. Look! It (rain) now
+3. She usually (cook) dinner, but today she (eat) out
+
+---
+
+### 🔹 Slide 20: Tổng kết và luyện tập
+
+#### **Tóm tắt kiến thức:**
+- Cách dùng của hai thì
+- Cấu trúc câu
+- Dấu hiệu nhận biết
+
+#### **Bài tập tổng hợp:**
+👉 **Chia động từ trong ngoặc:**
+1. She (go) to school every day
+2. They (play) football now
+3. I usually (read) books, but now I (watch) TV
+
+---
+
+## ✅ PHẦN 4: HOẠT ĐỘNG VUI
+
+### 🔹 Slide 21: Trò chơi "What are they doing?"
+
+- Học sinh mô tả hành động trong tranh
+- Sử dụng cả hai thì
+- Tạo không khí vui vẻ, thực hành ngay
+
+---
+
+### 🔹 Slide 22: Bài tập về nhà
+
+👉 **Viết 5 câu với thì hiện tại đơn và 5 câu với thì hiện tại tiếp diễn về:**
+1. Thói quen hàng ngày
+2. Hành động đang xảy ra
+3. Sự thật hiển nhiên
+
+---
+
+## 📝 Lưu ý giảng dạy:
+1. Sử dụng nhiều hình ảnh minh họa
+2. Tạo cơ hội thực hành ngay sau mỗi phần
+3. Sử dụng các mẹo ghi nhớ một cách nhất quán
+4. Khuyến khích học sinh tạo ví dụ riêng
+5. Tạo không khí vui vẻ, tương tác nhiều 

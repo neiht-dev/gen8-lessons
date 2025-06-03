@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài Học Ngữ Pháp: Danh Từ và Mạo Từ</title>
+    <title>Bài Học Ngữ Pháp: Thì Hiện Tại Đơn và Hiện Tại Tiếp Diễn</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -34,6 +34,22 @@
             to {
                 opacity: 1;
             }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .floating {
+            animation: float 3s ease-in-out infinite;
         }
 
         .content-box {
@@ -86,7 +102,7 @@
     <div class="relative w-full max-w-6xl h-[90vh] mx-auto">
         <!-- Slide counter -->
         <div class="absolute top-4 right-4 z-50 bg-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg font-bold text-indigo-600">
-            <span id="slide-counter">1</span>/21
+            <span id="slide-counter">1</span>/20
         </div>
 
         <!-- Slides container -->
@@ -95,59 +111,58 @@
             <div class="slide active content-box p-8 md:p-12 rounded-2xl w-full h-full">
                 <div class="flex flex-col items-center justify-start h-full text-center">
                     <h1 class="text-4xl md:text-5xl font-bold text-indigo-700 mb-8">GRAMMAR FOR PRE-SECONDARY</h1>
-                    <div class="bg-yellow-400 text-3xl md:text-5xl font-bold px-6 py-3 rounded-full transform rotate-2 mb-12 shadow-lg">
-                        DANH TỪ VÀ MẠO TỪ
+                    <div class="bg-yellow-400 text-3xl md:text-5xl font-bold px-6 py-3 rounded-full mb-12 shadow-lg floating">
+                        THÌ HIỆN TẠI ĐƠN VÀ HIỆN TẠI TIẾP DIỄN
                     </div>
                     <div class="flex flex-col md:flex-row items-center justify-center gap-8">
                         <div class="mt-6 flex justify-center">
-                            <img src="/assets/images/grammar.jpg" alt="Grammar Learning" class="object-cover h-64">
+                            <img src="/assets/images/grammar.jpg" alt="Grammar Learning" class="object-cover h-64 floating">
                         </div>
 
                         <div class="bg-gradient-to-r from-indigo-100 to-green-200 border-l-4 border-indigo-500 py-5 px-10 text-left rounded-2xl text-2xl md:text-3xl">
                             <p class="font-bold text-indigo-800">Mục tiêu bài học:</p>
                             <ul class="list-disc pl-5 text-gray-700">
-                                <li>Ôn tập danh từ đếm được và không đếm được</li>
-                                <li>Cách dùng mạo từ a/an/the</li>
-                                <li>Mạo từ rỗng (zero article)</li>
-                                <li>Ôn lại dạng số nhiều và danh từ bất quy tắc</li>
+                                <li>Hiểu rõ cách sử dụng của hai thì</li>
+                                <li>Nắm được cấu trúc câu khẳng định, phủ định, nghi vấn</li>
+                                <li>Phân biệt được khi nào dùng thì nào</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Slide 2: Countable Nouns -->
+            <!-- Slide 2: Present Simple Concept -->
             <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Danh từ đếm được (Countable nouns)</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Thì Hiện Tại Đơn (Present Simple)</h2>
                 <div class="flex flex-col md:flex-row gap-8 h-[80%]">
                     <div class="md:w-1/2">
                         <div class="bg-white p-6 rounded-xl shadow-md mb-6">
-                            <p class="text-xl md:text-2xl mb-4">Khái niệm:</p>
+                            <p class="text-xl md:text-2xl mb-4">Cách dùng:</p>
                             <ul class="list-disc pl-5 space-y-2 text-lg">
-                                <li>Là những danh từ có thể đếm được từng đơn vị riêng biệt</li>
-                                <li>Có dạng số ít và số nhiều</li>
-                                <li>Có thể dùng với số đếm</li>
+                                <li>Diễn tả hành động thường xuyên, lặp đi lặp lại</li>
+                                <li>Diễn tả sự thật hiển nhiên</li>
+                                <li>Diễn tả lịch trình, thời khóa biểu</li>
                             </ul>
                         </div>
                         <div class="bg-green-100 p-4 rounded-lg border-l-4 border-green-500">
-                            <p class="font-bold text-green-800">Ví dụ:</p>
+                            <p class="font-bold text-green-800">Dấu hiệu nhận biết:</p>
                             <div class="grid grid-cols-2 gap-2 mt-2">
-                                <div class="bg-white p-2 rounded">one book</div>
-                                <div class="bg-white p-2 rounded">two books</div>
-                                <div class="bg-white p-2 rounded">a cat</div>
-                                <div class="bg-white p-2 rounded">three cats</div>
+                                <div class="bg-white p-2 rounded">always</div>
+                                <div class="bg-white p-2 rounded">usually</div>
+                                <div class="bg-white p-2 rounded">often</div>
+                                <div class="bg-white p-2 rounded">every day</div>
                             </div>
                         </div>
                     </div>
                     <div class="md:w-1/2 flex flex-col justify-center">
                         <div class="relative">
                             <div class="bg-gradient-to-r from-green-500 to-blue-500 text-white p-6 rounded-xl shadow-lg">
-                                <h3 class="text-2xl font-bold mb-4">Đặc điểm</h3>
-                                <div class="space-y-4">
-                                    <p>1. Có thể dùng với số đếm</p>
-                                    <p>2. Có thể dùng với mạo từ a/an</p>
-                                    <p>3. Có dạng số nhiều</p>
-                                    <p>4. Có thể dùng với many, few, several</p>
+                                <h3 class="text-2xl font-bold mb-4">Mẹo ghi nhớ</h3>
+                                <p class="text-xl">"Đơn giản = Thường xuyên"</p>
+                                <div class="mt-4 space-y-2">
+                                    <p>• Hành động lặp đi lặp lại</p>
+                                    <p>• Sự thật hiển nhiên</p>
+                                    <p>• Lịch trình cố định</p>
                                 </div>
                             </div>
                         </div>
@@ -155,21 +170,20 @@
                 </div>
             </div>
 
-            <!-- Slide 3: Exercise 1 -->
+            <!-- Slide 3: Present Simple Exercise 1 -->
             <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
-                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 1: Danh từ đếm được</h2>
-                    <p class="text-xl mb-8">Chọn đáp án đúng:</p>
+                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 1: Dấu hiệu nhận biết</h2>
+                    <p class="text-xl mb-8">Chọn dấu hiệu nhận biết phù hợp:</p>
 
                     <div class="flex-grow space-y-8">
                         <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">1. There are many ___ in the room.</p>
+                            <p class="text-xl mb-4">1. I go to school ___</p>
                             <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="chairs">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="every day">
                                     <option value="">Chọn...</option>
-                                    <option value="informations">informations</option>
-                                    <option value="peoples">peoples</option>
-                                    <option value="chairs">chairs</option>
+                                    <option value="now">now</option>
+                                    <option value="every day">every day</option>
                                 </select>
                                 <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
                                 <div class="answer hidden"></div>
@@ -177,13 +191,12 @@
                         </div>
 
                         <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">2. I have two ___ and five ___.</p>
+                            <p class="text-xl mb-4">2. She ___ helps her mother</p>
                             <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="children / pens">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="always">
                                     <option value="">Chọn...</option>
-                                    <option value="child / pen">child / pen</option>
-                                    <option value="children / pens">children / pens</option>
-                                    <option value="child / pennis">child / pennis</option>
+                                    <option value="always">always</option>
+                                    <option value="at the moment">at the moment</option>
                                 </select>
                                 <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
                                 <div class="answer hidden"></div>
@@ -193,123 +206,41 @@
 
                     <div class="mt-6 bg-blue-100 p-4 rounded-lg">
                         <p class="font-bold text-blue-800">Nhắc nhở:</p>
-                        <p>Danh từ đếm được có thể dùng với số đếm và có dạng số nhiều!</p>
+                        <p>Thì hiện tại đơn thường đi với các trạng từ chỉ tần suất!</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Slide 4: Uncountable Nouns -->
+            <!-- Slide 4: Present Simple Affirmative Structure -->
             <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Danh từ không đếm được (Uncountable nouns)</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Cấu Trúc Câu Khẳng Định</h2>
                 <div class="flex flex-col md:flex-row gap-8 h-[80%]">
                     <div class="md:w-1/2">
                         <div class="bg-white p-6 rounded-xl shadow-md mb-6">
-                            <p class="text-xl md:text-2xl mb-4">Khái niệm:</p>
+                            <p class="text-xl md:text-2xl mb-4">Cấu trúc:</p>
                             <ul class="list-disc pl-5 space-y-2 text-lg">
-                                <li>Không thể đếm từng đơn vị riêng biệt</li>
-                                <li>Không có dạng số nhiều</li>
-                                <li>Dùng với động từ chia ở số ít</li>
-                            </ul>
-                        </div>
-                        <div class="bg-red-100 p-4 rounded-lg border-l-4 border-red-500">
-                            <p class="font-bold text-red-800">Ví dụ:</p>
-                            <div class="grid grid-cols-2 gap-2 mt-2">
-                                <div class="bg-white p-2 rounded">water</div>
-                                <div class="bg-white p-2 rounded">milk</div>
-                                <div class="bg-white p-2 rounded">rice</div>
-                                <div class="bg-white p-2 rounded">information</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 flex flex-col justify-center">
-                        <div class="relative">
-                            <div class="bg-gradient-to-r from-red-500 to-pink-500 text-white p-6 rounded-xl shadow-lg">
-                                <h3 class="text-2xl font-bold mb-4">Đặc điểm</h3>
-                                <div class="space-y-4">
-                                    <p>1. Không dùng với số đếm</p>
-                                    <p>2. Không dùng với mạo từ a/an</p>
-                                    <p>3. Dùng với much, little, some</p>
-                                    <p>4. Có thể dùng với the khi xác định</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 5: Exercise 2 -->
-            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <div class="flex flex-col h-full">
-                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 2: Danh từ không đếm được</h2>
-                    <p class="text-xl mb-8">Chọn danh từ không đếm được phù hợp:</p>
-
-                    <div class="flex-grow space-y-8">
-                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">1. I need some ___ to make tea.</p>
-                            <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="sugar">
-                                    <option value="">Chọn...</option>
-                                    <option value="sugar">sugar</option>
-                                    <option value="apples">apples</option>
-                                </select>
-                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
-                                <div class="answer hidden"></div>
-                            </div>
-                        </div>
-
-                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">2. She gave me some useful ___.</p>
-                            <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="advice">
-                                    <option value="">Chọn...</option>
-                                    <option value="idea">idea</option>
-                                    <option value="advice">advice</option>
-                                </select>
-                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
-                                <div class="answer hidden"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-6 bg-yellow-100 p-4 rounded-lg">
-                        <p class="font-bold text-yellow-800">Nhắc nhở:</p>
-                        <p>Danh từ không đếm được không có dạng số nhiều và không dùng với a/an!</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 6: Articles a/an -->
-            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Mạo từ "a" và "an"</h2>
-                <div class="flex flex-col md:flex-row gap-8 h-[80%]">
-                    <div class="md:w-1/2">
-                        <div class="bg-white p-6 rounded-xl shadow-md mb-6">
-                            <p class="text-xl md:text-2xl mb-4">Khi nào dùng?</p>
-                            <ul class="list-disc pl-5 space-y-2 text-lg">
-                                <li>Với danh từ đếm được, số ít</li>
-                                <li>Lần đầu tiên nhắc đến người/vật chưa xác định</li>
-                                <li>Chỉ một đối tượng bất kỳ</li>
+                                <li>I/You/We/They + V1</li>
+                                <li>He/She/It + V1(s/es)</li>
                             </ul>
                         </div>
                         <div class="bg-purple-100 p-4 rounded-lg border-l-4 border-purple-500">
-                            <p class="font-bold text-purple-800">Phân biệt:</p>
-                            <div class="grid grid-cols-2 gap-2 mt-2">
-                                <div class="bg-white p-2 rounded">a car</div>
-                                <div class="bg-white p-2 rounded">an apple</div>
-                                <div class="bg-white p-2 rounded">a book</div>
-                                <div class="bg-white p-2 rounded">an hour</div>
+                            <p class="font-bold text-purple-800">Quy tắc thêm s/es:</p>
+                            <div class="space-y-2 mt-2">
+                                <div class="bg-white p-2 rounded">Thêm s: hầu hết các động từ</div>
+                                <div class="bg-white p-2 rounded">Thêm es: động từ tận cùng là o, ch, sh, x, s</div>
+                                <div class="bg-white p-2 rounded">Đổi y thành ies: động từ tận cùng là y sau phụ âm</div>
                             </div>
                         </div>
                     </div>
                     <div class="md:w-1/2 flex flex-col justify-center">
                         <div class="relative">
                             <div class="bg-gradient-to-r from-purple-500 to-indigo-600 text-white p-6 rounded-xl shadow-lg">
-                                <h3 class="text-2xl font-bold mb-4">Quy tắc sử dụng</h3>
+                                <h3 class="text-2xl font-bold mb-4">Ví dụ:</h3>
                                 <div class="space-y-4">
-                                    <p>1. Dùng "a" trước phụ âm</p>
-                                    <p>2. Dùng "an" trước nguyên âm</p>
-                                    <p>3. Dựa vào âm đầu, không phải chữ cái</p>
-                                    <p>4. Ví dụ: an hour (âm h câm)</p>
+                                    <p>• I play football</p>
+                                    <p>• She plays tennis</p>
+                                    <p>• They watch TV</p>
+                                    <p>• He goes to school</p>
                                 </div>
                             </div>
                         </div>
@@ -317,20 +248,20 @@
                 </div>
             </div>
 
-            <!-- Slide 7: Exercise 3 -->
+            <!-- Slide 5: Present Simple Affirmative Exercise -->
             <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
-                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 3: Mạo từ a/an</h2>
-                    <p class="text-xl mb-8">Điền a hoặc an vào chỗ trống:</p>
+                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 2: Câu khẳng định</h2>
+                    <p class="text-xl mb-8">Chia động từ trong ngoặc:</p>
 
                     <div class="flex-grow space-y-8">
                         <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">1. She is ___ teacher.</p>
+                            <p class="text-xl mb-4">1. She (go) to school every day</p>
                             <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="a">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="goes">
                                     <option value="">Chọn...</option>
-                                    <option value="a">a</option>
-                                    <option value="an">an</option>
+                                    <option value="go">go</option>
+                                    <option value="goes">goes</option>
                                 </select>
                                 <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
                                 <div class="answer hidden"></div>
@@ -338,79 +269,12 @@
                         </div>
 
                         <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">2. He bought ___ umbrella yesterday.</p>
+                            <p class="text-xl mb-4">2. They (play) football on Sundays</p>
                             <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="an">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="play">
                                     <option value="">Chọn...</option>
-                                    <option value="a">a</option>
-                                    <option value="an">an</option>
-                                </select>
-                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
-                                <div class="answer hidden"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-6 bg-green-100 p-4 rounded-lg">
-                        <p class="font-bold text-green-800">Nhắc nhở:</p>
-                        <p>Nhớ dựa vào âm đầu để chọn a/an, không phải chữ cái đầu!</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 8: Article the -->
-            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Mạo từ "the"</h2>
-                <div class="flex flex-col md:flex-row gap-8 h-[80%]">
-                    <div class="md:w-1/2">
-                        <div class="bg-white p-6 rounded-xl shadow-md mb-6">
-                            <p class="text-xl md:text-2xl mb-4">Khi nào dùng?</p>
-                            <ul class="list-disc pl-5 space-y-2 text-lg">
-                                <li>Khi người/vật đã được xác định rõ ràng</li>
-                                <li>Dùng với danh từ đã được nhắc đến trước đó</li>
-                                <li>Dùng với danh từ chỉ duy nhất một đối tượng</li>
-                            </ul>
-                        </div>
-                        <div class="bg-blue-100 p-4 rounded-lg border-l-4 border-blue-500">
-                            <p class="font-bold text-blue-800">Ví dụ:</p>
-                            <div class="space-y-2 mt-2">
-                                <div class="bg-white p-3 rounded">The sun rises in the east.</div>
-                                <div class="bg-white p-3 rounded">Where is the book I gave you?</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 flex flex-col justify-center">
-                        <div class="relative">
-                            <div class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-6 rounded-xl shadow-lg">
-                                <h3 class="text-2xl font-bold mb-4">Các trường hợp đặc biệt</h3>
-                                <div class="space-y-4">
-                                    <p>1. Với tên riêng của sông, biển, đại dương</p>
-                                    <p>2. Với tên các dãy núi</p>
-                                    <p>3. Với tên các quốc gia có từ "United"</p>
-                                    <p>4. Với tên các tờ báo</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 9: Exercise 4 -->
-            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <div class="flex flex-col h-full">
-                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 4: Mạo từ the</h2>
-                    <p class="text-xl mb-8">Chèn "the" vào chỗ cần thiết:</p>
-
-                    <div class="flex-grow space-y-8">
-                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">1. ___ moon is bright tonight.</p>
-                            <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="The">
-                                    <option value="">Chọn...</option>
-                                    <option value="The">The</option>
-                                    <option value="A">A</option>
-                                    <option value="An">An</option>
-                                    <option value="(không cần)">(không cần)</option>
+                                    <option value="play">play</option>
+                                    <option value="plays">plays</option>
                                 </select>
                                 <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
                                 <div class="answer hidden"></div>
@@ -418,98 +282,12 @@
                         </div>
 
                         <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">2. We visited ___ Eiffel Tower when we were in Paris.</p>
+                            <p class="text-xl mb-4">3. My mother (wash) the dishes after dinner</p>
                             <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="the">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="washes">
                                     <option value="">Chọn...</option>
-                                    <option value="the">the</option>
-                                    <option value="a">a</option>
-                                    <option value="an">an</option>
-                                    <option value="(không cần)">(không cần)</option>
-                                </select>
-                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
-                                <div class="answer hidden"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-6 bg-purple-100 p-4 rounded-lg">
-                        <p class="font-bold text-purple-800">Nhắc nhở:</p>
-                        <p>Dùng "the" khi nói về một đối tượng cụ thể, duy nhất!</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 10: Zero Article -->
-            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Mạo từ rỗng (Zero article)</h2>
-                <div class="flex flex-col md:flex-row gap-8 h-[80%]">
-                    <div class="md:w-1/2">
-                        <div class="bg-white p-6 rounded-xl shadow-md mb-6">
-                            <p class="text-xl md:text-2xl mb-4">Khi nào không dùng mạo từ?</p>
-                            <ul class="list-disc pl-5 space-y-2 text-lg">
-                                <li>Với danh từ không đếm được (khi nói chung)</li>
-                                <li>Với danh từ số nhiều (khi nói chung)</li>
-                                <li>Với tên riêng</li>
-                                <li>Với các môn học, quốc gia, ngôn ngữ</li>
-                            </ul>
-                        </div>
-                        <div class="bg-yellow-100 p-4 rounded-lg border-l-4 border-yellow-500">
-                            <p class="font-bold text-yellow-800">Ví dụ:</p>
-                            <div class="space-y-2 mt-2">
-                                <div class="bg-white p-3 rounded">I like coffee.</div>
-                                <div class="bg-white p-3 rounded">Children love cartoons.</div>
-                                <div class="bg-white p-3 rounded">She speaks English.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 flex flex-col justify-center">
-                        <div class="relative">
-                            <div class="bg-gradient-to-r from-yellow-500 to-orange-600 text-white p-6 rounded-xl shadow-lg">
-                                <h3 class="text-2xl font-bold mb-4">Các trường hợp đặc biệt</h3>
-                                <div class="space-y-4">
-                                    <p>1. Tên các bữa ăn trong ngày</p>
-                                    <p>2. Tên các môn thể thao</p>
-                                    <p>3. Tên các phương tiện giao thông</p>
-                                    <p>4. Tên các ngày trong tuần</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 11: Exercise 5 -->
-            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <div class="flex flex-col h-full">
-                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 5: Mạo từ rỗng</h2>
-                    <p class="text-xl mb-8">Điền a/an/the hoặc để trống nếu không dùng mạo từ:</p>
-
-                    <div class="flex-grow space-y-8">
-                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">1. I want ___ coffee, please.</p>
-                            <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="(không cần)">
-                                    <option value="">Chọn...</option>
-                                    <option value="a">a</option>
-                                    <option value="an">an</option>
-                                    <option value="the">the</option>
-                                    <option value="(không cần)">(không cần)</option>
-                                </select>
-                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
-                                <div class="answer hidden"></div>
-                            </div>
-                        </div>
-
-                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">2. They are studying ___ French.</p>
-                            <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="(không cần)">
-                                    <option value="">Chọn...</option>
-                                    <option value="a">a</option>
-                                    <option value="an">an</option>
-                                    <option value="the">the</option>
-                                    <option value="(không cần)">(không cần)</option>
+                                    <option value="wash">wash</option>
+                                    <option value="washes">washes</option>
                                 </select>
                                 <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
                                 <div class="answer hidden"></div>
@@ -519,81 +297,41 @@
 
                     <div class="mt-6 bg-indigo-100 p-4 rounded-lg">
                         <p class="font-bold text-indigo-800">Nhắc nhở:</p>
-                        <p>Không dùng mạo từ với danh từ không đếm được khi nói chung!</p>
+                        <p>Nhớ thêm s/es cho chủ ngữ ngôi thứ 3 số ít (he/she/it)!</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Slide 12: Singular and Plural -->
+            <!-- Slide 6: Present Simple Negative Structure -->
             <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Số ít và số nhiều</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Cấu Trúc Câu Phủ Định</h2>
                 <div class="flex flex-col md:flex-row gap-8 h-[80%]">
                     <div class="md:w-1/2">
                         <div class="bg-white p-6 rounded-xl shadow-md mb-6">
-                            <p class="text-xl md:text-2xl mb-4">Sự khác biệt:</p>
+                            <p class="text-xl md:text-2xl mb-4">Cấu trúc:</p>
                             <ul class="list-disc pl-5 space-y-2 text-lg">
-                                <li><span class="font-bold">Số ít:</span> chỉ một người/vật</li>
-                                <li><span class="font-bold">Số nhiều:</span> chỉ từ hai trở lên</li>
-                                <li>Một số danh từ không có dạng số nhiều</li>
+                                <li>I/You/We/They + don't + V1</li>
+                                <li>He/She/It + doesn't + V1</li>
                             </ul>
                         </div>
                         <div class="bg-red-100 p-4 rounded-lg border-l-4 border-red-500">
-                            <p class="font-bold text-red-800">Lưu ý quan trọng:</p>
-                            <p>Một số danh từ không có dạng số nhiều (uncountable nouns): water, advice, information</p>
+                            <p class="font-bold text-red-800">Lưu ý:</p>
+                            <div class="space-y-2 mt-2">
+                                <div class="bg-white p-2 rounded">don't = do not</div>
+                                <div class="bg-white p-2 rounded">doesn't = does not</div>
+                                <div class="bg-white p-2 rounded">Động từ luôn ở dạng nguyên thể</div>
+                            </div>
                         </div>
                     </div>
                     <div class="md:w-1/2 flex flex-col justify-center">
                         <div class="relative">
                             <div class="bg-gradient-to-r from-red-500 to-pink-600 text-white p-6 rounded-xl shadow-lg">
-                                <h3 class="text-2xl font-bold mb-4">Ví dụ minh họa</h3>
-                                <div class="grid grid-cols-2 gap-4">
-                                    <div>
-                                        <p class="font-bold">Số ít</p>
-                                        <div class="bg-white text-red-800 p-2 rounded">a cat</div>
-                                        <div class="bg-white text-red-800 p-2 rounded mt-1">one book</div>
-                                    </div>
-                                    <div>
-                                        <p class="font-bold">Số nhiều</p>
-                                        <div class="bg-white text-red-800 p-2 rounded">three cats</div>
-                                        <div class="bg-white text-red-800 p-2 rounded mt-1">many books</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 13: Regular Plural Forms -->
-            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Dạng số nhiều thông thường</h2>
-                <div class="flex flex-col md:flex-row gap-8 h-[80%]">
-                    <div class="md:w-1/2">
-                        <div class="bg-white p-6 rounded-xl shadow-md mb-6">
-                            <p class="text-xl md:text-2xl mb-4">Quy tắc thêm -s/-es:</p>
-                            <ul class="list-disc pl-5 space-y-2 text-lg">
-                                <li>Thêm <span class="font-bold">-s</span> cho hầu hết danh từ</li>
-                                <li>Thêm <span class="font-bold">-es</span> cho danh từ kết thúc bằng -s, -ss, -sh, -ch, -x, -z, -o</li>
-                                <li>Đổi <span class="font-bold">-y</span> thành <span class="font-bold">-ies</span> nếu trước -y là phụ âm</li>
-                            </ul>
-                        </div>
-                        <div class="bg-green-100 p-4 rounded-lg border-l-4 border-green-500">
-                            <p class="font-bold text-green-800">Ví dụ:</p>
-                            <div class="space-y-2 mt-2">
-                                <div class="bg-white p-3 rounded">book → books</div>
-                                <div class="bg-white p-3 rounded">box → boxes</div>
-                                <div class="bg-white p-3 rounded">baby → babies</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 flex flex-col justify-center">
-                        <div class="relative">
-                            <div class="bg-gradient-to-r from-green-500 to-teal-600 text-white p-6 rounded-xl shadow-lg">
-                                <h3 class="text-2xl font-bold mb-4">Lưu ý phát âm</h3>
+                                <h3 class="text-2xl font-bold mb-4">Ví dụ:</h3>
                                 <div class="space-y-4">
-                                    <p>1. /s/ sau âm vô thanh: books, cats</p>
-                                    <p>2. /z/ sau âm hữu thanh: dogs, birds</p>
-                                    <p>3. /ɪz/ sau âm xì: boxes, watches</p>
+                                    <p>• I don't like coffee</p>
+                                    <p>• She doesn't play tennis</p>
+                                    <p>• They don't watch TV</p>
+                                    <p>• He doesn't go to school</p>
                                 </div>
                             </div>
                         </div>
@@ -601,91 +339,20 @@
                 </div>
             </div>
 
-            <!-- Slide 14: Exercise 6 -->
+            <!-- Slide 7: Present Simple Negative Exercise -->
             <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
-                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 6: Dạng số nhiều</h2>
-                    <p class="text-xl mb-8">Viết dạng số nhiều của các danh từ sau:</p>
+                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 3: Câu phủ định</h2>
+                    <p class="text-xl mb-8">Viết câu phủ định:</p>
 
                     <div class="flex-grow space-y-8">
                         <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">1. box → ___</p>
+                            <p class="text-xl mb-4">1. I like coffee →</p>
                             <div class="flex items-center space-x-4">
-                                <input type="text" class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="boxes">
-                                <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
-                                <div class="answer hidden"></div>
-                            </div>
-                        </div>
-
-                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">2. baby → ___</p>
-                            <div class="flex items-center space-x-4">
-                                <input type="text" class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="babies">
-                                <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
-                                <div class="answer hidden"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-6 bg-indigo-100 p-4 rounded-lg">
-                        <p class="font-bold text-indigo-800">Nhắc nhở:</p>
-                        <p>Nhớ các quy tắc thêm -s/-es và đổi -y thành -ies!</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 15: Irregular Plural Forms -->
-            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Dạng số nhiều bất quy tắc</h2>
-                <div class="flex flex-col md:flex-row gap-8 h-[80%]">
-                    <div class="md:w-1/2">
-                        <div class="bg-white p-6 rounded-xl shadow-md mb-6">
-                            <p class="text-xl md:text-2xl mb-4">Các dạng bất quy tắc phổ biến:</p>
-                            <ul class="list-disc pl-5 space-y-2 text-lg">
-                                <li>Thay đổi nguyên âm: man → men</li>
-                                <li>Thêm -en: child → children</li>
-                                <li>Không thay đổi: sheep → sheep</li>
-                                <li>Dạng số nhiều đặc biệt: mouse → mice</li>
-                            </ul>
-                        </div>
-                        <div class="bg-purple-100 p-4 rounded-lg border-l-4 border-purple-500">
-                            <p class="font-bold text-purple-800">Ví dụ:</p>
-                            <div class="space-y-2 mt-2">
-                                <div class="bg-white p-3 rounded">foot → feet</div>
-                                <div class="bg-white p-3 rounded">tooth → teeth</div>
-                                <div class="bg-white p-3 rounded">person → people</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 flex flex-col justify-center">
-                        <div class="relative">
-                            <div class="bg-gradient-to-r from-purple-500 to-pink-600 text-white p-6 rounded-xl shadow-lg">
-                                <h3 class="text-2xl font-bold mb-4">Các trường hợp đặc biệt</h3>
-                                <div class="space-y-4">
-                                    <p>1. Danh từ kết thúc bằng -f/-fe: leaf → leaves</p>
-                                    <p>2. Danh từ gốc Latin: datum → data</p>
-                                    <p>3. Danh từ kép: mother-in-law → mothers-in-law</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 16: Exercise 7 -->
-            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <div class="flex flex-col h-full">
-                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 7: Danh từ bất quy tắc</h2>
-                    <p class="text-xl mb-8">Chọn dạng số nhiều đúng:</p>
-
-                    <div class="flex-grow space-y-8">
-                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">1. There are many ___ in the field.</p>
-                            <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="sheep">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="I don't like coffee">
                                     <option value="">Chọn...</option>
-                                    <option value="sheep">sheep</option>
-                                    <option value="sheeps">sheeps</option>
+                                    <option value="I don't like coffee">I don't like coffee</option>
+                                    <option value="I doesn't like coffee">I doesn't like coffee</option>
                                 </select>
                                 <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
                                 <div class="answer hidden"></div>
@@ -693,12 +360,25 @@
                         </div>
 
                         <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">2. The ___ are playing in the garden.</p>
+                            <p class="text-xl mb-4">2. She plays tennis →</p>
                             <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="children">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="She doesn't play tennis">
                                     <option value="">Chọn...</option>
-                                    <option value="childs">childs</option>
-                                    <option value="children">children</option>
+                                    <option value="She don't play tennis">She don't play tennis</option>
+                                    <option value="She doesn't play tennis">She doesn't play tennis</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">3. They watch TV every day →</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="They don't watch TV every day">
+                                    <option value="">Chọn...</option>
+                                    <option value="They don't watch TV every day">They don't watch TV every day</option>
+                                    <option value="They doesn't watch TV every day">They doesn't watch TV every day</option>
                                 </select>
                                 <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
                                 <div class="answer hidden"></div>
@@ -706,42 +386,43 @@
                         </div>
                     </div>
 
-                    <div class="mt-6 bg-indigo-100 p-4 rounded-lg">
-                        <p class="font-bold text-indigo-800">Nhắc nhở:</p>
-                        <p>Học thuộc các danh từ bất quy tắc phổ biến!</p>
+                    <div class="mt-6 bg-red-100 p-4 rounded-lg">
+                        <p class="font-bold text-red-800">Nhắc nhở:</p>
+                        <p>Nhớ dùng don't cho I/you/we/they và doesn't cho he/she/it!</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Slide 17: Review -->
+            <!-- Slide 8: Present Simple Question Structure -->
             <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Ôn tập</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Cấu Trúc Câu Nghi Vấn</h2>
                 <div class="flex flex-col md:flex-row gap-8 h-[80%]">
                     <div class="md:w-1/2">
                         <div class="bg-white p-6 rounded-xl shadow-md mb-6">
-                            <p class="text-xl md:text-2xl mb-4">Danh từ đếm được và không đếm được:</p>
+                            <p class="text-xl md:text-2xl mb-4">Cấu trúc:</p>
                             <ul class="list-disc pl-5 space-y-2 text-lg">
-                                <li>Danh từ đếm được: có thể đếm được số lượng</li>
-                                <li>Danh từ không đếm được: không thể đếm được số lượng</li>
-                                <li>Mạo từ a/an chỉ dùng với danh từ đếm được số ít</li>
+                                <li>Do + I/you/we/they + V1?</li>
+                                <li>Does + he/she/it + V1?</li>
                             </ul>
                         </div>
                         <div class="bg-blue-100 p-4 rounded-lg border-l-4 border-blue-500">
-                            <p class="font-bold text-blue-800">Ví dụ:</p>
+                            <p class="font-bold text-blue-800">Lưu ý:</p>
                             <div class="space-y-2 mt-2">
-                                <div class="bg-white p-3 rounded">a book (đếm được)</div>
-                                <div class="bg-white p-3 rounded">water (không đếm được)</div>
+                                <div class="bg-white p-2 rounded">Động từ luôn ở dạng nguyên thể</div>
+                                <div class="bg-white p-2 rounded">Không thêm s/es cho động từ</div>
+                                <div class="bg-white p-2 rounded">Câu trả lời ngắn: Yes, I do/No, I don't</div>
                             </div>
                         </div>
                     </div>
                     <div class="md:w-1/2 flex flex-col justify-center">
                         <div class="relative">
                             <div class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-6 rounded-xl shadow-lg">
-                                <h3 class="text-2xl font-bold mb-4">Mạo từ</h3>
+                                <h3 class="text-2xl font-bold mb-4">Ví dụ:</h3>
                                 <div class="space-y-4">
-                                    <p>1. a/an: danh từ đếm được số ít, chưa xác định</p>
-                                    <p>2. the: danh từ đã xác định</p>
-                                    <p>3. Zero article: danh từ không đếm được, số nhiều nói chung</p>
+                                    <p>• Do you like coffee?</p>
+                                    <p>• Does she play tennis?</p>
+                                    <p>• Do they watch TV?</p>
+                                    <p>• Does he go to school?</p>
                                 </div>
                             </div>
                         </div>
@@ -749,29 +430,20 @@
                 </div>
             </div>
 
-            <!-- Slide 18: Final Exercise -->
+            <!-- Slide 9: Present Simple Question Exercise -->
             <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
-                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập cuối cùng</h2>
-                    <p class="text-xl mb-8">Điền mạo từ thích hợp vào chỗ trống:</p>
+                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 4: Câu nghi vấn</h2>
+                    <p class="text-xl mb-8">Đặt câu hỏi:</p>
 
                     <div class="flex-grow space-y-8">
                         <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">1. I saw ___ elephant at ___ zoo yesterday.</p>
+                            <p class="text-xl mb-4">1. You like music →</p>
                             <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="an">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="Do you like music?">
                                     <option value="">Chọn...</option>
-                                    <option value="a">a</option>
-                                    <option value="an">an</option>
-                                    <option value="the">the</option>
-                                    <option value="(không cần)">(không cần)</option>
-                                </select>
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="the">
-                                    <option value="">Chọn...</option>
-                                    <option value="a">a</option>
-                                    <option value="an">an</option>
-                                    <option value="the">the</option>
-                                    <option value="(không cần)">(không cần)</option>
+                                    <option value="Do you like music?">Do you like music?</option>
+                                    <option value="Does you like music?">Does you like music?</option>
                                 </select>
                                 <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
                                 <div class="answer hidden"></div>
@@ -779,21 +451,210 @@
                         </div>
 
                         <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
-                            <p class="text-xl mb-4">2. She needs ___ water and ___ apple.</p>
+                            <p class="text-xl mb-4">2. She speaks English →</p>
                             <div class="flex items-center space-x-4">
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="(không cần)">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="Does she speak English?">
                                     <option value="">Chọn...</option>
-                                    <option value="a">a</option>
-                                    <option value="an">an</option>
-                                    <option value="the">the</option>
-                                    <option value="(không cần)">(không cần)</option>
+                                    <option value="Do she speak English?">Do she speak English?</option>
+                                    <option value="Does she speak English?">Does she speak English?</option>
                                 </select>
-                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="an">
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">3. They play football →</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="Do they play football?">
                                     <option value="">Chọn...</option>
-                                    <option value="a">a</option>
-                                    <option value="an">an</option>
-                                    <option value="the">the</option>
-                                    <option value="(không cần)">(không cần)</option>
+                                    <option value="Do they play football?">Do they play football?</option>
+                                    <option value="Does they play football?">Does they play football?</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 bg-blue-100 p-4 rounded-lg">
+                        <p class="font-bold text-blue-800">Nhắc nhở:</p>
+                        <p>Nhớ dùng Do cho I/you/we/they và Does cho he/she/it!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Present Continuous Concept -->
+            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
+                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Thì Hiện Tại Tiếp Diễn (Present Continuous)</h2>
+                <div class="flex flex-col md:flex-row gap-8 h-[80%]">
+                    <div class="md:w-1/2">
+                        <div class="bg-white p-6 rounded-xl shadow-md mb-6">
+                            <p class="text-xl md:text-2xl mb-4">Cách dùng:</p>
+                            <ul class="list-disc pl-5 space-y-2 text-lg">
+                                <li>Diễn tả hành động đang xảy ra ngay lúc nói</li>
+                                <li>Diễn tả hành động tạm thời</li>
+                                <li>Diễn tả kế hoạch trong tương lai gần</li>
+                            </ul>
+                        </div>
+                        <div class="bg-green-100 p-4 rounded-lg border-l-4 border-green-500">
+                            <p class="font-bold text-green-800">Dấu hiệu nhận biết:</p>
+                            <div class="grid grid-cols-2 gap-2 mt-2">
+                                <div class="bg-white p-2 rounded">now</div>
+                                <div class="bg-white p-2 rounded">at the moment</div>
+                                <div class="bg-white p-2 rounded">right now</div>
+                                <div class="bg-white p-2 rounded">Look!</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 flex flex-col justify-center">
+                        <div class="relative">
+                            <div class="bg-gradient-to-r from-green-500 to-blue-500 text-white p-6 rounded-xl shadow-lg">
+                                <h3 class="text-2xl font-bold mb-4">Mẹo ghi nhớ</h3>
+                                <p class="text-xl">"Tiếp diễn = Đang xảy ra"</p>
+                                <div class="mt-4 space-y-2">
+                                    <p>• Hành động đang diễn ra</p>
+                                    <p>• Hành động tạm thời</p>
+                                    <p>• Kế hoạch sắp tới</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: Present Continuous Exercise 1 -->
+            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 5: Dấu hiệu nhận biết</h2>
+                    <p class="text-xl mb-8">Chọn dấu hiệu nhận biết phù hợp:</p>
+
+                    <div class="flex-grow space-y-8">
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">1. I am studying ___</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="now">
+                                    <option value="">Chọn...</option>
+                                    <option value="now">now</option>
+                                    <option value="every day">every day</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">2. They are playing ___</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="at the moment">
+                                    <option value="">Chọn...</option>
+                                    <option value="usually">usually</option>
+                                    <option value="at the moment">at the moment</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">3. She is cooking ___</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="right now">
+                                    <option value="">Chọn...</option>
+                                    <option value="often">often</option>
+                                    <option value="right now">right now</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 bg-blue-100 p-4 rounded-lg">
+                        <p class="font-bold text-blue-800">Nhắc nhở:</p>
+                        <p>Thì hiện tại tiếp diễn thường đi với các trạng từ chỉ thời điểm hiện tại!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: Present Continuous Affirmative Structure -->
+            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
+                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Cấu Trúc Câu Khẳng Định</h2>
+                <div class="flex flex-col md:flex-row gap-8 h-[80%]">
+                    <div class="md:w-1/2">
+                        <div class="bg-white p-6 rounded-xl shadow-md mb-6">
+                            <p class="text-xl md:text-2xl mb-4">Cấu trúc:</p>
+                            <ul class="list-disc pl-5 space-y-2 text-lg">
+                                <li>I + am + V-ing</li>
+                                <li>He/She/It + is + V-ing</li>
+                                <li>You/We/They + are + V-ing</li>
+                            </ul>
+                        </div>
+                        <div class="bg-purple-100 p-4 rounded-lg border-l-4 border-purple-500">
+                            <p class="font-bold text-purple-800">Quy tắc thêm ing:</p>
+                            <div class="space-y-2 mt-2">
+                                <div class="bg-white p-2 rounded">Thêm ing: hầu hết các động từ</div>
+                                <div class="bg-white p-2 rounded">Bỏ e + ing: động từ tận cùng là e</div>
+                                <div class="bg-white p-2 rounded">Gấp đôi phụ âm + ing: động từ 1 âm tiết tận cùng là 1 phụ âm + 1 nguyên âm + 1 phụ âm</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 flex flex-col justify-center">
+                        <div class="relative">
+                            <div class="bg-gradient-to-r from-purple-500 to-indigo-600 text-white p-6 rounded-xl shadow-lg">
+                                <h3 class="text-2xl font-bold mb-4">Ví dụ:</h3>
+                                <div class="space-y-4">
+                                    <p>• I am studying</p>
+                                    <p>• She is playing</p>
+                                    <p>• They are watching TV</p>
+                                    <p>• He is going to school</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 13: Present Continuous Affirmative Exercise -->
+            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 6: Câu khẳng định</h2>
+                    <p class="text-xl mb-8">Chia động từ trong ngoặc:</p>
+
+                    <div class="flex-grow space-y-8">
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">1. She (play) tennis now</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="is playing">
+                                    <option value="">Chọn...</option>
+                                    <option value="is play">is play</option>
+                                    <option value="is playing">is playing</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">2. They (watch) TV at the moment</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="are watching">
+                                    <option value="">Chọn...</option>
+                                    <option value="are watch">are watch</option>
+                                    <option value="are watching">are watching</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">3. I (study) English right now</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="am studying">
+                                    <option value="">Chọn...</option>
+                                    <option value="am study">am study</option>
+                                    <option value="am studying">am studying</option>
                                 </select>
                                 <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
                                 <div class="answer hidden"></div>
@@ -803,38 +664,42 @@
 
                     <div class="mt-6 bg-indigo-100 p-4 rounded-lg">
                         <p class="font-bold text-indigo-800">Nhắc nhở:</p>
-                        <p>Hãy nhớ các quy tắc về mạo từ và danh từ!</p>
+                        <p>Nhớ dùng am/is/are + V-ing cho thì hiện tại tiếp diễn!</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Slide 19: Summary -->
+            <!-- Slide 14: Present Continuous Negative Structure -->
             <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
-                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Tóm tắt bài học</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Cấu Trúc Câu Phủ Định</h2>
                 <div class="flex flex-col md:flex-row gap-8 h-[80%]">
                     <div class="md:w-1/2">
                         <div class="bg-white p-6 rounded-xl shadow-md mb-6">
-                            <p class="text-xl md:text-2xl mb-4">Những điểm chính:</p>
+                            <p class="text-xl md:text-2xl mb-4">Cấu trúc:</p>
                             <ul class="list-disc pl-5 space-y-2 text-lg">
-                                <li>Phân biệt danh từ đếm được và không đếm được</li>
-                                <li>Sử dụng mạo từ a/an/the đúng cách</li>
-                                <li>Quy tắc chuyển danh từ số ít sang số nhiều</li>
-                                <li>Nhận biết và sử dụng danh từ bất quy tắc</li>
+                                <li>I + am not + V-ing</li>
+                                <li>He/She/It + is not + V-ing</li>
+                                <li>You/We/They + are not + V-ing</li>
                             </ul>
                         </div>
-                        <div class="bg-green-100 p-4 rounded-lg border-l-4 border-green-500">
-                            <p class="font-bold text-green-800">Lời khuyên:</p>
-                            <p>Thực hành thường xuyên để nắm vững các quy tắc!</p>
+                        <div class="bg-red-100 p-4 rounded-lg border-l-4 border-red-500">
+                            <p class="font-bold text-red-800">Lưu ý:</p>
+                            <div class="space-y-2 mt-2">
+                                <div class="bg-white p-2 rounded">am not = 'm not</div>
+                                <div class="bg-white p-2 rounded">is not = isn't</div>
+                                <div class="bg-white p-2 rounded">are not = aren't</div>
+                            </div>
                         </div>
                     </div>
                     <div class="md:w-1/2 flex flex-col justify-center">
                         <div class="relative">
-                            <div class="bg-gradient-to-r from-green-500 to-teal-600 text-white p-6 rounded-xl shadow-lg">
-                                <h3 class="text-2xl font-bold mb-4">Bài tập về nhà</h3>
+                            <div class="bg-gradient-to-r from-red-500 to-pink-600 text-white p-6 rounded-xl shadow-lg">
+                                <h3 class="text-2xl font-bold mb-4">Ví dụ:</h3>
                                 <div class="space-y-4">
-                                    <p>1. Làm bài tập trong sách giáo khoa</p>
-                                    <p>2. Viết 5 câu sử dụng mạo từ a/an/the</p>
-                                    <p>3. Tìm 10 danh từ bất quy tắc phổ biến</p>
+                                    <p>• I'm not studying</p>
+                                    <p>• She isn't playing</p>
+                                    <p>• They aren't watching TV</p>
+                                    <p>• He isn't going to school</p>
                                 </div>
                             </div>
                         </div>
@@ -842,11 +707,277 @@
                 </div>
             </div>
 
-            <!-- Slide 20: Thank You -->
-            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full flex items-center justify-center">
-                <div class="text-center">
-                    <h2 class="text-4xl md:text-5xl font-bold text-indigo-700 mb-6">Cảm ơn các bạn!</h2>
-                    <p class="text-2xl text-gray-600">Hẹn gặp lại trong bài học tiếp theo</p>
+            <!-- Slide 15: Present Continuous Negative Exercise -->
+            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 7: Câu phủ định</h2>
+                    <p class="text-xl mb-8">Viết câu phủ định:</p>
+
+                    <div class="flex-grow space-y-8">
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">1. I am studying →</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="I'm not studying">
+                                    <option value="">Chọn...</option>
+                                    <option value="I'm not studying">I'm not studying</option>
+                                    <option value="I isn't studying">I isn't studying</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">2. She is playing tennis →</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="She isn't playing tennis">
+                                    <option value="">Chọn...</option>
+                                    <option value="She aren't playing tennis">She aren't playing tennis</option>
+                                    <option value="She isn't playing tennis">She isn't playing tennis</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">3. They are watching TV →</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="They aren't watching TV">
+                                    <option value="">Chọn...</option>
+                                    <option value="They aren't watching TV">They aren't watching TV</option>
+                                    <option value="They isn't watching TV">They isn't watching TV</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 bg-red-100 p-4 rounded-lg">
+                        <p class="font-bold text-red-800">Nhắc nhở:</p>
+                        <p>Nhớ dùng am not cho I, isn't cho he/she/it, và aren't cho you/we/they!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 16: Present Continuous Question Structure -->
+            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
+                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Cấu Trúc Câu Nghi Vấn</h2>
+                <div class="flex flex-col md:flex-row gap-8 h-[80%]">
+                    <div class="md:w-1/2">
+                        <div class="bg-white p-6 rounded-xl shadow-md mb-6">
+                            <p class="text-xl md:text-2xl mb-4">Cấu trúc:</p>
+                            <ul class="list-disc pl-5 space-y-2 text-lg">
+                                <li>Am + I + V-ing?</li>
+                                <li>Is + he/she/it + V-ing?</li>
+                                <li>Are + you/we/they + V-ing?</li>
+                            </ul>
+                        </div>
+                        <div class="bg-blue-100 p-4 rounded-lg border-l-4 border-blue-500">
+                            <p class="font-bold text-blue-800">Lưu ý:</p>
+                            <div class="space-y-2 mt-2">
+                                <div class="bg-white p-2 rounded">Động từ luôn ở dạng V-ing</div>
+                                <div class="bg-white p-2 rounded">Câu trả lời ngắn: Yes, I am/No, I'm not</div>
+                                <div class="bg-white p-2 rounded">Câu trả lời ngắn: Yes, he is/No, he isn't</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 flex flex-col justify-center">
+                        <div class="relative">
+                            <div class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-6 rounded-xl shadow-lg">
+                                <h3 class="text-2xl font-bold mb-4">Ví dụ:</h3>
+                                <div class="space-y-4">
+                                    <p>• Am I studying?</p>
+                                    <p>• Is she playing tennis?</p>
+                                    <p>• Are they watching TV?</p>
+                                    <p>• Is he going to school?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 17: Present Continuous Question Exercise -->
+            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập 8: Câu nghi vấn</h2>
+                    <p class="text-xl mb-8">Đặt câu hỏi:</p>
+
+                    <div class="flex-grow space-y-8">
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">1. I am studying →</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="Am I studying?">
+                                    <option value="">Chọn...</option>
+                                    <option value="Am I studying?">Am I studying?</option>
+                                    <option value="Is I studying?">Is I studying?</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">2. She is playing tennis →</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="Is she playing tennis?">
+                                    <option value="">Chọn...</option>
+                                    <option value="Are she playing tennis?">Are she playing tennis?</option>
+                                    <option value="Is she playing tennis?">Is she playing tennis?</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">3. They are watching TV →</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="Are they watching TV?">
+                                    <option value="">Chọn...</option>
+                                    <option value="Are they watching TV?">Are they watching TV?</option>
+                                    <option value="Is they watching TV?">Is they watching TV?</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 bg-blue-100 p-4 rounded-lg">
+                        <p class="font-bold text-blue-800">Nhắc nhở:</p>
+                        <p>Nhớ dùng Am cho I, Is cho he/she/it, và Are cho you/we/they!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 18: Comparison -->
+            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
+                <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">So Sánh Hai Thì</h2>
+                <div class="flex flex-col md:flex-row gap-8 h-[80%]">
+                    <div class="md:w-1/2">
+                        <div class="bg-white p-6 rounded-xl shadow-md mb-6">
+                            <p class="text-xl md:text-2xl mb-4">Thì Hiện Tại Đơn:</p>
+                            <ul class="list-disc pl-5 space-y-2 text-lg">
+                                <li>Hành động thường xuyên</li>
+                                <li>Sự thật hiển nhiên</li>
+                                <li>Lịch trình cố định</li>
+                                <li>Dấu hiệu: always, usually, often, every day</li>
+                            </ul>
+                        </div>
+                        <div class="bg-green-100 p-4 rounded-lg border-l-4 border-green-500">
+                            <p class="font-bold text-green-800">Cấu trúc:</p>
+                            <div class="space-y-2 mt-2">
+                                <div class="bg-white p-2 rounded">I/You/We/They + V1</div>
+                                <div class="bg-white p-2 rounded">He/She/It + V1(s/es)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <div class="bg-white p-6 rounded-xl shadow-md mb-6">
+                            <p class="text-xl md:text-2xl mb-4">Thì Hiện Tại Tiếp Diễn:</p>
+                            <ul class="list-disc pl-5 space-y-2 text-lg">
+                                <li>Hành động đang xảy ra</li>
+                                <li>Hành động tạm thời</li>
+                                <li>Kế hoạch tương lai gần</li>
+                                <li>Dấu hiệu: now, at the moment, right now</li>
+                            </ul>
+                        </div>
+                        <div class="bg-blue-100 p-4 rounded-lg border-l-4 border-blue-500">
+                            <p class="font-bold text-blue-800">Cấu trúc:</p>
+                            <div class="space-y-2 mt-2">
+                                <div class="bg-white p-2 rounded">I + am + V-ing</div>
+                                <div class="bg-white p-2 rounded">He/She/It + is + V-ing</div>
+                                <div class="bg-white p-2 rounded">You/We/They + are + V-ing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 19: Final Exercise -->
+            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-3xl md:text-4xl font-bold text-indigo-700 mb-6">Bài tập tổng hợp</h2>
+                    <p class="text-xl mb-8">Chọn thì phù hợp:</p>
+
+                    <div class="flex-grow space-y-8">
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">1. I (go) to school every day</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="go">
+                                    <option value="">Chọn...</option>
+                                    <option value="go">go</option>
+                                    <option value="am going">am going</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">2. She (play) tennis now</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="is playing">
+                                    <option value="">Chọn...</option>
+                                    <option value="plays">plays</option>
+                                    <option value="is playing">is playing</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
+                            <p class="text-xl mb-4">3. They (watch) TV at the moment</p>
+                            <div class="flex items-center space-x-4">
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1" data-answer="are watching">
+                                    <option value="">Chọn...</option>
+                                    <option value="watch">watch</option>
+                                    <option value="are watching">are watching</option>
+                                </select>
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                                <div class="answer hidden"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 bg-indigo-100 p-4 rounded-lg">
+                        <p class="font-bold text-indigo-800">Nhắc nhở:</p>
+                        <p>Nhớ xem dấu hiệu thời gian để chọn thì phù hợp!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 20: Summary -->
+            <div class="slide content-box p-8 md:p-12 rounded-2xl w-full h-full">
+                <div class="flex flex-col items-center justify-center h-full text-center">
+                    <h2 class="text-4xl md:text-5xl font-bold text-indigo-700 mb-8">Tóm Tắt Bài Học</h2>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl">
+                        <div class="bg-gradient-to-r from-green-500 to-blue-500 text-white p-6 rounded-xl shadow-lg">
+                            <h3 class="text-2xl font-bold mb-4">Thì Hiện Tại Đơn</h3>
+                            <ul class="text-left space-y-2">
+                                <li>• Hành động thường xuyên</li>
+                                <li>• Sự thật hiển nhiên</li>
+                                <li>• Lịch trình cố định</li>
+                                <li>• Dấu hiệu: always, usually, often</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-6 rounded-xl shadow-lg">
+                            <h3 class="text-2xl font-bold mb-4">Thì Hiện Tại Tiếp Diễn</h3>
+                            <ul class="text-left space-y-2">
+                                <li>• Hành động đang xảy ra</li>
+                                <li>• Hành động tạm thời</li>
+                                <li>• Kế hoạch tương lai gần</li>
+                                <li>• Dấu hiệu: now, at the moment</li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -854,106 +985,70 @@
     </div>
 
     <script>
-        // Slide management
         let currentSlide = 0;
         const slides = document.querySelectorAll('.slide');
         const totalSlides = slides.length;
         const slideCounter = document.getElementById('slide-counter');
 
         function showSlide(n) {
-            slides.forEach(slide => {
-                slide.classList.remove('active');
-            });
+            slides.forEach(slide => slide.classList.remove('active'));
             currentSlide = (n + totalSlides) % totalSlides;
             slides[currentSlide].classList.add('active');
             slideCounter.textContent = currentSlide + 1;
         }
 
-        // Touch swipe detection
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        function checkSelect(button) {
+            const select = button.previousElementSibling;
+            const answer = select.getAttribute('data-answer');
+            const result = select.value === answer;
+            const answerDiv = button.nextElementSibling;
+            
+            answerDiv.classList.remove('hidden');
+            answerDiv.textContent = result ? '✓ Đúng!' : '✗ Sai!';
+            answerDiv.className = result ? 'correct' : 'incorrect';
+        }
+
+        // Touch events for mobile swipe
         let touchStartX = 0;
         let touchEndX = 0;
         
         document.addEventListener('touchstart', e => {
             touchStartX = e.changedTouches[0].screenX;
-        }, {passive: true});
-
+        }, false);
+        
         document.addEventListener('touchend', e => {
             touchEndX = e.changedTouches[0].screenX;
             handleSwipe();
-        }, {passive: true});
-
+        }, false);
+        
         function handleSwipe() {
-            const threshold = 50;
-            const diff = touchStartX - touchEndX;
+            const swipeThreshold = 50; // Minimum distance for swipe
+            const swipeDistance = touchEndX - touchStartX;
             
-            if (diff > threshold) {
-                showSlide(currentSlide + 1);
-            } else if (diff < -threshold) {
-                showSlide(currentSlide - 1);
+            if (Math.abs(swipeDistance) > swipeThreshold) {
+                if (swipeDistance > 0) {
+                    // Swipe right - go to previous slide
+                    prevSlide();
+                } else {
+                    // Swipe left - go to next slide
+                    nextSlide();
+                }
             }
         }
 
         // Keyboard navigation
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
-                showSlide(currentSlide + 1);
-            } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
-                showSlide(currentSlide - 1);
-            }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextSlide();
+            if (e.key === 'ArrowLeft') prevSlide();
         });
-
-        // Exercise functions
-        function checkSelect(button) {
-            const exerciseItem = button.closest('.exercise-item');
-            const select = exerciseItem.querySelector('select');
-            const answerDiv = exerciseItem.querySelector('.answer');
-            const correctAnswer = select.dataset.answer;
-
-            if (select.value === correctAnswer) {
-                answerDiv.innerHTML = '<p class="correct">✓ Chính xác!</p>';
-                select.classList.add('border-green-500');
-                select.classList.remove('border-indigo-300');
-            } else {
-                answerDiv.innerHTML = `<p class="incorrect">✗ Sai rồi! Đáp án đúng là: <span class="font-bold">${correctAnswer}</span></p>`;
-                select.classList.add('border-red-500');
-                select.classList.remove('border-indigo-300');
-            }
-
-            answerDiv.classList.remove('hidden');
-            button.disabled = true;
-        }
-
-        function checkInput(button) {
-            const exerciseItem = button.closest('.exercise-item');
-            const inputs = exerciseItem.querySelectorAll('.exercise-input');
-            const answerDiv = exerciseItem.querySelector('.answer');
-
-            let allCorrect = true;
-            let answersHtml = '<div class="space-y-2">';
-
-            inputs.forEach(input => {
-                const userAnswer = input.textContent.trim().toLowerCase();
-                const correctAnswer = input.dataset.answer.toLowerCase();
-
-                if (userAnswer === correctAnswer) {
-                    answersHtml += `<p class="correct">✓ Đúng: ${input.previousSibling.textContent} <span class="font-bold">${correctAnswer}</span></p>`;
-                    input.style.borderBottom = '2px solid #10b981';
-                } else {
-                    answersHtml += `<p class="incorrect">✗ Sai: ${input.previousSibling.textContent} <span class="font-bold">${correctAnswer}</span> (Bạn điền: ${userAnswer})</p>`;
-                    input.style.borderBottom = '2px solid #ef4444';
-                    allCorrect = false;
-                }
-            });
-
-            answersHtml += '</div>';
-            answerDiv.innerHTML = answersHtml;
-            answerDiv.classList.remove('hidden');
-            button.disabled = true;
-
-            if (allCorrect) {
-                exerciseItem.classList.add('bg-green-50');
-            }
-        }
     </script>
 </body>
 
