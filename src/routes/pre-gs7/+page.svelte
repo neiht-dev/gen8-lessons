@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>LỘ TRÌNH HỌC NGỮ PHÁP TIẾNG ANH VÀO LỚP 7 - 24 BUỔI</title>
+	<title>NGỮ PHÁP TIẾNG ANH VÀO LỚP 7 - GLOBAL SUCCESS</title>
 </svelte:head>
 
 <div class="container mx-auto px-4 py-8">
@@ -9,7 +9,7 @@
 		<a href="/" class="home-button btn btn-primary py-1 px-3">Về trang chủ</a>
 
 		<h1 class="text-primary mb-2 text-2xl font-bold">
-			📘 LỘ TRÌNH HỌC NGỮ PHÁP TIẾNG ANH VÀO LỚP 7 - 24 BUỔI
+			NGỮ PHÁP TIẾNG ANH VÀO LỚP 7 - GLOBAL SUCCESS
 		</h1>	
 		<div>	</div>
 		
@@ -34,7 +34,7 @@
 				<tbody>
 					<!-- Buổi 1 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 1</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 1</td>
 						<td>
 							<strong class="text-accent">Danh từ (Nouns) - Ôn tập</strong><br />
 							- Khái niệm danh từ<br />
@@ -61,7 +61,7 @@
 
 					<!-- Buổi 2 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 2</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 2</td>
 						<td>
 							<strong class="text-accent">Mạo từ (Articles): a/an/the</strong><br />
 							- Khái niệm mạo từ<br />
@@ -70,42 +70,23 @@
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-2-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-2-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
 						<td>Liên hệ với danh từ từ Buổi 1</td>
 					</tr>
 
 					<!-- Buổi 3 -->
-					<tr class="hover:bg-base-300"> <!-- Lượng từ (Original Buổi 8) -->
-						<td class="text-primary font-bold">Buổi 3</td>
+					<tr class="hover:bg-base-300">
+						<td class="text-primary font-bold text-nowrap">Buổi 3</td>
 						<td>
-							<strong class="text-accent">Lượng từ (Quantifiers): some, a lot of, lots of</strong
-							><br />
+							<strong class="text-accent">Lượng từ (Quantifiers): some, a lot of, lots of</strong><br />
 							- Cách sử dụng với danh từ đếm được và không đếm được<br />
 							- Vị trí trong câu
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-3-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-3-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
 						<td>Liên hệ với danh từ và mạo từ</td>
@@ -113,7 +94,7 @@
 
 					<!-- Buổi 4 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 4</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 4</td>
 						<td>
 							<strong class="text-accent">Đại từ nhân xưng</strong><br />
 							- Đại từ nhân xưng (chủ ngữ, tân ngữ)<br />
@@ -121,16 +102,7 @@
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-4-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-4-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
 						<td>Ôn tập từ lớp 6</td>
@@ -138,149 +110,105 @@
 
 					<!-- Buổi 5 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 5</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 5</td>
 						<td>
-							<strong class="text-accent">Tính từ sở hữu, Sở hữu cách và Đại từ sở hữu</strong
-							><br />
-							- Tính từ sở hữu (my, your, his, her, etc.)<br />
-							- Sở hữu cách ('s)<br />
-							- Đại từ sở hữu (mine, yours, his, hers, etc.)<br />
-							- So sánh tính từ sở hữu và đại từ sở hữu
+							<strong class="text-accent">Tính từ sở hữu và Sở hữu cách</strong><br />
+							- my, your, his, her...<br />
+							- Danh từ sở hữu ('s)
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-5-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-5-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Giới thiệu đại từ sở hữu, so sánh với tính từ sở hữu</td>
+						<td>Liên hệ với đại từ nhân xưng</td>
 					</tr>
 
-					<!-- Buổi 6: Kiểm tra giữa kỳ 1 -->
+					<!-- Buổi 6 -->
 					<tr class="hover:bg-base-300 bg-warning/10">
-						<td class="text-primary font-bold">Buổi 6</td>
-						<td><strong class="text-accent">Kiểm tra giữa kỳ 1</strong></td>
-						<td>Bài kiểm tra</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 6</td>
 						<td>
-							Đánh giá Danh từ, Mạo từ, Lượng từ, Đại từ nhân xưng, Tính từ sở hữu, Sở hữu cách và
-							Đại từ sở hữu
+							<strong class="text-accent">Kiểm tra</strong>
 						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Đánh giá nội dung từ buổi 1-5</td>
 					</tr>
 
 					<!-- Buổi 7 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 7</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 7</td>
 						<td>
-							<strong class="text-accent">Động từ (Verbs) - Ôn tập và mở rộng</strong><br />
-							- Động từ thường và động từ to be<br />
-							- Vị trí động từ trong câu<br />
-							- Sự biến đổi của động từ
+							<strong class="text-accent">Động từ to be</strong><br />
+							- Cách sử dụng<br />
+							- Các dạng của to be<br />
+							- Vị trí trong câu
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-7-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-7-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Ôn tập từ lớp 6, chuẩn bị cho các thì khác</td>
+						<td>Ôn tập từ lớp 6</td>
 					</tr>
 
 					<!-- Buổi 8 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 8</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 8</td>
 						<td>
-							<strong class="text-accent">Câu đơn (Simple Sentences)</strong><br />
-							- Cấu trúc S-V-O<br />
-							- Câu khẳng định, phủ định, và câu hỏi Yes/No<br />
-							- Nhận diện thành phần câu
+							<strong class="text-accent">Động từ thường</strong><br />
+							- Cách sử dụng<br />
+							- Vị trí trong câu<br />
+							- Sự biến đổi động từ
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-8-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-8-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Nền tảng cho các thì và cấu trúc câu sau</td>
+						<td>Chuẩn bị cho các thì</td>
 					</tr>
 
 					<!-- Buổi 9 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 9</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 9</td>
 						<td>
-							<strong class="text-accent">Trạng từ (Adverbs) - Tần suất</strong><br />
-							- Trạng từ chỉ tần suất<br />
-							- Vị trí của trạng từ tần suất trong câu
+							<strong class="text-accent">Thì hiện tại đơn</strong><br />
+							- Cách sử dụng<br />
+							- Cấu trúc câu<br />
+							- Dấu hiệu nhận biết
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-9-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-9-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Học về trạng từ chỉ tần suất và vị trí của chúng trong câu, chuẩn bị cho thì Hiện tại đơn</td>
+						<td>Liên hệ với động từ</td>
 					</tr>
 
 					<!-- Buổi 10 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 10</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 10</td>
 						<td>
-							<strong class="text-accent">Thì hiện tại đơn (Present Simple Tense)</strong><br />
-							- Cấu trúc và cách sử dụng<br />
-							- Động từ thường và to be<br />
-							- Câu khẳng định, phủ định, câu hỏi
+							<strong class="text-accent">Thì hiện tại tiếp diễn</strong><br />
+							- Cách sử dụng<br />
+							- Cấu trúc câu<br />
+							- Dấu hiệu nhận biết
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-10-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-10-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Nhấn mạnh cách chia động từ và cách dùng</td>
+						<td>Phân biệt với hiện tại đơn</td>
 					</tr>
 
 					<!-- Buổi 11 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 11</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 11</td>
 						<td>
 							<strong class="text-accent">Giới từ (Prepositions)</strong><br />
 							- Giới từ chỉ thời gian (in, on, at)<br />
@@ -289,16 +217,7 @@
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-11-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-11-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
 						<td>Liên hệ với thì hiện tại đơn</td>
@@ -306,7 +225,7 @@
 
 					<!-- Buổi 12 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 12</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 12</td>
 						<td>
 							<strong class="text-accent">Tính từ và So sánh (Comparisons)</strong><br />
 							- Tính từ mô tả danh từ<br />
@@ -315,266 +234,186 @@
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-12-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-12-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
 						<td>Ôn tập tính từ từ lớp 6, giới thiệu so sánh</td>
 					</tr>
-					<!-- Buổi 13: Kiểm tra giữa kỳ 2 -->
+
+					<!-- Buổi 13 -->
 					<tr class="hover:bg-base-300 bg-warning/10">
-						<td class="text-primary font-bold">Buổi 13</td>
-						<td><strong class="text-accent">Kiểm tra giữa kỳ 2</strong></td>
-						<td>Bài kiểm tra</td>
-						<td>Đánh giá Động từ, Câu đơn, Trạng từ tần suất, Thì Hiện tại đơn, Giới từ, Tính từ và So sánh</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 13</td>
+						<td>
+							<strong class="text-accent">Kiểm tra</strong>
+						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Đánh giá nội dung từ buổi 7-12</td>
 					</tr>
 
 					<!-- Buổi 14 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 14</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 14</td>
 						<td>
-							<strong class="text-accent">Thì hiện tại tiếp diễn (Present Continuous Tense)</strong
-							><br />
-							- Cấu trúc và cách sử dụng<br />
-							- Phân biệt với Present Simple<br />
-							- Câu khẳng định, phủ định, câu hỏi
+							<strong class="text-accent">Thì quá khứ đơn</strong><br />
+							- Cách sử dụng<br />
+							- Cấu trúc câu<br />
+							- Dấu hiệu nhận biết
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-14-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-14-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>So sánh với Present Simple</td>
+						<td>Liên hệ với hiện tại đơn</td>
 					</tr>
 
 					<!-- Buổi 15 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 15</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 15</td>
 						<td>
-							<strong class="text-accent">Thì tương lai đơn (Future Simple Tense)</strong><br />
-							- Cấu trúc và cách sử dụng (will)<br />
-							- Câu khẳng định<br />
-							- Câu phủ định<br />
-							- Phân biệt với Present Continuous
+							<strong class="text-accent">Thì quá khứ tiếp diễn</strong><br />
+							- Cách sử dụng<br />
+							- Cấu trúc câu<br />
+							- Dấu hiệu nhận biết
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-15-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-15-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Liên hệ với các thì đã học</td>
+						<td>Phân biệt với quá khứ đơn</td>
 					</tr>
 
 					<!-- Buổi 16 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 16</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 16</td>
 						<td>
-							<strong class="text-accent">Thì quá khứ đơn (Past Simple Tense) - Tiết 1</strong><br />
-							- Cấu trúc và cách sử dụng<br />
-							- Động từ quy tắc<br />
-							- Câu khẳng định
+							<strong class="text-accent">Thì tương lai đơn</strong><br />
+							- Cách sử dụng<br />
+							- Cấu trúc câu<br />
+							- Dấu hiệu nhận biết
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-16-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-16-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Nhấn mạnh động từ quy tắc</td>
+						<td>Liên hệ với hiện tại đơn</td>
 					</tr>
 
 					<!-- Buổi 17 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 17</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 17</td>
 						<td>
-							<strong class="text-accent">Thì quá khứ đơn (Past Simple Tense) - Tiết 2</strong><br />
-							- Động từ bất quy tắc<br />
-							- Câu phủ định<br />
-							- Câu hỏi
+							<strong class="text-accent">Thì tương lai gần</strong><br />
+							- Cách sử dụng<br />
+							- Cấu trúc câu<br />
+							- Dấu hiệu nhận biết
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-17-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-17-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Nhấn mạnh động từ bất quy tắc</td>
+						<td>Phân biệt với tương lai đơn</td>
 					</tr>
 
 					<!-- Buổi 18 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 18</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 18</td>
 						<td>
-							<strong class="text-accent">Sử dụng từ "It" để chỉ khoảng cách</strong><br />
-							- Cấu trúc "It is + khoảng cách + from...to..."<br />
-							- Kết hợp với giới từ chỉ nơi chốn
+							<strong class="text-accent">Câu đơn</strong><br />
+							- Cấu trúc S-V-O<br />
+							- Câu khẳng định, phủ định<br />
+							- Câu hỏi Yes/No
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-18-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-18-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Liên hệ với giới từ và câu đơn</td>
+						<td>Ôn tập từ lớp 6</td>
 					</tr>
 
 					<!-- Buổi 19 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 19</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 19</td>
 						<td>
-							<strong class="text-accent">Động từ khiếm khuyết: Should/Shouldn’t</strong><br />
-							- Cách sử dụng để đưa ra lời khuyên<br />
-							- Câu khẳng định, phủ định, câu hỏi
+							<strong class="text-accent">Câu hỏi Wh-</strong><br />
+							- What, Where, When, Why, How<br />
+							- Cấu trúc câu hỏi Wh-<br />
+							- Cách trả lời
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-19-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-19-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Kết hợp với câu đơn và các thì</td>
+						<td>Liên hệ với các thì</td>
 					</tr>
 
 					<!-- Buổi 20 -->
-					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 20</td>
+					<tr class="hover:bg-base-300 bg-warning/10">
+						<td class="text-primary font-bold text-nowrap">Buổi 20</td>
 						<td>
-							<strong class="text-accent">Cấu trúc Although/Though và However</strong><br />
-							- Cách sử dụng Although/Though trong câu ghép<br />
-							- Sử dụng However để nối câu<br />
-							- Phân biệt cách dùng
+							<strong class="text-accent">Kiểm tra</strong>
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-20-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-20-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Giới thiệu câu ghép, liên hệ với câu đơn</td>
-					</tr>
-					
-					<!-- Buổi 21: Kiểm tra giữa kỳ 3 -->
-					<tr class="hover:bg-base-300 bg-warning/10">
-						<td class="text-primary font-bold">Buổi 21</td>
-						<td><strong class="text-accent">Kiểm tra giữa kỳ 3</strong></td>
-						<td>Bài kiểm tra</td>
-						<td>
-							Đánh giá Thì HTTD, Thì TLĐ, Thì QKĐ (tiết 1 và 2), 'It' chỉ khoảng cách,
-							Should/Shouldn’t, Cấu trúc Although/Though và However
-						</td>
+						<td>Đánh giá nội dung từ buổi 14-19</td>
 					</tr>
 
+					<!-- Buổi 21 -->
+					<tr class="hover:bg-base-300">
+						<td class="text-primary font-bold text-nowrap">Buổi 21</td>
+						<td>
+							<strong class="text-accent">Câu ghép</strong><br />
+							- Liên từ and, but, or, so<br />
+							- Cách nối câu<br />
+							- Dấu câu trong câu ghép
+						</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
+						<td>Ôn tập từ lớp 6</td>
+					</tr>
 
 					<!-- Buổi 22 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 22</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 22</td>
 						<td>
-							<strong class="text-accent">Ôn tập tổng hợp</strong><br />
-							- Ôn tập các thì (Present Simple, Continuous, Past Simple, Future Simple)<br />
-							- Mạo từ, lượng từ, giới từ
+							<strong class="text-accent">Câu ghép - Phần 2</strong><br />
+							- Liên từ because, although<br />
+							- Cách nối câu<br />
+							- Dấu câu trong câu ghép
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-22-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-22-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
-						<td>Chuẩn bị cho kiểm tra cuối khóa</td>
+						<td>Liên hệ với các thì</td>
 					</tr>
 
 					<!-- Buổi 23 -->
 					<tr class="hover:bg-base-300">
-						<td class="text-primary font-bold">Buổi 23</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 23</td>
 						<td>
 							<strong class="text-accent">Ôn tập tổng hợp</strong><br />
 							- Ôn tập câu đơn, câu hỏi, so sánh, Although/Though, However
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-23-presentation.html"
-									class="link link-primary">Bài giảng</a
-								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/lesson-23-worksheets.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
 						<td>Chuẩn bị cho kiểm tra cuối khóa</td>
@@ -582,9 +421,13 @@
 
 					<!-- Buổi 24 -->
 					<tr class="hover:bg-base-300 bg-error/10">
-						<td class="text-primary font-bold">Buổi 24</td>
+						<td class="text-primary font-bold text-nowrap">Buổi 24</td>
 						<td><strong class="text-accent">Kiểm tra tổng hợp cuối khóa</strong></td>
-						<td>Bài kiểm tra</td>
+						<td>
+							<div class="flex flex-col justify-center gap-0">
+								<span class="text-gray-500">Todo</span>
+							</div>
+						</td>
 						<td>Đánh giá toàn bộ nội dung khóa học</td>
 					</tr>
 				</tbody>
@@ -598,7 +441,7 @@
 			<div class="alert alert-info">
 				<div>
 					<span
-						><strong>Kiểm tra giữa kỳ 1:</strong> Buổi 6 – Đánh giá Danh từ, Mạo từ, Lượng từ, Đại
+						><strong>Kiểm tra:</strong> Buổi 6 – Đánh giá Danh từ, Mạo từ, Lượng từ, Đại
 						từ nhân xưng, Tính từ sở hữu, Sở hữu cách và Đại từ sở hữu</span
 					>
 				</div>
@@ -606,7 +449,7 @@
 			<div class="alert alert-info">
 				<div>
 					<span
-						><strong>Kiểm tra giữa kỳ 2:</strong> Buổi 13 – Đánh giá Động từ, Câu đơn, Trạng từ
+						><strong>Kiểm tra:</strong> Buổi 13 – Đánh giá Động từ, Câu đơn, Trạng từ
 						tần suất, Thì Hiện tại đơn, Giới từ, Tính từ và So sánh</span
 					>
 				</div>
@@ -614,8 +457,8 @@
 			<div class="alert alert-info">
 				<div>
 					<span
-						><strong>Kiểm tra giữa kỳ 3:</strong> Buổi 21 – Đánh giá Thì HTTD, Thì TLĐ, Thì QKĐ
-						(tiết 1 và 2), 'It' chỉ khoảng cách, Should/Shouldn’t, Cấu trúc Although/Though và
+						><strong>Kiểm tra:</strong> Buổi 21 – Đánh giá Thì HTTD, Thì TLĐ, Thì QKĐ
+						(tiết 1 và 2), 'It' chỉ khoảng cách, Should/Shouldn't, Cấu trúc Although/Though và
 						However</span
 					>
 				</div>
