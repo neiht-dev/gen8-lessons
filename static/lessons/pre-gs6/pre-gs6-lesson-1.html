@@ -1445,6 +1445,26 @@
         const totalSlides = slides.length;
         const slideCounter = document.getElementById('slide-counter');
 
+        // Update URL with current slide
+        function updateURL(slideNumber) {
+            const url = new URL(window.location.href);
+            url.searchParams.set('slide', slideNumber + 1);
+            window.history.pushState({}, '', url);
+        }
+
+        // Get initial slide from URL if present
+        function getInitialSlide() {
+            const url = new URL(window.location.href);
+            const slideParam = url.searchParams.get('slide');
+            if (slideParam) {
+                const slideNumber = parseInt(slideParam) - 1;
+                if (slideNumber >= 0 && slideNumber < totalSlides) {
+                    return slideNumber;
+                }
+            }
+            return 0;
+        }
+
         function showSlide(n) {
             // Hide all slides
             slides.forEach(slide => {
@@ -1459,7 +1479,14 @@
 
             // Update slide counter
             slideCounter.textContent = currentSlide + 1;
+
+            // Update URL
+            updateURL(currentSlide);
         }
+
+        // Initialize with slide from URL if present
+        currentSlide = getInitialSlide();
+        showSlide(currentSlide);
 
         // Touch swipe detection
         let touchStartX = 0;
