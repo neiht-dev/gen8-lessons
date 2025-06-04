@@ -105,9 +105,358 @@
 
     <div class="relative w-full max-w-6xl h-[90vh] mx-auto">
         <!-- Slide counter -->
-        <div
-            class="absolute top-4 right-4 z-50 bg-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg font-bold text-indigo-600">
-            <span id="slide-counter">1</span>/22
+        <div class="absolute bottom-2 sm:bottom-full sm:top-7 right-4  z-50 flex items-center gap-2">
+            <button onclick="toggleOutline()" class="bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg font-bold text-indigo-600 hover:bg-indigo-50">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <div class="bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg font-bold text-indigo-600 text-sm">
+                <span id="slide-counter">1</span>/22
+            </div>
+        </div>
+
+        <!-- Outline Modal -->
+        <div id="outlineModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center">
+            <div class="bg-white rounded-2xl p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-bold text-indigo-700">Nội dung bài học</h2>
+                    <button onclick="toggleOutline()" class="text-gray-500 hover:text-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="prose prose-lg max-w-none">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-4">Danh Từ - Phần 1</h3>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(0)">
+                        <h4 class="text-lg font-bold text-indigo-500">1. Giới thiệu</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Mục tiêu bài học:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Hiểu khái niệm danh từ</li>
+                                    <li>Phân loại danh từ</li>
+                                    <li>Cách dùng danh từ trong câu</li>
+                                    <li>Cách tạo danh từ số nhiều</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(1)">
+                        <h4 class="text-lg font-bold text-indigo-500">2. Khái niệm danh từ</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Danh từ là gì?</li>
+                            <li>Danh từ chỉ người (teacher, doctor, student)</li>
+                            <li>Danh từ chỉ vật (pen, car, phone)</li>
+                            <li>Danh từ chỉ địa điểm (school, city, park)</li>
+                            <li>Danh từ chỉ sự việc/trạng thái (happiness, education)</li>
+                            <li>Ghi nhớ: Danh từ có thể là bất cứ thứ gì chúng ta có thể đặt tên</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(2)">
+                        <h4 class="text-lg font-bold text-indigo-500">3. Bài tập 1: Nhận biết danh từ</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Gạch chân danh từ trong câu:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>The dog is playing in the garden</li>
+                                    <li>She wants to become a doctor one day</li>
+                                    <li>My mother gave me a book for my birthday</li>
+                                </ul>
+                            </li>
+                            <li>Mẹo nhỏ: Danh từ thường đứng sau mạo từ (a, an, the) hoặc tính từ sở hữu</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(3)">
+                        <h4 class="text-lg font-bold text-indigo-500">4. Danh từ riêng (Proper nouns)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Đặc điểm:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Là tên riêng của người, vật, địa điểm</li>
+                                    <li>Luôn viết hoa chữ cái đầu</li>
+                                    <li>Chỉ một đối tượng cụ thể, duy nhất</li>
+                                </ul>
+                            </li>
+                            <li>Ví dụ: John, London, Vietnam, Apple</li>
+                            <li>Lưu ý: Ngày trong tuần, tháng trong năm cũng là danh từ riêng</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(4)">
+                        <h4 class="text-lg font-bold text-indigo-500">5. Bài tập 2: Danh từ riêng</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Viết lại câu với danh từ riêng:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>He lives in a big [Paris]</li>
+                                    <li>I like reading books by that famous [J.K. Rowling]</li>
+                                </ul>
+                            </li>
+                            <li>Nhắc nhở: Đừng quên viết hoa chữ cái đầu của danh từ riêng</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(5)">
+                        <h4 class="text-lg font-bold text-indigo-500">6. Danh từ chung (Common nouns)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Đặc điểm:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Chỉ chung một loại người, vật, nơi chốn</li>
+                                    <li>Không viết hoa (trừ khi đứng đầu câu)</li>
+                                    <li>Có thể đếm được hoặc không đếm được</li>
+                                </ul>
+                            </li>
+                            <li>Ví dụ: student, book, school, water</li>
+                            <li>Phân loại: Danh từ đếm được và không đếm được</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(6)">
+                        <h4 class="text-lg font-bold text-indigo-500">7. Bài tập 3: Danh từ chung</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Chọn danh từ chung thích hợp:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>I bought a new [bag] yesterday</li>
+                                    <li>She works in a big [hospital]</li>
+                                </ul>
+                            </li>
+                            <li>Chú ý: Phân biệt với danh từ riêng</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(7)">
+                        <h4 class="text-lg font-bold text-indigo-500">8. Danh từ làm chủ ngữ</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Vai trò trong câu:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Là người/vật thực hiện hành động</li>
+                                    <li>Thường đứng đầu câu</li>
+                                    <li>Trả lời cho câu hỏi "Ai?" hoặc "Cái gì?"</li>
+                                </ul>
+                            </li>
+                            <li>Ví dụ: The cat is sleeping, Students are studying</li>
+                            <li>Mẹo: Đặt câu hỏi "Ai thực hiện hành động này?"</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(8)">
+                        <h4 class="text-lg font-bold text-indigo-500">9. Bài tập 4: Chủ ngữ</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Gạch dưới chủ ngữ trong câu:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>My brother plays football every weekend</li>
+                                    <li>The sun shines brightly today</li>
+                                </ul>
+                            </li>
+                            <li>Nhắc nhở: Chủ ngữ thường đứng trước động từ chính</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(9)">
+                        <h4 class="text-lg font-bold text-indigo-500">10. Danh từ làm tân ngữ</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Vai trò trong câu:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Là người/vật chịu tác động của hành động</li>
+                                    <li>Thường đứng sau động từ</li>
+                                    <li>Trả lời cho câu hỏi "Ai?" hoặc "Cái gì?" sau động từ</li>
+                                </ul>
+                            </li>
+                            <li>Ví dụ: She reads a book, They visited the museum</li>
+                            <li>Mẹo: Đặt câu hỏi "Ai/Cái gì" sau động từ</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(10)">
+                        <h4 class="text-lg font-bold text-indigo-500">11. Bài tập 5: Tân ngữ</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Gạch dưới tân ngữ trong câu:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>He bought a new car</li>
+                                    <li>We watched a movie last night</li>
+                                </ul>
+                            </li>
+                            <li>Ghi nhớ: Tân ngữ thường đứng sau động từ</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(11)">
+                        <h4 class="text-lg font-bold text-indigo-500">12. Số ít và số nhiều của danh từ</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Khái niệm:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Số ít: chỉ một người/vật (cat, dog, child)</li>
+                                    <li>Số nhiều: chỉ từ hai trở lên (cats, dogs, children)</li>
+                                </ul>
+                            </li>
+                            <li>Lưu ý: Danh từ không đếm được không có dạng số nhiều</li>
+                            <li>Mẹo: Danh từ số nhiều thường đi với "some", "many", "a few"</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(12)">
+                        <h4 class="text-lg font-bold text-indigo-500">13. Bài tập 6: Số ít và số nhiều</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Viết dạng số nhiều:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>cat → cats</li>
+                                    <li>box → boxes</li>
+                                    <li>woman → women</li>
+                                    <li>child → children</li>
+                                </ul>
+                            </li>
+                            <li>Nhắc nhở: Hầu hết danh từ thêm -s để thành số nhiều</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(13)">
+                        <h4 class="text-lg font-bold text-indigo-500">14. Quy tắc thêm -s</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Quy tắc chung:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Thêm -s vào cuối danh từ số ít</li>
+                                    <li>Áp dụng cho hầu hết các danh từ</li>
+                                </ul>
+                            </li>
+                            <li>Cách phát âm -s/-es:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>/s/ sau âm vô thanh: books, cats</li>
+                                    <li>/z/ sau âm hữu thanh: dogs, pens</li>
+                                    <li>/ɪz/ sau âm gió: buses, watches</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(14)">
+                        <h4 class="text-lg font-bold text-indigo-500">15. Bài tập 7: Quy tắc thêm -s</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Viết dạng số nhiều:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>ruler → rulers</li>
+                                    <li>apple → apples</li>
+                                    <li>bag → bags</li>
+                                </ul>
+                            </li>
+                            <li>Chú ý: Có những trường hợp đặc biệt cần thêm -es</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(15)">
+                        <h4 class="text-lg font-bold text-indigo-500">16. Quy tắc thêm -es</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Khi nào thêm -es:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Tận cùng là -s, -sh, -ch, -x, -z: bus → buses</li>
+                                    <li>Tận cùng là -o (một số trường hợp): tomato → tomatoes</li>
+                                    <li>Tận cùng là -y sau phụ âm: baby → babies</li>
+                                </ul>
+                            </li>
+                            <li>Ngoại lệ:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>photo → photos, piano → pianos</li>
+                                    <li>day → days, boy → boys</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(16)">
+                        <h4 class="text-lg font-bold text-indigo-500">17. Bài tập 8: Quy tắc thêm -es</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Viết dạng số nhiều:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>brush → brushes</li>
+                                    <li>potato → potatoes</li>
+                                    <li>family → families</li>
+                                </ul>
+                            </li>
+                            <li>Nhắc nhở: Nhớ quy tắc đổi -y thành -ies khi trước y là phụ âm</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(17)">
+                        <h4 class="text-lg font-bold text-indigo-500">18. Danh từ bất quy tắc</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Đặc điểm:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Không tuân theo quy tắc thêm -s/-es</li>
+                                    <li>Thay đổi hoàn toàn từ hoặc giữ nguyên dạng</li>
+                                    <li>Phải học thuộc vì không có quy tắc chung</li>
+                                </ul>
+                            </li>
+                            <li>Nhóm danh từ bất quy tắc:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Thay đổi nguyên âm: man → men, tooth → teeth</li>
+                                    <li>Thay đổi hoàn toàn: person → people, child → children</li>
+                                    <li>Giữ nguyên: sheep → sheep, fish → fish</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(18)">
+                        <h4 class="text-lg font-bold text-indigo-500">19. Bài tập 9: Danh từ bất quy tắc</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Điền dạng số nhiều:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>tooth → teeth</li>
+                                    <li>woman → women</li>
+                                    <li>mouse → mice</li>
+                                </ul>
+                            </li>
+                            <li>Ghi nhớ: Những danh từ này không theo quy tắc nào cả</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(19)">
+                        <h4 class="text-lg font-bold text-indigo-500">20. Tổng kết bài học</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Những gì đã học:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Danh từ là gì?</li>
+                                    <li>Phân loại: Danh từ riêng và danh từ chung</li>
+                                    <li>Vai trò trong câu: Chủ ngữ và tân ngữ</li>
+                                    <li>Số ít và số nhiều của danh từ</li>
+                                    <li>Cách thêm -s/-es để tạo số nhiều</li>
+                                    <li>Danh từ bất quy tắc</li>
+                                </ul>
+                            </li>
+                            <li>Sơ đồ tóm tắt các loại danh từ</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(20)">
+                        <h4 class="text-lg font-bold text-indigo-500">21. Bài tập tổng hợp</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Viết dạng số nhiều:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>knife → knives</li>
+                                    <li>country → countries</li>
+                                    <li>watch → watches</li>
+                                </ul>
+                            </li>
+                            <li>Đặt câu với danh từ "teacher":
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Số ít: The teacher is kind</li>
+                                    <li>Số nhiều: The teachers are kind</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(21)">
+                        <h4 class="text-lg font-bold text-indigo-500">22. Kết thúc</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Chúc mừng hoàn thành bài học</li>
+                            <li>Tổng kết kiến thức về danh từ</li>
+                            <li>Hẹn gặp lại trong bài học tiếp theo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Slides container -->
@@ -1149,6 +1498,31 @@
             }
         });
 
+        // Outline Modal functions
+        function toggleOutline() {
+            const modal = document.getElementById('outlineModal');
+            modal.classList.toggle('hidden');
+        }
+
+        function goToSlide(slideNumber) {
+            showSlide(slideNumber);
+            toggleOutline(); // Đóng modal sau khi chuyển slide
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('outlineModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                toggleOutline();
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && !document.getElementById('outlineModal').classList.contains('hidden')) {
+                toggleOutline();
+            }
+        });
+
         // Exercise functions
         function highlightNouns(button, nounsStr) {
             const exerciseItem = button.closest('.exercise-item');
@@ -1171,14 +1545,12 @@
             const exerciseItem = button.closest('.exercise-item');
             const inputs = exerciseItem.querySelectorAll('.exercise-input');
             const answerDiv = exerciseItem.querySelector('.answer');
-
             let allCorrect = true;
             let answersHtml = '<div class="space-y-2">';
 
             inputs.forEach(input => {
                 const userAnswer = input.textContent.trim().toLowerCase();
                 const correctAnswer = input.dataset.answer.toLowerCase();
-
                 if (userAnswer === correctAnswer) {
                     answersHtml += `<p class="correct">✓ Đúng: ${input.previousSibling.textContent} <span class="font-bold">${correctAnswer}</span></p>`;
                     input.style.borderBottom = '2px solid #10b981';
@@ -1192,8 +1564,13 @@
             answersHtml += '</div>';
             answerDiv.innerHTML = answersHtml;
             answerDiv.classList.remove('hidden');
-            button.disabled = true;
-
+            
+            // Change button to reset button
+            button.textContent = 'Làm lại';
+            button.onclick = function() {
+                resetExercise(button);
+            };
+            
             if (allCorrect) {
                 exerciseItem.classList.add('bg-green-50');
             }
@@ -1216,14 +1593,50 @@
             }
 
             answerDiv.classList.remove('hidden');
-            button.disabled = true;
+            
+            // Change button to reset button
+            button.textContent = 'Làm lại';
+            button.onclick = function() {
+                resetExercise(button);
+            };
         }
 
-        // function highlightSubject(button, subject) {
-        //     const exerciseItem = button.closest('.exercise-item');
-        //     const sentence = exerciseItem.querySelector('p').textContent.trim();
-        //     const answerDiv = exerciseItem.querySelector('.answer');
+        function resetExercise(button) {
+            const exerciseItem = button.closest('.exercise-item');
+            const inputs = exerciseItem.querySelectorAll('.exercise-input');
+            const selects = exerciseItem.querySelectorAll('select');
+            const answerDiv = exerciseItem.querySelector('.answer');
 
+            // Reset inputs
+            inputs.forEach(input => {
+                input.textContent = '';
+                input.style.borderBottom = '2px dashed #4f46e5';
+            });
+
+            // Reset selects
+            selects.forEach(select => {
+                select.value = '';
+                select.classList.remove('border-green-500', 'border-red-500');
+                select.classList.add('border-indigo-300');
+            });
+
+            // Reset answer display
+            answerDiv.innerHTML = '';
+            answerDiv.classList.add('hidden');
+
+            // Reset button
+            button.textContent = 'Kiểm tra';
+            button.onclick = function() {
+                if (inputs.length > 0) {
+                    checkInput(button);
+                } else if (selects.length > 0) {
+                    checkSelect(button);
+                }
+            };
+
+            // Remove success background
+            exerciseItem.classList.remove('bg-green-50');
+        }
     </script>
 </body>
 
