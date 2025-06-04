@@ -66,11 +66,7 @@
 									href="/lessons/pre-gs7/pre-gs7-lesson-2.html"
 									class="link link-primary">Bài giảng</a
 								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs7/pre-gs7-worksheets-2.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
 						<td>Liên hệ với danh từ từ Buổi 1</td>

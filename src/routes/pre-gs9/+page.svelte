@@ -65,11 +65,7 @@
 									href="/lessons/pre-gs9/pre-gs9-lesson-2.html"
 									class="link link-primary">Bài giảng</a
 								><br />
-								<a
-									target="_blank"
-									href="/lessons/pre-gs9/pre-gs9-worksheets-2.html"
-									class="link link-primary">Bài tập</a
-								>
+								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
 						<td>Liên hệ với thì hiện tại đơn</td>
