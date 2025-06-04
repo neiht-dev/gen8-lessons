@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài Học Ngữ Pháp: Danh Từ - Phần 2</title>
+    <title>PreGS6: Danh Từ - Phần 2</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -110,7 +110,7 @@
                 </svg>
             </button>
             <div class="bg-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg font-bold text-indigo-600 text-sm">
-                <span id="slide-counter">1</span>/20
+                <span id="slide-counter"></span>
             </div>
         </div>
 
@@ -783,12 +783,29 @@
         const totalSlides = slides.length;
         const slideCounter = document.getElementById('slide-counter');
 
-        function showSlide(n) {
-            slides.forEach(slide => slide.classList.remove('active'));
-            currentSlide = (n + totalSlides) % totalSlides;
-            slides[currentSlide].classList.add('active');
-            slideCounter.textContent = currentSlide + 1;
+        // Update the counter display with total slides
+        function updateSlideCounter() {
+            slideCounter.textContent = `${currentSlide + 1}/${totalSlides}`;
         }
+
+        function showSlide(n) {
+            // Hide all slides
+            slides.forEach(slide => {
+                slide.classList.remove('active');
+            });
+
+            // Calculate new slide index
+            currentSlide = (n + totalSlides) % totalSlides;
+
+            // Show new slide
+            slides[currentSlide].classList.add('active');
+
+            // Update slide counter
+            updateSlideCounter();
+        }
+
+        // Initialize counter on page load
+        updateSlideCounter();
 
         // Touch swipe detection
         let touchStartX = 0;
