@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mạo từ: a/an/the</title>
+    <title>PreGS7: Mạo từ a/an/the</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -127,9 +127,9 @@
     </style>
 </head>
 
-<body class="bg-blue-50 bg-[url('/assets/bg/bg-2.jpg')] bg-cover bg-center min-h-screen flex items-center justify-center p-4">
+<body class="bg-blue-50 bg-[url('/assets/bg/bg-2.jpg')] bg-cover bg-center min-h-screen flex items-center justify-center p-2">
 
-    <div class="relative w-full max-w-6xl h-[90vh] mx-auto">
+    <div class="relative w-full max-w-6xl h-[95vh] mx-auto">
         <!-- Slide counter -->
         <div class="absolute bottom-2 sm:bottom-full sm:top-7 right-4 z-50 flex items-center gap-2">
             <button onclick="showSlide(currentSlide - 1)" class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow-lg font-bold text-indigo-600 hover:bg-indigo-50">
@@ -154,140 +154,222 @@
 
         <!-- Outline Modal -->
         <div id="outlineModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center">
-            <div class="bg-white rounded-2xl p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto">
-                <div class="flex justify-between items-center mb-4">
-                    <h2 class="text-2xl font-bold text-indigo-700">Nội dung bài học</h2>
+            <div class="bg-white rounded-lg p-8 max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-2xl font-bold text-indigo-600">Mục lục bài học</h2>
                     <button onclick="toggleOutline()" class="text-gray-500 hover:text-gray-700">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                         </svg>
                     </button>
                 </div>
                 <div class="prose prose-lg max-w-none">
-                    <h3 class="text-xl font-bold text-indigo-600 mb-4">Mạo từ: a/an/the</h3>
+                    <h3 class="text-xl font-bold text-indigo-600 mb-4">Mạo từ a/an/the</h3>
                     
-
                     <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(0)">
                         <h4 class="text-lg font-bold text-indigo-500">1. Giới thiệu</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Mục tiêu bài học:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Hiểu khái niệm và vai trò của mạo từ trong câu</li>
+                                    <li>Nắm vững cách sử dụng mạo từ a/an và the</li>
+                                    <li>Phân biệt được danh từ cụ thể và không cụ thể</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(1)">
+                        <h4 class="text-lg font-bold text-indigo-500">2. Ví dụ minh họa</h4>
                         <ul class="list-disc pl-6 space-y-2 text-gray-700">
                             <li>Câu chuyện về cậu bé gặp cô gái</li>
                             <li>Xác định và không xác định</li>
                         </ul>
                     </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(1)">
-                        <h4 class="text-lg font-bold text-indigo-500">2. Khái niệm mạo từ</h4>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(2)">
+                        <h4 class="text-lg font-bold text-indigo-500">3. Khái niệm mạo từ</h4>
                         <ul class="list-disc pl-6 space-y-2 text-gray-700">
                             <li>Mạo từ là gì?</li>
                             <li>Vai trò trong câu</li>
+                            <li>Loại mạo từ: không xác định (a/an) và xác định (the)</li>
                         </ul>
                     </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(2)">
-                        <h4 class="text-lg font-bold text-indigo-500">3. Mạo từ không xác định: a/an</h4>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(3)">
+                        <h4 class="text-lg font-bold text-indigo-500">4. Mạo từ không xác định: a/an</h4>
                         <ul class="list-disc pl-6 space-y-2 text-gray-700">
                             <li>Khi nào dùng a/an</li>
                             <li>Quy tắc phát âm</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(3)">
-                        <h4 class="text-lg font-bold text-indigo-500">4. Bài tập 1: Chọn a/an</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Chọn mạo từ đúng cho danh từ</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(4)">
-                        <h4 class="text-lg font-bold text-indigo-500">5. Mạo từ xác định: the</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Khi nào dùng "the"</li>
-                            <li>Danh từ cụ thể</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(5)">
-                        <h4 class="text-lg font-bold text-indigo-500">6. Bài tập 2: Chọn a/an/the</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền mạo từ vào chỗ trống</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(6)">
-                        <h4 class="text-lg font-bold text-indigo-500">7. So sánh a/an vs the</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Sự khác biệt cơ bản</li>
                             <li>Ví dụ minh họa</li>
                         </ul>
                     </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(7)">
-                        <h4 class="text-lg font-bold text-indigo-500">8. Bài tập 3: Viết lại câu</h4>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(4)">
+                        <h4 class="text-lg font-bold text-indigo-500">5. Bài tập 1: Chọn a/an (Phần 1)</h4>
                         <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền mạo từ thích hợp</li>
+                            <li>Chọn mạo từ đúng cho danh từ</li>
+                            <li>hour, university</li>
                         </ul>
                     </div>
-                    
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(5)">
+                        <h4 class="text-lg font-bold text-indigo-500">6. Bài tập 1: Chọn a/an (Phần 2)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Chọn mạo từ đúng cho danh từ</li>
+                            <li>apple, dog</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(6)">
+                        <h4 class="text-lg font-bold text-indigo-500">7. Bài tập 2: Chọn a/an/the (Câu 1)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Điền mạo từ vào câu</li>
+                            <li>I saw ___ dog in ___ park</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(7)">
+                        <h4 class="text-lg font-bold text-indigo-500">8. Bài tập 2: Chọn a/an/the (Câu 2)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Điền mạo từ vào câu</li>
+                            <li>She is ___ honest girl and she plays ___ piano</li>
+                        </ul>
+                    </div>
+
                     <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(8)">
-                        <h4 class="text-lg font-bold text-indigo-500">9. Trường hợp không dùng mạo từ</h4>
+                        <h4 class="text-lg font-bold text-indigo-500">9. Bài tập 2: Chọn a/an/the (Câu 3)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Điền mạo từ vào câu</li>
+                            <li>Please pass me ___ salt on ___ table</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(9)">
+                        <h4 class="text-lg font-bold text-indigo-500">10. So sánh a/an vs the</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Sự khác biệt cơ bản</li>
+                            <li>Bảng so sánh chi tiết</li>
+                            <li>Quy tắc quan trọng</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(10)">
+                        <h4 class="text-lg font-bold text-indigo-500">11. Bài tập 3: Viết lại câu (Câu 1)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Điền mạo từ vào câu</li>
+                            <li>Yesterday, I saw ___ elephant at ___ zoo</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(11)">
+                        <h4 class="text-lg font-bold text-indigo-500">12. Bài tập 3: Viết lại câu (Câu 2)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Điền mạo từ vào câu</li>
+                            <li>Can you pass me ___ salt, please? I put it on ___ table</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(12)">
+                        <h4 class="text-lg font-bold text-indigo-500">13. Bài tập 3: Viết lại câu (Câu 3)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Điền mạo từ vào câu</li>
+                            <li>She wants to be ___ doctor when she grows up</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(13)">
+                        <h4 class="text-lg font-bold text-indigo-500">14. Bài tập 3: Viết lại câu (Câu 4)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Điền mạo từ vào câu</li>
+                            <li>___ Love is more important than ___ money</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(14)">
+                        <h4 class="text-lg font-bold text-indigo-500">15. Trường hợp không dùng mạo từ</h4>
                         <ul class="list-disc pl-6 space-y-2 text-gray-700">
                             <li>Danh từ không đếm được</li>
                             <li>Danh từ số nhiều chung</li>
+                            <li>Danh từ riêng</li>
+                            <li>Bữa ăn, phương tiện đi lại</li>
+                            <li>Môn thể thao, môn học</li>
                         </ul>
                     </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(9)">
-                        <h4 class="text-lg font-bold text-indigo-500">10. Bài tập 4: Sửa lỗi sai</h4>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(15)">
+                        <h4 class="text-lg font-bold text-indigo-500">16. Bài tập 4: Sửa lỗi sai (Phần 1)</h4>
                         <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Phát hiện lỗi dùng mạo từ</li>
+                            <li>Sửa lỗi dùng mạo từ</li>
+                            <li>I need a water because I'm thirsty</li>
                         </ul>
                     </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(10)">
-                        <h4 class="text-lg font-bold text-indigo-500">11. Mẹo nhớ nhanh</h4>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(16)">
+                        <h4 class="text-lg font-bold text-indigo-500">17. Bài tập 4: Sửa lỗi sai (Phần 2)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Sửa lỗi dùng mạo từ</li>
+                            <li>She plays the tennis every Sunday</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(17)">
+                        <h4 class="text-lg font-bold text-indigo-500">18. Bài tập 4: Sửa lỗi sai (Phần 3)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Sửa lỗi dùng mạo từ</li>
+                            <li>I saw dog in street yesterday</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(18)">
+                        <h4 class="text-lg font-bold text-indigo-500">19. Mẹo nhớ nhanh</h4>
                         <ul class="list-disc pl-6 space-y-2 text-gray-700">
                             <li>Câu thần chú nhớ a/an/the</li>
                             <li>Hình dung liên tưởng</li>
                         </ul>
                     </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(11)">
-                        <h4 class="text-lg font-bold text-indigo-500">12. Bài tập tổng hợp 1</h4>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(19)">
+                        <h4 class="text-lg font-bold text-indigo-500">20. Bài tập tổng hợp 1 (Phần 1)</h4>
                         <ul class="list-disc pl-6 space-y-2 text-gray-700">
                             <li>Điền mạo từ vào đoạn văn</li>
+                            <li>Yesterday, I saw ___ cat in ___ garden</li>
                         </ul>
                     </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(12)">
-                        <h4 class="text-lg font-bold text-indigo-500">13. Bài tập tổng hợp 2</h4>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(20)">
+                        <h4 class="text-lg font-bold text-indigo-500">21. Bài tập tổng hợp 1 (Phần 2)</h4>
                         <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Ghép danh từ với mạo từ</li>
+                            <li>Điền mạo từ vào đoạn văn</li>
+                            <li>I gave ___ cat some milk. Then, I went to ___ supermarket</li>
                         </ul>
                     </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(13)">
-                        <h4 class="text-lg font-bold text-indigo-500">14. Tổng kết</h4>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(21)">
+                        <h4 class="text-lg font-bold text-indigo-500">22. Bài tập tổng hợp 1 (Phần 3)</h4>
                         <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Nhắc lại kiến thức trọng tâm</li>
+                            <li>Điền mạo từ vào đoạn văn</li>
+                            <li>I bought ___ bread and ___ bottle of milk</li>
                         </ul>
                     </div>
-                    
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(14)">
-                        <h4 class="text-lg font-bold text-indigo-500">15. Kết thúc</h4>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(22)">
+                        <h4 class="text-lg font-bold text-indigo-500">23. Tổng kết</h4>
                         <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Ôn tập toàn bộ</li>
-                            <li>Chuẩn bị cho bài tiếp theo</li>
+                            <li>Kiến thức trọng tâm</li>
+                            <li>Mẹo nhớ nhanh</li>
+                            <li>Chuẩn bị cho bài học tiếp theo</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-
+        
         <!-- Slides container -->
         <div class="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
 
             <!-- Slide 1: Title -->
-            <div class="slide active content-box p-5 md:p-6 rounded-2xl w-full h-full">
+            <div class="slide active content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col items-center justify-start h-full text-center">
                     <h1 class="text-2xl font-bold text-indigo-700 mb-8">GRAMMAR FOR PRE-SECONDARY GS7</h1>
                     <div
@@ -313,7 +395,7 @@
 
 
             <!-- Slide 1: Title - Câu chuyện giới thiệu -->
-            <div class="slide active content-box p-5 md:p-6 rounded-2xl w-full h-full">
+            <div class="slide active content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col items-center justify-start h-full text-center">
                     <h1 class="text-2xl font-bold text-indigo-700 mb-8">Ví dụ minh họa</h1>
                     
@@ -340,8 +422,8 @@
             </div>
 
             <!-- Slide 2: Khái niệm mạo từ -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">1. Khái niệm mạo từ</h2>
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">1. Khái niệm mạo từ</h2>
                 <div class="flex flex-col md:flex-row items-start justify-around gap-8 h-[80%]">
                     <div>
                         <div class="bg-white p-6 rounded-xl shadow-md">
@@ -376,8 +458,8 @@
             </div>
 
             <!-- Slide 3: Mạo từ không xác định a/an -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">2. Mạo từ không xác định: a/an</h2>
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">2. Mạo từ không xác định: a/an</h2>
                 
                 <div class="flex flex-col md:flex-row gap-8 h-[80%]">
                     <div class="flex-1">
@@ -406,10 +488,10 @@
                 </div>
             </div>
 
-            <!-- Slide 4: Bài tập 1 - Chọn a/an -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
+            <!-- Slide 4: Bài tập 1 - Chọn a/an (Part 1) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
-                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">Bài tập 1: Chọn a/an</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 1: Chọn a/an (Phần 1)</h2>
                     <p class="text-2xl mb-8">Hãy chọn mạo từ đúng cho các danh từ sau:</p>
                     
                     <div class="flex-grow grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -436,7 +518,22 @@
                                 <div class="answer hidden text-xl"></div>
                             </div>
                         </div>
-                        
+                    </div>
+                    
+                    <div class="mt-6 bg-indigo-100 p-4 rounded-lg">
+                        <p class="font-bold text-indigo-800 text-xl">💡 Nhớ:</p>
+                        <p class="text-lg">Dựa vào <span class="font-bold">phát âm</span> đầu tiên, không phải chữ viết!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4.1: Bài tập 1 - Chọn a/an (Part 2) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 1: Chọn a/an (Phần 2)</h2>
+                    <p class="text-2xl mb-8">Hãy chọn mạo từ đúng cho các danh từ sau:</p>
+                    
+                    <div class="flex-grow grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div class="exercise-item bg-white p-4 rounded-xl shadow-md">
                             <p class="text-2xl mb-4"><select class="border-2 border-indigo-300 rounded px-3 py-1 text-2xl" data-answer="an">
                                     <option value="">Chọn...</option>
@@ -469,44 +566,10 @@
                 </div>
             </div>
 
-            <!-- Slide 5: Mạo từ xác định "the" -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">3. Mạo từ xác định: the</h2>
-                
-                <div class="flex flex-col md:flex-row gap-8 h-[80%]">
-                    <div class="flex-1">
-                        <div class="bg-white p-6 rounded-xl shadow-md mb-4">
-                            <p class="text-2xl mb-4">Dùng <span class="text-green-600 font-bold">"the"</span> khi danh từ được xác định rõ, người nghe/đọc biết đối tượng được đề cập.</p>
-                            
-                            <div class="mt-6 bg-green-100 p-4 rounded-lg border-l-4 border-green-500">
-                                <p class="font-bold text-green-800 text-xl">Các trường hợp dùng "the":</p>
-                                <ul class="list-disc pl-5 space-y-2 mt-2">
-                                    <li>Đối tượng được nhắc lần 2 trở đi</li>
-                                    <li>Đối tượng duy nhất (the sun, the moon)</li>
-                                    <li>Danh từ có cụm xác định (the book on the table)</li>
-                                    <li>Danh từ riêng chỉ nhạc cụ (play the piano)</li>
-                                    <li>Danh từ chỉ địa điểm công cộng (go to the cinema)</li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="bg-blue-100 p-4 rounded-lg">
-                            <p class="font-bold text-blue-800 text-xl">Ví dụ:</p>
-                            <p class="text-xl">I saw <span class="highlight">a dog</span> in the park. <span class="highlight">The dog</span> was playing with a ball.</p>
-                            <p class="text-xl mt-2">We went to <span class="highlight">the Eiffel Tower</span> last summer.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="flex items-center justify-center">
-                        <img src="https://images.unsplash.com/photo-1519922637160-c43b899ad795?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="The Examples" class="object-cover h-72 rounded-xl shadow-md floating">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 6: Bài tập 2 - Chọn a/an/the -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
+            <!-- Slide 5: Bài tập 2 - Chọn a/an/the (Câu 1) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
-                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">Bài tập 2: Chọn a/an/the</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 2: Chọn a/an/the (Câu 1)</h2>
                     <p class="text-2xl mb-8">Điền mạo từ thích hợp vào chỗ trống:</p>
                     
                     <div class="flex-grow grid grid-cols-1 gap-4">
@@ -517,7 +580,22 @@
                                 <div class="answer hidden text-xl"></div>
                             </div>
                         </div>
-                        
+                    </div>
+                    
+                    <div class="mt-6 bg-purple-100 p-4 rounded-lg">
+                        <p class="font-bold text-purple-800 text-xl">💡 Gợi ý:</p>
+                        <p class="text-lg">Phân tích xem danh từ được xác định hay chưa!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5.1: Bài tập 2 - Chọn a/an/the (Câu 2) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 2: Chọn a/an/the (Câu 2)</h2>
+                    <p class="text-2xl mb-8">Điền mạo từ thích hợp vào chỗ trống:</p>
+                    
+                    <div class="flex-grow grid grid-cols-1 gap-4">
                         <div class="exercise-item bg-white p-4 rounded-xl shadow-md">
                             <p class="text-2xl mb-4">She is <input type="text" class="exercise-input" data-answer="an"> honest girl and she plays <input type="text" class="exercise-input" data-answer="the"> piano very well.</p>
                             <div class="flex items-center space-x-4">
@@ -525,7 +603,22 @@
                                 <div class="answer hidden text-xl"></div>
                             </div>
                         </div>
-                        
+                    </div>
+                    
+                    <div class="mt-6 bg-purple-100 p-4 rounded-lg">
+                        <p class="font-bold text-purple-800 text-xl">💡 Gợi ý:</p>
+                        <p class="text-lg">Phân tích xem danh từ được xác định hay chưa!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5.2: Bài tập 2 - Chọn a/an/the (Câu 3) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 2: Chọn a/an/the (Câu 3)</h2>
+                    <p class="text-2xl mb-8">Điền mạo từ thích hợp vào chỗ trống:</p>
+                    
+                    <div class="flex-grow grid grid-cols-1 gap-4">
                         <div class="exercise-item bg-white p-4 rounded-xl shadow-md">
                             <p class="text-2xl mb-4">Please pass me <input type="text" class="exercise-input" data-answer="the"> salt on <input type="text" class="exercise-input" data-answer="the"> table.</p>
                             <div class="flex items-center space-x-4">
@@ -542,13 +635,13 @@
                 </div>
             </div>
 
-            <!-- Slide 7: So sánh a/an vs the -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">4. So sánh a/an vs the</h2>
+            <!-- Slide 6: So sánh a/an vs the -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">4. So sánh a/an vs the</h2>
                 
-                <div class="flex flex-col items-center justify-center h-[80%]">
-                    <div class="w-full max-w-2xl bg-white p-6 rounded-xl shadow-md">
-                        <table class="w-full text-center text-xl">
+                <div class="flex flex-col items-center justify-start h-[80%]">
+                    <div class="w-full bg-white p-3 rounded-xl shadow-md">
+                        <table class="w-full text-center text-lg">
                             <thead>
                                 <tr class="bg-indigo-100">
                                     <th class="p-3">Mạo từ</th>
@@ -570,7 +663,7 @@
                             </tbody>
                         </table>
                         
-                        <div class="mt-6 bg-yellow-100 p-4 rounded-lg flex items-start">
+                        <div class="mt-2 bg-yellow-100 p-4 rounded-lg flex items-start">
                             <div class="bg-yellow-400 text-white rounded-full p-2 mr-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg>
                             </div>
@@ -583,10 +676,10 @@
                 </div>
             </div>
 
-            <!-- Slide 8: Bài tập 3 - Viết lại câu -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
+            <!-- Slide 7: Bài tập 3 - Viết lại câu (Câu 1) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
-                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">Bài tập 3: Viết lại câu</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 3: Viết lại câu (Câu 1)</h2>
                     <p class="text-2xl mb-8">Điền mạo từ thích hợp a/an/the hoặc bỏ trống nếu không cần:</p>
                     
                     <div class="flex-grow grid grid-cols-1 gap-4">
@@ -597,7 +690,22 @@
                                 <div class="answer hidden text-xl"></div>
                             </div>
                         </div>
-                        
+                    </div>
+                    
+                    <div class="mt-6 bg-green-100 p-4 rounded-lg">
+                        <p class="font-bold text-green-800 text-xl">💡 Gợi ý:</p>
+                        <p class="text-lg">Có những trường hợp không cần dùng mạo từ!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7.1: Bài tập 3 - Viết lại câu (Câu 2) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 3: Viết lại câu (Câu 2)</h2>
+                    <p class="text-2xl mb-8">Điền mạo từ thích hợp a/an/the hoặc bỏ trống nếu không cần:</p>
+                    
+                    <div class="flex-grow grid grid-cols-1 gap-4">
                         <div class="exercise-item bg-white p-4 rounded-xl shadow-md">
                             <p class="text-2xl mb-4">Can you pass me <input type="text" class="exercise-input" data-answer="the"> salt, please? I put it on <input type="text" class="exercise-input" data-answer="the"> table.</p>
                             <div class="flex items-center space-x-4">
@@ -605,7 +713,22 @@
                                 <div class="answer hidden text-xl"></div>
                             </div>
                         </div>
-                        
+                    </div>
+                    
+                    <div class="mt-6 bg-green-100 p-4 rounded-lg">
+                        <p class="font-bold text-green-800 text-xl">💡 Gợi ý:</p>
+                        <p class="text-lg">Có những trường hợp không cần dùng mạo từ!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7.2: Bài tập 3 - Viết lại câu (Câu 3) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 3: Viết lại câu (Câu 3)</h2>
+                    <p class="text-2xl mb-8">Điền mạo từ thích hợp a/an/the hoặc bỏ trống nếu không cần:</p>
+                    
+                    <div class="flex-grow grid grid-cols-1 gap-4">
                         <div class="exercise-item bg-white p-4 rounded-xl shadow-md">
                             <p class="text-2xl mb-4">She wants to be <input type="text" class="exercise-input" data-answer="a"> doctor when she grows up.</p>
                             <div class="flex items-center space-x-4">
@@ -613,7 +736,22 @@
                                 <div class="answer hidden text-xl"></div>
                             </div>
                         </div>
-                        
+                    </div>
+                    
+                    <div class="mt-6 bg-green-100 p-4 rounded-lg">
+                        <p class="font-bold text-green-800 text-xl">💡 Gợi ý:</p>
+                        <p class="text-lg">Có những trường hợp không cần dùng mạo từ!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7.3: Bài tập 3 - Viết lại câu (Câu 4) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 3: Viết lại câu (Câu 4)</h2>
+                    <p class="text-2xl mb-8">Điền mạo từ thích hợp a/an/the hoặc bỏ trống nếu không cần:</p>
+                    
+                    <div class="flex-grow grid grid-cols-1 gap-4">
                         <div class="exercise-item bg-white p-4 rounded-xl shadow-md">
                             <p class="text-2xl mb-4"><input type="text" class="exercise-input" data-answer=""> Love is more important than <input type="text" class="exercise-input" data-answer=""> money.</p>
                             <div class="flex items-center space-x-4">
@@ -630,9 +768,9 @@
                 </div>
             </div>
 
-            <!-- Slide 9: Trường hợp không dùng mạo từ -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">5. Trường hợp không dùng mạo từ</h2>
+            <!-- Slide 8: Trường hợp không dùng mạo từ -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">5. Trường hợp không dùng mạo từ</h2>
                 
                 <div class="flex flex-col md:flex-row gap-8 h-[80%]">
                     <div class="flex-1">
@@ -657,18 +795,14 @@
                             <p class="text-xl mt-2"><span class="text-red-500 font-bold">❌ Sai</span>: She plays the chess. <span class="text-green-500 font-bold">✓ Đúng</span>: She plays chess.</p>
                         </div>
                     </div>
-                    
-                    <div class="flex items-center justify-center">
-                        <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="No Article" class="object-cover h-72 rounded-xl shadow-md floating">
-                    </div>
                 </div>
             </div>
 
-            <!-- Slide 10: Bài tập 4 - Sửa lỗi sai -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
+            <!-- Slide 9: Bài tập 4 - Sửa lỗi sai (Part 1) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
-                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">Bài tập 4: Sửa lỗi sai</h2>
-                    <p class="text-2xl mb-8">Tìm và sửa lỗi dùng mạo từ trong các câu sau:</p>
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 4: Sửa lỗi sai (Phần 1)</h2>
+                    <p class="text-2xl mb-8">Tìm và sửa lỗi dùng mạo từ trong câu sau:</p>
                     
                     <div class="flex-grow grid grid-cols-1 gap-4">
                         <div class="exercise-item bg-white p-4 rounded-xl shadow-md">
@@ -679,7 +813,22 @@
                                 <div class="answer hidden text-xl"></div>
                             </div>
                         </div>
-                        
+                    </div>
+                    
+                    <div class="mt-6 bg-pink-100 p-4 rounded-lg">
+                        <p class="font-bold text-pink-800 text-xl">💡 Nhắc nhở:</p>
+                        <p class="text-lg">Chú ý các trường hợp không dùng mạo từ và trường hợp bắt buộc phải có!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9.1: Bài tập 4 - Sửa lỗi sai (Part 2) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 4: Sửa lỗi sai (Phần 2)</h2>
+                    <p class="text-2xl mb-8">Tìm và sửa lỗi dùng mạo từ trong câu sau:</p>
+                    
+                    <div class="flex-grow grid grid-cols-1 gap-4">
                         <div class="exercise-item bg-white p-4 rounded-xl shadow-md">
                             <p class="text-2xl mb-4">She plays the tennis every Sunday.</p>
                             <div class="flex items-center space-x-4">
@@ -688,7 +837,22 @@
                                 <div class="answer hidden text-xl"></div>
                             </div>
                         </div>
-                        
+                    </div>
+                    
+                    <div class="mt-6 bg-pink-100 p-4 rounded-lg">
+                        <p class="font-bold text-pink-800 text-xl">💡 Nhắc nhở:</p>
+                        <p class="text-lg">Chú ý các trường hợp không dùng mạo từ và trường hợp bắt buộc phải có!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9.2: Bài tập 4 - Sửa lỗi sai (Part 3) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập 4: Sửa lỗi sai (Phần 3)</h2>
+                    <p class="text-2xl mb-8">Tìm và sửa lỗi dùng mạo từ trong câu sau:</p>
+                    
+                    <div class="flex-grow grid grid-cols-1 gap-4">
                         <div class="exercise-item bg-white p-4 rounded-xl shadow-md">
                             <p class="text-2xl mb-4">I saw dog in street yesterday.</p>
                             <div class="flex items-center space-x-4">
@@ -706,11 +870,11 @@
                 </div>
             </div>
 
-            <!-- Slide 11: Mẹo nhớ nhanh -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">6. Mẹo nhớ nhanh mạo từ</h2>
+            <!-- Slide 10: Mẹo nhớ nhanh -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">6. Mẹo nhớ nhanh mạo từ</h2>
                 
-                <div class="flex flex-col items-center justify-center h-[80%]">
+                <div class="flex flex-col items-center justify-start h-[80%]">
                     <div class="w-full max-w-2xl bg-white p-6 rounded-xl shadow-md">
                         <div class="bg-gradient-to-r from-indigo-500 to-purple-500 text-white p-4 rounded-lg mb-6">
                             <p class="text-2xl text-center font-bold">Câu thần chú nhớ mạo từ</p>
@@ -719,39 +883,26 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div class="bg-yellow-100 p-4 rounded-lg">
                                 <p class="text-xl font-bold text-yellow-800">A/AN:</p>
-                                <p class="text-lg mt-2">"Một chưa ai rõ,<br>Trước nguyên âm - an,<br>Phụ âm thì a thôi!"</p>
+                                <p class="text-lg mt-2">"Một ai chưa rõ,<br>Trước nguyên âm - an,<br>A thì phụ âm!"</p>
                             </div>
                             
                             <div class="bg-green-100 p-4 rounded-lg">
                                 <p class="text-xl font-bold text-green-800">THE:</p>
-                                <p class="text-lg mt-2">"Nhắc lại lần hai,<br>Xác định ngay thôi,<br>The đi kèm thôi!"</p>
-                            </div>
-                        </div>
-                        
-                        <div class="mt-6 bg-blue-100 p-4 rounded-lg">
-                            <p class="font-bold text-blue-800 text-xl">Hình dung liên tưởng:</p>
-                            <div class="flex items-start mt-2">
-                                <div class="w-1/3 flex justify-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-meh"><circle cx="12" cy="12" r="10"></circle><line x1="8" y1="15" x2="16" y2="15"></line><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
-                                </div>
-                                <div class="w-2/3">
-                                    <p class="text-lg">A/AN = khuôn mặt không rõ (không xác định)</p>
-                                    <p class="text-lg mt-2">THE = khuôn mặt có nét (xác định)</p>
-                                </div>
+                                <p class="text-lg mt-2">"Nhắc lại lần hai,<br>Xác định ngay thôi,<br>The đi kèm nhé!"</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Slide 12: Bài tập tổng hợp 1 -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
+            <!-- Slide 11: Bài tập tổng hợp 1 (Part 1) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
-                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">Bài tập tổng hợp 1</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập tổng hợp 1 (Phần 1)</h2>
                     <p class="text-2xl mb-8">Điền mạo từ thích hợp vào đoạn văn sau:</p>
                     
                     <div class="flex-grow bg-white p-6 rounded-xl shadow-md">
-                        <p class="text-2xl mb-4">Yesterday, I saw <input type="text" class="exercise-input" data-answer="a"> cat in <input type="text" class="exercise-input" data-answer="the"> garden. <input type="text" class="exercise-input" data-answer="The"> cat was playing with <input type="text" class="exercise-input" data-answer="a"> ball. I gave <input type="text" class="exercise-input" data-answer="the"> cat some milk. Then, I went to <input type="text" class="exercise-input" data-answer="the"> supermarket to buy <input type="text" class="exercise-input" data-answer=""> food and <input type="text" class="exercise-input" data-answer=""> bread.</p>
+                        <p class="text-2xl mb-4">Yesterday, I saw <input type="text" class="exercise-input" data-answer="a"> cat in <input type="text" class="exercise-input" data-answer="the"> garden. <input type="text" class="exercise-input" data-answer="The"> cat was playing with <input type="text" class="exercise-input" data-answer="a"> ball.</p>
                         
                         <div class="flex items-center space-x-4 mt-6">
                             <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
@@ -761,75 +912,104 @@
                 </div>
             </div>
 
-            <!-- Slide 13: Bài tập tổng hợp 2 -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
+            <!-- Slide 11.1: Bài tập tổng hợp 1 (Part 2) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
-                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">Bài tập tổng hợp 2</h2>
-                    <p class="text-2xl mb-8">Kéo thả mạo từ vào vị trí đúng:</p>
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập tổng hợp 1 (Phần 2)</h2>
+                    <p class="text-2xl mb-8">Điền mạo từ thích hợp vào đoạn văn sau:</p>
                     
                     <div class="flex-grow bg-white p-6 rounded-xl shadow-md">
-                        <div class="grid grid-cols-4 gap-4 mb-6">
-                            <div class="bg-indigo-100 p-3 rounded-lg draggable" draggable="true" data-article="a">a</div>
-                            <div class="bg-indigo-100 p-3 rounded-lg draggable" draggable="true" data-article="an">an</div>
-                            <div class="bg-green-100 p-3 rounded-lg draggable" draggable="true" data-article="the">the</div>
-                            <div class="bg-red-100 p-3 rounded-lg draggable" draggable="true" data-article="">(không)</div>
+                        <p class="text-2xl mb-4">I gave <input type="text" class="exercise-input" data-answer="the"> cat some milk. Then, I went to <input type="text" class="exercise-input" data-answer="the"> supermarket to buy <input type="text" class="exercise-input" data-answer=""> food.</p>
+                        
+                        <div class="flex items-center space-x-4 mt-6">
+                            <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                            <div class="answer hidden text-xl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11.2: Bài tập tổng hợp 1 (Part 3) -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập tổng hợp 1 (Phần 3)</h2>
+                    <p class="text-2xl mb-8">Điền mạo từ thích hợp vào đoạn văn sau:</p>
+                    
+                    <div class="flex-grow bg-white p-6 rounded-xl shadow-md">
+                        <p class="text-2xl mb-4">I bought <input type="text" class="exercise-input" data-answer=""> bread and <input type="text" class="exercise-input" data-answer="a"> bottle of milk.</p>
+                        
+                        <div class="flex items-center space-x-4 mt-6">
+                            <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
+                            <div class="answer hidden text-xl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Slide 13: Tổng kết -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col items-center justify-start h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Tổng kết bài học</h2>
+                    
+                    <div class="w-full bg-white p-6 rounded-xl shadow-md">
+                        <div class="bg-blue-50 p-4 rounded-lg mb-6">
+                            <p class="text-xl font-bold text-blue-800 text-center">Kiến thức trọng tâm về mạo từ</p>
                         </div>
                         
                         <div class="space-y-4">
-                            <div class="exercise-item bg-gray-50 p-4 rounded-lg">
-                                <p class="text-2xl">I saw <span class="drop-zone" data-answer="an"></span> elephant at <span class="drop-zone" data-answer="the"></span> zoo.</p>
+                            <div class="bg-indigo-50 p-4 rounded-lg">
+                                <p class="text-xl font-bold text-indigo-800">1. Mạo từ không xác định (a/an)</p>
+                                <ul class="list-disc pl-6 mt-2 space-y-2">
+                                    <li>Dùng cho danh từ không xác định, lần đầu nhắc đến</li>
+                                    <li>a: trước phụ âm (a dog, a university, a European)</li>
+                                    <li>an: trước nguyên âm (an apple, an hour, an honest person)</li>
+                                    <li>Dựa vào phát âm, không phải chữ viết</li>
+                                </ul>
                             </div>
                             
-                            <div class="exercise-item bg-gray-50 p-4 rounded-lg">
-                                <p class="text-2xl">She plays <span class="drop-zone" data-answer=""></span> tennis every weekend.</p>
+                            <div class="bg-green-50 p-4 rounded-lg">
+                                <p class="text-xl font-bold text-green-800">2. Mạo từ xác định (the)</p>
+                                <ul class="list-disc pl-6 mt-2 space-y-2">
+                                    <li>Dùng cho danh từ xác định, đã biết hoặc duy nhất</li>
+                                    <li>Dùng khi nhắc lại danh từ đã đề cập trước đó</li>
+                                    <li>Dùng với danh từ chỉ vật duy nhất (the sun, the moon, the earth)</li>
+                                    <li>Dùng với danh từ chỉ địa điểm công cộng (the park, the zoo, the hospital)</li>
+                                    <li>Dùng với danh từ chỉ nhạc cụ (the piano, the guitar)</li>
+                                </ul>
                             </div>
                             
-                            <div class="exercise-item bg-gray-50 p-4 rounded-lg">
-                                <p class="text-2xl">This is <span class="drop-zone" data-answer="a"></span> first time I've been to <span class="drop-zone" data-answer="the"></span> cinema.</p>
+                            <div class="bg-yellow-50 p-4 rounded-lg">
+                                <p class="text-xl font-bold text-yellow-800">3. Trường hợp không dùng mạo từ</p>
+                                <ul class="list-disc pl-6 mt-2 space-y-2">
+                                    <li>Danh từ không đếm được (water, information, advice)</li>
+                                    <li>Danh từ số nhiều chung (cars, animals, books)</li>
+                                    <li>Danh từ riêng (Vietnam, Mary, Google)</li>
+                                    <li>Môn thể thao (football, tennis, basketball)</li>
+                                    <li>Môn học (history, mathematics, English)</li>
+                                    <li>Bữa ăn (breakfast, lunch, dinner)</li>
+                                    <li>Phương tiện đi lại (by bus, by car, by train)</li>
+                                </ul>
                             </div>
-                            
-                            <div class="exercise-item bg-gray-50 p-4 rounded-lg">
-                                <p class="text-2xl">He needs <span class="drop-zone" data-answer=""></span> advice about <span class="drop-zone" data-answer=""></span> university.</p>
+
+                            <div class="bg-purple-50 p-4 rounded-lg">
+                                <p class="text-xl font-bold text-purple-800">4. Quy tắc quan trọng</p>
+                                <ul class="list-disc pl-6 mt-2 space-y-2">
+                                    <li>Lần đầu dùng a/an, lần sau dùng the với cùng đối tượng</li>
+                                    <li>Không dùng mạo từ với danh từ không đếm được</li>
+                                    <li>Không dùng mạo từ với danh từ riêng</li>
+                                    <li>Không dùng mạo từ với môn thể thao và môn học</li>
+                                    <li>Luôn dùng the với các danh từ chỉ vật duy nhất</li>
+                                </ul>
                             </div>
-                        </div>
-                        
-                        <div class="flex items-center space-x-4 mt-6">
-                            <button onclick="checkDragDrop()" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
-                            <div id="drag-drop-feedback" class="answer hidden text-xl"></div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Slide 14: Tổng kết -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
-                <div class="flex flex-col items-center justify-center h-full">
-                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-6">Tổng kết bài học</h2>
-                    
-                    <div class="w-full max-w-2xl bg-white p-6 rounded-xl shadow-md">
-                        <div class="bg-blue-50 p-4 rounded-lg mb-6">
-                            <p class="text-xl font-bold text-blue-800 text-center">Tóm tắt kiến thức trọng tâm</p>
-                        </div>
-                        
-                        <ul class="list-disc pl-5 space-y-3 text-lg">
-                            <li><span class="font-bold text-red-500">A/An</span> - Dùng cho danh từ không xác định, lần đầu nhắc đến</li>
-                            <li><span class="font-bold text-green-500">The</span> - Dùng cho danh từ xác định, đã biết hoặc duy nhất</li>
-                            <li><span class="font-bold">Không dùng mạo từ</span> - Với danh từ không đếm được, danh từ chung, tên riêng</li>
-                            <li>Quy tắc phát âm quan trọng khi chọn a/an</li>
-                            <li>Luật cơ bản: a/an → the khi đổi từ không xác định sang xác định</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="mt-6 bg-yellow-100 p-4 rounded-lg max-w-2xl">
-                        <p class="font-bold text-yellow-800 text-xl text-center">Hãy nhớ câu thần chú:</p>
-                        <p class="text-lg text-center">"Mới dùng a/an xong,<br>Lần sau dùng the liền!"</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 15: Kết thúc -->
-            <div class="slide content-box p-5 md:p-6 rounded-2xl w-full h-full">
-                <div class="flex flex-col items-center justify-center h-full text-center">
+            <!-- Slide 14: Kết thúc -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col items-center justify-start h-full text-center">
                     <h1 class="text-2xl font-bold text-indigo-700 mb-3">Chúc mừng!</h1>
                     <div class="text-2xl md:text-3xl text-gray-700 mb-3">
                         <p class="mb-4">Bạn đã hoàn thành bài học về</p>
@@ -863,11 +1043,45 @@
             toggleOutline(); // Đóng modal sau khi chuyển slide
         }
 
+        // Close modal when clicking outside
+        document.getElementById('outlineModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                toggleOutline();
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && !document.getElementById('outlineModal').classList.contains('hidden')) {
+                toggleOutline();
+            }
+        });
+
         // Slide management
         let currentSlide = 0;
         const slides = document.querySelectorAll('.slide');
         const totalSlides = slides.length;
         const slideCounter = document.getElementById('slide-counter');
+
+        // Update URL with current slide
+        function updateURL(slideNumber) {
+            const url = new URL(window.location.href);
+            url.searchParams.set('slide', slideNumber + 1);
+            window.history.pushState({}, '', url);
+        }
+
+        // Get initial slide from URL if present
+        function getInitialSlide() {
+            const url = new URL(window.location.href);
+            const slideParam = url.searchParams.get('slide');
+            if (slideParam) {
+                const slideNumber = parseInt(slideParam) - 1;
+                if (slideNumber >= 0 && slideNumber < totalSlides) {
+                    return slideNumber;
+                }
+            }
+            return 0;
+        }
 
         // Update the counter display with total slides
         function updateSlideCounter() {
@@ -888,15 +1102,19 @@
 
             // Update slide counter
             updateSlideCounter();
+
+            // Update URL
+            updateURL(currentSlide);
         }
 
-        // Initialize counter on page load
-        updateSlideCounter();
+        // Initialize with slide from URL if present
+        currentSlide = getInitialSlide();
+        showSlide(currentSlide);
 
         // Touch swipe detection
         let touchStartX = 0;
         let touchEndX = 0;
-                
+        
         document.addEventListener('touchstart', e => {
             touchStartX = e.changedTouches[0].screenX;
         }, {passive: true});
