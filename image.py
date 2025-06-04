@@ -32,7 +32,7 @@ def fetch_and_download(keyword: str, num_images: int, retries: int = 3):
                     response.raise_for_status()
 
                     # Luôn luôn lưu đuôi .jpg
-                    file_path = os.path.join(save_dir, f"{keyword.replace(' ', '_')}_{idx}.jpg")
+                    file_path = os.path.join(save_dir, f"{keyword.replace(' ', '_')}.jpg")
                     with open(file_path, 'wb') as f:
                         f.write(response.content)
 

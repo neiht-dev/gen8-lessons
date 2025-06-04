@@ -60,7 +60,16 @@
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
+								<a
+									target="_blank"
+									href="/lessons/pre-gs8/pre-gs8-lesson-2.html"
+									class="link link-primary">Bài giảng</a
+								><br />
+								<a
+									target="_blank"
+									href="/lessons/pre-gs8/pre-gs8-worksheets-2.html"
+									class="link link-primary">Bài tập</a
+								>
 							</div>
 						</td>
 						<td>Củng cố nền tảng ngữ pháp</td>
