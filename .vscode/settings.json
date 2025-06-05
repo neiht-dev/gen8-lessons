@@ -1,5 +1,11 @@
 {
     "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
         ".prettierrc": true,
         ".gitignore": true,
         ".npmrc": true,
@@ -13,5 +19,6 @@
         ".svelte-kit": true
     },
     "scss.lint.unknownAtRules": "warning",
-    "css.lint.unknownAtRules": "ignore"
+    "css.lint.unknownAtRules": "ignore",
+    "hide-files.files": []
 }
