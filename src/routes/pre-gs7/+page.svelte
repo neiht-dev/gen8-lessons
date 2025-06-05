@@ -76,12 +76,17 @@
 					<tr class="hover:bg-base-300">
 						<td class="text-primary font-bold text-nowrap">Buổi 3</td>
 						<td>
-							<strong class="text-accent">Lượng từ (Quantifiers): some, a lot of, lots of</strong><br />
+							<strong class="text-accent">Lượng từ (Quantifiers): some, many, much a lot of, lots of</strong><br />
 							- Cách sử dụng với danh từ đếm được và không đếm được<br />
 							- Vị trí trong câu
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
+								<a
+									target="_blank"
+									href="/lessons/pre-gs7/pre-gs7-lesson-3.html"
+									class="link link-primary">Bài giảng</a
+								><br />
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>
