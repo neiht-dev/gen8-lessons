@@ -753,15 +753,13 @@
                 </div>
             </div>
 
-
-
             <!-- Slide 19: Picture Game -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col items-center justify-start h-full">
                     <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Câu hỏi tình huống</h2>
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md text-center">
                             <img src="https://cdn-icons-png.flaticon.com/512/1046/1046785.png" alt="Shopping" class="h-32 mx-auto mb-4">
                             <p class="text-xl mb-4">Tình huống: Shopping</p>
                             <p class="text-lg">"I want to buy <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="some">
@@ -777,7 +775,7 @@
                             <div class="answer hidden text-sm mt-2"></div>
                         </div>
                         
-                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md text-center">
                             <img src="https://cdn-icons-png.flaticon.com/512/3175/3175215.png" alt="Tea time" class="h-32 mx-auto mb-4">
                             <p class="text-xl mb-4">Tình huống: Tea time</p>
                             <p class="text-lg">"Would you like <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="some">
@@ -802,7 +800,7 @@
                     <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Câu hỏi tình huống (Tiếp)</h2>
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md text-center">
                             <img src="https://cdn-icons-png.flaticon.com/512/8503/8503966.png" alt="Restaurant" class="h-32 mx-auto mb-4">
                             <p class="text-xl mb-4">Tình huống: Restaurant</p>
                             <p class="text-lg">"Do you have <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="any">
@@ -818,7 +816,7 @@
                             <div class="answer hidden text-sm mt-2"></div>
                         </div>
                         
-                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md text-center">
                             <img src="https://cdn-icons-png.flaticon.com/512/9043/9043296.png" alt="Library" class="h-32 mx-auto mb-4">
                             <p class="text-xl mb-4">Tình huống: Library</p>
                             <p class="text-lg">"Are there <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="any">
@@ -843,7 +841,7 @@
                     <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Câu hỏi tình huống (Tiếp)</h2>
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md text-center">
                             <img src="https://cdn-icons-png.flaticon.com/512/3197/3197519.png" alt="Party" class="h-32 mx-auto mb-4">
                             <p class="text-xl mb-4">Tình huống: Party</p>
                             <p class="text-lg">"We need <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="some">
@@ -859,7 +857,7 @@
                             <div class="answer hidden text-sm mt-2"></div>
                         </div>
                         
-                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                        <div class="exercise-item bg-white p-6 rounded-xl shadow-md text-center">
                             <img src="https://cdn-icons-png.flaticon.com/512/2200/2200326.png" alt="Travel" class="h-32 mx-auto mb-4">
                             <p class="text-xl mb-4">Tình huống: Travel</p>
                             <p class="text-lg">"I need <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="some">
@@ -881,9 +879,9 @@
             <!-- Slide 15: Mixed Exercise 1 -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
-                    <h2 class="text-2lsx md:text-3xl font-bold text-indigo-700 mb-5">Bài tập tổng hợp 1</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Bài tập tổng hợp 1</h2>
                     <p class="text-2xl mb-8">Điền "some" hoặc "any" vào đoạn văn sau:</p>
-                    <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="exercise-item bg-white p-6 rounded-xl shadow-md">
                         <p class="text-2xl mb-4">Yesterday, I went shopping. I bought <input type="text" class="exercise-input" data-answer="some"> apples and <input type="text" class="exercise-input" data-answer="some"> bread. But I didn't buy <input type="text" class="exercise-input" data-answer="any"> milk because the store didn't have <input type="text" class="exercise-input" data-answer="any"> left. Would you like <input type="text" class="exercise-input" data-answer="some"> fruit?</p>
                         <div class="flex items-center space-x-4 mt-6">
                             <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold">Kiểm tra</button>
@@ -1027,6 +1025,41 @@
             };
         }
 
+        function checkDoubleSelect(button) {
+            const exerciseItem = button.closest('.exercise-item');
+            const selects = exerciseItem.querySelectorAll('select');
+            const answerDiv = exerciseItem.querySelector('.answer');
+            let allCorrect = true;
+            let answersHtml = '<div class="space-y-2">';
+
+            selects.forEach(select => {
+                const correctAnswer = select.dataset.answer;
+                if (select.value === correctAnswer) {
+                    answersHtml += `<p class="correct">✓ Đúng: <span class="font-bold">${correctAnswer}</span></p>`;
+                    select.classList.add('border-green-500');
+                    select.classList.remove('border-indigo-300');
+                } else {
+                    answersHtml += `<p class="incorrect">✗ Sai: <span class="font-bold">${correctAnswer}</span> (Bạn chọn: ${select.value || 'trống'})</p>`;
+                    select.classList.add('border-red-500');
+                    select.classList.remove('border-indigo-300');
+                    allCorrect = false;
+                }
+            });
+
+            answerDiv.innerHTML = answersHtml;
+            answerDiv.classList.remove('hidden');
+
+            // Change button to reset button
+            button.textContent = 'Làm lại';
+            button.onclick = function() {
+                resetExercise(button);
+            };
+
+            if (allCorrect) {
+                exerciseItem.classList.add('bg-green-50');
+            }
+        }
+
         function resetExercise(button) {
             const exerciseItem = button.closest('.exercise-item');
             const inputs = exerciseItem.querySelectorAll('.exercise-input');
@@ -1056,7 +1089,11 @@
                 if (inputs.length > 0) {
                     checkInput(button);
                 } else if (selects.length > 0) {
-                    checkSelect(button);
+                    if (selects.length === 2) {
+                        checkDoubleSelect(button);
+                    } else {
+                        checkSelect(button);
+                    }
                 }
             };
 
