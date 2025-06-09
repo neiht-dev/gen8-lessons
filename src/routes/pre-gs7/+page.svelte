@@ -103,6 +103,11 @@
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
+								<a
+									target="_blank"
+									href="/lessons/pre-gs7/pre-gs7-lesson-4.html"
+									class="link link-primary">Bài giảng</a
+								><br />
 								<span class="text-gray-500">Todo</span>
 							</div>
 						</td>

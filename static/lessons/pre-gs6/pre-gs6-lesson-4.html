@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grammar: Some/Any</title>
+    <title>PreGS6: Some/Any</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="/assets/js/instructions.js"></script>
+    
     <style>
         body {
             font-family: 'Baloo 2', cursive;
@@ -51,7 +53,7 @@
         }
 
         .content-box {
-            background-color: rgba(255, 255, 255, 0.85);
+            background-color: rgba(255, 255, 255, 0.45);
             overflow-y: auto;
             padding: 1rem 1rem 2rem 1rem;
         }
@@ -137,7 +139,8 @@
     </style>
 </head>
 
-<body class="bg-blue-50 bg-cover bg-center min-h-screen flex items-center justify-center p-2">
+<body class="bg-blue-50 bg-[url('/assets/bg/bg-3.jpg')] bg-cover bg-center min-h-screen flex items-center justify-center p-2">
+
     <div class="relative w-full max-w-6xl h-[95vh] mx-auto">
         <!-- Slide counter -->
         <div class="absolute bottom-2 sm:bottom-full sm:top-7 right-4 z-50 flex items-center gap-2">
@@ -163,186 +166,23 @@
 
         <!-- Outline Modal -->
         <div id="outlineModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center">
-            <div class="bg-white rounded-2xl p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto">
-                <div class="flex justify-between items-center mb-4">
-                    <h2 class="text-2xl font-bold text-indigo-600">Mục lục bài học</h2>
-                    <button onclick="toggleOutline()" class="text-gray-500 hover:text-gray-700">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                        </svg>
-                    </button>
-                </div>
-                <div class="prose prose-lg max-w-none">
-                    <h3 class="text-xl font-bold text-indigo-600 mb-4">Some và Any</h3>
 
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(0)">
-                        <h4 class="text-lg font-bold text-indigo-500">1. Giới thiệu</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Mục tiêu bài học
-                                <ul class="list-disc pl-6 mt-2">
-                                    <li>Hiểu cách dùng some/any</li>
-                                    <li>Phân biệt some/any</li>
-                                    <li>Các trường hợp đặc biệt</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(1)">
-                        <h4 class="text-lg font-bold text-indigo-500">2. Định nghĩa Some/Any</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Some: Một ít, một vài</li>
-                            <li>Any: Một chút nào (phủ định/nghi vấn)</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(2)">
-                        <h4 class="text-lg font-bold text-indigo-500">3. Cách dùng Some</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Câu khẳng định</li>
-                            <li>Lời mời, đề nghị</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(3)">
-                        <h4 class="text-lg font-bold text-indigo-500">4. Bài tập Some (Phần 1)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền some vào câu</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(4)">
-                        <h4 class="text-lg font-bold text-indigo-500">5. Bài tập Some (Phần 2)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Viết câu với some</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(5)">
-                        <h4 class="text-lg font-bold text-indigo-500">6. Cách dùng Any</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Câu phủ định</li>
-                            <li>Câu hỏi</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(6)">
-                        <h4 class="text-lg font-bold text-indigo-500">7. Bài tập Any (Phần 1)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền any vào câu</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(7)">
-                        <h4 class="text-lg font-bold text-indigo-500">8. Bài tập Any (Phần 2)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Viết câu với any</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(8)">
-                        <h4 class="text-lg font-bold text-indigo-500">9. Trường hợp đặc biệt Some</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Câu hỏi đề nghị</li>
-                            <li>Câu hỏi mong đợi câu trả lời "có"</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(9)">
-                        <h4 class="text-lg font-bold text-indigo-500">10. Bài tập đặc biệt Some</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Nhận biết trường hợp đặc biệt</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(10)">
-                        <h4 class="text-lg font-bold text-indigo-500">11. Trường hợp đặc biệt Any</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Với "hardly", "scarcely"</li>
-                            <li>Với "if"</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(11)">
-                        <h4 class="text-lg font-bold text-indigo-500">12. Bài tập đặc biệt Any</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Nhận biết trường hợp đặc biệt</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(12)">
-                        <h4 class="text-lg font-bold text-indigo-500">13. So sánh Some và Any</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Bảng so sánh</li>
-                            <li>Mẹo phân biệt</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(13)">
-                        <h4 class="text-lg font-bold text-indigo-500">14. Bài tập so sánh</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Chọn some/any phù hợp</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(14)">
-                        <h4 class="text-lg font-bold text-indigo-500">15. Mẹo học nhanh</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Câu thần chú nhớ nhanh</li>
-                            <li>Hình ảnh minh họa</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(15)">
-                        <h4 class="text-lg font-bold text-indigo-500">16. Bài tập tổng hợp 1</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền some/any vào đoạn văn</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(16)">
-                        <h4 class="text-lg font-bold text-indigo-500">17. Bài tập tổng hợp 2</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Viết lại câu với some/any</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(17)">
-                        <h4 class="text-lg font-bold text-indigo-500">18. Bài tập sắp xếp từ</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Sắp xếp thành câu đúng</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(18)">
-                        <h4 class="text-lg font-bold text-indigo-500">19. Tổng kết</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Kiến thức trọng tâm</li>
-                            <li>Mẹo nhớ nhanh</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
 
         <!-- Slides container -->
-        <div class="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
+        <div class="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl text-2xl">
             <!-- Slide 0: Title -->
             <div class="slide active content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col items-center justify-start h-full text-center">
                     <h1 class="text-2xl font-bold text-indigo-700 mb-8">GRAMMAR FOR PRE-GRADE 6</h1>
-                    <div class="bg-yellow-400 text-2xl md:text-4xl font-bold px-6 py-3 rounded-full mb-5 shadow-lg floating">
+                    <div class="bg-yellow-400 text-2xl md:text-4xl font-bold px-6 py-3 rounded-full my-8 shadow-lg floating">
                         SOME / ANY
                     </div>
                     <div class="flex flex-col md:flex-row items-center justify-center gap-8">
                         <div class="mt-6 flex justify-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart shopping-cart">
-                                <circle cx="8" cy="21" r="1"></circle>
-                                <circle cx="19" cy="21" r="1"></circle>
-                                <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
-                            </svg>
+                            <img src="/assets/images/grammar.jpg" alt="Grammar Learning" class="object-cover h-52 floating">
                         </div>
-                        <div class="bg-gradient-to-r from-indigo-100 to-green-200 border-l-4 border-indigo-500 py-5 px-10 text-left rounded-2xl text-xl">
+                        <div class="bg-gradient-to-r from-orange-100 to-orange-200 border-l-4 border-orange-500 py-5 px-10 text-left rounded-2xl text-xl">
                             <p class="font-bold text-indigo-800">Mục tiêu bài học:</p>
                             <ul class="list-disc pl-5 text-gray-700 text-xl">
                                 <li>Hiểu cách dùng some/any</li>
@@ -351,13 +191,12 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="my-3 opacity-0">---</div>
                 </div>
             </div>
 
             <!-- Slide 1: Definition -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">1. Định nghĩa Some/Any</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Định nghĩa Some/Any</h2>
                 <div class="flex flex-col md:flex-row items-start justify-around gap-8">
                     <div class="w-full">
                         <div class="bg-white p-6 rounded-xl shadow-md">
@@ -368,14 +207,16 @@
                                         <li>Nghĩa: "Một ít, một vài"</li>
                                         <li>Dùng trong câu khẳng định</li>
                                         <li>Dùng khi đề nghị/lời mời</li>
+                                        <li>Đi với danh từ đếm được số nhiều hoặc không đếm được</li>
                                     </ul>
                                 </div>
                                 <div class="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-500">
                                     <p class="font-bold text-purple-800 text-xl">Any</p>
                                     <ul class="list-disc pl-5 space-y-2 mt-2 text-lg">
-                                        <li>Nghĩa: "Một chút nào"</li>
+                                        <li>Nghĩa: "Bất kỳ, một ít, một chút"</li>
                                         <li>Dùng trong câu phủ định</li>
                                         <li>Dùng trong câu hỏi</li>
+                                        <li>Đi với danh từ đếm được số nhiều hoặc không đếm được</li>
                                     </ul>
                                 </div>
                             </div>
@@ -386,7 +227,7 @@
 
             <!-- Slide 2: Using Some -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">2. Cách dùng Some</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Cách dùng Some</h2>
                 <div class="flex flex-col md:flex-row gap-8">
                     <div class="flex-1">
                         <div class="bg-white p-6 rounded-xl shadow-md mb-4">
@@ -460,7 +301,7 @@
 
             <!-- Slide 5: Using Any -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">3. Cách dùng Any</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Cách dùng Any</h2>
                 <div class="flex flex-col md:flex-row gap-8">
                     <div class="flex-1">
                         <div class="bg-white p-6 rounded-xl shadow-md mb-4">
@@ -534,7 +375,7 @@
 
             <!-- Slide 8: Special Cases Some -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">4. Trường hợp đặc biệt với Some</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Trường hợp đặc biệt với Some</h2>
                 <div class="flex flex-col md:flex-row gap-8">
                     <div class="flex-1">
                         <div class="bg-white p-6 rounded-xl shadow-md mb-4">
@@ -592,7 +433,7 @@
 
             <!-- Slide 10: Special Cases Any -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">5. Trường hợp đặc biệt với Any</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Trường hợp đặc biệt với Any</h2>
                 <div class="flex flex-col md:flex-row gap-8">
                     <div class="flex-1">
                         <div class="bg-white p-6 rounded-xl shadow-md mb-4">
@@ -650,7 +491,7 @@
 
             <!-- Slide 12: Comparison -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">6. So sánh Some và Any</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">So sánh Some và Any</h2>
                 <div class="flex flex-col items-center justify-start">
                     <div class="w-full bg-white p-6 rounded-xl shadow-md">
                         <table class="w-full text-center text-lg">
@@ -679,14 +520,10 @@
                                 </tr>
                                 <tr>
                                     <td class="p-3 font-bold text-left">Danh từ</td>
-                                    <td class="p-3 bg-blue-50" colspan="2">Cả đếm được và không đếm được</td>
+                                    <td class="p-3 bg-blue-50" colspan="2">Cả đếm được (số nhiều) và không đếm được</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="mt-6 bg-purple-100 p-4 rounded-lg">
-                            <p class="font-bold text-purple-800 text-xl">Mẹo nhớ:</p>
-                            <p class="text-lg">"SUNNY" rule: <span class="font-bold">S</span>ome in <span class="font-bold">U</span>pbeat (positive), <span class="font-bold">N</span>ot in <span class="font-bold">N</span>egative, <span class="font-bold">Y</span>ou ask with Any!</p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -723,47 +560,12 @@
                 </div>
             </div>
 
-            <!-- Slide 14: Memory Tricks -->
-            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">7. Mẹo nhớ nhanh Some/Any</h2>
-                <div class="flex flex-col items-center justify-start">
-                    <div class="w-full max-w-2xl bg-white p-6 rounded-xl shadow-md">
-                        <div class="bg-gradient-to-r from-green-400 to-blue-500 text-white p-4 rounded-lg mb-6">
-                            <p class="text-2xl text-center font-bold">Câu thần chú đơn giản</p>
-                        </div>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div class="bg-yellow-100 p-4 rounded-lg">
-                                <p class="text-xl font-bold text-yellow-800">SOME:</p>
-                                <p class="text-lg mt-2">"Câu khẳng, lời mời<br>Some đặt vào thôi!"</p>
-                                <div class="mt-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ca8a04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coffee mx-auto">
-                                        <path d="M17 8h1a4 4 0 1 1 0 8h-1"></path>
-                                        <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path>
-                                        <line x1="6" x2="6" y1="2" y2="4"></line>
-                                        <line x1="10" x2="10" y1="2" y2="4"></line>
-                                        <line x1="14" x2="14" y1="2" y2="4"></line>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="bg-red-100 p-4 rounded-lg">
-                                <p class="text-xl font-bold text-red-800">ANY:</p>
-                                <p class="text-lg mt-2">"Câu hỏi, phủ định<br>Any dùng chớ quên!"</p>
-                                <div class="mt-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ban mx-auto">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
             <!-- Slide 19: Picture Game -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col items-center justify-start h-full">
-                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Trò chơi: Đuổi hình bắt chữ</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Câu hỏi tình huống</h2>
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div class="bg-white p-6 rounded-xl shadow-md text-center">
@@ -798,16 +600,94 @@
                             <div class="answer hidden text-sm mt-2"></div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <!-- Slide 20: Picture Game 2 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col items-center justify-start h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Câu hỏi tình huống (Tiếp)</h2>
                     
-                    <div class="bg-yellow-100 p-4 rounded-lg mt-6">
-                        <p class="font-bold text-yellow-800">💡 Luật chơi:</p>
-                        <p class="text-lg">- Chọn SOME hoặc ANY phù hợp với tình huống</p>
-                        <p class="text-lg">- Nhấn "Kiểm tra" để xem đáp án</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                            <img src="https://cdn-icons-png.flaticon.com/512/8503/8503966.png" alt="Restaurant" class="h-32 mx-auto mb-4">
+                            <p class="text-xl mb-4">Tình huống: Restaurant</p>
+                            <p class="text-lg">"Do you have <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="any">
+                                <option value="">Chọn...</option>
+                                <option value="some">some</option>
+                                <option value="any">any</option>
+                            </select> vegetarian options? Yes, we have <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="some">
+                                <option value="">Chọn...</option>
+                                <option value="some">some</option>
+                                <option value="any">any</option>
+                            </select> delicious salads."</p>
+                            <button onclick="checkDoubleSelect(this)" class="btn-check px-4 py-1 rounded-lg mt-3">Kiểm tra</button>
+                            <div class="answer hidden text-sm mt-2"></div>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                            <img src="https://cdn-icons-png.flaticon.com/512/9043/9043296.png" alt="Library" class="h-32 mx-auto mb-4">
+                            <p class="text-xl mb-4">Tình huống: Library</p>
+                            <p class="text-lg">"Are there <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="any">
+                                <option value="">Chọn...</option>
+                                <option value="some">some</option>
+                                <option value="any">any</option>
+                            </select> English books? Yes, there are <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="some">
+                                <option value="">Chọn...</option>
+                                <option value="some">some</option>
+                                <option value="any">any</option>
+                            </select> on the second floor."</p>
+                            <button onclick="checkDoubleSelect(this)" class="btn-check px-4 py-1 rounded-lg mt-3">Kiểm tra</button>
+                            <div class="answer hidden text-sm mt-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 21: Picture Game 3 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col items-center justify-start h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Câu hỏi tình huống (Tiếp)</h2>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3197/3197519.png" alt="Party" class="h-32 mx-auto mb-4">
+                            <p class="text-xl mb-4">Tình huống: Party</p>
+                            <p class="text-lg">"We need <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="some">
+                                <option value="">Chọn...</option>
+                                <option value="some">some</option>
+                                <option value="any">any</option>
+                            </select> decorations. Do you have <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="any">
+                                <option value="">Chọn...</option>
+                                <option value="some">some</option>
+                                <option value="any">any</option>
+                            </select> balloons?"</p>
+                            <button onclick="checkDoubleSelect(this)" class="btn-check px-4 py-1 rounded-lg mt-3">Kiểm tra</button>
+                            <div class="answer hidden text-sm mt-2"></div>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2200/2200326.png" alt="Travel" class="h-32 mx-auto mb-4">
+                            <p class="text-xl mb-4">Tình huống: Travel</p>
+                            <p class="text-lg">"I need <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="some">
+                                <option value="">Chọn...</option>
+                                <option value="some">some</option>
+                                <option value="any">any</option>
+                            </select> help with my luggage. Is there <select class="border-2 border-indigo-300 rounded px-2 py-1" data-answer="any">
+                                <option value="">Chọn...</option>
+                                <option value="some">some</option>
+                                <option value="any">any</option>
+                            </select> available?"</p>
+                            <button onclick="checkDoubleSelect(this)" class="btn-check px-4 py-1 rounded-lg mt-3">Kiểm tra</button>
+                            <div class="answer hidden text-sm mt-2"></div>
+                        </div>
                     </div>
                 </div>
             </div>
 
 
+
+            
             <!-- Slide 15: Mixed Exercise 1 -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">
@@ -871,45 +751,6 @@
                 </div>
             </div>
 
-            <!-- Slide 18: Summary -->
-            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <div class="flex flex-col items-center justify-start h-full">
-                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Tổng kết bài học</h2>
-                    <div class="w-full bg-white p-6 rounded-xl shadow-md">
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div class="bg-green-50 p-4 rounded-lg">
-                                <p class="text-xl font-bold text-green-800">1. Những gì đã học</p>
-                                <ul class="list-disc pl-6 mt-2 space-y-2">
-                                    <li>Cách dùng some/any cơ bản</li>
-                                    <li>Các trường hợp đặc biệt</li>
-                                    <li>Cách phân biệt some/any</li>
-                                </ul>
-                            </div>
-                            <div class="bg-blue-50 p-4 rounded-lg">
-                                <p class="text-xl font-bold text-blue-800">2. Mẹo nhớ nhanh</p>
-                                <ul class="list-disc pl-6 mt-2 space-y-2">
-                                    <li>SUNNY rule</li>
-                                    <li>Câu thần chú đơn giản</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="mt-6 bg-yellow-100 p-4 rounded-lg flex items-start">
-                            <div class="bg-yellow-400 text-white rounded-full p-2 mr-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb">
-                                    <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
-                                    <path d="M9 18h6"></path>
-                                    <path d="M10 22h4"></path>
-                                </svg>
-                            </div>
-                            <div>
-                                <p class="font-bold text-yellow-800 text-xl">Quy tắc quan trọng:</p>
-                                <p class="text-lg">Some cho câu khẳng định, Any cho phủ định/hỏi - ngoại trừ khi mời/đề nghị!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!-- Slide 19: Conclusion -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col items-center justify-start h-full text-center">
@@ -920,134 +761,19 @@
                             SOME / ANY
                         </div>
                     </div>
-                    <div class="flex justify-center mb-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-stars">
-                            <path d="M12 2 7 7l-5 5 5 5 5 5 5-5 5-5-5-5z"></path>
-                            <path d="M8 8v8"></path>
-                            <path d="M16 8v8"></path>
-                        </svg>
+                    <div class="flex justify-center mb-8">
+                        <img src="/assets/images/celebration_1.jpg" class="h-32 rounded-full object-cover" alt="Celebration Image">
                     </div>
                     <div class="bg-gradient-to-r from-green-400 to-blue-500 text-white p-4 rounded-xl max-w-xl">
                         <p class="text-xl md:text-2xl font-bold mb-2">Hẹn gặp lại trong bài học tiếp theo!</p>
-                        <p class="text-sm mt-2">Grammar for Pre-Secondary</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <script src="/assets/js/slides.js"></script>
     <script>
-        // Outline Modal functions
-        function toggleOutline() {
-            const modal = document.getElementById('outlineModal');
-            modal.classList.toggle('hidden');
-        }
-
-        function goToSlide(slideNumber) {
-            showSlide(slideNumber);
-            toggleOutline(); // Đóng modal sau khi chuyển slide
-        }
-
-        // Close modal when clicking outside
-        document.getElementById('outlineModal').addEventListener('click', function(e) {
-            if (e.target === this) {
-                toggleOutline();
-            }
-        });
-
-        // Close modal with Escape key
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && !document.getElementById('outlineModal').classList.contains('hidden')) {
-                toggleOutline();
-            }
-        });
-
-        // Slide management
-        let currentSlide = 0;
-        const slides = document.querySelectorAll('.slide');
-        const totalSlides = slides.length;
-        const slideCounter = document.getElementById('slide-counter');
-
-        // Update URL with current slide
-        function updateURL(slideNumber) {
-            const url = new URL(window.location.href);
-            url.searchParams.set('slide', slideNumber + 1);
-            window.history.pushState({}, '', url);
-        }
-
-        // Get initial slide from URL if present
-        function getInitialSlide() {
-            const url = new URL(window.location.href);
-            const slideParam = url.searchParams.get('slide');
-            if (slideParam) {
-                const slideNumber = parseInt(slideParam) - 1;
-                if (slideNumber >= 0 && slideNumber < totalSlides) {
-                    return slideNumber;
-                }
-            }
-            return 0;
-        }
-
-        // Update the counter display with total slides
-        function updateSlideCounter() {
-            slideCounter.textContent = `${currentSlide + 1}/${totalSlides}`;
-        }
-
-        function showSlide(n) {
-            // Hide all slides
-            slides.forEach(slide => {
-                slide.classList.remove('active');
-            });
-
-            // Calculate new slide index
-            currentSlide = (n + totalSlides) % totalSlides;
-
-            // Show new slide
-            slides[currentSlide].classList.add('active');
-
-            // Update slide counter
-            updateSlideCounter();
-
-            // Update URL
-            updateURL(currentSlide);
-        }
-
-        // Initialize with slide from URL if present
-        currentSlide = getInitialSlide();
-        showSlide(currentSlide);
-
-        // Touch swipe detection
-        let touchStartX = 0;
-        let touchEndX = 0;
-
-        document.addEventListener('touchstart', e => {
-            touchStartX = e.changedTouches[0].screenX;
-        }, {passive: true});
-
-        document.addEventListener('touchend', e => {
-            touchEndX = e.changedTouches[0].screenX;
-            handleSwipe();
-        }, {passive: true});
-
-        function handleSwipe() {
-            const threshold = 50;
-            const diff = touchStartX - touchEndX;
-            if (diff > threshold) {
-                showSlide(currentSlide + 1);
-            } else if (diff < -threshold) {
-                showSlide(currentSlide - 1);
-            }
-        }
-
-        // Keyboard navigation
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
-                showSlide(currentSlide + 1);
-            } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
-                showSlide(currentSlide - 1);
-            }
-        });
-
         // Exercise functions
         function checkInput(button) {
             const exerciseItem = button.closest('.exercise-item');
