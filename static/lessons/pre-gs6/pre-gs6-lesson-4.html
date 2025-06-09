@@ -166,7 +166,200 @@
 
         <!-- Outline Modal -->
         <div id="outlineModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center">
+            <div class="bg-white rounded-2xl p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-bold text-indigo-700">Nội dung bài học</h2>
+                    <button onclick="toggleOutline()" class="text-gray-500 hover:text-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="prose prose-lg max-w-none">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-4">Some/Any</h3>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(0)">
+                        <h4 class="text-lg font-bold text-indigo-500">1. Giới thiệu</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Mục tiêu bài học:
+                                <ul class="list-disc pl-6 mt-2">
+                                    <li>Hiểu cách dùng some/any</li>
+                                    <li>Phân biệt some/any trong các tình huống</li>
+                                    <li>Nắm các trường hợp ngoại lệ</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
 
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(1)">
+                        <h4 class="text-lg font-bold text-indigo-500">2. Định nghĩa Some/Any</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Some: "Một ít, một vài"</li>
+                            <li>Any: "Bất kỳ, một ít, một chút"</li>
+                            <li>Cách dùng cơ bản</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(2)">
+                        <h4 class="text-lg font-bold text-indigo-500">3. Cách dùng Some</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Dùng trong câu khẳng định</li>
+                            <li>Dùng khi đề nghị/lời mời</li>
+                            <li>Ví dụ thực tế</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(3)">
+                        <h4 class="text-lg font-bold text-indigo-500">4. Bài tập 1: Điền Some (Phần 1)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Điền "some" vào chỗ trống</li>
+                            <li>Luyện tập với câu khẳng định</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(4)">
+                        <h4 class="text-lg font-bold text-indigo-500">5. Bài tập 2: Viết câu với Some</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Hoàn thành câu với "some"</li>
+                            <li>Luyện tập với danh từ</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(5)">
+                        <h4 class="text-lg font-bold text-indigo-500">6. Cách dùng Any</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Dùng trong câu phủ định</li>
+                            <li>Dùng trong câu hỏi</li>
+                            <li>Ví dụ thực tế</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(6)">
+                        <h4 class="text-lg font-bold text-indigo-500">7. Bài tập 3: Điền Any (Phần 1)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Điền "any" vào chỗ trống</li>
+                            <li>Luyện tập với câu phủ định</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(7)">
+                        <h4 class="text-lg font-bold text-indigo-500">8. Bài tập 4: Viết câu với Any</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Hoàn thành câu với "any"</li>
+                            <li>Luyện tập với câu hỏi</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(8)">
+                        <h4 class="text-lg font-bold text-indigo-500">9. Trường hợp đặc biệt với Some</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Câu hỏi đề nghị</li>
+                            <li>Mong đợi "có"</li>
+                            <li>Ví dụ thực tế</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(9)">
+                        <h4 class="text-lg font-bold text-indigo-500">10. Bài tập 5: Trường hợp đặc biệt Some</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Chọn "some" hoặc "any"</li>
+                            <li>Luyện tập với trường hợp đặc biệt</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(10)">
+                        <h4 class="text-lg font-bold text-indigo-500">11. Trường hợp đặc biệt với Any</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Với "hardly"</li>
+                            <li>Với "if"</li>
+                            <li>Ví dụ thực tế</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(11)">
+                        <h4 class="text-lg font-bold text-indigo-500">12. Bài tập 6: Trường hợp đặc biệt Any</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Chọn "some" hoặc "any"</li>
+                            <li>Luyện tập với trường hợp đặc biệt</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(12)">
+                        <h4 class="text-lg font-bold text-indigo-500">13. So sánh Some và Any</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Bảng so sánh</li>
+                            <li>Quy tắc sử dụng</li>
+                            <li>Ví dụ minh họa</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(13)">
+                        <h4 class="text-lg font-bold text-indigo-500">14. Bài tập 7: Phân biệt Some/Any</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Chọn "some" hoặc "any"</li>
+                            <li>Luyện tập phân biệt</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(14)">
+                        <h4 class="text-lg font-bold text-indigo-500">15. Câu hỏi tình huống</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Tình huống Shopping</li>
+                            <li>Tình huống Tea time</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(15)">
+                        <h4 class="text-lg font-bold text-indigo-500">16. Câu hỏi tình huống (Tiếp)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Tình huống Restaurant</li>
+                            <li>Tình huống Library</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(16)">
+                        <h4 class="text-lg font-bold text-indigo-500">17. Câu hỏi tình huống (Tiếp)</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Tình huống Party</li>
+                            <li>Tình huống Travel</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(17)">
+                        <h4 class="text-lg font-bold text-indigo-500">18. Bài tập tổng hợp 1</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Điền "some" hoặc "any"</li>
+                            <li>Luyện tập với đoạn văn</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(18)">
+                        <h4 class="text-lg font-bold text-indigo-500">19. Bài tập tổng hợp 2</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Viết lại câu</li>
+                            <li>Luyện tập tổng hợp</li>
+                        </ul>
+                    </div>
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(19)">
+                        <h4 class="text-lg font-bold text-indigo-500">20. Bài tập sắp xếp từ</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Sắp xếp từ thành câu</li>
+                            <li>Luyện tập cấu trúc câu</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(20)">
+                        <h4 class="text-lg font-bold text-indigo-500">21. Kết thúc</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Tổng kết bài học</li>
+                            <li>Chuẩn bị cho bài học tiếp theo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Slides container -->
@@ -685,9 +878,6 @@
                 </div>
             </div>
 
-
-
-            
             <!-- Slide 15: Mixed Exercise 1 -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col h-full">

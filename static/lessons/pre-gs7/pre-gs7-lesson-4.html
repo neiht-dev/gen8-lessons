@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PreGS6: Đại từ nhân xưng</title>
+    <title>PreGS7: Đại từ</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="/assets/js/instructions.js"></script>
+    
     <style>
         body {
             font-family: 'Baloo 2', cursive;
@@ -134,7 +137,7 @@
     </style>
 </head>
 
-<body class="bg-blue-50 bg-[url('https://images.unsplash.com/photo-1517486808906-6ca8b3f8fbe2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')] bg-cover bg-center min-h-screen flex items-center justify-center p-2">
+<body class="bg-blue-50 bg-[url('/assets/bg/bg-3.jpg')] bg-cover bg-center min-h-screen flex items-center justify-center p-2">
 
     <div class="relative w-full max-w-6xl h-[95vh] mx-auto">
         <!-- Slide counter -->
@@ -159,205 +162,171 @@
             </div>
         </div>
 
-        <!-- Outline Modal -->
-        <div id="outlineModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center">
-            <div class="bg-white rounded-2xl p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto">
-                <div class="flex justify-between items-center mb-4">
-                    <h2 class="text-2xl font-bold text-indigo-600">Mục lục bài học</h2>
-                    <button onclick="toggleOutline()" class="text-gray-500 hover:text-gray-700">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                        </svg>
-                    </button>
-                </div>
-                <div class="prose prose-lg max-w-none">
-                    <h3 class="text-xl font-bold text-indigo-600 mb-4">Đại từ nhân xưng (Personal Pronouns)</h3>
-                                        
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(0)">
-                        <h4 class="text-lg font-bold text-indigo-500">1. Giới thiệu bài học</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Mục tiêu bài học
-                                <ul class="list-disc pl-6 mt-2">
-                                    <li>Hiểu khái niệm đại từ nhân xưng</li>
-                                    <li>Phân biệt đại từ chủ ngữ và tân ngữ</li>
-                                    <li>Biết cách sử dụng đại từ nhân xưng</li>
-                                </ul>
-                            </li>
+<!-- Outline Modal -->
+<div id="outlineModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center">
+    <div class="bg-white rounded-2xl p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-2xl font-bold text-indigo-700">Nội dung bài học</h2>
+            <button onclick="toggleOutline()" class="text-gray-500 hover:text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <div class="prose prose-lg max-w-none">
+            <h3 class="text-xl font-bold text-indigo-600 mb-4">Đại Từ Nhân Xưng</h3>
+            
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(0)">
+                <h4 class="text-lg font-bold text-indigo-500">1. Giới thiệu</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Mục tiêu bài học:
+                        <ul class="list-disc pl-6 mt-2">
+                            <li>Hiểu khái niệm đại từ nhân xưng</li>
+                            <li>Phân biệt đại từ chủ ngữ và tân ngữ</li>
+                            <li>Biết cách sử dụng đại từ nhân xưng</li>
+                            <li>Thực hành qua các bài tập ứng dụng</li>
                         </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(1)">
-                        <h4 class="text-lg font-bold text-indigo-500">2. Đại từ nhân xưng là gì?</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Khái niệm đại từ nhân xưng</li>
-                            <li>Vai trò trong câu</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(2)">
-                        <h4 class="text-lg font-bold text-indigo-500">3. Đại từ nhân xưng chủ ngữ (Phần 1)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>I, you, we</li>
-                            <li>Vị trí trong câu</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(3)">
-                        <h4 class="text-lg font-bold text-indigo-500">4. Đại từ nhân xưng chủ ngữ (Phần 2)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>He, she, it, they</li>
-                            <li>Ví dụ minh họa</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(4)">
-                        <h4 class="text-lg font-bold text-indigo-500">5. Bài tập 1: Chọn đại từ chủ ngữ (Câu 1)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền đại từ vào chỗ trống</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(5)">
-                        <h4 class="text-lg font-bold text-indigo-500">6. Bài tập 1: Chọn đại từ chủ ngữ (Câu 2)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền đại từ vào chỗ trống</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(6)">
-                        <h4 class="text-lg font-bold text-indigo-500">7. Đại từ nhân xưng tân ngữ (Phần 1)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Me, you, us</li>
-                            <li>Vị trí trong câu</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(7)">
-                        <h4 class="text-lg font-bold text-indigo-500">8. Đại từ nhân xưng tân ngữ (Phần 2)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Him, her, it, them</li>
-                            <li>Ví dụ minh họa</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(8)">
-                        <h4 class="text-lg font-bold text-indigo-500">9. Bài tập 2: Chọn đại từ tân ngữ (Câu 1)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền đại từ vào chỗ trống</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(9)">
-                        <h4 class="text-lg font-bold text-indigo-500">10. Bài tập 2: Chọn đại từ tân ngữ (Câu 2)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền đại từ vào chỗ trống</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(10)">
-                        <h4 class="text-lg font-bold text-indigo-500">11. So sánh chủ ngữ và tân ngữ</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Bảng so sánh</li>
-                            <li>Quy tắc chuyển đổi</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(11)">
-                        <h4 class="text-lg font-bold text-indigo-500">12. Bài tập 3: Phân biệt chủ ngữ/tân ngữ (Câu 1)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Chọn đại từ đúng</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(12)">
-                        <h4 class="text-lg font-bold text-indigo-500">13. Bài tập 3: Phân biệt chủ ngữ/tân ngữ (Câu 2)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Chọn đại từ đúng</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(13)">
-                        <h4 class="text-lg font-bold text-indigo-500">14. Bài tập 4: Viết lại câu (Câu 1)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Thay thế danh từ bằng đại từ</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(14)">
-                        <h4 class="text-lg font-bold text-indigo-500">15. Bài tập 4: Viết lại câu (Câu 2)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Thay thế danh từ bằng đại từ</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(15)">
-                        <h4 class="text-lg font-bold text-indigo-500">16. Bài tập 5: Sắp xếp từ thành câu (Câu 1)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Sắp xếp các từ thành câu hoàn chỉnh</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(16)">
-                        <h4 class="text-lg font-bold text-indigo-500">17. Bài tập 5: Sắp xếp từ thành câu (Câu 2)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Sắp xếp các từ thành câu hoàn chỉnh</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(17)">
-                        <h4 class="text-lg font-bold text-indigo-500">18. Mẹo nhớ nhanh</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Quy tắc dễ nhớ</li>
-                            <li>Ví dụ minh họa</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(18)">
-                        <h4 class="text-lg font-bold text-indigo-500">19. Bài tập tổng hợp 1 (Phần 1)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền đại từ vào đoạn văn</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(19)">
-                        <h4 class="text-lg font-bold text-indigo-500">20. Bài tập tổng hợp 1 (Phần 2)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền đại từ vào đoạn văn</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(20)">
-                        <h4 class="text-lg font-bold text-indigo-500">21. Bài tập tổng hợp 1 (Phần 3)</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Điền đại từ vào đoạn văn</li>
-                        </ul>
-                    </div>
-
-                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(21)">
-                        <h4 class="text-lg font-bold text-indigo-500">22. Tổng kết bài học</h4>
-                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Kiến thức trọng tâm</li>
-                            <li>Mẹo nhớ nhanh</li>
-                        </ul>
-                    </div>
-                </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(1)">
+                <h4 class="text-lg font-bold text-indigo-500">2. Đại từ nhân xưng là gì?</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Khái niệm, vai trò, ví dụ minh họa</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(2)">
+                <h4 class="text-lg font-bold text-indigo-500">3. Đại từ chủ ngữ (Phần 1)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Định nghĩa, vị trí, ví dụ: I, You, We</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(3)">
+                <h4 class="text-lg font-bold text-indigo-500">4. Đại từ chủ ngữ (Phần 2)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>He, She, They, It - ví dụ minh họa</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(4)">
+                <h4 class="text-lg font-bold text-indigo-500">5. Bài tập 1: Chọn đại từ chủ ngữ (Câu 1)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Chọn đại từ chủ ngữ đúng cho câu</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(5)">
+                <h4 class="text-lg font-bold text-indigo-500">6. Bài tập 1: Chọn đại từ chủ ngữ (Câu 2)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Chọn đại từ chủ ngữ đúng cho câu</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(6)">
+                <h4 class="text-lg font-bold text-indigo-500">7. Đại từ tân ngữ (Phần 1)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Định nghĩa, vị trí, ví dụ: Me, You, Us</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(7)">
+                <h4 class="text-lg font-bold text-indigo-500">8. Đại từ tân ngữ (Phần 2)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Him, Her, Them, It - ví dụ minh họa</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(8)">
+                <h4 class="text-lg font-bold text-indigo-500">9. Bài tập 2: Chọn đại từ tân ngữ (Câu 1)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Chọn đại từ tân ngữ đúng cho câu</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(9)">
+                <h4 class="text-lg font-bold text-indigo-500">10. Bài tập 2: Chọn đại từ tân ngữ (Câu 2)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Chọn đại từ tân ngữ đúng cho câu</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(10)">
+                <h4 class="text-lg font-bold text-indigo-500">11. So sánh đại từ chủ ngữ và tân ngữ</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Bảng so sánh, ví dụ minh họa</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(11)">
+                <h4 class="text-lg font-bold text-indigo-500">12. Bài tập 3: Phân biệt chủ ngữ/tân ngữ (Câu 1)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Chọn đại từ đúng dạng cho câu</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(12)">
+                <h4 class="text-lg font-bold text-indigo-500">13. Bài tập 3: Phân biệt chủ ngữ/tân ngữ (Câu 2)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Chọn đại từ đúng dạng cho câu</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(13)">
+                <h4 class="text-lg font-bold text-indigo-500">14. Bài tập 4: Viết lại câu (Câu 1)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Thay thế danh từ bằng đại từ thích hợp</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(14)">
+                <h4 class="text-lg font-bold text-indigo-500">15. Bài tập 4: Viết lại câu (Câu 2)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Thay thế danh từ bằng đại từ thích hợp</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(15)">
+                <h4 class="text-lg font-bold text-indigo-500">16. Bài tập 5: Sắp xếp từ (Câu 1)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Sắp xếp từ thành câu hoàn chỉnh</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(16)">
+                <h4 class="text-lg font-bold text-indigo-500">17. Bài tập 5: Sắp xếp từ (Câu 2)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Sắp xếp từ thành câu hoàn chỉnh</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(17)">
+                <h4 class="text-lg font-bold text-indigo-500">18. Bài tập tổng hợp 1 (Phần 1)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Điền đại từ thích hợp vào đoạn văn</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(18)">
+                <h4 class="text-lg font-bold text-indigo-500">19. Bài tập tổng hợp 1 (Phần 2)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Điền đại từ thích hợp vào đoạn văn</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(19)">
+                <h4 class="text-lg font-bold text-indigo-500">20. Bài tập tổng hợp 1 (Phần 3)</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Điền đại từ thích hợp vào đoạn văn</li>
+                </ul>
+            </div>
+            <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(20)">
+                <h4 class="text-lg font-bold text-indigo-500">21. Kết thúc</h4>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Tổng kết bài học, chúc mừng hoàn thành</li>
+                </ul>
             </div>
         </div>
+    </div>
+</div>
                 
         <!-- Slides container -->
-        <div class="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
+        <div class="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl text-2xl">
 
             <!-- Slide 1: Title -->
             <div class="slide active content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col items-center justify-start h-full text-center">
-                    <h1 class="text-2xl font-bold text-indigo-700 mb-8">GRAMMAR FOR PRE-GRADE 6</h1>
+                    <h1 class="text-2xl font-bold text-indigo-700 mb-8">GRAMMAR FOR PRE-GRADE 7</h1>
                     <div
-                        class="bg-yellow-400 text-2xl md:text-4xl font-bold px-6 py-3 rounded-full mb-5 shadow-lg floating">
+                        class="bg-yellow-400 text-2xl md:text-3xl font-bold px-6 py-3 rounded-full mb-5 shadow-lg floating">
                         ĐẠI TỪ NHÂN XƯNG (PERSONAL PRONOUNS)
                     </div>
                     <div class="flex flex-col md:flex-row items-center justify-center gap-8">
                         <div class="mt-6 flex justify-center">
-                            <img src="https://images.unsplash.com/photo-1579461371283-a7d1bd4a2ce5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Grammar Learning" class="object-cover h-52 rounded-xl floating">
+                            <img src="/assets/images/grammar.jpg" alt="Grammar Learning" class="object-cover h-52 floating">
                         </div>
                         <div class="bg-gradient-to-r from-indigo-100 to-green-200 border-l-4 border-indigo-500 py-5 px-10 text-left rounded-2xl text-xl">
                             <p class="font-bold text-indigo-800">Mục tiêu bài học:</p>
@@ -377,7 +346,7 @@
 
             <!-- Slide 2: Khái niệm đại từ nhân xưng -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">1. Đại từ nhân xưng là gì?</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Đại từ nhân xưng là gì?</h2>
                 <div class="flex flex-col md:flex-row items-start justify-around gap-8">
                     <div class="flex-1">
                         <div class="bg-white p-6 rounded-xl shadow-md mb-4">
@@ -407,24 +376,24 @@
 
             <!-- Slide 3: Đại từ chủ ngữ - Phần 1 -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">2. Đại từ nhân xưng chủ ngữ</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Đại từ nhân xưng chủ ngữ</h2>
                 
                 <div class="flex flex-col md:flex-row gap-8">
                     <div class="flex-1">
                         <div class="bg-white p-6 rounded-xl shadow-md">
                             <p class="text-2xl mb-4">Đại từ chủ ngữ (Subject pronouns) đứng ở vị trí <span class="highlight">chủ ngữ</span> trong câu, trước động từ.</p>
                             
-                            <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-4">
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">I</p>
+                                    <p class="text-3xl font-bold">I</p>
                                     <p class="text-lg">Tôi / Tớ / Mình</p>
                                 </div>
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">You</p>
+                                    <p class="text-3xl font-bold">You</p>
                                     <p class="text-lg">Bạn / Mày / Em</p>
                                 </div>
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">We</p>
+                                    <p class="text-3xl font-bold">We</p>
                                     <p class="text-lg">Chúng tôi</p>
                                 </div>
                             </div>
@@ -444,26 +413,26 @@
 
             <!-- Slide 4: Đại từ chủ ngữ - Phần 2 -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">2. Đại từ nhân xưng chủ ngữ (tiếp)</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Đại từ nhân xưng chủ ngữ (tiếp)</h2>
                 
                 <div class="flex flex-col md:flex-row gap-8">
                     <div class="flex-1">
                         <div class="bg-white p-6 rounded-xl shadow-md">
-                            <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">He</p>
+                                    <p class="text-3xl font-bold">He</p>
                                     <p class="text-lg">Anh ấy / Cậu ấy</p>
                                 </div>
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">She</p>
+                                    <p class="text-3xl font-bold">She</p>
                                     <p class="text-lg">Cô ấy / Chị ấy</p>
                                 </div>
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">They</p>
+                                    <p class="text-3xl font-bold">They</p>
                                     <p class="text-lg">Họ</p>
                                 </div>
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">It</p>
+                                    <p class="text-3xl font-bold">It</p>
                                     <p class="text-lg">Nó / Đó (vật)</p>
                                 </div>
                             </div>
@@ -548,24 +517,24 @@
 
             <!-- Slide 7: Đại từ tân ngữ - Phần 1 -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">3. Đại từ nhân xưng tân ngữ</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Đại từ nhân xưng tân ngữ</h2>
                 
                 <div class="flex flex-col md:flex-row gap-8">
                     <div class="flex-1">
                         <div class="bg-white p-6 rounded-xl shadow-md">
                             <p class="text-2xl mb-4">Đại từ tân ngữ (Object pronouns) đứng ở vị trí <span class="highlight">tân ngữ</span> trong câu, sau động từ.</p>
                             
-                            <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-4">
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">Me</p>
+                                    <p class="text-3xl font-bold">Me</p>
                                     <p class="text-lg">Tôi / Tớ / Mình</p>
                                 </div>
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">You</p>
+                                    <p class="text-3xl font-bold">You</p>
                                     <p class="text-lg">Bạn / Mày / Em</p>
                                 </div>
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">Us</p>
+                                    <p class="text-3xl font-bold">Us</p>
                                     <p class="text-lg">Chúng tôi</p>
                                 </div>
                             </div>
@@ -585,26 +554,26 @@
 
             <!-- Slide 8: Đại từ tân ngữ - Phần 2 -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">3. Đại từ nhân xưng tân ngữ (tiếp)</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Đại từ nhân xưng tân ngữ (tiếp)</h2>
                 
                 <div class="flex flex-col md:flex-row gap-8">
                     <div class="flex-1">
                         <div class="bg-white p-6 rounded-xl shadow-md">
-                            <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">Him</p>
+                                    <p class="text-3xl font-bold">Him</p>
                                     <p class="text-lg">Anh ấy / Cậu ấy</p>
                                 </div>
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">Her</p>
+                                    <p class="text-3xl font-bold">Her</p>
                                     <p class="text-lg">Cô ấy / Chị ấy</p>
                                 </div>
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">Them</p>
+                                    <p class="text-3xl font-bold">Them</p>
                                     <p class="text-lg">Họ</p>
                                 </div>
                                 <div class="pronoun-card bg-indigo-100 p-4 rounded-lg text-center" onclick="selectCard(this)">
-                                    <p class="text-4xl font-bold">It</p>
+                                    <p class="text-3xl font-bold">It</p>
                                     <p class="text-lg">Nó / Đó (vật)</p>
                                 </div>
                             </div>
@@ -689,58 +658,51 @@
 
             <!-- Slide 11: So sánh chủ ngữ và tân ngữ -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">4. So sánh đại từ chủ ngữ và tân ngữ</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">So sánh đại từ chủ ngữ và tân ngữ</h2>
                 
                 <div class="flex flex-col items-center justify-start">
                     <div class="w-full bg-white p-3 rounded-xl shadow-md">
                         <table class="w-full text-center text-lg">
                             <thead>
                                 <tr class="bg-indigo-100">
-                                    <th class="p-3">Người/Vật</th>
-                                    <th class="p-3">Chủ ngữ</th>
-                                    <th class="p-3">Tân ngữ</th>
+                                    <th class="p-2">Người/Vật</th>
+                                    <th class="p-2">Chủ ngữ</th>
+                                    <th class="p-2">Tân ngữ</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr class="border-b">
-                                    <td class="p-3 text-left">Người nói</td>
-                                    <td class="p-3 font-bold">I</td>
-                                    <td class="p-3 font-bold">me</td>
+                                    <td class="p-2 text-left">Người nói</td>
+                                    <td class="p-2 font-bold">I</td>
+                                    <td class="p-2 font-bold">me</td>
                                 </tr>
                                 <tr class="border-b">
-                                    <td class="p-3 text-left">Người nghe</td>
-                                    <td class="p-3 font-bold">you</td>
-                                    <td class="p-3 font-bold">you</td>
+                                    <td class="p-2 text-left">Người nghe</td>
+                                    <td class="p-2 font-bold">you</td>
+                                    <td class="p-2 font-bold">you</td>
                                 </tr>
                                 <tr class="border-b">
-                                    <td class="p-3 text-left">Người nam</td>
-                                    <td class="p-3 font-bold">he</td>
-                                    <td class="p-3 font-bold">him</td>
+                                    <td class="p-2 text-left">Người nam</td>
+                                    <td class="p-2 font-bold">he</td>
+                                    <td class="p-2 font-bold">him</td>
                                 </tr>
                                 <tr class="border-b">
-                                    <td class="p-3 text-left">Người nữ</td>
-                                    <td class="p-3 font-bold">she</td>
-                                    <td class="p-3 font-bold">her</td>
+                                    <td class="p-2 text-left">Người nữ</td>
+                                    <td class="p-2 font-bold">she</td>
+                                    <td class="p-2 font-bold">her</td>
                                 </tr>
                                 <tr class="border-b">
-                                    <td class="p-3 text-left">Vật/con vật</td>
-                                    <td class="p-3 font-bold">it</td>
-                                    <td class="p-3 font-bold">it</td>
+                                    <td class="p-2 text-left">Vật/con vật</td>
+                                    <td class="p-2 font-bold">it</td>
+                                    <td class="p-2 font-bold">it</td>
                                 </tr>
                                 <tr class="border-b">
-                                    <td class="p-3 text-left">Nhiều người/vật</td>
-                                    <td class="p-3 font-bold">we, they</td>
-                                    <td class="p-3 font-bold">us, them</td>
+                                    <td class="p-2 text-left">Nhiều người/vật</td>
+                                    <td class="p-2 font-bold">we, they</td>
+                                    <td class="p-2 font-bold">us, them</td>
                                 </tr>
                             </tbody>
                         </table>
-                        
-                        <div class="mt-6 bg-yellow-100 p-4 rounded-lg">
-                            <p class="font-bold text-yellow-800 text-xl">Quy tắc chuyển đổi:</p>
-                            <p class="text-xl">
-                                Dạng <span class="highlight">tân ngữ</span> thường được chuyển từ dạng <span class="highlight">chủ ngữ</span> bằng cách thêm <span class="font-bold">-m</span> (I → me, they → them) hoặc thay đổi từ cuối (he → him, she → her).
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -914,40 +876,6 @@
                 </div>
             </div>
 
-            <!-- Slide 18: Mẹo nhớ nhanh -->
-            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">6. Mẹo nhớ nhanh đại từ nhân xưng</h2>
-                
-                <div class="flex flex-col items-center justify-start">
-                    <div class="w-full max-w-2xl bg-white p-6 rounded-xl shadow-md">
-                        <div class="bg-gradient-to-r from-indigo-500 to-purple-500 text-white p-4 rounded-lg mb-6">
-                            <p class="text-2xl text-center font-bold">Câu thần chú nhớ đại từ nhân xưng</p>
-                        </div>
-                        
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div class="bg-yellow-100 p-4 rounded-lg">
-                                <p class="text-xl font-bold text-yellow-800">CHỦ NGỮ:</p>
-                                <p class="text-lg mt-2">
-                                    "Tôi (I), bạn (you), anh ta (he)<br>
-                                    Cô ta (she), nó (it) không thể quên<br>
-                                    Chúng tôi (we), họ (they) phân minh<br>
-                                    Chủ ngữ luôn luôn đứng đầu câu!"
-                                </p>
-                            </div>
-                            
-                            <div class="bg-green-100 p-4 rounded-lg">
-                                <p class="text-xl font-bold text-green-800">TÂN NGỮ:</p>
-                                <p class="text-lg mt-2">
-                                    "Tôi (me), bạn (you), anh ta (him)<br>
-                                    Cô ta (her), nó (it) cũng tương tự<br>
-                                    Chúng tôi (us), họ (them) không nhầm<br>
-                                    Tân ngữ đứng sau động từ!"
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <!-- Slide 19: Bài tập tổng hợp 1 (Phần 1) -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
@@ -1010,75 +938,21 @@
                 </div>
             </div>
 
-            <!-- Slide 22: Tổng kết -->
-            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
-                <div class="flex flex-col items-center justify-start h-full">
-                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-5">Tổng kết bài học</h2>
-                    
-                    <div class="w-full bg-white p-6 rounded-xl shadow-md">
-                        <div class="bg-blue-50 p-4 rounded-lg mb-6">
-                            <p class="text-xl font-bold text-blue-800 text-center">Kiến thức trọng tâm về đại từ nhân xưng</p>
-                        </div>
-                        
-                        <div class="space-y-4">
-                            <div class="bg-indigo-50 p-4 rounded-lg">
-                                <p class="text-xl font-bold text-indigo-800">1. Đại từ chủ ngữ</p>
-                                <ul class="list-disc pl-6 mt-2 space-y-2">
-                                    <li>I, you, he, she, it, we, they</li>
-                                    <li>Đứng đầu câu, trước động từ</li>
-                                    <li>Làm chủ cho hành động trong câu</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="bg-green-50 p-4 rounded-lg">
-                                <p class="text-xl font-bold text-green-800">2. Đại từ tân ngữ</p>
-                                <ul class="list-disc pl-6 mt-2 space-y-2">
-                                    <li>me, you, him, her, it, us, them</li>
-                                    <li>Đứng sau động từ, nhận tác động của hành động</li>
-                                    <li>Là đối tượng bị tác động trong câu</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="bg-yellow-50 p-4 rounded-lg">
-                                <p class="text-xl font-bold text-yellow-800">3. Cách phân biệt</p>
-                                <ul class="list-disc pl-6 mt-2 space-y-2">
-                                    <li>Chủ ngữ: ai/những ai làm gì (đứng đầu câu)</li>
-                                    <li>Tân ngữ: ai/những ai bị làm gì (sau động từ)</li>
-                                    <li>You và It có cùng dạng chủ ngữ và tân ngữ</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="bg-purple-50 p-4 rounded-lg">
-                                <p class="text-xl font-bold text-purple-800">4. Quy tắc quan trọng</p>
-                                <ul class="list-disc pl-6 mt-2 space-y-2">
-                                    <li>Luôn dùng đại từ để thay thế danh từ đã nhắc đến</li>
-                                    <li>Phân biệt rõ đại từ chủ ngữ và tân ngữ</li>
-                                    <li>Không dùng danh từ khi đã dùng đại từ thay thế</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!-- Slide 23: Kết thúc -->
             <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
                 <div class="flex flex-col items-center justify-start h-full text-center">
                     <h1 class="text-2xl font-bold text-indigo-700 mb-3">Chúc mừng!</h1>
                     <div class="text-2xl md:text-3xl text-gray-700 mb-3">
                         <p class="mb-4">Bạn đã hoàn thành bài học về</p>
-                        <div class="bg-gradient-to-r from-yellow-400 to-red-500 text-white text-4xl font-bold px-6 py-2 rounded-full inline-block">
+                        <div class="bg-gradient-to-r from-yellow-400 to-red-500 text-white text-3xl font-bold px-6 py-2 rounded-full inline-block">
                             ĐẠI TỪ NHÂN XƯNG
                         </div>
                     </div>
-
-                    <div class="flex justify-center mb-3">
-                        <img src="https://images.unsplash.com/photo-1551033406-611a8e97fd9b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="h-32 rounded-xl object-cover" alt="Celebration Image">
+                    <div class="flex justify-center mb-8">
+                        <img src="/assets/images/celebration_1.jpg" class="h-32 rounded-full object-cover" alt="Celebration Image">
                     </div>
-
-                    <div class="bg-gradient-to-r from-green-400 to-blue-500 text-white p-6 rounded-xl max-w-xl">
+                    <div class="bg-gradient-to-r from-green-400 to-blue-500 text-white p-4 rounded-xl max-w-xl">
                         <p class="text-xl md:text-2xl font-bold mb-2">Hẹn gặp lại trong bài học tiếp theo!</p>
-                        <p class="text-sm mt-2">Grammar for Pre-Secondary</p>
                     </div>
                 </div>
             </div>
