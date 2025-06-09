@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish + Past Simple</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Baloo 2', cursive;
+            transition: background-color 0.5s ease;
+        }
+        
+        .slide {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        
+        .slide.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+        
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.4);
+            overflow-y: auto;
+            padding: 1rem 1rem 2rem 1rem;
+        }
+        
+        .exercise-input {
+            border-bottom: 2px dashed #4f46e5;
+            min-width: 100px;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .exercise-input:focus {
+            outline: none;
+            border-bottom: 2px solid #4f46e5;
+        }
+        
+        .btn-check {
+            background-color: #4f46e5;
+            color: white;
+        }
+        
+        .btn-check:hover {
+            background-color: #4338ca;
+        }
+        
+        .correct {
+            color: #10b981;
+            font-weight: bold;
+        }
+        
+        .incorrect {
+            color: #ef4444;
+            font-weight: bold;
+        }
+        
+        .highlight {
+            background-color: #fef08a;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        
+        .sentence-structure {
+            background-color: #e0e7ff;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+            font-size: 0.9rem;
+        }
+        
+        .keyword-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 9999px;
+            background-color: #ecfdf5;
+            color: #064e3b;
+            font-weight: bold;
+            font-size: 0.8rem;
+            margin: 2px;
+        }
+        
+        .wish-icon {
+            width: 100px;
+            height: 100px;
+            background-color: #a78bfa;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            font-size: 40px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="bg-purple-50 min-h-screen flex items-center justify-center p-2">
+
+    <div class="relative w-full max-w-6xl h-[95vh] mx-auto">
+        <!-- Slide counter -->
+        <div class="absolute bottom-2 sm:bottom-full sm:top-7 right-4 z-50 flex items-center gap-2">
+            <button onclick="showSlide(currentSlide - 1)" class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow-lg font-bold text-indigo-600 hover:bg-indigo-50">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+            </button>
+            <button onclick="showSlide(currentSlide + 1)" class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow-lg font-bold text-indigo-600 hover:bg-indigo-50">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </button>
+            <button onclick="toggleOutline()" class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow-lg font-bold text-indigo-600 hover:bg-indigo-50">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <div class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow-lg font-bold text-indigo-600 text-xs">
+                <span id="slide-counter"></span>
+            </div>
+        </div>
+
+        <!-- Outline Modal -->
+        <div id="outlineModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center">
+            <div class="bg-white rounded-2xl p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-bold text-indigo-700">Nội dung bài học</h2>
+                    <button onclick="toggleOutline()" class="text-gray-500 hover:text-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="prose prose-lg max-w-none">
+                    <h3 class="text-xl font-bold text-indigo-600 mb-4">Wish + Past Simple</h3>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(0)">
+                        <h4 class="text-lg font-bold text-indigo-500">1. Giới thiệu</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Mục tiêu bài học</li>
+                            <li>Khái niệm Wish + Past Simple</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(1)">
+                        <h4 class="text-lg font-bold text-indigo-500">2. Cách dùng cơ bản</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Ước muốn ở hiện tại</li>
+                            <li>Tình huống không thực tế</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(2)">
+                        <h4 class="text-lg font-bold text-indigo-500">3. Cấu trúc cơ bản</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>S + wish(es) + S + V2/Ved</li>
+                            <li>Ví dụ minh họa</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(3)">
+                        <h4 class="text-lg font-bold text-indigo-500">4. Bài tập 1: Hoàn thành câu (1/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(4)">
+                        <h4 class="text-lg font-bold text-indigo-500">5. Bài tập 1: Hoàn thành câu (2/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(5)">
+                        <h4 class="text-lg font-bold text-indigo-500">6. Bài tập 1: Hoàn thành câu (3/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(6)">
+                        <h4 class="text-lg font-bold text-indigo-500">7. Động từ TO BE</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Cách dùng were cho tất cả chủ ngữ</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(7)">
+                        <h4 class="text-lg font-bold text-indigo-500">8. Bài tập 2: Chọn động từ (1/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(8)">
+                        <h4 class="text-lg font-bold text-indigo-500">9. Bài tập 2: Chọn động từ (2/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(9)">
+                        <h4 class="text-lg font-bold text-indigo-500">10. Bài tập 2: Chọn động từ (3/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(10)">
+                        <h4 class="text-lg font-bold text-indigo-500">11. Phân biệt với If only</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Cấu trúc tương tự nhưng mạnh hơn</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(11)">
+                        <h4 class="text-lg font-bold text-indigo-500">12. Bài tập 3: Viết lại câu (1/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(12)">
+                        <h4 class="text-lg font-bold text-indigo-500">13. Bài tập 3: Viết lại câu (2/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(13)">
+                        <h4 class="text-lg font-bold text-indigo-500">14. Bài tập 3: Viết lại câu (3/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(14)">
+                        <h4 class="text-lg font-bold text-indigo-500">15. Phân biệt với Hope</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>Hope + Present/Future</li>
+                            <li>Sự khác biệt về ý nghĩa</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(15)">
+                        <h4 class="text-lg font-bold text-indigo-500">16. Bài tập 4: Chọn Wish/Hope (1/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(16)">
+                        <h4 class="text-lg font-bold text-indigo-500">17. Bài tập 4: Chọn Wish/Hope (2/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(17)">
+                        <h4 class="text-lg font-bold text-indigo-500">18. Bài tập 4: Chọn Wish/Hope (3/3)</h4>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(18)">
+                        <h4 class="text-lg font-bold text-indigo-500">19. Tổng kết bài học</h4>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                            <li>3 điểm chính cần nhớ</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="outline-item hover:bg-indigo-50 p-2 rounded cursor-pointer transition-colors" onclick="goToSlide(19)">
+                        <h4 class="text-lg font-bold text-indigo-500">20. Bài tập tổng hợp</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slides container -->
+        <div class="relative w-full h-full overflow-hidden rounded-2xl shadow-2xl">
+            <!-- Slide 1: Title -->
+            <div class="slide active content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col items-center justify-start h-full text-center">
+                    <h1 class="text-3xl font-bold text-purple-700 mb-8">CẤU TRÚC WISH + PAST SIMPLE</h1>
+                    
+                    <div class="wish-icon floating mb-6">⭐️</div>
+                    
+                    <div class="bg-gradient-to-tr from-purple-200 to-pink-200 text-3xl md:text-4xl font-bold px-6 py-3 rounded-full mb-10 shadow-lg">
+                        ƯỚC MUỐN Ở HIỆN TẠI
+                    </div>
+                    
+                    <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+                        <div class="mt-6 flex justify-center">
+                            <img src="https://images.unsplash.com/photo-1566438480900-0609be27a4be?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Wish" class="object-cover h-52 rounded-xl shadow-md floating">
+                        </div>
+                        <div class="bg-gradient-to-r from-purple-100 to-pink-100 border-l-4 border-purple-500 py-5 px-10 text-left rounded-2xl text-xl">
+                            <p class="font-bold text-purple-800">Mục tiêu bài học:</p>
+                            <ul class="list-disc pl-5 text-gray-700 text-xl">
+                                <li>Hiểu cách dùng Wish + Past Simple</li>
+                                <li>Nắm vững cấu trúc câu cơ bản</li>
+                                <li>Phân biệt với If only và Hope</li>
+                                <li>Làm bài tập thành thạo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Basic Usage -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Cách dùng cơ bản</h2>
+                <div class="flex flex-col md:flex-row items-start justify-around gap-8">
+                    <div class="flex-1">
+                        <div class="bg-white p-3 rounded-xl shadow-md">
+                            <div class="bg-pink-100 p-4 rounded-lg border-l-4 border-pink-500 mb-6">
+                                <p class="text-2xl font-bold text-purple-800">Wish + Past Simple = Ước muốn không có thật ở hiện tại</p>
+                                <p class="text-xl">Diễn tả mong muốn thay đổi tình huống hiện tại (trái với thực tế)</p>
+                            </div>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <div class="bg-purple-50 p-4 rounded-lg">
+                                    <p class="text-xl font-bold mb-2">Ví dụ thực tế:</p>
+                                    <p class="text-xl">"I don't have a car."</p>
+                                    <p class="text-2xl mt-2">→ <span class="highlight">I wish I had a car.</span></p>
+                                    <p class="text-gray-600">(Thực tế: Tôi không có xe hơi)</p>
+                                </div>
+                                
+                                <div class="bg-blue-50 p-4 rounded-lg">
+                                    <p class="text-xl font-bold mb-2">Ví dụ thực tế:</p>
+                                    <p class="text-xl">"I'm not tall."</p>
+                                    <p class="text-2xl mt-2">→ <span class="highlight">I wish I were taller.</span></p>
+                                    <p class="text-gray-600">(Thực tế: Tôi không cao)</p>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-yellow-100 p-4 rounded-lg border-l-4 border-yellow-500">
+                                <p class="font-bold text-yellow-800 text-xl">Ghi nhớ:</p>
+                                <p class="text-xl"><span class="highlight">Wish + Past Simple</span> dùng để ước điều KHÔNG CÓ THẬT ở hiện tại</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Basic Structure -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Cấu trúc cơ bản</h2>
+                <div class="flex flex-col md:flex-row items-start justify-around gap-8">
+                    <div class="flex-1">
+                        <div class="bg-white p-3 rounded-xl shadow-md">
+                            <div class="sentence-structure text-center mb-6">
+                                <p class="font-bold text-2xl">S + wish(es) + (that) + S + V2/Ved</p>
+                            </div>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <p class="text-xl font-bold mb-2">Công thức:</p>
+                                    <ul class="list-disc pl-5 space-y-2">
+                                        <li>Chủ ngữ 1 + <span class="highlight">wish</span></li>
+                                        <li>Chủ ngữ 2 + <span class="highlight">V quá khứ đơn</span></li>
+                                        <li>That có thể lược bỏ</li>
+                                    </ul>
+                                </div>
+                                
+                                <div>
+                                    <p class="text-xl font-bold mb-2">Chú ý:</p>
+                                    <ul class="list-disc pl-5 space-y-2">
+                                        <li>Không chia "wish" theo thì quá khứ</li>
+                                        <li>Chia động từ sau wish ở quá khứ đơn</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-indigo-100 p-4 rounded-lg">
+                                <p class="font-bold text-indigo-800 text-xl mb-3">Ví dụ:</p>
+                                <ul class="list-disc pl-5 space-y-2">
+                                    <li>I <span class="highlight">wish</span> I <span class="highlight">had</span> more free time.</li>
+                                    <li>She <span class="highlight">wishes</span> she <span class="highlight">knew</span> the answer.</li>
+                                    <li>We <span class="highlight">wish</span> we <span class="highlight">could</span> travel more.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Exercise 1 Part 1 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 1: Hoàn thành câu (1/3)</h2>
+                    <p class="text-2xl mb-8">Dùng Wish + Past Simple để viết lại câu sau:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">I don't have a job. (I wish...)</p>
+                            <p>→ <span class="exercise-input" contenteditable="true" data-answer="I wish I had a job"></span>.</p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 bg-purple-100 p-4 rounded-lg">
+                        <p class="font-bold text-purple-800 text-xl">Nhắc lại cấu trúc:</p>
+                        <p class="text-xl">S + wish + S + V-quá khứ</p>
+                        <p class="text-xl">I don't have ➜ I wish I had</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Exercise 1 Part 2 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 1: Hoàn thành câu (2/3)</h2>
+                    <p class="text-2xl mb-8">Dùng Wish + Past Simple để viết lại câu sau:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">She doesn't speak French. (She wishes...)</p>
+                            <p>→ <span class="exercise-input" contenteditable="true" data-answer="She wishes she spoke French"></span>.</p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 bg-purple-100 p-4 rounded-lg">
+                        <p class="font-bold text-purple-800 text-xl">Nhắc lại cấu trúc:</p>
+                        <p class="text-xl">S + wish + S + V-quá khứ</p>
+                        <p class="text-xl">speak ➜ spoke (bất quy tắc)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Exercise 1 Part 3 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 1: Hoàn thành câu (3/3)</h2>
+                    <p class="text-2xl mb-8">Dùng Wish + Past Simple để viết lại câu sau:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">It's raining now. (I wish...)</p>
+                            <p>→ <span class="exercise-input" contenteditable="true" data-answer="I wish it weren't raining"></span>.</p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 bg-purple-100 p-4 rounded-lg">
+                        <p class="font-bold text-purple-800 text-xl">Nhắc lại cấu trúc:</p>
+                        <p class="text-xl">S + wish + S + V-quá khứ</p>
+                        <p class="text-xl">is ➜ were (dùng cho tất cả chủ ngữ)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: TO BE -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Cách dùng TO BE</h2>
+                <div class="flex flex-col md:flex-row items-start justify-around gap-8">
+                    <div class="flex-1">
+                        <div class="bg-white p-3 rounded-xl shadow-md">
+                            <div class="bg-yellow-100 p-4 rounded-lg border-l-4 border-yellow-500 mb-6">
+                                <p class="text-2xl font-bold text-purple-800">Động từ TO BE sau Wish luôn là WERE với tất cả chủ ngữ</p>
+                                <p class="text-xl">(Hiện đại có thể dùng was với I/he/she/it nhưng trong ngữ pháp truyền thống luôn dùng were)</p>
+                            </div>
+                            
+                            <div class="grid grid-cols-1 gap-4 mb-6">
+                                <div class="bg-blue-50 p-4 rounded-lg">
+                                    <p class="text-xl font-bold mb-2">Ví dụ:</p>
+                                    <p class="text-2xl">I wish I <span class="highlight">were</span> taller.</p>
+                                    <p class="text-gray-600">(Thay vì: I wish I was taller)</p>
+                                </div>
+                                
+                                <div class="bg-purple-50 p-4 rounded-lg">
+                                    <p class="text-xl font-bold mb-2">Ví dụ:</p>
+                                    <p class="text-2xl">She wishes she <span class="highlight">were</span> at home now.</p>
+                                    <p class="text-gray-600">(Thay vì: She wishes she was...)</p>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-green-100 p-4 rounded-lg border-l-4 border-green-500">
+                                <p class="font-bold text-green-800 text-xl">Ghi nhớ:</p>
+                                <p class="text-xl">Trong câu Wish, <span class="highlight">luôn dùng were</span> thay cho was với tất cả chủ ngữ</p>
+                                <p class="text-xl">(Đây là cách dùng chuẩn ngữ pháp)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Exercise 2 Part 1 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 2: Chọn động từ (1/3)</h2>
+                    <p class="text-2xl mb-8">Chọn động từ thích hợp:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">I wish I ______ more money.</p>
+                            <p>
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1 text-2xl" data-answer="had">
+                                    <option value="">Chọn...</option>
+                                    <option value="have">have</option>
+                                    <option value="had">had</option>
+                                    <option value="would have">would have</option>
+                                </select>
+                            </p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Exercise 2 Part 2 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 2: Chọn động từ (2/3)</h2>
+                    <p class="text-2xl mb-8">Chọn động từ thích hợp:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">She wishes she ______ taller.</p>
+                            <p>
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1 text-2xl" data-answer="were">
+                                    <option value="">Chọn...</option>
+                                    <option value="is">is</option>
+                                    <option value="was">was</option>
+                                    <option value="were">were</option>
+                                </select>
+                            </p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 bg-purple-100 p-4 rounded-lg">
+                        <p class="font-bold text-purple-800 text-xl">Nhắc lại:</p>
+                        <p class="text-xl">TO BE sau wish luôn là <span class="highlight">were</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Exercise 2 Part 3 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 2: Chọn động từ (3/3)</h2>
+                    <p class="text-2xl mb-8">Chọn động từ thích hợp:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">They wish they ______ their grandparents more often.</p>
+                            <p>
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1 text-2xl" data-answer="visited">
+                                    <option value="">Chọn...</option>
+                                    <option value="visit">visit</option>
+                                    <option value="visited">visited</option>
+                                    <option value="would visit">would visit</option>
+                                </select>
+                            </p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 bg-purple-100 p-4 rounded-lg">
+                        <p class="font-bold text-purple-800 text-xl">Nhắc lại:</p>
+                        <p class="text-xl">visit ➜ visited (V2)</p>
+                        <p class="text-xl">Dùng Past Simple sau wish</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: If only -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Phân biệt với If only</h2>
+                <div class="flex flex-col md:flex-row items-start justify-around gap-8">
+                    <div class="flex-1">
+                        <div class="bg-white p-3 rounded-xl shadow-md">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-blue-50 p-4 rounded-lg">
+                                    <p class="text-2xl font-bold text-purple-800 mb-3">WISH</p>
+                                    <ul class="list-disc pl-5 space-y-2">
+                                        <li>Mang tính nhẹ nhàng hơn</li>
+                                        <li>S + wish + S + V2</li>
+                                        <li>I wish I had a car.</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="bg-pink-50 p-4 rounded-lg">
+                                    <p class="text-2xl font-bold text-purple-800 mb-3">IF ONLY</p>
+                                    <ul class="list-disc pl-5 space-y-2">
+                                        <li>Mang tính mạnh mẽ, nhấn mạnh hơn</li>
+                                        <li>S + if only + S + V2</li>
+                                        <li>If only I had a car.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-yellow-100 p-4 rounded-lg mt-6 border-l-4 border-yellow-500">
+                                <p class="font-bold text-yellow-800 text-xl">Ghi nhớ:</p>
+                                <p class="text-xl">Cấu trúc tương tự như Wish nhưng <span class="highlight">If only</span> mạnh hơn, thể hiện sự nuối tiếc hoặc mong muốn mãnh liệt</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: Exercise 3 Part 1 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 3: Viết lại câu (1/3)</h2>
+                    <p class="text-2xl mb-8">Viết lại câu sau dùng If only:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">I wish I could swim.</p>
+                            <p>→ <span class="exercise-input" contenteditable="true" data-answer="If only I could swim"></span>.</p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 13: Exercise 3 Part 2 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 3: Viết lại câu (2/3)</h2>
+                    <p class="text-2xl mb-8">Viết lại câu sau dùng If only:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">She wishes she were famous.</p>
+                            <p>→ <span class="exercise-input" contenteditable="true" data-answer="If only she were famous"></span>.</p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 bg-purple-100 p-4 rounded-lg">
+                        <p class="font-bold text-purple-800 text-xl">Chú ý:</p>
+                        <p class="text-xl">Cấu trúc tương tự Wish nhưng mạnh hơn</p>
+                        <p class="text-xl">If only + S + V2</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 14: Exercise 3 Part 3 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 3: Viết lại câu (3/3)</h2>
+                    <p class="text-2xl mb-8">Viết lại câu sau dùng If only:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">We wish we lived by the sea.</p>
+                            <p>→ <span class="exercise-input" contenteditable="true" data-answer="If only we lived by the sea"></span>.</p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkInput(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 15: Hope vs Wish -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Phân biệt với Hope</h2>
+                <div class="flex flex-col md:flex-row items-start justify-around gap-8">
+                    <div class="flex-1">
+                        <div class="bg-white p-3 rounded-xl shadow-md">
+                            <table class="w-full border-collapse text-lg">
+                                <thead>
+                                    <tr class="bg-purple-100">
+                                        <th class="border border-purple-300 p-2">Tiêu chí</th>
+                                        <th class="border border-purple-300 p-2">WISH</th>
+                                        <th class="border border-purple-300 p-2">HOPE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="border border-purple-300 p-2">Ý nghĩa</td>
+                                        <td class="border border-purple-300 p-2">Ước điều không có thật</td>
+                                        <td class="border border-purple-300 p-2">Hy vọng điều có thể xảy ra</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="border border-purple-300 p-2">Thời gian</td>
+                                        <td class="border border-purple-300 p-2">Hiện tại (Past Simple)</td>
+                                        <td class="border border-purple-300 p-2">Tương lai (Present hoặc Future Simple)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-purple-300 p-2">Ví dụ</td>
+                                        <td class="border border-purple-300 p-2">I wish I had more money.</td>
+                                        <td class="border border-purple-300 p-2">I hope I will have more money.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <div class="bg-yellow-100 p-4 rounded-lg mt-6 border-l-4 border-yellow-500">
+                                <p class="font-bold text-yellow-800 text-xl">Ghi nhớ:</p>
+                                <ul class="list-disc pl-5 text-xl space-y-2">
+                                    <li><span class="highlight">Wish</span> + Past Simple: ước hiện tại không thực tế</li>
+                                    <li><span class="highlight">Hope</span> + Present/Future: hy vọng điều có thể xảy ra</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 16: Exercise 4 Part 1 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 4: Chọn Wish/Hope (1/3)</h2>
+                    <p class="text-2xl mb-8">Chọn từ thích hợp điền vào chỗ trống:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">I ______ I can pass the exam tomorrow.</p>
+                            <p>
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1 text-2xl" data-answer="hope">
+                                    <option value="">Chọn...</option>
+                                    <option value="wish">wish</option>
+                                    <option value="hope">hope</option>
+                                </select>
+                            </p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 17: Exercise 4 Part 2 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 4: Chọn Wish/Hope (2/3)</h2>
+                    <p class="text-2xl mb-8">Chọn từ thích hợp điền vào chỗ trống:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">I ______ I had a bigger house.</p>
+                            <p>
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1 text-2xl" data-answer="wish">
+                                    <option value="">Chọn...</option>
+                                    <option value="wish">wish</option>
+                                    <option value="hope">hope</option>
+                                </select>
+                            </p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 bg-purple-100 p-4 rounded-lg">
+                        <p class="font-bold text-purple-800 text-xl">Nhắc lại:</p>
+                        <p class="text-xl">Wish + Past Simple: Ước không thực tế ở hiện tại</p>
+                        <p class="text-xl">Hope + Present/Future: Hy vọng điều có thể xảy ra</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 18: Exercise 4 Part 3 -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập 4: Chọn Wish/Hope (3/3)</h2>
+                    <p class="text-2xl mb-8">Chọn từ thích hợp điền vào chỗ trống:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">She ______ you will come to her party.</p>
+                            <p>
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1 text-2xl" data-answer="hopes">
+                                    <option value="">Chọn...</option>
+                                    <option value="wishes">wishes</option>
+                                    <option value="hopes">hopes</option>
+                                </select>
+                            </p>
+                            <div class="flex items-center space-x-4">
+                                <button onclick="checkSelect(this)" class="btn-check px-4 py-2 rounded-lg font-bold text-nowrap">Kiểm tra</button>
+                                <div class="answer hidden text-2xl"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 19: Summary -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col items-center justify-start h-full text-center">
+                    <h1 class="text-3xl font-bold text-purple-700 mb-10">TÓM TẮT BÀI HỌC</h1>
+                    
+                    <div class="wish-icon floating mb-8">✅</div>
+                    
+                    <div class="max-w-4xl">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                            <div class="bg-purple-100 p-4 rounded-xl">
+                                <h3 class="font-bold text-purple-800 mb-3">Cách dùng</h3>
+                                <ul class="list-disc pl-5 text-left space-y-2 text-lg">
+                                    <li>Ước muốn không thực tế ở hiện tại</li>
+                                    <li>S + wish + S + V2/Ved</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-pink-100 p-4 rounded-xl">
+                                <h3 class="font-bold text-pink-800 mb-3">Cần nhớ</h3>
+                                <ul class="list-disc pl-5 text-left space-y-2 text-lg">
+                                    <li>TO BE ➜ dùng were</li>
+                                    <li>If only: mạnh hơn Wish</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-indigo-100 p-4 rounded-xl">
+                                <h3 class="font-bold text-indigo-800 mb-3">Phân biệt</h3>
+                                <ul class="list-disc pl-5 text-left space-y-2 text-lg">
+                                    <li>Wish: không thực tế</li>
+                                    <li>Hope: có thể xảy ra</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-green-100 p-4 rounded-lg border-l-4 border-green-500 max-w-2xl">
+                        <p class="font-bold text-green-800 text-xl">Câu mẫu để nhớ:</p>
+                        <p class="text-xl">I <span class="highlight">wish</span> I <span class="highlight">were</span> rich, but I <span class="highlight">hope</span> I will be successful.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 20: Final Exercise -->
+            <div class="slide content-box px-5 py-2 rounded-2xl w-full h-full">
+                <div class="flex flex-col h-full">
+                    <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-5">Bài tập tổng hợp</h2>
+                    <p class="text-2xl mb-8">Hoàn thành các câu sau bằng cách chọn đáp án đúng:</p>
+                    
+                    <div class="flex flex-col items-center justify-start gap-6">
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">1. I wish I ______ more free time.</p>
+                            <p>
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1 text-2xl" data-answer="had">
+                                    <option value="">Chọn...</option>
+                                    <option value="have">have</option>
+                                    <option value="had">had</option>
+                                </select>
+                            </p>
+                            <div class="answer hidden text-2xl mt-2"></div>
+                        </div>
+                        
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">2. She wishes she ______ how to drive.</p>
+                            <p>
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1 text-2xl" data-answer="knew">
+                                    <option value="">Chọn...</option>
+                                    <option value="knows">knows</option>
+                                    <option value="knew">knew</option>
+                                </select>
+                            </p>
+                            <div class="answer hidden text-2xl mt-2"></div>
+                        </div>
+                        
+                        <div class="exercise-item bg-white p-3 rounded-xl shadow-md w-full max-w-2xl">
+                            <p class="text-2xl mb-4">3. If only I ______ taller.</p>
+                            <p>
+                                <select class="border-2 border-indigo-300 rounded px-3 py-1 text-2xl" data-answer="were">
+                                    <option value="">Chọn...</option>
+                                    <option value="am">am</option>
+                                    <option value="were">were</option>
+                                </select>
+                            </p>
+                            <div class="answer hidden text-2xl mt-2"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex justify-center mt-6">
+                        <button onclick="checkAllSelects()" class="btn-check px-6 py-3 rounded-lg font-bold text-xl">Kiểm tra tất cả</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Outline Modal functions
+        function toggleOutline() {
+            const modal = document.getElementById('outlineModal');
+            modal.classList.toggle('hidden');
+        }
+
+        function goToSlide(slideNumber) {
+            showSlide(slideNumber);
+            toggleOutline(); // Đóng modal sau khi chuyển slide
+        }
+
+        // Slide management
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        const slideCounter = document.getElementById('slide-counter');
+
+        // Update the counter display with total slides
+        function updateSlideCounter() {
+            slideCounter.textContent = `${currentSlide + 1}/${totalSlides}`;
+        }
+
+        function showSlide(n) {
+            // Hide all slides
+            slides.forEach(slide => {
+                slide.classList.remove('active');
+            });
+
+            // Calculate new slide index
+            currentSlide = (n + totalSlides) % totalSlides;
+
+            // Show new slide
+            slides[currentSlide].classList.add('active');
+
+            // Update slide counter
+            updateSlideCounter();
+        }
+
+        // Initialize
+        showSlide(0);
+
+        // Touch swipe detection
+        let touchStartX = 0;
+        let touchEndX = 0;
+                        
+        document.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, {passive: true});
+
+        document.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }, {passive: true});
+
+        function handleSwipe() {
+            const threshold = 50;
+            const diff = touchStartX - touchEndX;
+            if (diff > threshold) {
+                showSlide(currentSlide + 1);
+            } else if (diff < -threshold) {
+                showSlide(currentSlide - 1);
+            }
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                showSlide(currentSlide + 1);
+            } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                showSlide(currentSlide - 1);
+            }
+        });
+
+        // Exercise functions
+        function checkInput(button) {
+            const exerciseItem = button.closest('.exercise-item');
+            const inputs = exerciseItem.querySelectorAll('.exercise-input');
+            const answerDiv = exerciseItem.querySelector('.answer');
+            let allCorrect = true;
+            let answersHtml = '<div class="space-y-2">';
+
+            inputs.forEach(input => {
+                const userAnswer = input.textContent.trim().toLowerCase();
+                const correctAnswer = input.dataset.answer.toLowerCase();
+                if (userAnswer === correctAnswer) {
+                    answersHtml += `<p class="correct">✓ Đúng: ${input.previousSibling.textContent} <span class="font-bold">${correctAnswer}</span></p>`;
+                    input.style.borderBottom = '2px solid #10b981';
+                } else {
+                    answersHtml += `<p class="incorrect">✗ Sai: ${input.previousSibling.textContent} <span class="font-bold">${correctAnswer}</span> (Bạn điền: ${userAnswer})</p>`;
+                    input.style.borderBottom = '2px solid #ef4444';
+                    allCorrect = false;
+                }
+            });
+
+            answersHtml += '</div>';
+            answerDiv.innerHTML = answersHtml;
+            answerDiv.classList.remove('hidden');
+
+            // Change button to reset button
+            button.textContent = 'Làm lại';
+            button.onclick = function() {
+                resetExercise(button);
+            };
+
+            if (allCorrect) {
+                exerciseItem.classList.add('bg-green-50');
+            }
+        }
+                        
+        function checkSelect(button) {
+            const exerciseItem = button.closest('.exercise-item');
+            const select = exerciseItem.querySelector('select');
+            const answerDiv = exerciseItem.querySelector('.answer');
+            const correctAnswer = select.dataset.answer;
+
+            if (select.value === correctAnswer) {
+                answerDiv.innerHTML = '<p class="correct">✓ Chính xác!</p>';
+                select.classList.add('border-green-500');
+                select.classList.remove('border-indigo-300');
+            } else {
+                answerDiv.innerHTML = `<p class="incorrect">✗ Sai rồi! Đáp án đúng là: <span class="font-bold">${correctAnswer}</span></p>`;
+                select.classList.add('border-red-500');
+                select.classList.remove('border-indigo-300');
+            }
+
+            answerDiv.classList.remove('hidden');
+
+            // Change button to reset button
+            button.textContent = 'Làm lại';
+            button.onclick = function() {
+                resetExercise(button);
+            };
+        }
+
+        function checkAllSelects() {
+            const selects = document.querySelectorAll('.exercise-item select');
+            const answers = document.querySelectorAll('.exercise-item .answer');
+            let allCorrect = true;
+
+            selects.forEach((select, index) => {
+                const correctAnswer = select.dataset.answer;
+                if (select.value === correctAnswer) {
+                    answers[index].innerHTML = '<p class="correct">✓ Chính xác!</p>';
+                    select.classList.add('border-green-500');
+                    select.classList.remove('border-indigo-300');
+                } else {
+                    answers[index].innerHTML = `<p class="incorrect">✗ Sai rồi! Đáp án đúng là: <span class="font-bold">${correctAnswer}</span></p>`;
+                    select.classList.add('border-red-500');
+                    select.classList.remove('border-indigo-300');
+                    allCorrect = false;
+                }
+                answers[index].classList.remove('hidden');
+            });
+
+            if (allCorrect) {
+                alert('Chúc mừng! Bạn đã hoàn thành tất cả đúng!');
+            }
+        }
+
+        function resetExercise(button) {
+            const exerciseItem = button.closest('.exercise-item');
+            const inputs = exerciseItem.querySelectorAll('.exercise-input');
+            const selects = exerciseItem.querySelectorAll('select');
+            const answerDiv = exerciseItem.querySelector('.answer');
+
+            // Reset inputs
+            inputs.forEach(input => {
+                input.textContent = '';
+                input.style.borderBottom = '2px dashed #4f46e5';
+            });
+
+            // Reset selects
+            selects.forEach(select => {
+                select.value = '';
+                select.classList.remove('border-green-500', 'border-red-500');
+                select.classList.add('border-indigo-300');
+            });
+
+            // Reset answer display
+            answerDiv.innerHTML = '';
+            answerDiv.classList.add('hidden');
+
+            // Reset button
+            button.textContent = 'Kiểm tra';
+            button.onclick = function() {
+                if (inputs.length > 0) {
+                    checkInput(button);
+                } else if (selects.length > 0) {
+                    checkSelect(button);
+                }
+            };
+
+            // Remove success background
+            exerciseItem.classList.remove('bg-green-50');
+        }
+    </script>
+</body>
+</html>
