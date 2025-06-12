@@ -133,7 +133,16 @@
 						</td>
 						<td>
 							<div class="flex flex-col justify-center gap-0">
-								<span class="text-gray-500">Todo</span>
+								<a
+									target="_blank"
+									href="/lessons/pre-gs6/pre-gs6-lesson-5.html"
+									class="link link-primary">Bài giảng</a
+								><br />
+								<a
+									target="_blank"
+									href="/lessons/pre-gs6/pre-gs6-worksheets-5.html"
+									class="link link-primary">Bài tập</a
+								>
 							</div>
 						</td>
 						<td>Nền tảng cho cấu trúc câu</td>

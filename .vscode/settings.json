@@ -1,24 +1,13 @@
 {
+    "scss.lint.unknownAtRules": "warning",
+    "css.lint.unknownAtRules": "ignore",
+    "hide-files.files": [],
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        ".prettierrc": true,
-        ".gitignore": true,
-        ".npmrc": true,
-        ".prettierignore": true,
-        "eslint.config.js": true,
-        "pnpm-lock.yaml": true,
-        "README.md": true,
-        "svelte.config.js": true,
-        "vite.config.ts": true,
-        "node_modules": true,
-        ".svelte-kit": true
-    },
-    "scss.lint.unknownAtRules": "warning",
-    "css.lint.unknownAtRules": "ignore",
-    "hide-files.files": []
+        "**/Thumbs.db": true
+    }
 }
