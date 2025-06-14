@@ -116,7 +116,11 @@
 									href="/lessons/pre-gs7/pre-gs7-lesson-4.html"
 									class="link link-primary">Bài giảng</a
 								><br />
-								<span class="text-gray-500">Todo</span>
+								<a
+									target="_blank"
+									href="/lessons/pre-gs7/pre-gs7-worksheets-4.html"
+									class="link link-primary">Bài tập</a
+								>
 							</div>
 						</td>
 						<td>Ôn tập từ lớp 6</td>
